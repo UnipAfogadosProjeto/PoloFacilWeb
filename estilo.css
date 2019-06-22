@@ -1,0 +1,13 @@
+body .teste{
+    background:#004b79;
+}
+
+.logo{
+    display: block; 
+    margin-left: auto;
+     margin-right: auto
+}
+
+label{
+color: white;
+}
