@@ -19,31 +19,28 @@
 
         <div class="container">
         <img class="col-md-6 offset-md-3" src="img/logo.png">        <br><br><br>
-<form action="conexaosql.php"  method="POST" > 
+        <form action="conexaosql.php"  method="POST" > 
 
-<div class="form-group">
-    <div class="   col-md-6 offset-md-3">
-        <label > RA</label>
-        <input type="number" name="ra_login" class="form-control " placeholder="" required="" >    
-    </div>
-</div>
+            <div class="form-group">
+                <div class="   col-md-6 offset-md-3">
+                    <label > RA</label>
+                    <input type="number" name="ra_login" class="form-control " placeholder="" required="" >    
+                </div>
+            </div>
 
-<div class="form-group">
-    <div class="col-md-6 offset-md-3">
-        <label> CPF </label>  
-        <input type="password" name="cpf_login" class="form-control" placeholder="" required="" >
-    </div>
-</div>      
+            <div class="form-group">
+                <div class="col-md-6 offset-md-3">
+                    <label> CPF </label>  
+                    <input type="password" name="cpf_login" class="form-control" placeholder="" required="" >
+                </div>
+            </div>      
 
-<div class="form-group">
-    <div class="col-md-6 offset-md-3">
-        <input type="submit" value="Login" class="btn btn-primary" name="">
-        
-         
-        </div>
-    </div>
-
-</form> 
+            <div class="form-group">
+                <div class="col-md-6 offset-md-3">
+                    <input type="submit" value="Login" class="btn btn-primary" name=""> 
+                </div>
+            </div>
+        </form> 
 </div>
 
 <br>
