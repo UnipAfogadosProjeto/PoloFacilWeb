@@ -100,7 +100,7 @@
 <body style="background-color: #4e52af; color: #fff">
 	<div style="max-width:320px;margin:auto;">
 		<div class="loginlogo">
-			<img src="assets/images/polo_facil_logo.png" border="0" height="80" />
+			<img src="assets/images/logo/logo_white.png" border="0" height="80" />
 		</div>
 		<div class="box">
 			<div class="box-body">
