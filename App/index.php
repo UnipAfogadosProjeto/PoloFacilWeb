@@ -94,7 +94,7 @@
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
                     <ul class="metismenu" id="menu1">
-                        <li class="active">
+                        <!--<li class="active">
                             <a class="has-arrow" href="index.html">
                                    <span class="educate-icon educate-home icon-wrap"></span>
                                    <span class="mini-click-non">Education</span>
@@ -106,11 +106,15 @@
                                 <li><a title="Analytics" href="analytics.html"><span class="mini-sub-pro">Analytics</span></a></li>
                                 <li><a title="Widgets" href="widgets.html"><span class="mini-sub-pro">Widgets</span></a></li>
                             </ul>
-                        </li>
+                        </li>-->
                         <li>
-                            <a title="Landing Page" href="events.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Event</span></a>
+                            <a class="has-arrow" title="Landing Page" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
+                            <ul class="submenu-angle" aria-expanded="true">
+                                <li><a title="Provas" href="#"><span class="mini-sub-pro">Provas Semestrais</span></a></li>
+                                <li><a title="Meus Agendamentos" href="#"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
+                            </ul>
                         </li>
-                        <li>
+                        <!--<li>
                             <a class="has-arrow" href="all-professors.html" aria-expanded="false"><span class="educate-icon educate-professor icon-wrap"></span> <span class="mini-click-non">Professors</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
                                 <li><a title="All Professors" href="all-professors.html"><span class="mini-sub-pro">All Professors</span></a></li>
@@ -118,17 +122,15 @@
                                 <li><a title="Edit Professor" href="edit-professor.html"><span class="mini-sub-pro">Edit Professor</span></a></li>
                                 <li><a title="Professor Profile" href="professor-profile.html"><span class="mini-sub-pro">Professor Profile</span></a></li>
                             </ul>
-                        </li>
+                        </li>-->
                         <li>
-                            <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Students</span></a>
+                            <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Students" href="all-students.html"><span class="mini-sub-pro">All Students</span></a></li>
-                                <li><a title="Add Students" href="add-student.html"><span class="mini-sub-pro">Add Student</span></a></li>
-                                <li><a title="Edit Students" href="edit-student.html"><span class="mini-sub-pro">Edit Student</span></a></li>
-                                <li><a title="Students Profile" href="student-profile.html"><span class="mini-sub-pro">Student Profile</span></a></li>
+                                <li><a title="Students Profile" href="student-profile.html"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
+                                <li><a title="Edit Students" href="edit-student.html"><span class="mini-sub-pro">Editar</span></a></li>
                             </ul>
                         </li>
-                        <li>
+                        <!--<li>
                             <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-course icon-wrap"></span> <span class="mini-click-non">Courses</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
                                 <li><a title="All Courses" href="all-courses.html"><span class="mini-sub-pro">All Courses</span></a></li>
@@ -137,24 +139,23 @@
                                 <li><a title="Courses Profile" href="course-info.html"><span class="mini-sub-pro">Courses Info</span></a></li>
                                 <li><a title="Product Payment" href="course-payment.html"><span class="mini-sub-pro">Courses Payment</span></a></li>
                             </ul>
-                        </li>
+                        </li>-->
                         <li>
-                            <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Library</span></a>
+                            <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Minhas Apostilas</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Library" href="library-assets.html"><span class="mini-sub-pro">Library Assets</span></a></li>
-                                <li><a title="Add Library" href="add-library-assets.html"><span class="mini-sub-pro">Add Library Asset</span></a></li>
-                                <li><a title="Edit Library" href="edit-library-assets.html"><span class="mini-sub-pro">Edit Library Asset</span></a></li>
+                                <li><a title="All Library" href="library-assets.html"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
+                                <li><a title="Add Library" href="add-library-assets.html"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
                             </ul>
                         </li>
                         <li>
-                            <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-department icon-wrap"></span> <span class="mini-click-non">Departments</span></a>
-                            <ul class="submenu-angle" aria-expanded="false">
+                            <a href="#" aria-expanded="false"><span class="educate-icon educate-department icon-wrap"></span> <span class="mini-click-non">Simulados</span></a>
+                            <!--<ul class="submenu-angle" aria-expanded="false">
                                 <li><a title="Departments List" href="departments.html"><span class="mini-sub-pro">Departments List</span></a></li>
                                 <li><a title="Add Departments" href="add-department.html"><span class="mini-sub-pro">Add Departments</span></a></li>
                                 <li><a title="Edit Departments" href="edit-department.html"><span class="mini-sub-pro">Edit Departments</span></a></li>
-                            </ul>
+                            </ul>-->
                         </li>
-                        <li>
+                        <!--<li>
                             <a class="has-arrow" href="mailbox.html" aria-expanded="false"><span class="educate-icon educate-message icon-wrap"></span> <span class="mini-click-non">Mailbox</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
                                 <li><a title="Inbox" href="mailbox.html"><span class="mini-sub-pro">Inbox</span></a></li>
@@ -187,14 +188,10 @@
                                 <li><a title="Peity Charts" href="peity.html"><span class="mini-sub-pro">Peity Charts</span></a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a class="has-arrow" href="mailbox.html" aria-expanded="false"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non">Data Tables</span></a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Peity Charts" href="static-table.html"><span class="mini-sub-pro">Static Table</span></a></li>
-                                <li><a title="Data Table" href="data-table.html"><span class="mini-sub-pro">Data Table</span></a></li>
-                            </ul>
+                        <li>-->
+                            <a  aria-expanded="false" href="#"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
                         </li>
-                        <li>
+                        <!--<li>
                             <a class="has-arrow" href="mailbox.html" aria-expanded="false"><span class="educate-icon educate-form icon-wrap"></span> <span class="mini-click-non">Forms Elements</span></a>
                             <ul class="submenu-angle form-mini-nb-dp" aria-expanded="false">
                                 <li><a title="Basic Form Elements" href="basic-form-element.html"><span class="mini-sub-pro">Bc Form Elements</span></a></li>
@@ -226,7 +223,7 @@
                                 <li><a title="404 Page" href="404.html"><span class="mini-sub-pro">404 Page</span></a></li>
                                 <li><a title="500 Page" href="500.html"><span class="mini-sub-pro">500 Page</span></a></li>
                             </ul>
-                        </li>
+                        </li>-->
                     </ul>
                 </nav>
             </div>
@@ -407,18 +404,15 @@
                                                 </li>
                                                 <li class="nav-item">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
-                                                            <img src="img/product/pro4.jpg" alt="" />
+                                                            <!--<img src="img/product/pro4.jpg" alt="" />-->
                                                             <span class="admin-name"><?php echo $_SESSION['Nome'];?></span>
                                                             <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
                                                         </a>
                                                     <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                        <li><a href="#"><span class="edu-icon edu-home-admin author-log-ic"></span>My Account</a>
+                                                        <li><a href="#"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
                                                         </li>
-                                                        <li><a href="#"><span class="edu-icon edu-user-rounded author-log-ic"></span>My Profile</a>
+                                                        <li><a href="#"><span class="edu-icon edu-user-rounded author-log-ic"></span>Meu Perfil</a>
                                                         </li>
-                                                        <li><a href="#"><span class="edu-icon edu-money author-log-ic"></span>User Billing</a>
-                                                        </li>
-                                                        <li><a href="#"><span class="edu-icon edu-settings author-log-ic"></span>Settings</a>
                                                         </li>
                                                         <li><a href="logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
                                                         </li>
@@ -1085,7 +1079,7 @@
                 </div>
             </div>
         </div>
-        <div class="analytics-sparkle-area">
+        <!--<div class="analytics-sparkle-area">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
@@ -1586,7 +1580,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <div class="footer-copyright-area">
             <div class="container-fluid">
                 <div class="row">
@@ -1658,9 +1652,6 @@
     <!-- main JS
         ============================================ -->
     <script src="js/main.js"></script>
-    <!-- tawk chat JS
-        ============================================ -->
-    <script src="js/tawk-chat.js"></script>
 </body>
 
 </html>
