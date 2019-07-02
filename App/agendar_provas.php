@@ -34,6 +34,8 @@ $consumo = file_get_contents("http://186.233.148.102:8080/GetAgendamentoAluno/$c
 $consumo = utf8_encode($consumo);
 $consumo = json_decode($consumo);
 
+
+
     
 
 ?>
@@ -1257,19 +1259,21 @@ $consumo = json_decode($consumo);
                                             <div class="chosen-select-single mg-b-20" >
                                                 <label>Selecione uma data disponivel para agendar sua prova</label>
                                                 <?php $keys = array_keys($data); ?>
-                                                <form method="GET" >
+                                                <form action="Incluir_Agendamento.php" method="GET" >
                                                     <select  data-placeholder="Choose a Country..." class="chosen-select" tabindex="-1" name="IdAp">
                                                         <option value="">Procurar</option>
                                                         <?php if(!empty($data)) {
                                                                 for($i = 0; $i < count($data); $i++) {
                                                         ?> 
-                                                            <option value="<?php echo $data[$i]->IdAP; ?>"><?php echo $data[$i]->Complemento; ?></option>
+                                                            <option value="<?php echo $data[$i]->IdAP; ?>"><?php echo  $data[$i]->Complemento; ?></option>
                                                       <?php  } } ?>
                                                         
                                                     </select>
                                                     <button style="margin-top: 20px;"type="subimt" class="btn btn-custon-four btn-success">
-                                            <i class="fa fa-check edu-checked-pro" aria-hidden="true"></i> Success</button>
+                                            <i class="fa fa-check edu-checked-pro" aria-hidden="true"></i> Agendar</button>
+                                    
                                                 </form>
+                                            
                                 
                                 </div>
 
@@ -1298,7 +1302,7 @@ $consumo = json_decode($consumo);
     					<td class="col-md-1"><?php echo "".$item->Fim."";?></td>
     					<td class="col-md-1"><?php echo "".$item->Sala."";?></td>
     					<td class="col-md-1">
-                        <a class="btn btn-danger"  href="#" role="button">Excluir</a>  								
+                        <a class="btn btn-danger"  href="Excluir_Agendamento.php?codigo=<?=$item->idAP ?>" role="button">Excluir</a>  								
     					</td>
                         
     				</tr>
