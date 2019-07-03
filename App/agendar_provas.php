@@ -2,6 +2,12 @@
 <?php 
 
 session_start(); 
+// pega a data no pc
+
+date_default_timezone_set('America/Sao_Paulo');
+$time = date('d-m-y');
+echo $time;
+$idPolo = $_SESSION['idPolo'];
 
     $data = array();
     
@@ -9,7 +15,7 @@ session_start();
 
         $ch = curl_init();
 
-        curl_setopt($ch, CURLOPT_URL, "http://186.233.148.102:8080/GetSalasAgendamento/1/28-05-2019");
+        curl_setopt($ch, CURLOPT_URL, "http://186.233.148.102:8080/GetSalasAgendamento/$idPolo/$time");
 
         // Se true, esperamos pelo retorno 
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
