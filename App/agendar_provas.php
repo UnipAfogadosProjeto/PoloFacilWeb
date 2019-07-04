@@ -292,102 +292,9 @@ $consumo = json_decode($consumo);
                                             <i class="fa fa-check edu-checked-pro" aria-hidden="true"></i> Agendar</button>
                                     
                                                 </form>
+                                            </div>
+                                            <br><br>
                                             
-                                
-                                </div>
-
-        <div class="panel panel-default">
-  		<div class="panel-heading">
-    		<h2 class="panel-title">Agendamentos</h2>
- 	 	</div><!-- fim .panel-heading -->
-		
-		<div class="panel-body">  
-  			<table class="table table-hover.php";>
-  				<tr>
-                        <th>RA</th>
-  						<th>Dia</th>
-  						<th>Inicio</th>
-  						<th>Fim</th>
-  						<th>Sala</th>
-  						<th> </th>
-  				</tr>
-  				<?php
-                  foreach($consumo->Agendamento as $item){
-  					//while ($objetoLocacao = array_shift($listaLocacao)) {?>	
-    				<tr>
-    					<td class="col-md-1"><?php echo "".$item->ra."";?></td>
-    					<td class="col-md-1"><?php echo "".$item->Dia."";?></td>
-    					<td class="col-md-1"><?php echo "".$item->Inicio."";?></td>
-    					<td class="col-md-1"><?php echo "".$item->Fim."";?></td>
-    					<td class="col-md-1"><?php echo "".$item->Sala."";?></td>
-    					<td class="col-md-1">
-                        <a class="btn btn-danger"  href="Excluir_Agendamento.php?codigo=<?=$item->idAP ?>" role="button">Excluir</a>  								
-    					</td>
-                        
-    				</tr>
-    			<?php
-					}
-    			?>
-    				
-    			</table>
-    			
- 		</div><!-- fim .panel-body -->
-	</div><!-- fim .panel -->
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="sparkline11-list mg-tb-30 responsive-mg-t-0 nck-ds nk-ds-n-pro">
-                            <div class="sparkline11-hd">
-                                <div class="main-sparkline11-hd">
-                                    <h1>Select 2</h1>
-                                </div>
-                            </div>
-                            <div class="sparkline11-graph">
-                                <div class="input-knob-dial-wrap">
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="chosen-select-single mg-b-20">
-                                                <label>Basic Select</label>
-                                                <select class="select2_demo_3 form-control">
-                                                        <option>Select</option>
-                                                        <option value="Bahamas">Bahamas</option>
-                                                        <option value="Bahrain">Bahrain</option>
-                                                        <option value="Bangladesh">Bangladesh</option>
-                                                        <option value="Barbados">Barbados</option>
-                                                        <option value="Belarus">Belarus</option>
-                                                        <option value="Belgium">Belgium</option>
-                                                        <option value="Belize">Belize</option>
-                                                        <option value="Benin">Benin</option>
-                                                    </select>
-                                            </div>
-                                            <div class="chosen-select-single">
-                                                <label>Multi Select</label>
-                                                <select class="select2_demo_2 form-control" multiple="multiple">
-                                                        <option value="Mayotte">Mayotte</option>
-                                                        <option value="Mexico">Mexico</option>
-                                                        <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
-                                                        <option value="Moldova, Republic of">Moldova, Republic of</option>
-                                                        <option value="Monaco">Monaco</option>
-                                                        <option value="Mongolia">Mongolia</option>
-                                                        <option value="Montenegro">Montenegro</option>
-                                                        <option value="Montserrat">Montserrat</option>
-                                                        <option value="Morocco">Morocco</option>
-                                                        <option value="Mozambique">Mozambique</option>
-                                                        <option value="Myanmar">Myanmar</option>
-                                                        <option value="Namibia">Namibia</option>
-                                                        <option value="Nauru">Nauru</option>
-                                                        <option value="Nepal">Nepal</option>
-                                                        <option value="Netherlands">Netherlands</option>
-                                                        <option value="New Caledonia">New Caledonia</option>
-                                                        <option value="New Zealand">New Zealand</option>
-                                                        <option value="Nicaragua">Nicaragua</option>
-                                                    </select>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -396,6 +303,55 @@ $consumo = json_decode($consumo);
                     </div>
                 </div>
         </div>
+        <!-- Static Table Start -->
+        <div class="static-table-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="sparkline8-list">
+                            <div class="sparkline8-hd">
+                                <div class="main-sparkline8-hd">
+                                    <h1>Agendamento</h1>
+                                </div>
+                            </div>
+                            <div class="sparkline8-graph">
+                                <div class="static-table-list">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Data</th>
+                                                <th>Horário</th>
+                                                <th>Local</th>
+                                                <th>Ação</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php
+                                            foreach($consumo->Agendamento as $item){
+                                            //while ($objetoLocacao = array_shift($listaLocacao)) {?>   
+                                                
+                                            <tr>
+                                                <td class="col-md-1"><?php echo "".$item->Dia."";?></td>
+                                                <td class="col-md-1"><?php echo "".$item->Inicio." às ".$item->Fim."";?></td>
+                                                <td class="col-md-1"><?php echo "".$item->Sala."";?></td>
+                                                <td class="col-md-1">
+                                                <a class="btn btn-danger" style="color: white;" href="Excluir_Agendamento.php?codigo=<?=$item->idAP ?>" role="button">X</a>           
+                                                </td>
+                                            </tr>
+                                            <?php
+                                                }
+                                            ?>  
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Static Table End -->
+    </div>
         <!-- Advanced Form End-->
 
         <div class="footer-copyright-area">
