@@ -174,10 +174,18 @@
                             </div>-->
                             <button type="submit" form="loginForm" class="btn btn-success btn-block loginbtn">Login</button>
                         </form>
+                        <div class="text-center">
+                           <br>
+                           <p class="h6 lead">Acesse a nossa Calculadora de Média e descrubra sua nota para cursos de Bacharelado/Licenciatura, Gesta ou PÓS</p>
+                           <a href="calcular_media.php" class="btn btn btn-success btn-lg">Acessar agora!</a>
+                        </div>
+                        
                     </div>
+                    
                 </div>
 			</div>
 			<div class="text-center login-footer">
+                <br/>
 				Copyright © 2019. Polo Fácil<br/>
 				Todos os direitos reservados<br/><br/>
 
