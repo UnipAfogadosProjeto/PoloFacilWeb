@@ -313,22 +313,23 @@
 		            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		                <div class="admintab-wrap edu-tab1 mg-t-30">
 		                    <ul class="nav nav-tabs custom-menu-wrap custon-tab-menu-style1">
-		                        <li class="active"><a data-toggle="tab" href="#TabProject"><span class="edu-icon edu-analytics tab-custon-ic"></span>BA/LI</a>
+		                        <li class="active"><a data-toggle="tab" href="#TabBL"><span class="edu-icon edu-analytics tab-custon-ic"></span>BA/LI</a>
 		                        </li>
-		                        <li><a data-toggle="tab" href="#TabDetails"><span class="edu-icon edu-analytics-arrow tab-custon-ic"></span>Gestão</a>
+		                        <li><a data-toggle="tab" href="#TabG"><span class="edu-icon edu-analytics-arrow tab-custon-ic"></span>Gestão</a>
 		                        </li>
-		                        <li><a data-toggle="tab" href="#TabPlan"><span class="edu-icon edu-analytics-bridge tab-custon-ic"></span>PÓS</a>
+		                        <li><a data-toggle="tab" href="#TabPOS"><span class="edu-icon edu-analytics-bridge tab-custon-ic"></span>PÓS</a>
 		                        </li>
 		                    </ul>
 		                    <div class="tab-content">
-			                    <div id="TabProject" class="tab-pane in active animated flipInX custon-tab-style1">
+			                    <div id="TabBL" class="tab-pane in active animated flipInX custon-tab-style1">
 		                        	<div class="main-sparkline8-hd mg-t-30">
                                     	<h1>Culcular Média para Custos de Bacharelado/Licenciatura</h1>
                                 	</div>
-		                            <form>
-										<div class="main-sparkline8-hd">
+		                            <form action="resultado.php" method="POST">
+										<div class="main-sparkline8-hd mg-t-30">
 											<h5>Tipo de Avaliação</h5>
 										</div>
+										<input type="hidden" name="tipo_curso" value="BL">
 										<div class="form-group row">
 											<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
 												<div class="bt-df-checkbox pull-left">
@@ -336,7 +337,7 @@
 														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 															<div class="i-checks pull-left">
 																<label>
-																<input type="radio" checked="" value="AP" name="option"> <i></i>Avaliação Presencial </label>
+																<input type="radio" checked="" value="AP" name="tipo_avaliacao"> <i></i>Avaliação Presencial </label>
 															</div>
 														</div>
 													</div>
@@ -344,7 +345,7 @@
 														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 															<div class="i-checks pull-left">
 																<label>
-																<input type="radio" value="DP" name="option"> <i></i> Dependencia </label>
+																<input type="radio" value="DP" name="tipo_avaliacao"> <i></i> Dependencia </label>
 															</div>
 														</div>
 													</div>
@@ -354,38 +355,39 @@
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputEmail4">Nota da Prova</label>
-												<input type="number" step="0.01" min="0" max="10" value="" name="n_prova" class="form-control" id="inputEmail4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_prova" class="form-control" id="inputEmail4" required="">
 											</div>								    
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do PIM</label>
-												<input type="number" step="0.01" min="0" max="10" value="" name="n_pim"class="form-control" id="inputPassword4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_pim"class="form-control" id="inputPassword4" required="">
 											</div>
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputEmail4">Nota do AVA</label>
-												<input type="number" step="0.01" min="0" max="10" value="" name="n_ava"class="form-control" id="inputEmail4" >
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_ava"class="form-control" id="inputEmail4" required="">
 											</div>								    
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do Exame</label>
-												<input type="number" step="0.01" min="0" max="10" value="" name="n_exame"class="form-control" id="inputPassword4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_exame"class="form-control" id="inputPassword4" required="">
 											</div>
 										</div>
 										<button type="submit" class="btn btn-primary">Calcular</button>
 									</form>
 		                        </div>
-		                        <div id="TabDetails" class="tab-pane animated flipInX custon-tab-style1">
+		                        <div id="TabG" class="tab-pane animated flipInX custon-tab-style1">
 		                        	<div class="main-sparkline8-hd mg-t-30">
                                     	<h1>Culcular Média para Custos de Gestão</h1>
                                 	</div>
-		                            <form>
-										<div class="main-sparkline8-hd">
+		                            <form action="resultado.php" method="POST">
+										<div class="main-sparkline8-hd mg-t-30">
 											<h5>Tipo de Avaliação</h5>
 										</div>
+										<input type="hidden" name="tipo_curso" value="G">
 										<div class="form-group row">
 											<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
 												<div class="bt-df-checkbox pull-left">
@@ -393,7 +395,7 @@
 														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 															<div class="i-checks pull-left">
 																<label>
-																<input type="radio" checked="" value="AP" name="option"> <i></i>Avaliação Presencial </label>
+																<input type="radio" checked="" value="AP" name="tipo_avaliacao"> <i></i>Avaliação Presencial </label>
 															</div>
 														</div>
 													</div>
@@ -401,7 +403,7 @@
 														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 															<div class="i-checks pull-left">
 																<label>
-																<input type="radio" value="DP" name="option"> <i></i> Dependencia </label>
+																<input type="radio" value="DP" name="tipo_avaliacao"> <i></i> Dependencia </label>
 															</div>
 														</div>
 													</div>
@@ -411,38 +413,39 @@
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputEmail4">Nota da Prova</label>
-												<input type="number" step="0.01" min="0" max="10" value="" name="n_prova" class="form-control" id="inputEmail4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_prova" class="form-control" id="inputEmail4" required="">
 											</div>								    
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do PIM</label>
-												<input type="number" step="0.01" min="0" max="10" value="" name="n_pim"class="form-control" id="inputPassword4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_pim"class="form-control" id="inputPassword4" required="">
 											</div>
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputEmail4">Nota do AVA</label>
-												<input type="number" step="0.01" min="0" max="10" value="" name="n_ava"class="form-control" id="inputEmail4" >
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_ava"class="form-control" id="inputEmail4" required="">
 											</div>								    
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do Exame</label>
-												<input type="number" step="0.01" min="0" max="10" value="" name="n_exame"class="form-control" id="inputPassword4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_exame"class="form-control" id="inputPassword4" required="">
 											</div>
 										</div>
 										<button type="submit" class="btn btn-primary">Calcular</button>
 									</form>
 		                        </div>
-		                        <div id="TabPlan" class="tab-pane animated flipInX custon-tab-style1">
+		                        <div id="TabPOS" class="tab-pane animated flipInX custon-tab-style1">
 		                        	<div class="main-sparkline8-hd mg-t-30">
                                     	<h1>Culcular Média para Custos de PÓS</h1>
                                 	</div>
-		                            <form>
-										<div class="main-sparkline8-hd">
+		                            <form action="resultado.php" method="POST">
+										<div class="main-sparkline8-hd mg-t-30">
 											<h5>Tipo de Avaliação</h5>
 										</div>
+										<input type="hidden" name="tipo_curso" value="POS">
 										<div class="form-group row">
 											<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
 												<div class="bt-df-checkbox pull-left">
@@ -450,7 +453,7 @@
 														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 															<div class="i-checks pull-left">
 																<label>
-																<input type="radio" checked="" value="AP" name="option"> <i></i>Avaliação Presencial </label>
+																<input type="radio" checked="" value="AP" name="tipo_avaliacao"> <i></i>Avaliação Presencial </label>
 															</div>
 														</div>
 													</div>
@@ -458,7 +461,7 @@
 														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 															<div class="i-checks pull-left">
 																<label>
-																<input type="radio" value="DP" name="option"> <i></i> Dependencia </label>
+																<input type="radio" value="DP" name="tipo_avaliacao"> <i></i> Dependencia </label>
 															</div>
 														</div>
 													</div>
@@ -468,25 +471,25 @@
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputEmail4">Nota da Prova</label>
-												<input type="number" step="0.01" min="0" max="10" value="" name="n_prova" class="form-control" id="inputEmail4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_prova" class="form-control" id="inputEmail4" required="">
 											</div>								    
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do PIM</label>
-												<input type="number" step="0.01" min="0" max="10" value="" name="n_pim"class="form-control" id="inputPassword4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_pim"class="form-control" id="inputPassword4" required="">
 											</div>
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputEmail4">Nota do AVA</label>
-												<input type="number" step="0.01" min="0" max="10" value="" name="n_ava"class="form-control" id="inputEmail4" >
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_ava"class="form-control" id="inputEmail4" required="">
 											</div>								    
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do Exame</label>
-												<input type="number" step="0.01" min="0" max="10" value="" name="n_exame"class="form-control" id="inputPassword4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_exame"class="form-control" id="inputPassword4" required="">
 											</div>
 										</div>
 										<button type="submit" step="0.01" min="0" max="10" class="btn btn-primary">Calcular</button>

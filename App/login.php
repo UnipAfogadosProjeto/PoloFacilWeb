@@ -158,7 +158,7 @@
                     <div class="panel-body">
                         <form action="login.php" method="POST" id="loginForm">
                             <div class="form-group">
-                                <label class="control-label" for="username">Nº da Matrínua</label>
+                                <label class="control-label" for="username">Nº da Matrícula</label>
                                 <input type="text" placeholder="1234567" title="Por favor, digite seu RA (Nº da matricula)" autofocus required="" value="" name="ra_user" id="username" class="form-control">
                                 <span class="help-block small">Use o seu RA</span>
                             </div>
@@ -176,7 +176,7 @@
                         </form>
                         <div class="text-center">
                            <br>
-                           <p class="h6 lead">Acesse a nossa Calculadora de Média e descrubra sua nota para cursos de Bacharelado/Licenciatura, Gesta ou PÓS</p>
+                           <p class="h6 lead">Acesse a nossa Calculadora de Média e descubra sua nota para cursos de Bacharelado/Licenciatura, Gestão ou PÓS</p>
                            <a href="calcular_media.php" class="btn btn btn-success btn-lg">Acessar agora!</a>
                         </div>
                         
