@@ -344,7 +344,7 @@
 														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 															<div class="i-checks pull-left">
 																<label>
-																<input type="radio" value="´DP" name="option"> <i></i> Dependencia </label>
+																<input type="radio" value="DP" name="option"> <i></i> Dependencia </label>
 															</div>
 														</div>
 													</div>
@@ -354,25 +354,25 @@
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputEmail4">Nota da Prova</label>
-												<input type="number" class="form-control" id="inputEmail4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_prova" class="form-control" id="inputEmail4">
 											</div>								    
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do PIM</label>
-												<input type="number" class="form-control" id="inputPassword4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_pim"class="form-control" id="inputPassword4">
 											</div>
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputEmail4">Nota do AVA</label>
-												<input type="number" class="form-control" id="inputEmail4" >
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_ava"class="form-control" id="inputEmail4" >
 											</div>								    
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do Exame</label>
-												<input type="number" class="form-control" id="inputPassword4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_exame"class="form-control" id="inputPassword4">
 											</div>
 										</div>
 										<button type="submit" class="btn btn-primary">Calcular</button>
@@ -401,7 +401,7 @@
 														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 															<div class="i-checks pull-left">
 																<label>
-																<input type="radio" value="´DP" name="option"> <i></i> Dependencia </label>
+																<input type="radio" value="DP" name="option"> <i></i> Dependencia </label>
 															</div>
 														</div>
 													</div>
@@ -411,25 +411,25 @@
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputEmail4">Nota da Prova</label>
-												<input type="number" class="form-control" id="inputEmail4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_prova" class="form-control" id="inputEmail4">
 											</div>								    
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do PIM</label>
-												<input type="number" class="form-control" id="inputPassword4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_pim"class="form-control" id="inputPassword4">
 											</div>
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputEmail4">Nota do AVA</label>
-												<input type="number" class="form-control" id="inputEmail4" >
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_ava"class="form-control" id="inputEmail4" >
 											</div>								    
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do Exame</label>
-												<input type="number" class="form-control" id="inputPassword4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_exame"class="form-control" id="inputPassword4">
 											</div>
 										</div>
 										<button type="submit" class="btn btn-primary">Calcular</button>
@@ -458,7 +458,7 @@
 														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 															<div class="i-checks pull-left">
 																<label>
-																<input type="radio" value="´DP" name="option"> <i></i> Dependencia </label>
+																<input type="radio" value="DP" name="option"> <i></i> Dependencia </label>
 															</div>
 														</div>
 													</div>
@@ -468,28 +468,28 @@
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputEmail4">Nota da Prova</label>
-												<input type="number" class="form-control" id="inputEmail4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_prova" class="form-control" id="inputEmail4">
 											</div>								    
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do PIM</label>
-												<input type="number" class="form-control" id="inputPassword4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_pim"class="form-control" id="inputPassword4">
 											</div>
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputEmail4">Nota do AVA</label>
-												<input type="number" class="form-control" id="inputEmail4" >
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_ava"class="form-control" id="inputEmail4" >
 											</div>								    
 										</div>
 										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do Exame</label>
-												<input type="number" class="form-control" id="inputPassword4">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_exame"class="form-control" id="inputPassword4">
 											</div>
 										</div>
-										<button type="submit" class="btn btn-primary">Calcular</button>
+										<button type="submit" step="0.01" min="0" max="10" class="btn btn-primary">Calcular</button>
 									</form>
 		                        </div>
 		                    </div>
