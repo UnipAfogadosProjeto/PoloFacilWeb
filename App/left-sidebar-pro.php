@@ -38,7 +38,7 @@
                 <li>
                     <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
                     <ul class="submenu-angle" aria-expanded="false">
-                        <li><a title="Students Profile" href="student-profile.html"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
+                        <li><a title="Students Profile" href="dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
                         <li><a title="Edit Students" href="edit-student.html"><span class="mini-sub-pro">Editar</span></a></li>
                     </ul>
                 </li>
