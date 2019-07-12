@@ -643,7 +643,7 @@
                                     </li>
                                     <li><a data-toggle="collapse" data-target="#demopro" href="#">Meus Dados <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                         <ul id="demopro" class="collapse dropdown-header-top">
-                                            <li><a href="#">Perfil do Aluno</a>
+                                            <li><a href="dadosdoAluno.php">Perfil do Aluno</a>
                                             </li>
                                             <li><a href="#">Editar</a>
                                             </li>
@@ -651,9 +651,9 @@
                                     </li>
                                     <li><a data-toggle="collapse" data-target="#demolibra" href="#">Minhas Apostilas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                         <ul id="demolibra" class="collapse dropdown-header-top">
-                                            <li><a href="library-assets.html">Apostilas Entregues</a>
+                                            <li><a href="apostilaEntregue.php">Apostilas Entregues</a>
                                             </li>
-                                            <li><a href="add-library-assets.html">Novas Apostilas</a>
+                                            <li><a href="apostilaDisponivel.php">Novas Apostilas</a>
                                             </li>
                                         </ul>
                                     </li>

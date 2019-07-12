@@ -293,8 +293,7 @@ $consumo = json_decode($consumo);
                                     
                                                 </form>
                                             </div>
-                                            <br><br>
-                                            
+                                            <br>
                                         </div>
                                     </div>
                                 </div>
@@ -335,7 +334,7 @@ $consumo = json_decode($consumo);
                                                 <td class="col-md-1"><?php echo "".$item->Inicio." às ".$item->Fim."";?></td>
                                                 <td class="col-md-1"><?php echo "".$item->Sala."";?></td>
                                                 <td class="col-md-1">
-                                                <a class="btn btn-danger" style="color: white;" href="Excluir_Agendamento.php?codigo=<?=$item->idAP ?>" role="button">X</a>           
+                                                <a class="btn btn-danger" onClick="apagar()" style="color: white;" href="Excluir_Agendamento.php?codigo=<?=$item->idAP ?>" role="button">X</a>           
                                                 </td>
                                             </tr>
                                             <?php
@@ -353,6 +352,14 @@ $consumo = json_decode($consumo);
         <!-- Static Table End -->
     </div>
         <!-- Advanced Form End-->
+        <script>
+function apagar() {
+if (window.confirm('Deseja apagar esse Agendamento')) {
+  window.location.href = 'Excluir_Agendamento.php?codigo=<?=$item->idAP ?>'
+}
+else { window.alert('Ok, nenhuma ação foi feita!') }
+}
+</script>  
 
         <div class="footer-copyright-area">
             <?php include'footer-copyright-area.php';?>

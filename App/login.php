@@ -34,6 +34,7 @@
 		$datas = utf8_encode($res);
         $data = json_decode($datas);
 
+        //print_r($data);
 		// Vamos verificar se $data não é null para podermos adicionar em nossa _SESSION, o servidor retornara null para ra_user ou pw_user incorreto.
 
 	 	if($data->Situacao == "Não Encontrado"){

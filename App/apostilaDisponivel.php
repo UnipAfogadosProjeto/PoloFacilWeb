@@ -1,22 +1,9 @@
-
 <?php
-session_start(); 
-
-
-		 	$ra =	$_SESSION['RA'];
-		 	$cpf =	$_SESSION['CPF'];
-		 	$nome =	$_SESSION['Nome'];
-		 	$curso =	$_SESSION['Curso'];
-		 	$situacao =	$_SESSION['Situacao'];
-		 	$polo =	$_SESSION['Polo'];
-		 	$cep =	$_SESSION['CEP'];
-		 	$endereco =	$_SESSION['Endereco'];
-		 	$numero =	$_SESSION['Numero'];
-		 	$cidade =	$_SESSION['Cidade'];
-		 	$celular =	$_SESSION['Celular'];
-		 	$email =	$_SESSION['Email'];
-
-
+ session_start();
+ $ra = $_SESSION['RA'];
+ $consumo = file_get_contents("http://186.233.148.102:8080/GetListaApostila/$ra/0");
+ $consumo = utf8_encode($consumo);
+ $consumo = json_decode($consumo);
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="pt-BR">
@@ -126,69 +113,57 @@ session_start();
                             <div class="sparkline10-hd">
                                 <div class="main-sparkline10-hd">
                 
-        <form class="needs-validation" novalidate>
-  <div class="form-row">
-    <div class="col-md-4 mb-3">
-      <label for="validationCustom01">RA</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $ra?>" value="<?php echo $ra?>" required>
-      
-    </div>
-    <div class="col-md-4 mb-3">
-      <label for="validationCustom02">Nome Completo</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $nome?>" value="<?php echo $nome?>" required>
-    </div>
-    <div class="col-md-4 mb-3">
-      <label for="validationCustomUsername">Situação</label>
-      <div class="input-group">
-        <input type="text" class="form-control" id="" placeholder="<?php echo $situacao?>" value="<?php echo $situacao?>" aria-describedby="inputGroupPrepend" required>
-      </div>
-      <br>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="validationCustom03">Curso</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $curso?>" value="<?php echo $curso?>" required>
+  
 
-    </div>
-    <div class="col-md-3 mb-3">
-      <label for="validationCustom04">Polo</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $polo?>" value="<?php echo $polo?>" required>
-      
-    </div>
-    <div class="col-md-3 mb-3">
-      <label for="validationCustom05">CEP</label>
-      <input type="text" class="form-control" id="validationCustom05" placeholder="<?php echo $cep?>" value="<?php echo $cep?>" required>
-    </div>
-  </div>
-  <br>
-  <div class="form-row">
-  
-  <div class="col-md-6 mb-3">
-  <label for="validationCustom03">Endereco</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $endereco?>" value="<?php echo $endereco?>" required>
- </div>
- <div class="col-md-3 mb-3">
-      <label for="validationCustom04">Numero</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $numero?>" value="<?php echo $numero?>" required>  
-    </div>
-    <div class="col-md-3 mb-3">
-      <label for="validationCustom04"> Cidade</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $cidade?>" value="<?php echo $cidade?>" required>  
-    </div>
-    <div class="col-md-3 mb-3">
-      <label for="validationCustom04">Celular</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $celular?>" value="<?php echo $celular?>" required>  
-    </div>
-    <div class="col-md-6 mb-3">
-      <label for="validationCustom04">Email</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $email?>"  value="<?php echo $email?>" required>  
-      <br>  
-    </div>
-   
-  </div>
-  
-</form>
+                                <div class="static-table-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="sparkline8-list">
+                            <div class="sparkline8-hd">
+                                <div class="main-sparkline8-hd">
+                                    <h1>Apostilas Disponiveis no Polo</h1>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="sparkline8-graph">
+                                <div class="static-table-list">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Codigo</th>
+                                                <th>Disciplina</th>
+                                                <th></th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php
+                                          
+                                            foreach($consumo->Apostilas as $item){
+                                            //while ($objetoLocacao = array_shift($listaLocacao)) {?>   
+                                                
+                                            <tr>
+                                                <td class="col-md-1"><?php echo "".$item->Codigo."";?></td>
+                                                <td class="col-md-1"><?php echo "".$item->Disciplina."";?></td>
+                                                <td class="col-md-1"></td>
+                                                <td class="col-md-1">
+               
+                                                </td>
+                                            </tr>
+                                          <?php
+                                            }
+                                          ?>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
 
@@ -303,6 +278,5 @@ session_start();
 </body>
 
 </html>
-
 
 
