@@ -40,7 +40,7 @@ $consumo = file_get_contents("http://186.233.148.102:8080/GetAgendamentoAluno/$c
 $consumo = utf8_encode($consumo);
 $consumo = json_decode($consumo);
 
-
+var_dump($consumo);
 
     
 
