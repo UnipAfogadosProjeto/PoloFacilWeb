@@ -1,3 +1,4 @@
+<?php include'GetListaAvisos.php'; ?>
 <div class="container-fluid">
     <div class="container-fluid">
         <div class="row">
@@ -55,52 +56,28 @@
                                                         <h1>Mensagens</h1>
                                                     </div>
                                                     <ul class="message-menu">
+                                                        <?php
+
+                                                        $respotaLista = GetLista($_SESSION['RA']);
+
+                                                        foreach($respotaLista->Avisos as $avisos){
+                                                        //while ($objetoLocacao = array_shift($listaLocacao)) {?>   
+                                                        
                                                         <li>
                                                             <a href="#">
                                                                 <div class="message-img">
-                                                                    <img src="img/logo/logosn.png" alt="">
+                                                                    <img src="img/logo/pf_logosn.png" alt="">
                                                                 </div>
                                                                 <div class="message-content">
-                                                                    <p>Você não tem mensagens no momento.</p>
+                                                                    <span class="message-date"><?php echo "".$avisos->DataEnvio."";?></span>
+                                                                    <h2><?php echo "".$avisos->Titulo."";?></h2>
+                                                                    <p><?php echo "".$avisos->Mensagem."";?></p>
                                                                 </div>
                                                             </a>
                                                         </li>
-                                                        <!--<li>
-                                                            <a href="#">
-                                                                <div class="message-img">
-                                                                    <img src="img/contact/4.jpg" alt="">
-                                                                </div>
-                                                                <div class="message-content">
-                                                                    <span class="message-date">16 Sept</span>
-                                                                    <h2>Sulaiman din</h2>
-                                                                    <p>Please done this project as soon possible.</p>
-                                                                </div>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">
-                                                                <div class="message-img">
-                                                                    <img src="img/contact/3.jpg" alt="">
-                                                                </div>
-                                                                <div class="message-content">
-                                                                    <span class="message-date">16 Sept</span>
-                                                                    <h2>Victor Jara</h2>
-                                                                    <p>Please done this project as soon possible.</p>
-                                                                </div>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">
-                                                                <div class="message-img">
-                                                                    <img src="img/contact/2.jpg" alt="">
-                                                                </div>
-                                                                <div class="message-content">
-                                                                    <span class="message-date">16 Sept</span>
-                                                                    <h2>Victor Jara</h2>
-                                                                    <p>Please done this project as soon possible.</p>
-                                                                </div>
-                                                            </a>
-                                                        </li>-->
+                                                        <?php
+                                                            }
+                                                        ?> 
                                                     </ul>
                                                     <div class="message-view">
                                                         <a href="#">Ver todas as mensagens</a>

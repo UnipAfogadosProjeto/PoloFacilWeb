@@ -313,7 +313,7 @@
 		            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		                <div class="admintab-wrap edu-tab1 mg-t-30">
 		                    <ul class="nav nav-tabs custom-menu-wrap custon-tab-menu-style1">
-		                        <li class="active"><a data-toggle="tab" href="#TabBL"><span class="edu-icon edu-analytics tab-custon-ic"></span>BA/LI</a>
+		                        <li class="active"><a data-toggle="tab" href="#TabBL"><span class="edu-icon edu-analytics tab-custon-ic"></span>Bach/Lic</a>
 		                        </li>
 		                        <li><a data-toggle="tab" href="#TabG"><span class="edu-icon edu-analytics-arrow tab-custon-ic"></span>Gestão</a>
 		                        </li>
@@ -323,7 +323,7 @@
 		                    <div class="tab-content">
 			                    <div id="TabBL" class="tab-pane in active animated flipInX custon-tab-style1">
 		                        	<div class="main-sparkline8-hd mg-t-30">
-                                    	<h1>Culcular Média para Custos de Bacharelado/Licenciatura</h1>
+                                    	<h1>Culcular média para o curso de Bacharelado/Licenciatura</h1>
                                 	</div>
 		                            <form action="resultado.php" method="POST">
 										<div class="main-sparkline8-hd mg-t-30">
@@ -358,10 +358,10 @@
 												<input type="number" step="0.01" min="0" max="10" value="" name="n_prova" class="form-control" id="inputEmail4" required="">
 											</div>								    
 										</div>
-										<div class="form-group row">
+										<div hidden class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do PIM</label>
-												<input type="number" step="0.01" min="0" max="10" value="" name="n_pim"class="form-control" id="inputPassword4" required="">
+												<input type="number" step="0.01" min="0" max="10" value="0" name="n_pim"class="form-control" id="inputPassword4" required="">
 											</div>
 										</div>
 										<div class="form-group row">
@@ -381,7 +381,7 @@
 		                        </div>
 		                        <div id="TabG" class="tab-pane animated flipInX custon-tab-style1">
 		                        	<div class="main-sparkline8-hd mg-t-30">
-                                    	<h1>Culcular Média para Custos de Gestão</h1>
+                                    	<h1>Culcular média para o curso de Gestão</h1>
                                 	</div>
 		                            <form action="resultado.php" method="POST">
 										<div class="main-sparkline8-hd mg-t-30">
@@ -439,7 +439,7 @@
 		                        </div>
 		                        <div id="TabPOS" class="tab-pane animated flipInX custon-tab-style1">
 		                        	<div class="main-sparkline8-hd mg-t-30">
-                                    	<h1>Culcular Média para Custos de PÓS</h1>
+                                    	<h1>Culcular média para o curso de PÓS</h1>
                                 	</div>
 		                            <form action="resultado.php" method="POST">
 										<div class="main-sparkline8-hd mg-t-30">
@@ -474,10 +474,10 @@
 												<input type="number" step="0.01" min="0" max="10" value="" name="n_prova" class="form-control" id="inputEmail4" required="">
 											</div>								    
 										</div>
-										<div class="form-group row">
+										<div hidden class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do PIM</label>
-												<input type="number" step="0.01" min="0" max="10" value="" name="n_pim"class="form-control" id="inputPassword4" required="">
+												<input type="number" step="0.01" min="0" max="10" value="0" name="n_pim"class="form-control" id="inputPassword4" required="">
 											</div>
 										</div>
 										<div class="form-group row">
