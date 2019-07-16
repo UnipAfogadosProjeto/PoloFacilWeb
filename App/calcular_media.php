@@ -91,22 +91,22 @@
 		                <li>
 		                    <a class="has-arrow" href="index.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
 		                    <ul class="submenu-angle" aria-expanded="true">
-		                        <li><a title="Provas" href="agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
-		                        <li><a title="Meus Agendamentos" href="#"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
+		                        <li><a title="Provas" href="#"><span class="mini-sub-pro">Agendar Provas</span></a></li>
+		                        <li><a title="#" href="#"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
 		                    </ul>
 		                </li>
 		                <li>
 		                    <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
 		                    <ul class="submenu-angle" aria-expanded="false">
-		                        <li><a title="Students Profile" href="student-profile.html"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
-		                        <li><a title="Edit Students" href="edit-student.html"><span class="mini-sub-pro">Editar</span></a></li>
+		                        <li><a title="Students Profile" href="#"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
+		                        <li><a title="Edit Students" href="#"><span class="mini-sub-pro">Editar</span></a></li>
 		                    </ul>
 		                </li>
 		                <li>
 		                    <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Minhas Apostilas</span></a>
 		                    <ul class="submenu-angle" aria-expanded="false">
-		                        <li><a title="All Library" href="library-assets.html"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
-		                        <li><a title="Add Library" href="add-library-assets.html"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
+		                        <li><a title="All Library" href="#"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
+		                        <li><a title="Add Library" href="#"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
 		                    </ul>
 		                </li>
 		                <li>
@@ -313,7 +313,7 @@
 		            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		                <div class="admintab-wrap edu-tab1 mg-t-30">
 		                    <ul class="nav nav-tabs custom-menu-wrap custon-tab-menu-style1">
-		                        <li class="active"><a data-toggle="tab" href="#TabBL"><span class="edu-icon edu-analytics tab-custon-ic"></span>Bach/Lic</a>
+		                        <li class="active"><a data-toggle="tab" href="#TabBL"><span class="edu-icon edu-analytics tab-custon-ic"></span>BA/LI</a>
 		                        </li>
 		                        <li><a data-toggle="tab" href="#TabG"><span class="edu-icon edu-analytics-arrow tab-custon-ic"></span>Gestão</a>
 		                        </li>
@@ -323,7 +323,7 @@
 		                    <div class="tab-content">
 			                    <div id="TabBL" class="tab-pane in active animated flipInX custon-tab-style1">
 		                        	<div class="main-sparkline8-hd mg-t-30">
-                                    	<h1>Culcular média para o curso de Bacharelado/Licenciatura</h1>
+                                    	<h1>Culcular Média para Custos de Bacharelado/Licenciatura</h1>
                                 	</div>
 		                            <form action="resultado.php" method="POST">
 										<div class="main-sparkline8-hd mg-t-30">
@@ -358,10 +358,10 @@
 												<input type="number" step="0.01" min="0" max="10" value="" name="n_prova" class="form-control" id="inputEmail4" required="">
 											</div>								    
 										</div>
-										<div hidden class="form-group row">
+										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do PIM</label>
-												<input type="number" step="0.01" min="0" max="10" value="0" name="n_pim"class="form-control" id="inputPassword4" required="">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_pim"class="form-control" id="inputPassword4" required="">
 											</div>
 										</div>
 										<div class="form-group row">
@@ -381,7 +381,7 @@
 		                        </div>
 		                        <div id="TabG" class="tab-pane animated flipInX custon-tab-style1">
 		                        	<div class="main-sparkline8-hd mg-t-30">
-                                    	<h1>Culcular média para o curso de Gestão</h1>
+                                    	<h1>Culcular Média para Custos de Gestão</h1>
                                 	</div>
 		                            <form action="resultado.php" method="POST">
 										<div class="main-sparkline8-hd mg-t-30">
@@ -439,7 +439,7 @@
 		                        </div>
 		                        <div id="TabPOS" class="tab-pane animated flipInX custon-tab-style1">
 		                        	<div class="main-sparkline8-hd mg-t-30">
-                                    	<h1>Culcular média para o curso de PÓS</h1>
+                                    	<h1>Culcular Média para Custos de PÓS</h1>
                                 	</div>
 		                            <form action="resultado.php" method="POST">
 										<div class="main-sparkline8-hd mg-t-30">
@@ -474,10 +474,10 @@
 												<input type="number" step="0.01" min="0" max="10" value="" name="n_prova" class="form-control" id="inputEmail4" required="">
 											</div>								    
 										</div>
-										<div hidden class="form-group row">
+										<div class="form-group row">
 											<div class="form-group col-md-3">
 												<label for="inputPassword4">Nota do PIM</label>
-												<input type="number" step="0.01" min="0" max="10" value="0" name="n_pim"class="form-control" id="inputPassword4" required="">
+												<input type="number" step="0.01" min="0" max="10" value="" name="n_pim"class="form-control" id="inputPassword4" required="">
 											</div>
 										</div>
 										<div class="form-group row">

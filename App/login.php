@@ -233,16 +233,7 @@
         ============================================ -->
     <script src="js/metisMenu/metisMenu.min.js"></script>
     <script src="js/metisMenu/metisMenu-active.js"></script>
-    <!-- morrisjs JS
-        ============================================ -->
-    <script src="js/morrisjs/raphael-min.js"></script>
-    <script src="js/morrisjs/morris.js"></script>
-    <script src="js/morrisjs/morris-active.js"></script>
-    <!-- morrisjs JS
-        ============================================ -->
-    <script src="js/sparkline/jquery.sparkline.min.js"></script>
-    <script src="js/sparkline/jquery.charts-sparkline.js"></script>
-    <script src="js/sparkline/sparkline-active.js"></script>
+    
     <!-- calendar JS
         ============================================ -->
     <script src="js/calendar/moment.min.js"></script>

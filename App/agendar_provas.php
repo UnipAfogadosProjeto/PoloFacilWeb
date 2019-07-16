@@ -36,13 +36,19 @@
 // Para para mostra consultar 
 //
 $c = $_SESSION['RA'];
-$consumo = file_get_contents("http://186.233.148.102:8080/GetAgendamentoAluno/$c");
-$consumo = utf8_encode($consumo);
+
+
+
+$consumo1 = curl_init();
+curl_setopt($consumo1, CURLOPT_URL, "http://186.233.148.102:8080/GetAgendamentoAluno/$c");
+curl_setopt($consumo1, CURLOPT_RETURNTRANSFER, true);    
+$res = curl_exec($consumo1);
+curl_close($consumo1);
+$consumo = utf8_encode($res);
 $consumo = json_decode($consumo);
 
-var_dump($consumo);
 
-    
+
 
 ?>
 <!DOCTYPE html>
@@ -327,7 +333,7 @@ var_dump($consumo);
                                         <tbody>
                                             <?php
                                             foreach($consumo->Agendamento as $item){
-                                            //while ($objetoLocacao = array_shift($listaLocacao)) {?>   
+                                            ?>   
                                                 
                                             <tr>
                                                 <td class="col-md-1"><?php echo "".$item->Dia."";?></td>
