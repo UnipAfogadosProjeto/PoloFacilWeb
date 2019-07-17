@@ -64,6 +64,7 @@ $consumo = json_decode($consumo);
     <meta name="description" content="polo fácil unip oline">
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
+    
 
     <title>Dashboard | Polo Fácil</title>
 
@@ -294,7 +295,7 @@ $consumo = json_decode($consumo);
                                                       <?php  } } ?>
                                                         
                                                     </select>
-                                                    <button style="margin-top: 20px;"type="subimt" class="btn btn-custon-four btn-success">
+                                                    <button style="margin-top: 20px;"type="subimt" class="btn btn-custon-four btn-danger">
                                             <i class="fa fa-check edu-checked-pro" aria-hidden="true"></i> Agendar</button>
                                     
                                                 </form>
@@ -323,7 +324,7 @@ $consumo = json_decode($consumo);
                                 <div class="static-table-list">
                                     <table class="table">
                                         <thead>
-                                            <tr>
+                                            <tr class="bg-primary">
                                                 <th>Data</th>
                                                 <th>Horário</th>
                                                 <th>Local</th>
@@ -335,7 +336,7 @@ $consumo = json_decode($consumo);
                                             foreach($consumo->Agendamento as $item){
                                             ?>   
                                                 
-                                            <tr>
+                                            <tr class="bg-info">
                                                 <td class="col-md-1"><?php echo "".$item->Dia."";?></td>
                                                 <td class="col-md-1"><?php echo "".$item->Inicio." às ".$item->Fim."";?></td>
                                                 <td class="col-md-1"><?php echo "".$item->Sala."";?></td>

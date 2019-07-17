@@ -136,7 +136,7 @@ $consumo = json_decode($consumo);
                                 <div class="static-table-list">
                                     <table class="table">
                                         <thead>
-                                            <tr>
+                                            <tr class="bg-primary">
                                                 <th>Codigo</th>
                                                 <th>Disciplina</th>
                                                 <th></th>
@@ -149,7 +149,7 @@ $consumo = json_decode($consumo);
                                             foreach($consumo->Apostilas as $item){
                                             //while ($objetoLocacao = array_shift($listaLocacao)) {?>   
                                                 
-                                            <tr>
+                                            <tr class="bg-info">
                                                 <td class="col-md-1"><?php echo "".$item->Codigo."";?></td>
                                                 <td class="col-md-1"><?php echo "".$item->Disciplina."";?></td>
                                                 <td class="col-md-1"></td>

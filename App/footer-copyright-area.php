@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="footer-copy-right">
-                <p>Copyright © 2018. All rights reserved. Template by <a href="https://colorlib.com/wp/templates/">Colorlib</a></p>
+                <p>Copyright © 2019. Polo Fácil Todos os direitos reservados </p>
             </div>
         </div>
     </div>
