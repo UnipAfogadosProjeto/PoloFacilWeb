@@ -91,28 +91,28 @@
 		                <li>
 		                    <a class="has-arrow" href="index.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
 		                    <ul class="submenu-angle" aria-expanded="true">
-		                        <li><a title="Provas" href="#"><span class="mini-sub-pro">Agendar Provas</span></a></li>
-		                        <li><a title="#" href="#"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
+		                        <li><a title="Provas" href="index.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
+		                        <li><a title="#" href="index.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
 		                    </ul>
 		                </li>
 		                <li>
 		                    <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
 		                    <ul class="submenu-angle" aria-expanded="false">
-		                        <li><a title="Students Profile" href="#"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
-		                        <li><a title="Edit Students" href="#"><span class="mini-sub-pro">Editar</span></a></li>
+		                        <li><a title="Students Profile" href="index.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
+		                        <li><a title="Edit Students" href="index.php"><span class="mini-sub-pro">Editar</span></a></li>
 		                    </ul>
 		                </li>
 		                <li>
 		                    <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Minhas Apostilas</span></a>
 		                    <ul class="submenu-angle" aria-expanded="false">
-		                        <li><a title="All Library" href="#"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
-		                        <li><a title="Add Library" href="#"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
+		                        <li><a title="All Library" href=index.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
+		                        <li><a title="Add Library" href="index.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
 		                    </ul>
 		                </li>
 		                <li>
-		                    <a href="#" aria-expanded="false"><span class="educate-icon educate-department icon-wrap"></span> <span class="mini-click-non">Simulados</span></a>
+		                    <a href="index.php" aria-expanded="false"><span class="educate-icon educate-department icon-wrap"></span> <span class="mini-click-non">Simulados</span></a>
 		                   </li>
-		                    <a  aria-expanded="false" href="#"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
+		                    <a  aria-expanded="false" href="index.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
 		                </li>
 		            </ul>
 		        </nav>
@@ -161,18 +161,18 @@
 		                                                    </div>
 		                                                    <ul class="message-menu">
 		                                                        <li>
-		                                                            <a href="#">
+		                                                            <a href="index.php">
 		                                                                <div class="message-img">
 		                                                                    <img src="img/logo/logosn.png" alt="">
 		                                                                </div>
 		                                                                <div class="message-content">
-		                                                                    <p>Você não tem mensagens no momento.</p>
+		                                                                    <p>Faça login para ver suas mensagem.</p>
 		                                                                </div>
 		                                                            </a>
 		                                                        </li>
 		                                                    </ul>
 		                                                    <div class="message-view">
-		                                                        <a href="#">Ver todas as mensagens</a>
+		                                                        <a href="index.php">Ver todas as mensagens</a>
 		                                                    </div>
 		                                                </div>
 		                                            </li>
@@ -183,18 +183,18 @@
 		                                                    </div>
 		                                                    <ul class="notification-menu">
 		                                                        <li>
-		                                                            <a href="#">
+		                                                            <a href="index.php">
 		                                                                <div class="notification-icon">
 		                                                                    <i class="educate-icon educate-checked edu-checked-pro admin-check-pro" aria-hidden="true"></i>
 		                                                                </div>
 		                                                                <div class="notification-content">
-		                                                                    <p>Você não tem notificações no momento.</p>
+		                                                                    <p>Faça login para ver suas notificações.</p>
 		                                                                </div>
 		                                                            </a>
 		                                                        </li>
 		                                                    </ul>
 		                                                    <div class="notification-view">
-		                                                        <a href="#">Ver todas as notificações</a>
+		                                                        <a href="index.php">Ver todas as notificações</a>
 		                                                    </div>
 		                                                </div>
 		                                            </li>
@@ -205,9 +205,9 @@
 		                                                        <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
 		                                                    </a>
 		                                                <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-		                                                    <li><a href="#"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
+		                                                    <li><a href="index.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
 		                                                    </li>
-		                                                    <li><a href="#"><span class="edu-icon edu-user-rounded author-log-ic"></span>Meu Perfil</a>
+		                                                    <li><a href="index.php"><span class="edu-icon edu-user-rounded author-log-ic"></span>Meu Perfil</a>
 		                                                    </li>
 		                                                    </li>
 		                                                    <li><a href="logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
@@ -266,26 +266,26 @@
 		                                    <li><a data-toggle="collapse" data-target="#Charts" href="#">Agendamento <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
 		                                        <ul class="collapse dropdown-header-top">
 		                                            <li><a href="agendar_provas.php">Agendar Provas</a></li>
-		                                            <li><a href="#">Meus Agendamentos</a></li>
+		                                            <li><a href="index.php">Meus Agendamentos</a></li>
 		                                        </ul>
 		                                    </li>
 		                                    <li><a data-toggle="collapse" data-target="#demopro" href="#">Meus Dados <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
 		                                        <ul id="demopro" class="collapse dropdown-header-top">
-		                                            <li><a href="#">Perfil do Aluno</a>
+		                                            <li><a href="index.php">Perfil do Aluno</a>
 		                                            </li>
-		                                            <li><a href="#">Editar</a>
+		                                            <li><a href="index.php">Editar</a>
 		                                            </li>
 		                                        </ul>
 		                                    </li>
 		                                    <li><a data-toggle="collapse" data-target="#demolibra" href="#">Minhas Apostilas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
 		                                        <ul id="demolibra" class="collapse dropdown-header-top">
-		                                            <li><a href="library-assets.html">Apostilas Entregues</a>
+		                                            <li><a href="index.php">Apostilas Entregues</a>
 		                                            </li>
-		                                            <li><a href="add-library-assets.html">Novas Apostilas</a>
+		                                            <li><a href="index.php">Novas Apostilas</a>
 		                                            </li>
 		                                        </ul>
 		                                    </li>
-		                                    <li><a data-toggle="collapse" data-target="#Tablesmob" href="#">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+		                                    <li><a data-toggle="collapse" data-target="#Tablesmob" href="index.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
 		                                    </li>
 		                                </ul>
 		                            </nav>

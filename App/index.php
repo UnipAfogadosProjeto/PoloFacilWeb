@@ -10,6 +10,7 @@
     }
 
     $bread = '';
+    $active = ['active', '', ''];
 
 ?>
 <!DOCTYPE html>

@@ -4,7 +4,7 @@
     $bread = '/ Apostilas Disponíveis';
 
     $ra = $_SESSION['RA'];
-
+    $active = ['', '', 'active'];
 
     $consumo1 = curl_init();
     curl_setopt($consumo1, CURLOPT_URL, "http://186.233.148.102:8080/GetListaApostila/$ra/0");
@@ -13,6 +13,8 @@
     curl_close($consumo1);
     $consumo = utf8_encode($res);
     $consumo = json_decode($consumo);
+
+
 
 ?>
 <!DOCTYPE html>
