@@ -1,13 +1,18 @@
 <?php
- session_start();
- $ra = $_SESSION['RA'];
- $consumo1 = curl_init();
-curl_setopt($consumo1, CURLOPT_URL, "http://186.233.148.102:8080/GetListaApostila/$ra/1");
-curl_setopt($consumo1, CURLOPT_RETURNTRANSFER, true);    
-$res = curl_exec($consumo1);
-curl_close($consumo1);
-$consumo = utf8_encode($res);
-$consumo = json_decode($consumo);
+    session_start();
+
+    $bread = '/ Apostilas Entreges';
+
+    $ra = $_SESSION['RA'];
+    $consumo1 = curl_init();
+    curl_setopt($consumo1, CURLOPT_URL, "http://186.233.148.102:8080/GetListaApostila/$ra/1");
+    curl_setopt($consumo1, CURLOPT_RETURNTRANSFER, true);    
+    $res = curl_exec($consumo1);
+    curl_close($consumo1);
+    $consumo = utf8_encode($res);
+    $consumo = json_decode($consumo);
+
+
  
  
 ?>

@@ -1,14 +1,18 @@
 <?php
- session_start();
- $ra = $_SESSION['RA'];
+    session_start();
 
- $consumo1 = curl_init();
-curl_setopt($consumo1, CURLOPT_URL, "http://186.233.148.102:8080/GetListaApostila/$ra/0");
-curl_setopt($consumo1, CURLOPT_RETURNTRANSFER, true);    
-$res = curl_exec($consumo1);
-curl_close($consumo1);
-$consumo = utf8_encode($res);
-$consumo = json_decode($consumo);
+    $bread = '/ Apostilas Disponíveis';
+
+    $ra = $_SESSION['RA'];
+
+
+    $consumo1 = curl_init();
+    curl_setopt($consumo1, CURLOPT_URL, "http://186.233.148.102:8080/GetListaApostila/$ra/0");
+    curl_setopt($consumo1, CURLOPT_RETURNTRANSFER, true);    
+    $res = curl_exec($consumo1);
+    curl_close($consumo1);
+    $consumo = utf8_encode($res);
+    $consumo = json_decode($consumo);
 
 ?>
 <!DOCTYPE html>
@@ -134,34 +138,33 @@ $consumo = json_decode($consumo);
                             <br>
                             <div class="sparkline8-graph">
                                 <div class="static-table-list">
-                                    <table class="table">
-                                        <thead>
-                                            <tr class="bg-primary">
-                                                <th>Codigo</th>
-                                                <th>Disciplina</th>
-                                                <th></th>
-                                                <th></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <?php
-                                          
-                                            foreach($consumo->Apostilas as $item){
-                                            //while ($objetoLocacao = array_shift($listaLocacao)) {?>   
-                                                
-                                            <tr class="bg-info">
-                                                <td class="col-md-1"><?php echo "".$item->Codigo."";?></td>
-                                                <td class="col-md-1"><?php echo "".$item->Disciplina."";?></td>
-                                                <td class="col-md-1"></td>
-                                                <td class="col-md-1">
-               
-                                                </td>
-                                            </tr>
-                                          <?php
-                                            }
-                                          ?>
-                                        </tbody>
-                                    </table>
+                                    <?php 
+                                    if($consumo->Apostilas == "Sem Apostilas"){
+                                                echo "Você não tem apostilas disponíveis no momento.";
+                                    }else{
+
+                                    echo '<table class="table">';
+                                        echo '<thead>';
+                                            echo '<tr class="bg-primary">';
+                                                echo '<th>Codigo</th>';
+                                                echo '<th>Disciplina</th>';
+                                            echo '</tr>';
+                                        echo '</thead>';
+                                        echo '<tbody>';
+                                            
+                                                    foreach($consumo->Apostilas as $item){
+                                                    //while ($objetoLocacao = array_shift($listaLocacao)) {
+                                                        
+                                                    echo "<tr class='bg-info'>";
+                                                        echo "<td class='col-md-1'>".$item->Codigo."</td>";
+                                                        echo "<td class='col-md-1'>".$item->Disciplina."</td>";
+                                                    echo "</tr>";
+
+                                                    }
+                                            echo '</tbody>';
+                                        echo '</table>';
+                                        }
+                                    ?>
                                 </div>
                             </div>
                         </div>

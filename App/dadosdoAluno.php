@@ -16,6 +16,8 @@ session_start();
 		 	$celular =	$_SESSION['Celular'];
 		 	$email =	$_SESSION['Email'];
 
+      $bread = '/ Meu Perfil';
+
 
 ?>
 <!DOCTYPE html>
