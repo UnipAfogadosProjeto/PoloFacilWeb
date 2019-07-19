@@ -1,10 +1,16 @@
-<?php session_start(); 
+<?php 
+    if(!isset($_SESSION)) {
+         session_start();
+    }
 
     if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
 
     }else{
         header('Location: login.php');
     }
+
+    $bread = '';
+    $active = ['active', '', ''];
 
 ?>
 <!DOCTYPE html>

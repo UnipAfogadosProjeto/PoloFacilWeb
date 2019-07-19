@@ -19,8 +19,9 @@
                         <li><a title="Widgets" href="widgets.html"><span class="mini-sub-pro">Widgets</span></a></li>
                     </ul>
                 </li>-->
-                <li>
-                    <a class="has-arrow" href="index.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
+                <li <?php echo "class=".$active[0].""?>>
+                    <a class="has-arrow" href="index.html">
+                        <span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
                     <ul class="submenu-angle" aria-expanded="true">
                         <li><a title="Provas" href="agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
                         <li><a title="Meus Agendamentos" href="#"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
@@ -35,7 +36,7 @@
                         <li><a title="Professor Profile" href="professor-profile.html"><span class="mini-sub-pro">Professor Profile</span></a></li>
                     </ul>
                 </li>-->
-                <li>
+                <li <?php echo "class=".$active[1].""?>>
                     <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
                     <ul class="submenu-angle" aria-expanded="false">
                         <li><a title="Students Profile" href="dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
@@ -52,7 +53,7 @@
                         <li><a title="Product Payment" href="course-payment.html"><span class="mini-sub-pro">Courses Payment</span></a></li>
                     </ul>
                 </li>-->
-                <li>
+                <li <?php echo "class=".$active[2].""?>>
                     <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Minhas Apostilas</span></a>
                     <ul class="submenu-angle" aria-expanded="false">
                         <li><a title="All Library" href="apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
@@ -101,7 +102,7 @@
                     </ul>
                 </li>
                 <li>-->
-                    <a  aria-expanded="false" href="#"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
+                    <a  aria-expanded="false" href="#"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non">Provas</span></a>
                 </li>
                 <!--<li>
                     <a class="has-arrow" href="mailbox.html" aria-expanded="false"><span class="educate-icon educate-form icon-wrap"></span> <span class="mini-click-non">Forms Elements</span></a>
