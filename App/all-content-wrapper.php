@@ -1,3 +1,14 @@
+<?php 
+    include("GetListaAvisos.php");
+    if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
+        $ra = $_SESSION['RA'];
+        $msgList = GetLista($ra);
+
+    }else{
+
+    }
+
+?>
 <div class="container-fluid">
     <div class="container-fluid">
         <div class="row">
@@ -55,16 +66,44 @@
                                                         <h1>Mensagens</h1>
                                                     </div>
                                                     <ul class="message-menu">
-                                                        <li>
-                                                            <a href="#">
-                                                                <div class="message-img">
-                                                                    <img src="img/logo/logosn.png" alt="">
-                                                                </div>
-                                                                <div class="message-content">
-                                                                    <p>Você não tem mensagens no momento.</p>
-                                                                </div>
-                                                            </a>
-                                                        </li>
+                                                        <?php
+                                                          
+                                                            if($msgList->Avisos != "Sem Avisos"){
+                                                                foreach($msgList->Avisos as $item){
+                                                                    
+                                                                ?>   
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <div class="message-img">
+                                                                            <img src="img/logo/logosn.png" alt="">
+                                                                        </div>
+                                                                        <div class="message-content">
+                                                                            
+                                                                            <h2><?php echo "".$item->Titulo."";?></h2>
+                                                                            <span style="font-size: 10px;" class="message"><?php echo "".$item->DataEnvio."";?></span>
+                                                                            <p><?php echo "".$item->Mensagem."";?></p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <?php
+                                                                }
+                                                            } else {
+                                                            ?>  
+                                                            
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <div class="message-img">
+                                                                            <img src="img/logo/logosn.png" alt="">
+                                                                        </div>
+                                                                        <div class="message-content">
+                                                                            <p>Você não tem mensagens no momento.</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                
+                                                            <?php 
+                                                            }
+                                                        ?>
                                                         <!--<li>
                                                             <a href="#">
                                                                 <div class="message-img">
