@@ -683,9 +683,9 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <ul class="breadcome-menu">
-                                        <li><a href="index.php">Início</a>
+                                        <li><a href="#">Início</a> <span class="bread-slash">/</span>
                                         </li>
-                                        <li><span class="bread-blod"><?php echo $bread ?></span>
+                                        <li><span class="bread-blod">Agendar</span>
                                         </li>
                                     </ul>
                                 </div>

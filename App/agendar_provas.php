@@ -3,8 +3,7 @@
 
     session_start(); 
     // pega a data no pc
-    $bread = '/ Agendar Provas';
-    $active = ['active', '', ''];
+
     date_default_timezone_set('America/Sao_Paulo');
     $time = date('d-m-y');
     //echo $time;
