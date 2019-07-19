@@ -36,15 +36,8 @@
 // Para para mostra consultar 
 //
 $c = $_SESSION['RA'];
-
-
-
-$consumo1 = curl_init();
-curl_setopt($consumo1, CURLOPT_URL, "http://186.233.148.102:8080/GetAgendamentoAluno/$c");
-curl_setopt($consumo1, CURLOPT_RETURNTRANSFER, true);    
-$res = curl_exec($consumo1);
-curl_close($consumo1);
-$consumo = utf8_encode($res);
+ $consumo = file_get_contents("http://186.233.148.102:8080/GetAgendamentoAluno/$c");
+$consumo = utf8_encode($consumo);
 $consumo = json_decode($consumo);
 
 
@@ -331,9 +324,13 @@ $consumo = json_decode($consumo);
                                                 <th>Ação</th>
                                             </tr>
                                         </thead>
-                                        <tbody>
+                                        <tbody>  
+
                                             <?php
+                                            $agendamento = "Você não agendou nenhuma prova";
+                                            if($consumo->Agendamento != $agendamento){
                                             foreach($consumo->Agendamento as $item){
+                                                
                                             ?>   
                                                 
                                             <tr class="bg-info">
@@ -345,8 +342,16 @@ $consumo = json_decode($consumo);
                                                 </td>
                                             </tr>
                                             <?php
-                                                }
+                                            }
+                                        } else {
                                             ?>  
+                                            
+                                                <td><?php echo "Você não agendou nenhuma prova";?></td>              
+                                                </td>
+                                            
+                                             <?php 
+                                        }
+                                             ?>   
                                         </tbody>
                                     </table>
                                 </div>
