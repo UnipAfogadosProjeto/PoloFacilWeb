@@ -23,7 +23,7 @@
                     <a class="has-arrow" href="index.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
                     <ul class="submenu-angle" aria-expanded="true">
                         <li><a title="Provas" href="agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
-                        <li><a title="Meus Agendamentos" href="#"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
+                        <li><a title="Meus Agendamentos" href="meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
                     </ul>
                 </li>
                 <!--<li>

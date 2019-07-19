@@ -638,7 +638,7 @@
                                     <li><a data-toggle="collapse" data-target="#Charts" href="#">Agendamento <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                         <ul class="collapse dropdown-header-top">
                                             <li><a href="agendar_provas.php">Agendar Provas</a></li>
-                                            <li><a href="#">Meus Agendamentos</a></li>
+                                            <li><a href="meusAgendamentos.php">Meus Agendamentos</a></li>
                                         </ul>
                                     </li>
                                     <li><a data-toggle="collapse" data-target="#demopro" href="#">Meus Dados <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
