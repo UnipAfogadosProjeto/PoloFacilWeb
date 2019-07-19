@@ -8,77 +8,105 @@
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
     <body>
+    
     <!--header start here-->
     <section class="pricing py-5">
         <div class="container">
           <div class="row">           
-                
-                
-    
+
+
           <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-price text-center">Gestão</h5>
-                <hr>
+            
+            <div div class="card border-danger mb-3" style="max-width: 18rem;">
+                   <div class="card-header text-center bg-danger">GRADUAÇÃO</div>
+                
+                           <form class="form-signin">
+                               <br>
+                  <div class="form-label-group mx-sm-5 mb-3 text-center">
+                        <label>Nota Prova</label>
+                    <input type="number" id="" class="form-control" placeholder="" required autofocus>
+                  </div>
+
+                  <div class="form-label-group mx-sm-5 mb-3 text-center">
+                        <label>Nota AVA</label>
+                        <input type="number" id="" class="form-control" placeholder="" required>
+                  </div>
+
+                  <div class="form-label-group mx-sm-5 mb-3 text-center">
+                        <label>Nota Exame</label>
+                        <input type="number" id="" class="form-control" placeholder="" required>
+                   </div>
+                            </form>
+                      
+                      <div class="form-label-group mx-sm-5 mb-3">
+                <a href="#" class="btn btn-block btn-danger text-uppercase">Calcular!</a>
+                      </div>
+              </div>
+            </div>
+            
+         
+
+
+                
+    <!--Gestão-->   
+    <div class="col-lg-4">
+                <div div class="card border-success mb-3" style="max-width: 18rem;">
+                    <div class="card-header  text-center bg-success ">GESTÃO</div>
+                
+                      <form class="form-signin">
+                          <br>
+               <div class="form-label-group mx-sm-5 mb-3 text-center">
+              <label>Nota Prova</label>
+                <input type="number" id="" class="form-control" placeholder="" required autofocus>
+               </div>
+
+              <div class="form-label-group mx-sm-5 mb-3 text-center">
+              <label>Nota AVA</label>
+                <input type="number" id="" class="form-control" placeholder="" required>
+              </div>
+
+              <div class="form-label-group mx-sm-5 mb-3 text-center">
+              <label>Nota PIM</label>
+                <input type="number" id="" class="form-control" placeholder="" required autofocus> 
+              </div>
+
+              <div class="form-label-group mx-sm-5 mb-3 text-center">
+              <label>Nota Exame</label>
+                <input type="number" id="" class="form-control" placeholder="" required>
+              </div>
+                  </form>
+                      <div class="form-label-group mx-sm-5 mb-3">
+                <a href="#" class="btn btn-block btn-success text-uppercase">Calcular!</a>
+                      </div>
+
+          </div>
+          </div>
+<!--FIM Gestão -->
+          
+                <div class="col-lg-4">
+              <div div class="card border-primary mb-3" style="max-width: 18rem;">
+                <div class="card-header text-center bg-primary">POS</div>
+                
                 <form class="form-signin">
-              <div class="form-label-group mx-sm-5 mb-3">
+                    <br>
+              <div class="form-label-group mx-sm-5 mb-3 text-center">
               <label>Nota Prova</label>
                 <input type="number" id="" class="form-control" placeholder="" required autofocus>
                
               </div>
 
-              <div class="form-label-group mx-sm-5 mb-3">
+              <div class="form-label-group mx-sm-5 mb-3 text-center">
               <label>Nota AVA</label>
               
                 <input type="number" id="" class="form-control" placeholder="" required>
-               
+               </form>
               </div>
+                      <div class="form-label-group mx-sm-5 mb-3">
                 <a href="#" class="btn btn-block btn-primary text-uppercase">Calcular!</a>
-              </div>
-            </div>
+                </div>
+
           </div>
-
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-price text-center ">Graduação</h5>
-                <hr>
-                <ul class="fa-ul">
-                   
-                        <li>Nota PROVA</li>
-                        <li>
-                            <input class="text-box-dark" id="gra_ap" type="number" step="0.01" min="0" max="10" placeholder="PROVA AP" name="PROVA"></li>
-                       <li>Nota AVA</li>
-                        <li>
-                            <input class="text-box-dark" id="gra_ava" type="number" step="0.01" min="0" max="10" placeholder="AVA" name="AVA" required=""></li>
-                   
-
-                </ul>
-                <a href="#" class="btn btn-block btn-primary text-uppercase">Calcular!</a>
-              </div>
             </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-price text-center">Pós</h5>
-                <hr>
-                <ul class="fa-ul">
-                   
-                    <li class="fa-li">Nota PROVA (PIC)</li>
-                    <li>
-                        <input class="text-box-dark" id="pos_ap" type="number" step="0.01" min="0" max="10" placeholder="PROVA" name="PROVA" required=""></li>
-                    <li class="fa-li">Nota AVA (EXE) </li>
-                    <li>
-                        <input class="text-box-dark" id="pos_ava" type="number" step="0.01" min="0" max="3" placeholder="AVA - Nota máxima 3" name="AVA" required=""></li>
-
-                </ul>
-                <a href="#" class="btn btn-block btn-primary text-uppercase">Calcular!</a>
-              </div>
-            </div>
-          </div>
-
 
           
 
