@@ -2,7 +2,13 @@
     include("GetListaAvisos.php");
     if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
         $ra = $_SESSION['RA'];
+        $temAviso = false;
         $msgList = GetLista($ra);
+        if($msgList->Avisos != "Sem Avisos"){
+            $temAviso = true;
+        }else{
+            $temAviso = false;
+        }
 
     }else{
 
@@ -60,7 +66,7 @@
                                     <div class="header-right-info">
                                         <ul class="nav navbar-nav mai-top-nav header-right-menu">
                                             <li class="nav-item dropdown">
-                                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="educate-icon educate-message edu-chat-pro" aria-hidden="true"></i><span class="indicator-ms"></span></a>
+                                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="educate-icon educate-message edu-chat-pro" aria-hidden="true"></i><?php if($temAviso){ echo '<span class="indicator-ms"></span>';}else{echo '<span class="ms"></span>';} ?></a>
                                                 <div role="menu" class="author-message-top dropdown-menu animated zoomIn">
                                                     <div class="message-single-top">
                                                         <h1>Mensagens</h1>
@@ -68,12 +74,12 @@
                                                     <ul class="message-menu">
                                                         <?php
                                                           
-                                                            if($msgList->Avisos != "Sem Avisos"){
+                                                            if($temAviso){
                                                                 foreach($msgList->Avisos as $item){
                                                                     
                                                                 ?>   
                                                                 <li>
-                                                                    <a href="#">
+                                                                    <a href="#" data-toggle="modal" data-target="<?php echo 'Modal'.$item->idAviso;?>">
                                                                         <div class="message-img">
                                                                             <img src="img/logo/logosn.png" alt="">
                                                                         </div>
@@ -82,9 +88,11 @@
                                                                             <h2><?php echo "".$item->Titulo."";?></h2>
                                                                             <span style="font-size: 10px;" class="message"><?php echo "".$item->DataEnvio."";?></span>
                                                                             <p><?php echo "".$item->Mensagem."";?></p>
+
+                                                                            <button id='<?php echo $item->idAviso;?>'  onClick ='marcarComoLida(<?php echo $item->idAviso;?>)' class="btn btn-default btn-sm"><i class="fa fa-check"></i> Marca como lida</button>
                                                                         </div>
                                                                     </a>
-                                                                </li>
+                                                                </li>                                                     
                                                                 <?php
                                                                 }
                                                             } else {
@@ -100,7 +108,7 @@
                                                                         </div>
                                                                     </a>
                                                                 </li>
-                                                                
+                                                                                                                                                                                            
                                                             <?php 
                                                             }
                                                         ?>
@@ -145,6 +153,39 @@
                                                         <a href="#">Ver todas as mensagens</a>
                                                     </div>
                                                 </div>
+                                                <?php
+                                                          
+                                                if($temAviso){
+                                                    foreach($msgList->Avisos as $item){
+                                                        
+                                                    ?>   
+                                                    
+                                                    <div id="<?php echo 'Modal'.$item->idAviso;?>" class="modal modal-edu-general default-popup-PrimaryModal fade" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-close-area modal-close-df">
+                                                                    <a class="close" data-dismiss="modal" href="#"><i class="fa fa-close"></i></a>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <i class="educate-icon educate-checked modal-check-pro"></i>
+                                                                    <h2><?php echo "".$item->Titulo."";?></h2>
+                                                                    <small><?php echo "".$item->DataEnvio."";?></small>
+                                                                    <p><?php echo "".$item->Mensagem."";?></p>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <a data-dismiss="modal" href="#">Cancel</a>
+                                                                    <button id='<?php echo $item->idAviso;?>'  onClick ='marcarComoLida(<?php echo $item->idAviso;?>)' class="btn btn-default btn-sm"><i class="fa fa-check"></i> Marca como lida</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                <?php 
+                                                    } 
+                                                ?>
+
+                                            <?php 
+                                                } 
+                                            ?>
                                             </li>
                                             <li class="nav-item"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="educate-icon educate-bell" aria-hidden="true"></i><span class="indicator-nt"></span></a>
                                                 <div role="menu" class="notification-author dropdown-menu animated zoomIn">
@@ -659,6 +700,7 @@
                                             </li>
                                         </ul>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -736,3 +778,22 @@
         </div>
     </div>
 </div>
+<script> 
+    function marcarComoLida(id_aviso){
+     
+        var request = $.ajax({
+            url: 'PutAviso.php?idAviso='+id_aviso,
+            type: 'get',
+            dataType: 'html'
+        });
+     
+        request.done(function(data){
+            $('#'+id_aviso).html(data);
+        });
+     
+        request.fail(function(jqXHR, textStatus){
+            console.log('Erro: '+textStatus);
+        });
+     
+    }
+</script>

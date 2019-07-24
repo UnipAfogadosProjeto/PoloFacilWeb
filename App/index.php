@@ -598,7 +598,27 @@
             <?php include'footer-copyright-area.php';?>
         </div>
     </div>
-
+    <script>
+ 
+    function imAnAjaxFunction(){
+     
+        var request = $.ajax({
+            url: 'phpfile.php',
+            type: 'get',
+            dataType: 'html'
+        });
+     
+        request.done( function ( data ) {
+            $('#ajaxButton').html( data );
+        });
+     
+        request.fail( function ( jqXHR, textStatus) {
+            console.log( 'Sorry: ' + textStatus );
+        });
+     
+    }
+     
+    </script>
     <!-- jquery
         ============================================ -->
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
