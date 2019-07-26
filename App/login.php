@@ -3,7 +3,7 @@
 	session_start();
 	$msg = 0;
 	if(isset($_SESSION['Nome']) && empty($_SESSION['Nome']) == false) {
-		header('Location: index.php');
+		header('Location: painel.php');
 	}else{
 
 		// Verifica, atraves do method="POST", se existe um campo ra_user e verifica se não esta vario. 
@@ -62,7 +62,7 @@
 		 		$_SESSION['Email'] = $data->Email;
 
 		 		// Muda o cabeçalho no navegador e redireciona para index.php
-		 		header('Location: index.php');
+		 		header('Location: painel.php');
 	 		}
 		}
 	}
