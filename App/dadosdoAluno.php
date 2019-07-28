@@ -16,6 +16,8 @@ session_start();
 		 	$celular =	$_SESSION['Celular'];
 		 	$email =	$_SESSION['Email'];
 
+      $bread = '/ Meu Perfil';
+      $active = ['', 'active', ''];
 
 ?>
 <!DOCTYPE html>
@@ -97,6 +99,9 @@ session_start();
     <!-- chosen CSS
         ============================================ -->
     <link rel="stylesheet" href="css/chosen/bootstrap-chosen.css">
+        <!-- modals CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/modals.css">
     <!-- ionRangeSlider CSS
         ============================================ -->
     <link rel="stylesheet" href="css/ionRangeSlider/ion.rangeSlider.css">
@@ -130,17 +135,17 @@ session_start();
   <div class="form-row">
     <div class="col-md-4 mb-3">
       <label for="validationCustom01">RA</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $ra?>" value="<?php echo $ra?>" required>
+      <input type="text" class="form-control" id="" placeholder="<?php echo $ra?>" value="<?php echo $ra?>" disabled>
       
     </div>
     <div class="col-md-4 mb-3">
       <label for="validationCustom02">Nome Completo</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $nome?>" value="<?php echo $nome?>" required>
+      <input type="text" class="form-control" id="" placeholder="<?php echo $nome?>" value="<?php echo $nome?>" disabled>
     </div>
     <div class="col-md-4 mb-3">
       <label for="validationCustomUsername">Situação</label>
       <div class="input-group">
-        <input type="text" class="form-control" id="" placeholder="<?php echo $situacao?>" value="<?php echo $situacao?>" aria-describedby="inputGroupPrepend" required>
+        <input type="text" class="form-control" id="" placeholder="<?php echo $situacao?>" value="<?php echo $situacao?>" aria-describedby="inputGroupPrepend" disabled>
       </div>
       <br>
     </div>
@@ -148,17 +153,17 @@ session_start();
   <div class="form-row">
     <div class="col-md-6 mb-3">
       <label for="validationCustom03">Curso</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $curso?>" value="<?php echo $curso?>" required>
+      <input type="text" class="form-control" id="" placeholder="<?php echo $curso?>" value="<?php echo $curso?>" disabled >
 
     </div>
     <div class="col-md-3 mb-3">
       <label for="validationCustom04">Polo</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $polo?>" value="<?php echo $polo?>" required>
+      <input type="text" class="form-control" id="" placeholder="<?php echo $polo?>" value="<?php echo $polo?>" disabled>
       
     </div>
     <div class="col-md-3 mb-3">
       <label for="validationCustom05">CEP</label>
-      <input type="text" class="form-control" id="validationCustom05" placeholder="<?php echo $cep?>" value="<?php echo $cep?>" required>
+      <input type="text" class="form-control" id="validationCustom05" placeholder="<?php echo $cep?>" value="<?php echo $cep?>" disabled>
     </div>
   </div>
   <br>
@@ -166,23 +171,23 @@ session_start();
   
   <div class="col-md-6 mb-3">
   <label for="validationCustom03">Endereco</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $endereco?>" value="<?php echo $endereco?>" required>
+      <input type="text" class="form-control" id="" placeholder="<?php echo $endereco?>" value="<?php echo $endereco?>" disabled>
  </div>
  <div class="col-md-3 mb-3">
       <label for="validationCustom04">Numero</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $numero?>" value="<?php echo $numero?>" required>  
+      <input type="text" class="form-control" id="" placeholder="<?php echo $numero?>" value="<?php echo $numero?>" disabled>  
     </div>
     <div class="col-md-3 mb-3">
       <label for="validationCustom04"> Cidade</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $cidade?>" value="<?php echo $cidade?>" required>  
+      <input type="text" class="form-control" id="" placeholder="<?php echo $cidade?>" value="<?php echo $cidade?>" disabled>  
     </div>
     <div class="col-md-3 mb-3">
       <label for="validationCustom04">Celular</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $celular?>" value="<?php echo $celular?>" required>  
+      <input type="text" class="form-control" id="" placeholder="<?php echo $celular?>" value="<?php echo $celular?>" disabled>  
     </div>
     <div class="col-md-6 mb-3">
       <label for="validationCustom04">Email</label>
-      <input type="text" class="form-control" id="" placeholder="<?php echo $email?>"  value="<?php echo $email?>" required>  
+      <input type="text" class="form-control" id="" placeholder="<?php echo $email?>"  value="<?php echo $email?>" disabled>  
       <br>  
     </div>
    

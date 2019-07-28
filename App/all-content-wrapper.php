@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="logo-pro">
-                    <a href="painel.php"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
+                    <a href="painel.php"><img class="main-logo" src="img/logo/pf_logo.png" alt="" /></a>
                 </div>
             </div>
         </div>
@@ -187,7 +187,7 @@
                                                 } 
                                             ?>
                                             </li>
-                                            <li class="nav-item"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="educate-icon educate-bell" aria-hidden="true"></i><span class="indicator-nt"></span></a>
+                                            <li class="nav-item"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="educate-icon educate-bell" aria-hidden="true"></i><span class="indicator"></span></a>
                                                 <div role="menu" class="notification-author dropdown-menu animated zoomIn">
                                                     <div class="notification-single-top">
                                                         <h1>Notificações</h1>
@@ -252,16 +252,14 @@
                                                         <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
                                                     </a>
                                                 <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                    <li><a href="#"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
-                                                    </li>
-                                                    <li><a href="#"><span class="edu-icon edu-user-rounded author-log-ic"></span>Meu Perfil</a>
+                                                    <li><a href="./dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
                                                     </li>
                                                     </li>
                                                     <li><a href="logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li class="nav-item nav-setting-open"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="educate-icon educate-menu"></i></a>
+                                            <!--<li class="nav-item nav-setting-open"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="educate-icon educate-menu"></i></a>
 
                                                 <div role="menu" class="admintab-wrap menu-setting-wrap menu-setting-wrap-bg dropdown-menu animated zoomIn">
                                                     <ul class="nav nav-tabs custon-set-tab">
@@ -269,8 +267,8 @@
                                                         </li>
                                                         <li><a data-toggle="tab" href="#Projects">Projetos</a>
                                                         </li>
-                                                        <!--<li><a data-toggle="tab" href="#Settings">Configurações</a>
-                                                        </li>-->
+                                                        <<li><a data-toggle="tab" href="#Settings">Configurações</a>
+                                                        </li>
                                                     </ul>
 
                                                     <div class="tab-content custom-bdr-nt">
@@ -280,7 +278,7 @@
                                                                     <h2><i class="fa fa-comments-o"></i> Últimas Notas</h2>
                                                                     <p>Você não tem notas no momento.</p>
                                                                 </div>
-                                                                <!--<div class="notes-list-area notes-menu-scrollbar">
+                                                                <div class="notes-list-area notes-menu-scrollbar">
                                                                     <ul class="notes-menu-list">
                                                                         <li>
                                                                             <a href="#">
@@ -413,7 +411,7 @@
                                                                             </a>
                                                                         </li>
                                                                     </ul>
-                                                                </div>-->
+                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div id="Projects" class="tab-pane fade">
@@ -422,7 +420,7 @@
                                                                     <h2><i class="fa fa-cube"></i> Últimos Projetos</h2>
                                                                     <p> Você não tem projetos no momento.</p>
                                                                 </div>
-                                                                <!--<div class="project-st-list-area project-st-menu-scrollbar">
+                                                                <div class="project-st-list-area project-st-menu-scrollbar">
                                                                     <ul class="projects-st-menu-list">
                                                                         <li>
                                                                             <a href="#">
@@ -569,10 +567,10 @@
                                                                             </a>
                                                                         </li>
                                                                     </ul>
-                                                                </div>-->
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                        <!--<div id="Settings" class="tab-pane fade">
+                                                        <div id="Settings" class="tab-pane fade">
                                                             <div class="setting-panel-area">
                                                                 <div class="note-heading-indicate">
                                                                     <h2><i class="fa fa-gears"></i> Painel de COnfigurações</h2>
@@ -694,10 +692,10 @@
                                                                 </ul>
 
                                                             </div>
-                                                        </div>-->
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </li>-->
                                         </ul>
                                     </div>
 
@@ -726,7 +724,6 @@
                                         <ul id="demopro" class="collapse dropdown-header-top">
                                             <li><a href="dadosdoAluno.php">Perfil do Aluno</a>
                                             </li>
-                                            <li><a href="#">Editar</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -764,9 +761,9 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <ul class="breadcome-menu">
-                                        <li><a href="#">Início</a> <span class="bread-slash">/</span>
+                                        <li><a href="./painel.php">Início</a>
                                         </li>
-                                        <li><span class="bread-blod">Agendar</span>
+                                        <li><span class="bread-blod"><?php echo $bread ?></span>
                                         </li>
                                     </ul>
                                 </div>

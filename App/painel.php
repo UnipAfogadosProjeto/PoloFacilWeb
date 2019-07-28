@@ -6,6 +6,9 @@
         header('Location: login.php');
     }
 
+    $bread = '';
+    $active = ['active', '', ''];
+
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="pt-BR">
@@ -69,6 +72,9 @@
         ============================================ -->
     <link rel="stylesheet" href="css/calendar/fullcalendar.min.css">
     <link rel="stylesheet" href="css/calendar/fullcalendar.print.min.css">
+    <!-- modals CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/modals.css">
     <!-- style CSS
         ============================================ -->
     <link rel="stylesheet" href="style.css">

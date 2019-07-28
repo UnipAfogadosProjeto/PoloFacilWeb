@@ -5,6 +5,9 @@
 $consumo = file_get_contents("http://186.233.148.102:8080/GetAgendamentos/$ra");
 $consumo = utf8_encode($consumo);
 $consumo = json_decode($consumo);
+
+$bread = '/ Meus Agendamentos';
+$active = ['active', '', ''];
  
 ?>
 <!DOCTYPE html>
@@ -86,6 +89,9 @@ $consumo = json_decode($consumo);
     <!-- chosen CSS
         ============================================ -->
     <link rel="stylesheet" href="css/chosen/bootstrap-chosen.css">
+        <!-- modals CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/modals.css">
     <!-- ionRangeSlider CSS
         ============================================ -->
     <link rel="stylesheet" href="css/ionRangeSlider/ion.rangeSlider.css">
