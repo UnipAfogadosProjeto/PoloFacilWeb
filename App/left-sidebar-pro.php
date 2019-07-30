@@ -1,7 +1,7 @@
 <nav id="sidebar" class="">
     <div class="sidebar-header">
-        <a href="index.php"><img class="main-logo" src="img/logo/pf_logo.png" alt="" /></a>
-        <strong><a href="index.php"><img src="img/logo/pf_logosn.png" alt="" /></a></strong>
+        <a href="painel.php"><img class="main-logo" src="img/logo/pf_logo.png" alt="" /></a>
+        <strong><a href="painel.php"><img src="img/logo/pf_logosn.png" alt="" /></a></strong>
     </div>
     <div class="left-custom-menu-adp-wrap comment-scrollbar">
         <nav class="sidebar-nav left-sidebar-menu-pro">
@@ -19,13 +19,13 @@
                         <li><a title="Widgets" href="widgets.html"><span class="mini-sub-pro">Widgets</span></a></li>
                     </ul>
                 </li>-->
-                <li>
+                <li <?php echo 'class="'.$active[0].'"'; if($active[0] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                     <a class="has-arrow" href="index.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
                     <ul class="submenu-angle" aria-expanded="true">
                         <li><a title="Provas" href="agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
                         <li><a title="Meus Agendamentos" href="meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
                     </ul>
-                </li>
+                </li >
                 <!--<li>
                     <a class="has-arrow" href="all-professors.html" aria-expanded="false"><span class="educate-icon educate-professor icon-wrap"></span> <span class="mini-click-non">Professors</span></a>
                     <ul class="submenu-angle" aria-expanded="false">
@@ -35,11 +35,10 @@
                         <li><a title="Professor Profile" href="professor-profile.html"><span class="mini-sub-pro">Professor Profile</span></a></li>
                     </ul>
                 </li>-->
-                <li>
+                <li <?php echo 'class="'.$active[1].'"'; if($active[1] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                     <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
                     <ul class="submenu-angle" aria-expanded="false">
                         <li><a title="Students Profile" href="dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
-                        <li><a title="Edit Students" href="#"><span class="mini-sub-pro">Editar</span></a></li>
                     </ul>
                 </li>
                 <!--<li>
@@ -52,7 +51,7 @@
                         <li><a title="Product Payment" href="course-payment.html"><span class="mini-sub-pro">Courses Payment</span></a></li>
                     </ul>
                 </li>-->
-                <li>
+                <li <?php echo 'class="'.$active[2].'"'; if($active[2] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                     <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Minhas Apostilas</span></a>
                     <ul class="submenu-angle" aria-expanded="false">
                         <li><a title="All Library" href="apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
@@ -60,7 +59,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#" aria-expanded="false"><span class="educate-icon educate-department icon-wrap"></span> <span class="mini-click-non">Simulados</span></a>
+                    <a href="#" aria-expanded="false" data-toggle="modal" data-target="#ModalSimulados"><span class="educate-icon educate-department icon-wrap"></span> <span class="mini-click-non">Simulados</span></a>
                     <!--<ul class="submenu-angle" aria-expanded="false">
                         <li><a title="Departments List" href="departments.html"><span class="mini-sub-pro">Departments List</span></a></li>
                         <li><a title="Add Departments" href="add-department.html"><span class="mini-sub-pro">Add Departments</span></a></li>
@@ -101,8 +100,10 @@
                     </ul>
                 </li>
                 <li>-->
-                    <a  aria-expanded="false" href="#"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
+                    <a  aria-expanded="false" href="#" data-toggle="modal" data-target="#ModalProvas"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
+                    
                 </li>
+
                 <!--<li>
                     <a class="has-arrow" href="mailbox.html" aria-expanded="false"><span class="educate-icon educate-form icon-wrap"></span> <span class="mini-click-non">Forms Elements</span></a>
                     <ul class="submenu-angle form-mini-nb-dp" aria-expanded="false">
@@ -124,19 +125,46 @@
                         <li><a title="Tabs" href="tabs.html"><span class="mini-sub-pro">Tabs</span></a></li>
                         <li><a title="Accordion" href="accordion.html"><span class="mini-sub-pro">Accordion</span></a></li>
                     </ul>
-                </li>
-                <li id="removable">
-                    <a class="has-arrow" href="#" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Pages</span></a>
-                    <ul class="submenu-angle page-mini-nb-dp" aria-expanded="false">
-                        <li><a title="Login" href="login.html"><span class="mini-sub-pro">Login</span></a></li>
-                        <li><a title="Register" href="register.html"><span class="mini-sub-pro">Register</span></a></li>
-                        <li><a title="Lock" href="lock.html"><span class="mini-sub-pro">Lock</span></a></li>
-                        <li><a title="Password Recovery" href="password-recovery.html"><span class="mini-sub-pro">Password Recovery</span></a></li>
-                        <li><a title="404 Page" href="404.html"><span class="mini-sub-pro">404 Page</span></a></li>
-                        <li><a title="500 Page" href="500.html"><span class="mini-sub-pro">500 Page</span></a></li>
-                    </ul>
                 </li>-->
+                <li id="removable">
+                    <a href="./logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
+                </li>
             </ul>
         </nav>
     </div>
 </nav>
+//Modais para com avisos
+<div id="ModalProvas" class="modal modal-edu-general default-popup-PrimaryModal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-close-area modal-close-df">
+                <a class="close" data-dismiss="modal" href="#"><i class="fa fa-close"></i></a>
+            </div>
+            <div class="modal-body">
+                <i class="educate-icon educate-checked modal-check-pro"></i>
+                <h2>Aviso!</h2>
+                <p><?php echo $_SESSION['Nome'];?> , no momento a página Provas não esta disponivel.</p>
+            </div>
+            <div class="modal-footer">
+                <a data-dismiss="modal" href="#">Está bem</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="ModalSimulados" class="modal modal-edu-general default-popup-PrimaryModal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-close-area modal-close-df">
+                <a class="close" data-dismiss="modal" href="#"><i class="fa fa-close"></i></a>
+            </div>
+            <div class="modal-body">
+                <i class="educate-icon educate-checked modal-check-pro"></i>
+                <h2>Aviso!</h2>
+                <p><?php echo $_SESSION['Nome'];?> , no momento a página Simulados não esta disponivel.</p>
+            </div>
+            <div class="modal-footer">
+                <a data-dismiss="modal" href="#">Está bem</a>
+            </div>
+        </div>
+    </div>
+</div>

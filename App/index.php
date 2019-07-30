@@ -177,7 +177,7 @@
                                 <h4 class="cards-hd-dn">Aluno</h4>
                                 <h5></h5>
                                 <p class="ctn-cards">Agende provas, consulte apostilas e muito mais.</p>
-                                <a href="aluno/login.php" >
+                                <a href="./login.php" >
                                     <button type="button" class="btn btn-lg btn-block btn-primary">Acessar</button>
                                 </a>
                                 

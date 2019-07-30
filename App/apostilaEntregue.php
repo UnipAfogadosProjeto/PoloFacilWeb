@@ -8,6 +8,9 @@ $res = curl_exec($consumo1);
 curl_close($consumo1);
 $consumo = utf8_encode($res);
 $consumo = json_decode($consumo);
+
+$bread = '/ Apostilas Entreges';
+$active = ['', '', 'active'];
  
  
 ?>
@@ -90,6 +93,9 @@ $consumo = json_decode($consumo);
     <!-- chosen CSS
         ============================================ -->
     <link rel="stylesheet" href="css/chosen/bootstrap-chosen.css">
+        <!-- modals CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/modals.css">
     <!-- ionRangeSlider CSS
         ============================================ -->
     <link rel="stylesheet" href="css/ionRangeSlider/ion.rangeSlider.css">

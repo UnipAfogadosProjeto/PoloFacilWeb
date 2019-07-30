@@ -41,7 +41,8 @@ $consumo = utf8_encode($consumo);
 $consumo = json_decode($consumo);
 
 
-
+$bread = '/ Agendar Provas';
+$active = ['active', '', ''];
 
 ?>
 <!DOCTYPE html>
@@ -128,6 +129,9 @@ $consumo = json_decode($consumo);
         ============================================ -->
     <link rel="stylesheet" href="css/ionRangeSlider/ion.rangeSlider.css">
     <link rel="stylesheet" href="css/ionRangeSlider/ion.rangeSlider.skinFlat.css">
+        <!-- modals CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/modals.css">
     <!-- style CSS
         ============================================ -->
     <link rel="stylesheet" href="style.css">
