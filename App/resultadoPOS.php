@@ -160,7 +160,7 @@ $consumo = array();
 										?>
                                     </div>
                                     <div class="modal-footer">
-                                        <a href="media.php">Voltar</a>
+                                        <a href="calcular_media.php">Voltar</a>
                                         <a href="login.php">Login</a>
                                     </div>
                                 </div>

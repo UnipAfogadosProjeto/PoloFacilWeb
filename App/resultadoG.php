@@ -162,7 +162,7 @@ $consumo = array();
 										?>
                                     </div>
                                     <div class="modal-footer ">
-                                        <a  class="btn btn-success" href="media.php">Voltar</a>
+                                        <a  class="btn btn-success" href="calcular_media.php">Voltar</a>
                                         <a  class="btn btn-success" href="login.php">Login</a>
                                     </div>
                                 </div>
