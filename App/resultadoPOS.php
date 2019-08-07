@@ -1,39 +1,33 @@
+<?php session_start();
 
-
-<?php
-
-
-
-session_start();
-
-$tipo_curso = "POS";
-$tipo_avaliacao = "AP";
-$n_pim = "0";
-$n_exame = "0";
+    $tipo_curso = "POS";
+    $tipo_avaliacao = "AP";
+    $n_pim = "0";
+    $n_exame = "0";
 
 
 
-$consumo = array();
- 
-//if(isset($_POST['n_prova']) && empty($_POST['n_prova']) == false) {
-	
-	$n_prova_converte = $_POST['n_prova'];
-  $n_prova = str_replace(",", ".", $n_prova_converte);
-  $n_ava_converte = $_POST['n_ava'];
-  $n_ava = str_replace(",", ".", $n_ava_converte);
-	
-  
-	
+    $consumo = array();
+
+    //if(isset($_POST['n_prova']) && empty($_POST['n_prova']) == false) {
+
+    $n_prova_converte = $_POST['n_prova'];
+    $n_prova = str_replace(",", ".", $n_prova_converte);
+    $n_ava_converte = $_POST['n_ava'];
+    $n_ava = str_replace(",", ".", $n_ava_converte);
 
 
-	$consumo = file_get_contents("http://186.233.148.102:8080/CalculaMedia/$tipo_curso/$tipo_avaliacao/$n_prova/$n_pim/$n_ava/$n_exame");
 
-	$consumo = utf8_encode($consumo);
-	$consumo = json_decode($consumo);
 
-	$resultato_final = $consumo->Resultado;
-  $nota_final = $consumo->Media;
-  
+
+    $consumo = file_get_contents("http://186.233.148.102:8080/CalculaMedia/$tipo_curso/$tipo_avaliacao/$n_prova/$n_pim/$n_ava/$n_exame");
+
+    $consumo = utf8_encode($consumo);
+    $consumo = json_decode($consumo);
+
+    $resultato_final = $consumo->Resultado;
+    $nota_final = $consumo->Media;
+
 
 
 

@@ -1,5 +1,4 @@
-<?php
-session_start();
+<?php session_start();
 $usuario = $_SESSION['RA'];
 $idSala = $_GET['codigo'];
 
@@ -10,6 +9,6 @@ $consumo = json_decode($consumo);
 
 
 header('Location: agendar_provas.php');
-	exit;
+	exit();
 
 ?>

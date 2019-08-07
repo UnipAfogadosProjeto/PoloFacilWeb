@@ -98,9 +98,9 @@
                         <li><a title="Sparkline Charts" href="sparkline.html"><span class="mini-sub-pro">Sparkline Charts</span></a></li>
                         <li><a title="Peity Charts" href="peity.html"><span class="mini-sub-pro">Peity Charts</span></a></li>
                     </ul>
-                </li>
-                <li>-->
-                    <a  aria-expanded="false" href="#" data-toggle="modal" data-target="#ModalProvas"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
+                </li>-->
+                <li>
+                    <a  aria-expanded="false" href="provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
                     
                 </li>
 
@@ -133,24 +133,6 @@
         </nav>
     </div>
 </nav>
-//Modais para com avisos
-<div id="ModalProvas" class="modal modal-edu-general default-popup-PrimaryModal fade" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-close-area modal-close-df">
-                <a class="close" data-dismiss="modal" href="#"><i class="fa fa-close"></i></a>
-            </div>
-            <div class="modal-body">
-                <i class="educate-icon educate-checked modal-check-pro"></i>
-                <h2>Aviso!</h2>
-                <p><?php echo $_SESSION['Nome'];?> , no momento a página Provas não esta disponivel.</p>
-            </div>
-            <div class="modal-footer">
-                <a data-dismiss="modal" href="#">Está bem</a>
-            </div>
-        </div>
-    </div>
-</div>
 <div id="ModalSimulados" class="modal modal-edu-general default-popup-PrimaryModal fade" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">

@@ -735,7 +735,7 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a data-toggle="collapse" data-target="#Tablesmob" href="#">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                    <li><a " href="provas/1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                     </li>
                                 </ul>
                             </nav>

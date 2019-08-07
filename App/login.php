@@ -1,9 +1,8 @@
-<?php
-	// Inicia a _SESSION. Sempre colocar na primeira linha depois no <?php!
-	session_start();
+<?php session_start(); // Inicia a _SESSION. Sempre colocar na primeira linha depois no <?php!
 	$msg = 0;
 	if(isset($_SESSION['Nome']) && empty($_SESSION['Nome']) == false) {
 		header('Location: painel.php');
+        exit();
 	}else{
 
 		// Verifica, atraves do method="POST", se existe um campo ra_user e verifica se não esta vario. 
@@ -63,6 +62,7 @@
 
 		 		// Muda o cabeçalho no navegador e redireciona para index.php
 		 		header('Location: painel.php');
+                exit();
 	 		}
 		}
 	}

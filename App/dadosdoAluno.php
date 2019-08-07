@@ -1,6 +1,4 @@
-
-<?php
-session_start(); 
+<?php session_start(); 
 
 
 		 	$ra =	$_SESSION['RA'];

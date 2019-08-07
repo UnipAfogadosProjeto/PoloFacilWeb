@@ -1,5 +1,4 @@
-<?php
- session_start();
+<?php session_start();
  $ra = $_SESSION['RA'];
  $consumo1 = curl_init();
 curl_setopt($consumo1, CURLOPT_URL, "http://186.233.148.102:8080/GetListaApostila/$ra/1");

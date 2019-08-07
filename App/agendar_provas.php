@@ -1,7 +1,5 @@
 
-<?php 
-
-    session_start(); 
+<?php session_start(); 
     // pega a data no pc
 
     date_default_timezone_set('America/Sao_Paulo');
@@ -30,8 +28,10 @@
         $datas = utf8_encode($res);
         $data = json_decode($datas);
 
+
     }else{
         header('Location: login.php');
+        exit();
     }
 // Para para mostra consultar 
 //
@@ -281,22 +281,32 @@ $active = ['active', '', ''];
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"">
                                             <div class="chosen-select-single mg-b-20" >
                                                 <label>Selecione uma data disponivel para agendar sua prova</label>
-                                                <?php $keys = array_keys($data); ?>
-                                                <form action="Incluir_Agendamento.php" method="GET" >
+                                                <?php if($data->Salas == "Não há salas disponíveis"){
+                                                 echo '<form action="Incluir_Agendamento.php" method="GET" >
                                                     <select  data-placeholder="Choose a Country..." class="chosen-select" tabindex="-1" name="IdAp">
-                                                        <option value="">Procurar</option>
-                                                        <?php if(!empty($data)) {
-                                                                for($i = 0; $i < count($data); $i++) {
-                                                        ?> 
-                                                            <option value="<?php echo $data[$i]->IdAP; ?>"><?php echo  $data[$i]->Complemento; ?></option>
-                                                      <?php  } } ?>
+                                                        <option value="">Não há salas disponíveis</option> 
                                                         
                                                     </select>
-                                                    <button style="margin-top: 20px;"type="subimt" class="btn btn-custon-four btn-danger">
-                                            <i class="fa fa-check edu-checked-pro" aria-hidden="true"></i> Agendar</button>
                                     
-                                                </form>
-                                            </div>
+                                                </form>';   
+                                                }else{
+                                                    $keys = array_keys($data);
+                                                    echo '<form action="Incluir_Agendamento.php" method="GET" >
+                                                        <select  data-placeholder="Choose a Country..." class="chosen-select" tabindex="-1" name="IdAp">
+                                                            <option value="">Procurar</option>
+                                                            <?php if(!empty($data)) {
+                                                                    for($i = 0; $i < count($data); $i++) {
+                                                            ?> 
+                                                                <option value="<?php echo $data[$i]->IdAP; ?>"><?php echo  $data[$i]->Complemento; ?></option>
+                                                          <?php  } } ?>
+                                                            
+                                                        </select>
+                                                        <button style="margin-top: 20px;"type="subimt" class="btn btn-custon-four btn-danger">
+                                                        <i class="fa fa-check edu-checked-pro" aria-hidden="true"></i> Agendar</button>
+                                                    </form>';
+                                                }
+                                                ?>
+                                                </div>
                                             <br>
                                         </div>
                                     </div>

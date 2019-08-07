@@ -1,5 +1,4 @@
-<?php
-session_start();
+<?php session_start();
 
 $tipo_curso = null;
 $tipo_avaliacao = null;
@@ -31,6 +30,7 @@ if(isset($_POST['n_prova']) && empty($_POST['n_prova']) == false) {
 else{
 	
 	header('Location: calcular_media.php');
+    exit();
 }
 
 

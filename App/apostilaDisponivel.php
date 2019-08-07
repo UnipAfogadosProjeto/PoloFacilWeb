@@ -1,5 +1,4 @@
-<?php
- session_start();
+<?php session_start();
  $ra = $_SESSION['RA'];
 
  $consumo1 = curl_init();
@@ -150,20 +149,29 @@ $active = ['', '', 'active'];
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <?php
-                                          
-                                            foreach($consumo->Apostilas as $item){
-                                            //while ($objetoLocacao = array_shift($listaLocacao)) {?>   
-                                                
-                                            <tr class="bg-info">
-                                                <td class="col-md-1"><?php echo "".$item->Codigo."";?></td>
-                                                <td class="col-md-1"><?php echo "".$item->Disciplina."";?></td>
-                                                <td class="col-md-1"></td>
-                                                <td class="col-md-1">
-               
-                                                </td>
-                                            </tr>
-                                          <?php
+                                        <?php
+
+                                            if($consumo->Apostilas == "Sem Apostilas"){
+                                                echo '<tr class="bg-info">
+                                                    <td class="col-md-1">0</td>
+                                                    <td class="col-md-1">você não tem apostilas disponiveis</td>
+                                                    <td class="col-md-1"></td>
+                                                    <td class="col-md-1"></td>
+                                                </tr>';
+                                            }else{
+                                                foreach($consumo->Apostilas as $item){
+                                                //while ($objetoLocacao = array_shift($listaLocacao)) {  
+                                                    
+                                                echo '<tr class="bg-info">
+                                                    <td class="col-md-1"><?php echo "".$item->Codigo."";?></td>
+                                                    <td class="col-md-1"><?php echo "".$item->Disciplina."";?></td>
+                                                    <td class="col-md-1"></td>
+                                                    <td class="col-md-1">
+                   
+                                                    </td>
+                                                </tr>';
+                                                    
+                                                }
                                             }
                                           ?>
                                         </tbody>

@@ -1,6 +1,4 @@
-
-<?php
- session_start();
+<?php session_start();
  $ra = $_SESSION['RA'];
 $consumo = file_get_contents("http://186.233.148.102:8080/GetAgendamentos/$ra");
 $consumo = utf8_encode($consumo);
