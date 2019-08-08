@@ -1031,73 +1031,71 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Data da Postagem</th>
-                                        <th>Curso</th>
+                                        <th>Acessar</th>
+                                        <th>Disciplina</th>
                                         <th>Bimestre</th>
                                         <th>Semestre</th>
-                                        <th>Disciplina</th>
-                                        <th>Ação</th>
+                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
-                                        <td>07/08/2019</td>
-                                        <td>ADMINISTRAÇÃO</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>Economia e Negócios</td>
                                         <td>
-                                            <a href="623960-economia_e_negocios.php"class="pd-setting">Acessar</a>
+                                            <a href="623960-economia_e_negocios.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
                                         </td>
-                                    </tr>
-                                    <tr>
-                                        <td>07/08/2019</td>
-                                        <td>ADMINISTRAÇÃO</td>
+                                        <td>Economia e Negócios</td>
                                         <td>2º</td>
                                         <td>1º</td>
-                                        <td>Comportamento Humano nas Organizações</td>
+                                        <td>07/08/2019</td>
+
+
+                                    </tr>
+                                    <tr>
                                         <td>
-                                            <a href="539660-comportamento_humano_nas_organizacoes.php"class="pd-setting">Acessar</a>
+                                            <a href="539660-comportamento_humano_nas_organizacoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
                                             
                                         </td>
+                                        <td>Comportamento Humano nas Organizações</td>
+                                        <td>2º</td>
+                                        <td>1º</td>
+                                        <td>07/08/2019</td>
+   
                                     </tr>
                                     <tr>
-                                        <td>07/08/2019</td>
-                                        <td>ADMINISTRAÇÃO</td>
+                                        <td>
+                                            <a href="623760-elaboracao_e_analise_de_projetos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                        </td>
+                                        <td>Elaboração e Análise de Projetos</td>
                                         <td>2º</td>
                                         <td>5º</td>
-                                        <td>Elaboração e Análise de Projetos</td>
-                                        <td>
-                                            <a href="623760-elaboracao_e_analise_de_projetos.php"class="pd-setting">Acessar</a>
-                                        </td>
+                                        <td>07/08/2019</td>
                                     </tr>
                                     <tr>
-                                        <td>07/08/2019</td>
-                                        <td>ADMINISTRAÇÃO</td>
-                                        <td>2º</td>
-                                        <td>7º</td>
+                                        <td>
+                                            <a href="537860-economia_e_gestao_do_setor_publico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                        </td>
                                         <td>Economia e Gestão de Setor Público</td>
-                                        <td>
-                                            <a href="537860-economia_e_gestao_do_setor_publico.php"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>07/08/2019</td>
-                                        <td>ADMINISTRAÇÃO</td>
                                         <td>2º</td>
                                         <td>7º</td>
-                                        <td>Administraçao Estratégica</td>
-                                        <td>
-                                            <a href="540080-administracao_estrategica.php"class="pd-setting">Acessar</a>
-                                        </td>
+                                        <td>07/08/2019</td>
                                     </tr>
                                     <tr>
+                                        
+                                        <td>
+                                            <a href="540080-administracao_estrategica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                        </td>
+                                        <td>Administraçao Estratégica</td>
+                                        <td>2º</td>
+                                        <td>7º</td>
                                         <td>07/08/2019</td>
-                                        <td>ADMINISTRAÇÃO</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="539680-comportamento_humano_nas_organizacoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                        </td>
+                                        <td>Comportamento Humano nas Organizações</td>
                                         <td>2º</td>
                                         <td>9º</td>
-                                        <td>Comportamento Humano nas Organizações</td>
-                                        <td>
-                                            <a href="539680-comportamento_humano_nas_organizacoes.php"class="pd-setting">Acessar</a>
-                                        </td>
+                                        <td>07/08/2019</td>
+
                                     </tr>
                                 </table>
                             </div>
