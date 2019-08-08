@@ -1,9 +1,9 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / 1';
+    $bread = '/ Provas / Administração';
     $active = ['', '', ''];
 
-    include("../GetListaAvisos.php");
+    include("../../GetListaAvisos.php");
     if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
         $ra = $_SESSION['RA'];
         $temAviso = false;
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Painel | Polo Fácil</title>
+    <title>Provas - Administração | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -45,56 +45,56 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
     <!-- owl.carousel CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/owl.carousel.css">
-    <link rel="stylesheet" href="../css/owl.theme.css">
-    <link rel="stylesheet" href="../css/owl.transitions.css">
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <link rel="stylesheet" href="../../css/owl.transitions.css">
     <!-- animate CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../../css/animate.css">
     <!-- normalize CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
     <!-- meanmenu icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/meanmenu.min.css">
+    <link rel="stylesheet" href="../../css/meanmenu.min.css">
     <!-- main CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
     <!-- educate icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/educate-custon-icon.css">
+    <link rel="stylesheet" href="../../css/educate-custon-icon.css">
     <!-- morrisjs CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/morrisjs/morris.css">
+    <link rel="stylesheet" href="../../css/morrisjs/morris.css">
     <!-- mCustomScrollbar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../../css/scrollbar/jquery.mCustomScrollbar.min.css">
     <!-- metisMenu CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu.min.css">
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu-vertical.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu-vertical.css">
     <!-- calendar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.min.css">
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.print.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.print.min.css">
     <!-- modals CSS
     ============================================ -->
-    <link rel="stylesheet" href="../css/modals.css">
+    <link rel="stylesheet" href="../../css/modals.css">
     <!-- style CSS
         ============================================ -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../style.css">
     <!-- responsive CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
     <!-- modernizr JS
         ============================================ -->
-    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -105,8 +105,8 @@
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
-                <strong><a href="../painel.php"><img src="../img/logo/pf_logosn.png" alt="" /></a></strong>
+                <a href="../../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
+                <strong><a href="../../painel.php"><img src="../../img/logo/pf_logosn.png" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
@@ -127,8 +127,8 @@
                         <li <?php echo 'class="'.$active[0].'"'; if($active[0] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="index.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
                             <ul class="submenu-angle" aria-expanded="true">
-                                <li><a title="Provas" href="../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
-                                <li><a title="Meus Agendamentos" href="../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
+                                <li><a title="Provas" href="../../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
+                                <li><a title="Meus Agendamentos" href="../../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
                             </ul>
                         </li >
                         <!--<li>
@@ -143,7 +143,7 @@
                         <li <?php echo 'class="'.$active[1].'"'; if($active[1] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Students Profile" href="../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
+                                <li><a title="Students Profile" href="../../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
                             </ul>
                         </li>
                         <!--<li>
@@ -159,8 +159,8 @@
                         <li <?php echo 'class="'.$active[2].'"'; if($active[2] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Minhas Apostilas</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Library" href="../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
-                                <li><a title="Add Library" href="../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
+                                <li><a title="All Library" href="../../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
+                                <li><a title="Add Library" href="../../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
                             </ul>
                         </li>
                         <li>
@@ -205,7 +205,7 @@
                             </ul>
                         </li>-->
                         <li>
-                            <a  aria-expanded="false" href="../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
+                            <a  aria-expanded="false" href="../../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
                             
                         </li>
 
@@ -232,7 +232,7 @@
                             </ul>
                         </li>-->
                         <li id="removable">
-                            <a href="../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
+                            <a href="../../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -264,7 +264,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="logo-pro">
-                            <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
+                            <a href="../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -325,7 +325,7 @@
                                                                         <li>
                                                                             <a href="#" data-toggle="modal" data-target="<?php echo 'Modal'.$item->idAviso;?>">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     
@@ -345,7 +345,7 @@
                                                                         <li>
                                                                             <a href="#">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     <p>Você não tem mensagens no momento.</p>
@@ -496,10 +496,10 @@
                                                                 <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
                                                             </a>
                                                         <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                            <li><a href="./dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
+                                                            <li><a href="../../dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
                                                             </li>
                                                             </li>
-                                                            <li><a href="../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
+                                                            <li><a href="../../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -960,26 +960,26 @@
                                         <ul class="mobile-menu-nav">
                                             <li><a data-toggle="collapse" data-target="#Charts" href="#">Agendamento <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul class="collapse dropdown-header-top">
-                                                    <li><a href="../agendar_provas.php">Agendar Provas</a></li>
-                                                    <li><a href="../meusAgendamentos.php">Meus Agendamentos</a></li>
+                                                    <li><a href="../../agendar_provas.php">Agendar Provas</a></li>
+                                                    <li><a href="../../meusAgendamentos.php">Meus Agendamentos</a></li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demopro" href="#">Meus Dados <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demopro" class="collapse dropdown-header-top">
-                                                    <li><a href="../dadosdoAluno.php">Perfil do Aluno</a>
+                                                    <li><a href="../../dadosdoAluno.php">Perfil do Aluno</a>
                                                     </li>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demolibra" href="#">Minhas Apostilas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demolibra" class="collapse dropdown-header-top">
-                                                    <li><a href="../apostilaEntregue.php">Apostilas Entregues</a>
+                                                    <li><a href="../../apostilaEntregue.php">Apostilas Entregues</a>
                                                     </li>
-                                                    <li><a href="../apostilaDisponivel.php">Novas Apostilas</a>
+                                                    <li><a href="../../apostilaDisponivel.php">Novas Apostilas</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <li><a href="../../provas/1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -1005,7 +1005,7 @@
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                             <ul class="breadcome-menu">
-                                                <li><a href="../painel.php">Início</a>
+                                                <li><a href="../../painel.php">Início</a>
                                                 </li>
                                                 <li><span class="bread-blod"><?php echo $bread ?></span>
                                                 </li>
@@ -1023,130 +1023,188 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Nº</th>
-                                        <th>Data da Postagem</th>
-                                        <th>Curso</th>
-                                        <th>Tipo</th>
-                                        <th>Quantidade</th>
-                                        <th>Ação</th>
-                                    </tr>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>06/08/2019</td>
-                                        <td>ADMINISTRAÇÃO</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="./administracao/index.php"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>06/08/2019</td>
-                                        <td>CIÊNCIAS CONTÁBEIS</td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>06/08/2019</td>
-                                        <td>CIÊNCIAS ECONÔMICAS</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>06/08/2019</td>
-                                        <td>EDUCAÇÃO FÍSICA</td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>06/08/2019</td>
-                                        <td>GASTRONOMIA</td>
-                                        <td>Bimestral</td>
-                                        <td>1</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>06/08/2019</td>
-                                        <td>GEOGRAFIA</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>7</td>
-                                        <td>06/08/2019</td>
-                                        <td>GESTÃO AMBIENTAL</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>8</td>
-                                        <td>06/08/2019</td>
-                                        <td>GESTÃO COMERCIAL</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                        <td>06/08/2019</td>
-                                        <td>ANÁLISE DE SISTEMA</td>
-                                        <td>Bimestral</td>
-                                        <td>5</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>10</td>
-                                        <td>06/08/2019</td>
-                                        <td>TECLONOCIA DA INFORMAÇÃO</td>
-                                        <td>Bimestral</td>
-                                        <td>4</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                </table>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
+                            </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP INTERATIVA</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 18946528380</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> ADMINISTRAÇÃO</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> : 2º Bimestre - 7º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I - Questões objetivas – valendo 5,00 pontos</span></strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">II - Questões discursivas – valendo 5,00 pontos Gerada em: 04/06/2018 20:23:42</span></strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 540080 - Administraçao Estratégica</p>
+
+                                    <p><strong>Questão 1:</strong>As escolas de natureza prescritiva:</br>
+
+                                    </br></br>
+
+                                    A) Estão mais voltadas para como as estratégias devem ser formuladas do que como elas são formuladas.</br>
+
+                                     B) Estão voltadas para a formulação das estratégias, embora orientem como devem ser formuladas. </br>
+
+                                    C) Focalizam os processos de formulação de forma integradora e visionária. </br>
+
+                                    D) Prescrevem o comportamento estratégico ideal, descrevendo os passos de como desenvolver a visão, utilizar o conhecimento adquirido com as experiências anteriores, os métodos de negociação e persuasão, bem como estimulando a formulação da estratégia de forma coletiva.</br>
+
+		E) Preocupam-se me estabelecer métodos integrados de formulação das estratégias.</br>
+
+                                  
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> Qual a principal contribuição da escola do design, bem como da escola do planejamento, respectivamente?</br>
+
+                                    </br></br>
+
+                                    A) Introdução da cadeia de Valor e formulação das estratégias pela coletividade.</br>
+		B) Análise SWOT e oportunidade de aprendizado grupal.</br>
+		C) Reforço da liderança e utilização de qualquer um com poder.</br>
+		D) Ênfase na missão e visão organizacional e Introdução da cadeia de Valor.</br>
+		E) Análise SWOT e ênfase na missão e visão organizacional.</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong>Esta escola foi responsável por uma visão dominante da formação da estratégia nos anos 80, dando seguimento a trabalhos anteriores sobre estratégia, no meio acadêmico (nomeadamente de Hatten e Schendel) e na consultoria (do Boston Consulting Group e o projeco PIMS), todos precedidos por uma extensa literatura sobre estratégia militar, que remonta a Sun Tzu, em 400 a.C. Nesta perspectiva, a estratégia resume-se a posições genéricas, selecionadas por meio de análises formalizadas de conjunturas setoriais. O planejador torna-se desta forma analista. O que demonstrou ser particularmente lucrativo para ambos, consultores e acadêmicos, que puderam se debruçar em dados sólidos e promover as suas "verdades científicas" em jornais e empresas. Esta literatura cresceu em todas as direções, para incluir grupos estratégicos, cadeias de valor, teorias do jogo e outras idéias - mas sempre de acordo com este pendor analítico. Trata-se da:</br>
+
+                                    A) Escola Cognitiva.</br> 
+		B) Escola do Planejamento.</br> 
+		C) Escola Descritiva.</br> 
+		D) Escola do Posicionamento.</br>
+		E) Escola do Design.</br>
+                                    </p>
+
+
+                                    <p><strong>Questão 4:</strong> Em relação às estratégias corporativas de estabilidade e de retração (ou redução), analisar as afirmativas abaixo e em seguida assinalar a alternativa correta: </br>
+
+		I - A estratégia de estabilidade é caracterizada pela redução do nível de operações de uma organização e ocorre quando a empresa passa por um período de dificuldades. Por outro lado, a estratégia de retração é adotada por empresas que buscam manter o mesmo tamanho ou crescer de forma controlada, sendo caracterizada pela ausência de mudanças significativas nas orientações estratégicas da organização.</br>
+		II - A estratégia de estabilidade é típica de organizações que apresentam desempenho satisfatório e operam num ambiente estável. </br>
+		III - A implementação de estratégias de estabilidade rotineiramente requer o saneamento de unidades de negócio por meio de: reestruturação, reengenharia ou downsizing. </br>
+		IV - As estratégias de retração podem envolver a saída de negócios. A reviravolta pode ocorrer quando as estratégias de desinvestimento ou liquidação não funcionaram. </br>
+
+                                    </br>Alternativas de resposta:</br>
+
+		A) Somente as afirmativas I e II são verdadeiras. </br>
+		B) Somente as afirmativas II e III são verdadeiras. </br>
+		C) Somente as afirmativas III e IV são verdadeiras. </br>
+		D) Somente as afirmativas II e IV são verdadeiras. </br>
+		E) Todas afirmativas são falsas.</br>
+
+                                    </p>
+
+
+                                    <p><strong>Questão 5:</strong> Para WRIGHT, KROLL e PARNELL (2000), as estratégias corporativas de estabilidade podem ser de manutenção do conjunto de empresas ou manutenção (concentração) das operações em um setor. Alguns autores denominam o segundo caso como estratégia de concentração, ou seja, ela ocorre quando a empresa seleciona um único segmento como prioritário, como o mais importante, e concentra todos os esforços nele (daí o nome). Isto pode ocorrer por uma série de motivos: proximidade geográfica, potencial de mercado significativo ou potenciais margens de lucro. Um exemplo desse tipo de estratégia: lojas especializadas para atender determinada característica de mercado, como lojas com roupas para pessoas obesas. Ari Barroso, presidente de uma grande rede de supermercados com produtos diversificados para todas as classes sociais optou por uma estratégia empresarial de concentração, com produtos direcionados para a baixa renda (classes sociais C e D), mas foi duramente criticado. Justificou a escolha alegando que, desta forma, ele focalizaria:</br>
+
+                                    </br></br>
+
+		A) O fato de a empresa ser única em seu setor em dimensões que os consumidores valorizam, buscando a alta qualidade dos produtos e sua distribuição diferenciada.</br> 
+		B) Um único negócio, podendo penetrar melhor em um mercado de alto crescimento. </br>
+		C) a entrada em novos negócios relacionados ao negócio central original, visando à transferência de tecnologias. </br>
+		D) A expansão do domínio da organização na cadeia de fornecimento ou de distribuidores, reduzindo custos. </br>
+		E) A expansão para negócios não relacionados entre si, minimizando os riscos devidos a flutuações de mercado em um único setor. </br>
+</br>
+                                    </p>
+
+
+                                    <p><strong>Questão 6:</strong> A respeito do crescimento por meio de fusões e aquisições, analisar as afirmativas abaixo e em seguida assinalar a alternativa correta: </br>
+
+                                    </br></br>
+
+		I - Sabe-se que o crescimento externo das organizações pode se dar por meio de fusões e aquisições. A fusão ocorre quando duas empresas, geralmente de tamanhos idênticos (ou similares) juntam suas operações e passam a operar como uma só. A aquisição, por sua vez, consiste na compra de uma empresa que passa a atuar como parte de uma organização maior. </br>
+		II - Um exemplo de aquisição é o da BSH (unidade de eletrodomésticos das multinacionais alemãs Bosch e Siemens) que entrou no Brasil há quase 15 anos, com a compra da brasileira Continental, então líder no mercado de fogões. </br>
+		III - Exemplos de fusões são: a formação da Brasil Foods, resultado da união entre a Sadia e a Perdigão; a união entre a VCP e a Aracruz, no mercado de celulose, e os caminhos de crescimento do grupo siderúrgico Gerdau pelas Américas. </br>
+		IV - Para a Sadia, a fusão com a Perdigão, ao invés de ser prioritariamente uma alternativa de crescimento, na verdade se apresentou como uma tábua de salvação, devido aos deslizes financeiros praticados que quase a levaram à falência. </br>
+
+
+                                    </br>Alternativas de resposta: </br>
+
+		A) Somente as afirmativas I, II e III são verdadeiras. </br>
+		B) Somente as afirmativas I, III e IV são verdadeiras. </br>
+		C) Somente as afirmativas I, II e IV são verdadeiras. </br>
+		D) Somente as afirmativas II, III e IV são verdadeiras. </br>
+		E) Todas afirmativas são verdadeiras.</br>
+
+                                    </p>
+
+
+                                    <p><strong>Questão 7:</strong> Entre as premissas básicas que sustentam a escola do design, podemos citar: </br>
+
+                                    </br>
+		A) A produção da estratégia deve ser um processo deliberado de pensamento consciente. </br>
+		B) A estratégia existe na mente do líder como perspectiva, especificamente um senso de direção a longo prazo, uma visão do futuro da organização. </br>
+		C) As estratégias devem resultar de um processo controlado e consciente de planejamento formal. </br>
+		D) A responsabilidade pelo controle e percepção é do executivo principal. </br>
+		E) Estratégias são posições genéricas, especificamente comuns e identificáveis no mercado. </br>
+
+                                    </p>
+
+
+                                    <p><strong>Questão 8:</strong> Recorde as seguintes definições:</br>
+
+                                    </br>
+		I - As estratégias podem ser, na visão de Mintzberg e Quinn (1991), corporativas, unidade de negócio e funcional. Segundo Wright, Kroll e PArnell, as estratégias corporativas podem ser de crescimento, estabilidade e redução (ou retração). Segundo Porter, há as estratégias corporativas e as genéricas. </br>
+		II - O desempenho global da organização é a síntese dos resultados relevantes para a organização como um todo, levando-se em conta todas as partes interessadas e possibilita a avaliação do alcance dos objetivos estabelecidos.</br>
+		III - A estrutura organizacional projeta e organiza os relacionamentos dos níveis hierárquicos e o fluxo das informações essenciais de uma organização.</br>
+		</br>
+
+                                    </br>As opções a seguir apresentam afirmações a respeito de aspectos gerais desses conceitos (estratégia, estrutura e desempenho). Assinale a única verdadeira. </br>
+
+		A) O ambiente de uma empresa é tudo aquilo que pode ser controlado.</br> 
+		B) O desempenho de uma empresa independe de sua estratégia. </br>
+		C) A estratégia de uma empresa depende principalmente da sua estrutura.</br> 
+		D) A integração empresarial depende apenas da estrutura organizacional. </br>
+		E) Na integração horizontal, procuram-se produtos (bens e serviços) complementares.</br> 
+
+                                    </p>
+
+                                    <h4>Questões discursivas</h4>
+
+                                    <p><strong>Questão 1:</strong> Leia atentamente o texto a seguir: Segundo o presidente da Associação Brasileira de Supermercados (Abras), “uma concentração, em termos de mercado, de cerca de 30% não é nenhum ‘bicho de sete cabeças’. Há uma concentração em São Paulo, mas no restante do país a situação é diferente”. Segundo a Abras, a participação das vendas das maiores empresas do setor de supermercados no Brasil passou de 40%, em 2009, para 43% em 2010. Embora a concentração avance, ainda está longe da realidade na Europa, onde as cinco maiores redes respondem por 70% a 80% das vendas, destacou a Abras. PETRY, R. Competição continua mesmo com fusão entre Carrefour e Pão de Açúcar. São Paulo: Agência Estado, 2011 (adaptado). 
+Com base na abordagem das forças competitivas de Michael Porter, aponte qual(is) força(s) serão “fortalecidas” com essa estratégia. 
+</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> As Escolas do Pensamento Estratégico estão divididas em três grupos, de acordo com os estudos realizados por Mintzberg, Ahlstrand e Lampel, no livro Safári de Estratégia. Quais são esses grupos, quais são suas características e quais escolas os compõem! </br>
+
+                                    </br>
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./1.php">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1170,7 +1228,7 @@
         function marcarComoLida(id_aviso){
          
             var request = $.ajax({
-                url: '../PutAviso.php?idAviso='+id_aviso,
+                url: '../../PutAviso.php?idAviso='+id_aviso,
                 type: 'get',
                 dataType: 'html'
             });
@@ -1208,62 +1266,62 @@
     </script>
     <!-- jquery
         ============================================ -->
-    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../../js/vendor/jquery-1.12.4.min.js"></script>
     <!-- bootstrap JS
         ============================================ -->
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
     <!-- wow JS
         ============================================ -->
-    <script src="../js/wow.min.js"></script>
+    <script src="../../js/wow.min.js"></script>
     <!-- price-slider JS
         ============================================ -->
-    <script src="../js/jquery-price-slider.js"></script>
+    <script src="../../js/jquery-price-slider.js"></script>
     <!-- meanmenu JS
         ============================================ -->
-    <script src="../js/jquery.meanmenu.js"></script>
+    <script src="../../js/jquery.meanmenu.js"></script>
     <!-- owl.carousel JS
         ============================================ -->
-    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../../js/owl.carousel.min.js"></script>
     <!-- sticky JS
         ============================================ -->
-    <script src="../js/jquery.sticky.js"></script>
+    <script src="../../js/jquery.sticky.js"></script>
     <!-- scrollUp JS
         ============================================ -->
-    <script src="../js/jquery.scrollUp.min.js"></script>
+    <script src="../../js/jquery.scrollUp.min.js"></script>
     <!-- counterup JS
         ============================================ -->
-    <script src="../js/counterup/jquery.counterup.min.js"></script>
-    <script src="../js/counterup/waypoints.min.js"></script>
-    <script src="../js/counterup/counterup-active.js"></script>
+    <script src="../../js/counterup/jquery.counterup.min.js"></script>
+    <script src="../../js/counterup/waypoints.min.js"></script>
+    <script src="../../js/counterup/counterup-active.js"></script>
     <!-- mCustomScrollbar JS
         ============================================ -->
-    <script src="../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="../js/scrollbar/mCustomScrollbar-active.js"></script>
+    <script src="../../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../../js/scrollbar/mCustomScrollbar-active.js"></script>
     <!-- metisMenu JS
         ============================================ -->
-    <script src="../js/metisMenu/metisMenu.min.js"></script>
-    <script src="../js/metisMenu/metisMenu-active.js"></script>
+    <script src="../../js/metisMenu/metisMenu.min.js"></script>
+    <script src="../../js/metisMenu/metisMenu-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/morrisjs/raphael-min.js"></script>
-    <script src="../js/morrisjs/morris.js"></script>
-    <script src="../js/morrisjs/morris-active.js"></script>
+    <script src="../../js/morrisjs/raphael-min.js"></script>
+    <script src="../../js/morrisjs/morris.js"></script>
+    <script src="../../js/morrisjs/morris-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/sparkline/jquery.sparkline.min.js"></script>
-    <script src="../js/sparkline/jquery.charts-sparkline.js"></script>
-    <script src="../js/sparkline/sparkline-active.js"></script>
+    <script src="../../js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../../js/sparkline/jquery.charts-sparkline.js"></script>
+    <script src="../../js/sparkline/sparkline-active.js"></script>
     <!-- calendar JS
         ============================================ -->
-    <script src="../js/calendar/moment.min.js"></script>
-    <script src="../js/calendar/fullcalendar.min.js"></script>
-    <script src="../js/calendar/fullcalendar-active.js"></script>
+    <script src="../../js/calendar/moment.min.js"></script>
+    <script src="../../js/calendar/fullcalendar.min.js"></script>
+    <script src="../../js/calendar/fullcalendar-active.js"></script>
     <!-- plugins JS
         ============================================ -->
-    <script src="../js/plugins.js"></script>
+    <script src="../../js/plugins.js"></script>
     <!-- main JS
         ============================================ -->
-    <script src="../js/main.js"></script>
+    <script src="../../js/main.js"></script>
 </body>
 
 </html>

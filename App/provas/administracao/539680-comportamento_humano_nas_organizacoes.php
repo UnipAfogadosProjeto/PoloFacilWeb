@@ -1,9 +1,9 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / 1';
+    $bread = '/ Provas / Administração';
     $active = ['', '', ''];
 
-    include("../GetListaAvisos.php");
+    include("../../GetListaAvisos.php");
     if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
         $ra = $_SESSION['RA'];
         $temAviso = false;
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Painel | Polo Fácil</title>
+    <title>Provas - Administração | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -45,56 +45,56 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
     <!-- owl.carousel CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/owl.carousel.css">
-    <link rel="stylesheet" href="../css/owl.theme.css">
-    <link rel="stylesheet" href="../css/owl.transitions.css">
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <link rel="stylesheet" href="../../css/owl.transitions.css">
     <!-- animate CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../../css/animate.css">
     <!-- normalize CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
     <!-- meanmenu icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/meanmenu.min.css">
+    <link rel="stylesheet" href="../../css/meanmenu.min.css">
     <!-- main CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
     <!-- educate icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/educate-custon-icon.css">
+    <link rel="stylesheet" href="../../css/educate-custon-icon.css">
     <!-- morrisjs CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/morrisjs/morris.css">
+    <link rel="stylesheet" href="../../css/morrisjs/morris.css">
     <!-- mCustomScrollbar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../../css/scrollbar/jquery.mCustomScrollbar.min.css">
     <!-- metisMenu CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu.min.css">
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu-vertical.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu-vertical.css">
     <!-- calendar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.min.css">
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.print.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.print.min.css">
     <!-- modals CSS
     ============================================ -->
-    <link rel="stylesheet" href="../css/modals.css">
+    <link rel="stylesheet" href="../../css/modals.css">
     <!-- style CSS
         ============================================ -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../style.css">
     <!-- responsive CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
     <!-- modernizr JS
         ============================================ -->
-    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -105,8 +105,8 @@
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
-                <strong><a href="../painel.php"><img src="../img/logo/pf_logosn.png" alt="" /></a></strong>
+                <a href="../../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
+                <strong><a href="../../painel.php"><img src="../../img/logo/pf_logosn.png" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
@@ -127,8 +127,8 @@
                         <li <?php echo 'class="'.$active[0].'"'; if($active[0] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="index.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
                             <ul class="submenu-angle" aria-expanded="true">
-                                <li><a title="Provas" href="../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
-                                <li><a title="Meus Agendamentos" href="../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
+                                <li><a title="Provas" href="../../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
+                                <li><a title="Meus Agendamentos" href="../../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
                             </ul>
                         </li >
                         <!--<li>
@@ -143,7 +143,7 @@
                         <li <?php echo 'class="'.$active[1].'"'; if($active[1] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Students Profile" href="../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
+                                <li><a title="Students Profile" href="../../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
                             </ul>
                         </li>
                         <!--<li>
@@ -159,8 +159,8 @@
                         <li <?php echo 'class="'.$active[2].'"'; if($active[2] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Minhas Apostilas</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Library" href="../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
-                                <li><a title="Add Library" href="../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
+                                <li><a title="All Library" href="../../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
+                                <li><a title="Add Library" href="../../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
                             </ul>
                         </li>
                         <li>
@@ -205,7 +205,7 @@
                             </ul>
                         </li>-->
                         <li>
-                            <a  aria-expanded="false" href="../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
+                            <a  aria-expanded="false" href="../../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
                             
                         </li>
 
@@ -232,7 +232,7 @@
                             </ul>
                         </li>-->
                         <li id="removable">
-                            <a href="../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
+                            <a href="../../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -264,7 +264,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="logo-pro">
-                            <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
+                            <a href="../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -325,7 +325,7 @@
                                                                         <li>
                                                                             <a href="#" data-toggle="modal" data-target="<?php echo 'Modal'.$item->idAviso;?>">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     
@@ -345,7 +345,7 @@
                                                                         <li>
                                                                             <a href="#">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     <p>Você não tem mensagens no momento.</p>
@@ -496,10 +496,10 @@
                                                                 <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
                                                             </a>
                                                         <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                            <li><a href="./dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
+                                                            <li><a href="../../dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
                                                             </li>
                                                             </li>
-                                                            <li><a href="../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
+                                                            <li><a href="../../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -960,26 +960,26 @@
                                         <ul class="mobile-menu-nav">
                                             <li><a data-toggle="collapse" data-target="#Charts" href="#">Agendamento <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul class="collapse dropdown-header-top">
-                                                    <li><a href="../agendar_provas.php">Agendar Provas</a></li>
-                                                    <li><a href="../meusAgendamentos.php">Meus Agendamentos</a></li>
+                                                    <li><a href="../../agendar_provas.php">Agendar Provas</a></li>
+                                                    <li><a href="../../meusAgendamentos.php">Meus Agendamentos</a></li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demopro" href="#">Meus Dados <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demopro" class="collapse dropdown-header-top">
-                                                    <li><a href="../dadosdoAluno.php">Perfil do Aluno</a>
+                                                    <li><a href="../../dadosdoAluno.php">Perfil do Aluno</a>
                                                     </li>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demolibra" href="#">Minhas Apostilas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demolibra" class="collapse dropdown-header-top">
-                                                    <li><a href="../apostilaEntregue.php">Apostilas Entregues</a>
+                                                    <li><a href="../../apostilaEntregue.php">Apostilas Entregues</a>
                                                     </li>
-                                                    <li><a href="../apostilaDisponivel.php">Novas Apostilas</a>
+                                                    <li><a href="../../apostilaDisponivel.php">Novas Apostilas</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <li><a href="../../provas/1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -1005,7 +1005,7 @@
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                             <ul class="breadcome-menu">
-                                                <li><a href="../painel.php">Início</a>
+                                                <li><a href="../../painel.php">Início</a>
                                                 </li>
                                                 <li><span class="bread-blod"><?php echo $bread ?></span>
                                                 </li>
@@ -1023,130 +1023,179 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Nº</th>
-                                        <th>Data da Postagem</th>
-                                        <th>Curso</th>
-                                        <th>Tipo</th>
-                                        <th>Quantidade</th>
-                                        <th>Ação</th>
-                                    </tr>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>06/08/2019</td>
-                                        <td>ADMINISTRAÇÃO</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="./administracao/index.php"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>06/08/2019</td>
-                                        <td>CIÊNCIAS CONTÁBEIS</td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>06/08/2019</td>
-                                        <td>CIÊNCIAS ECONÔMICAS</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>06/08/2019</td>
-                                        <td>EDUCAÇÃO FÍSICA</td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>06/08/2019</td>
-                                        <td>GASTRONOMIA</td>
-                                        <td>Bimestral</td>
-                                        <td>1</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>06/08/2019</td>
-                                        <td>GEOGRAFIA</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>7</td>
-                                        <td>06/08/2019</td>
-                                        <td>GESTÃO AMBIENTAL</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>8</td>
-                                        <td>06/08/2019</td>
-                                        <td>GESTÃO COMERCIAL</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                        <td>06/08/2019</td>
-                                        <td>ANÁLISE DE SISTEMA</td>
-                                        <td>Bimestral</td>
-                                        <td>5</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>10</td>
-                                        <td>06/08/2019</td>
-                                        <td>TECLONOCIA DA INFORMAÇÃO</td>
-                                        <td>Bimestral</td>
-                                        <td>4</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                </table>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
+                            </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP INTERATIVA</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 18956148307</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> ADMINISTRAÇÃO</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> : 2o Bimestre - 9o Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I - Questões objetivas – valendo 5,00 pontos</span></strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">II - Questões discursivas – valendo 5,00 pontos Gerada em: 05/06/2018 15:17:23</span></strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 539680 - Comportamento Humano nas Organizações</p>
+
+                                    <p><strong>Questão 1:</strong> 
+									
+									O grupo de trabalho de Paulo nunca permite que surjam conflitos. Diante dessa afirmação, qual dos itens a seguir deve ser verdadeiro?</br>
+
+
+                                    A) O grupo terá um desempenho superior aos grupos com conflito.</br>
+                                    B) O grupo permanecerá na fase tumultuada do desempenho.</br>
+                                    C) O grupo terá uma coesão mais baixa do que os grupos em conflito.</br>
+                                    D) O grupo poderá sofrer de apatia.</br>
+                                    E) O grupo será altamente criativo e inovador.</br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong>No texto “A complexidade nas organizações: futuro desafio para o psicólogo frente à reestruturação competitiva”, de Tractenberg (1999) realiza-se uma avaliação sobre os programas de reestruturação competitiva aplicados nas organizações nas últimas décadas. No mesmo texto o autor afirma que: “...as principais dificuldades na implementação desses programas (de qualidade e produtividade) recaem sobre a questão das relações humanas, e não sobre aspectos técnicos.” Como podem ser explicadas estas dificuldades?</br>
+
+
+                                    A) Os processos não são aplicados adequadamente conforme proposta, dada à imperfeição humana.</br>
+                                    B) Ainda prevalece uma falta de compreensão do fator humano dentro da organização.</br>
+                                    C) Os processos não são aplicados adequadamente em função dos problemas de comunicação entre as lideranças.</br>
+                                    D) Os processos são aplicados adequadamente, mas há falhas de gerenciamento nas novas organizações.</br>
+                                    E) Como visam só a lucratividade, as empresas exigem demais e acabam ficando sem pessoas importantes, que se demitem.</br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> De acordo com Fiorelli uma equipe é um conjunto de pessoas com um senso de identidade, manifestos em comportamentos desenvolvidos e mantidos para o bem individual, apesar da busca por resultados de interesse comum a todos os seus integrantes, decorrentes da atividade mútua de atingir objetivos e metas especificas.</br>
+
+                                    </br>Assim pode-se afirmar que: </br>
+
+                                    A) As duas afirmações são verdadeiras e a segunda justifica a primeira.</br>
+                                    B) As duas afirmações são verdadeiras, mas a segunda não justifica a primeira.</br>
+                                    C) A primeira afirmação é verdadeira e a segunda falsa. </br>
+                                    D) A primeira afirmação é falsa e a segunda verdadeira. </br>
+                                    E) As duas afirmações são falsas. </br>
+                                    </p>
+
+
+                                    <p><strong>Questão 4:</strong> Ortega y Gasset afirmam que o “homem é ele”. Embora a forma de ser, sentir e agir do ser humano possa ter aspectos comuns, ela varia imensamente de indivíduo para indivíduo. Abaixo são feitas afirmativas sobre alguns aspectos que podem interferir na forma de ser, sentir e agir de cada um.</br>
+
+                                    </br>I - O lugar de origem das pessoas na pirâmide econômica da sociedade determina seu presente, mas não tem nenhuma interferência no seu futuro. </br>
+									</br>II - A história de vida de cada um faz com que cada indivíduo sinta e aja de maneira singular </br>
+									</br>III - O grupo social em que o indivíduo está inserido faz do mesmo, um ser diferente dos demais. </br>
+
+                                    </br>Somente está correto o que se afirma em:</br>
+
+                                    A) I</br>
+                                    B) II</br>
+                                    C) III</br>
+                                    D) I e II</br>
+                                    E) II e III</br>
+                                    </p>
+
+
+                                    <p><strong>Questão 5:</strong> Analise cada uma das afirmativas relativas a percepção e assinale a alternativa correta.</br>
+
+                                    </br>I - A não percepção do ponto de vista do outro pode acarretar problemas nos níveis prático e relacional.</br>
+                                    </br> II - O feedback é um processo importante na percepção, pois por meio dele é possível identificar percepções diferentes sobre uma mesma situação.</br>
+                                    </br>III - Em determinadas situações devemos analisar o que é certo e o que é errado, portanto, a percepção nesse momento deve ser desconsiderada. </br>
+
+                                    A) Somente I está correta.</br>
+                                    B) Somente II está correta.</br>
+                                    C) Somente III está correta.</br>
+                                    D) I e II estão corretas.</br>
+                                    E) I e III estão coretas.</br>
+                                    </p>
+
+
+                                    <p><strong>Questão 6:</strong> Você estudou sobre motivação e suas teorias. Leia as afirmativas a seguir e assinale a alternativa correta. </br>
+
+                                    </br>I - Motivação é um sistema de crenças de uma pessoa sobre o que é certo e errado.</br>
+									</br>II - Segundo Taylor, fundador da administração cientifica, o dinheiro é a única coisa que motiva as pessoas.</br>
+                                    </br>III - De acordo com a hierarquia das necessidades de Maslow, os indivíduos tentarão preencher suas necessidades de autorrealização depois das necessidades de estima.</br>
+									
+									</br>Somente está correto o que se afirma em: </br>
+
+                                    A) I</br>
+                                    B) II</br>
+                                    C) III</br>
+                                    D) I e II</br>
+                                    E) II e III</br>
+                                    </p>
+
+
+                                    <p><strong>Questão 7:</strong> Os estudos recentes sobre o poder e a liderança têm demonstrado que ambos estão intimamente ligados. No que tange a estes temas de estudo, identifique a alternativa correta.</br>
+
+                                    A) O poder é definido como a habilidade para conseguir que outra pessoa faça o que se quer, e está relacionado à posição hierárquica do indivíduo.</br>
+                                    B) O poder de recompensa e o coercitivo estão relacionados à estrutura organizacional, têm como resposta dos subordinados a internalização de valores. </br>
+                                    C) O poder de referência está relacionado à força do carisma, de características pessoais do gestor, que são admiradas e acarretam a identificação com o outro, o desejo de ser semelhante ao outro.</br>
+                                    D) O poder legítimo e de especialização não estimulam a internalização da liderança, pois ambos recorrem à credibilidade pessoal do líder.</br>
+                                     E) Quanto ao poder de especialização, o fato do indivíduo ter conhecimentos especializados por si só, não é importante para que os demais da equipe tenham a comprovação deste fato</br>
+                                    </p>
+
+
+                                    <p><strong>Questão 8:</strong> Análise transacional se constitui de um conjunto de técnicas que visam à mudança. Chama-se transacional por estudar, analisar as trocas de estímulos e respostas entre os indivíduos, ou transações, entre indivíduos. Na análise transacional comportamento é definido como:</br>
+
+                                    A) Reflexo de processos internos inconscientes.</br> 
+									B) Respostas a estímulos externos.</br> 
+									C) O que a pessoa faz e diz (comportamento objetivo) o que a pessoa pensa e sente (comportamento subjetivo).</br> 
+									D) Sistema que permite ter pensamentos e condutas.</br> 
+									E) Sistema de condutas aprendidas que nos levam a agir de determinada forma.</br>
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> Lúcia é uma psicóloga que trabalha em uma Indústria Alimentícia de médio porte. Desde sua graduação, Lúcia sabe que o Absenteísmo (ausência dos funcionários) é uma variável que interfere no planejamento de Recursos Humanos de uma organização. Ao receber a estatística do índice de Absenteísmo dos últimos três meses, a psicóloga foi surpreendida por um crescimento neste índice, em particular do absenteísmo considerado pobre, ou seja, aquele decorrente de motivos particulares e que poderiam ser evitados. Lúcia foi investigar essa questão e encontrou, como motivos para as constantes ausências:</br>
+
+									</br>I - Dificuldade na relação interpessoal com os colegas.</br> 
+									II - Baixa remuneração e benefícios escassos.</br> 
+									III - Falta de reconhecimento no exercício do cargo.</br> 
+									IV - Excesso de calor no ambiente de trabalho.</br> 
+									V - Falta de perspectiva de crescimento profissional.</br>
+
+                                    </br> De acordo com a teoria dos 2 fatores de Herzberg (fatores higiênicos e motivacionais), identifique nos itens acima, quais são fatores higiênicos:</br>
+									
+									A) II, IV e V. </br> 
+									B) I, II e IV. </br>
+									C) II, III, V. </br>
+									D) I, III, V. </br>
+									E) I, IV e V. </br>
+									
+									<p><strong>Questão 10:</strong> Quando solicitado para dar assessoria acerca de estratégias para aumentar a motivação dos trabalhadores, você poderá utilizar-se de alguns indicadores, à exceção de um: </br>
+				
+									A) Considerar a forma como as metas de trabalho são estabelecidas, pois há evidências de que elas têm significativa influência sobre o desempenho. </br>
+									B) Verificar as relações percebidas por esses trabalhadores entre seu esforço e seu desempenho, entre seu desempenho e os resultados obtidos e entre esses resultados e suas metas pessoais.</br>
+									C) Realizar um diagnóstico do estágio em que se encontram satisfeitas as necessidades fisiológicas, de segurança, sociais, de estima e de auto-realização dos trabalhadores. </br>
+									D) Identificar entre os gerentes desses trabalhadores se predominam a respeito da natureza dos seres humanos, as pressuposições da Teoria X (visão negativa) ou da Teoria Y (visão positiva da organização). </br>
+									E) Diagnosticar as percepções de justiça, equidade e injustiça existentes entre os trabalhadores. </br>									
+                                    </p>
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./1.php">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1170,7 +1219,7 @@
         function marcarComoLida(id_aviso){
          
             var request = $.ajax({
-                url: '../PutAviso.php?idAviso='+id_aviso,
+                url: '../../PutAviso.php?idAviso='+id_aviso,
                 type: 'get',
                 dataType: 'html'
             });
@@ -1208,62 +1257,62 @@
     </script>
     <!-- jquery
         ============================================ -->
-    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../../js/vendor/jquery-1.12.4.min.js"></script>
     <!-- bootstrap JS
         ============================================ -->
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
     <!-- wow JS
         ============================================ -->
-    <script src="../js/wow.min.js"></script>
+    <script src="../../js/wow.min.js"></script>
     <!-- price-slider JS
         ============================================ -->
-    <script src="../js/jquery-price-slider.js"></script>
+    <script src="../../js/jquery-price-slider.js"></script>
     <!-- meanmenu JS
         ============================================ -->
-    <script src="../js/jquery.meanmenu.js"></script>
+    <script src="../../js/jquery.meanmenu.js"></script>
     <!-- owl.carousel JS
         ============================================ -->
-    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../../js/owl.carousel.min.js"></script>
     <!-- sticky JS
         ============================================ -->
-    <script src="../js/jquery.sticky.js"></script>
+    <script src="../../js/jquery.sticky.js"></script>
     <!-- scrollUp JS
         ============================================ -->
-    <script src="../js/jquery.scrollUp.min.js"></script>
+    <script src="../../js/jquery.scrollUp.min.js"></script>
     <!-- counterup JS
         ============================================ -->
-    <script src="../js/counterup/jquery.counterup.min.js"></script>
-    <script src="../js/counterup/waypoints.min.js"></script>
-    <script src="../js/counterup/counterup-active.js"></script>
+    <script src="../../js/counterup/jquery.counterup.min.js"></script>
+    <script src="../../js/counterup/waypoints.min.js"></script>
+    <script src="../../js/counterup/counterup-active.js"></script>
     <!-- mCustomScrollbar JS
         ============================================ -->
-    <script src="../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="../js/scrollbar/mCustomScrollbar-active.js"></script>
+    <script src="../../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../../js/scrollbar/mCustomScrollbar-active.js"></script>
     <!-- metisMenu JS
         ============================================ -->
-    <script src="../js/metisMenu/metisMenu.min.js"></script>
-    <script src="../js/metisMenu/metisMenu-active.js"></script>
+    <script src="../../js/metisMenu/metisMenu.min.js"></script>
+    <script src="../../js/metisMenu/metisMenu-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/morrisjs/raphael-min.js"></script>
-    <script src="../js/morrisjs/morris.js"></script>
-    <script src="../js/morrisjs/morris-active.js"></script>
+    <script src="../../js/morrisjs/raphael-min.js"></script>
+    <script src="../../js/morrisjs/morris.js"></script>
+    <script src="../../js/morrisjs/morris-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/sparkline/jquery.sparkline.min.js"></script>
-    <script src="../js/sparkline/jquery.charts-sparkline.js"></script>
-    <script src="../js/sparkline/sparkline-active.js"></script>
+    <script src="../../js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../../js/sparkline/jquery.charts-sparkline.js"></script>
+    <script src="../../js/sparkline/sparkline-active.js"></script>
     <!-- calendar JS
         ============================================ -->
-    <script src="../js/calendar/moment.min.js"></script>
-    <script src="../js/calendar/fullcalendar.min.js"></script>
-    <script src="../js/calendar/fullcalendar-active.js"></script>
+    <script src="../../js/calendar/moment.min.js"></script>
+    <script src="../../js/calendar/fullcalendar.min.js"></script>
+    <script src="../../js/calendar/fullcalendar-active.js"></script>
     <!-- plugins JS
         ============================================ -->
-    <script src="../js/plugins.js"></script>
+    <script src="../../js/plugins.js"></script>
     <!-- main JS
         ============================================ -->
-    <script src="../js/main.js"></script>
+    <script src="../../js/main.js"></script>
 </body>
 
 </html>

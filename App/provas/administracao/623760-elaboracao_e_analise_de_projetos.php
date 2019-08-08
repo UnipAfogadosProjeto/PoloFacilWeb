@@ -1,9 +1,9 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / 1';
+    $bread = '/ Provas / Administração';
     $active = ['', '', ''];
 
-    include("../GetListaAvisos.php");
+    include("../../GetListaAvisos.php");
     if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
         $ra = $_SESSION['RA'];
         $temAviso = false;
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Painel | Polo Fácil</title>
+    <title>Provas - Administração | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -45,56 +45,56 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
     <!-- owl.carousel CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/owl.carousel.css">
-    <link rel="stylesheet" href="../css/owl.theme.css">
-    <link rel="stylesheet" href="../css/owl.transitions.css">
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <link rel="stylesheet" href="../../css/owl.transitions.css">
     <!-- animate CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../../css/animate.css">
     <!-- normalize CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
     <!-- meanmenu icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/meanmenu.min.css">
+    <link rel="stylesheet" href="../../css/meanmenu.min.css">
     <!-- main CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
     <!-- educate icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/educate-custon-icon.css">
+    <link rel="stylesheet" href="../../css/educate-custon-icon.css">
     <!-- morrisjs CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/morrisjs/morris.css">
+    <link rel="stylesheet" href="../../css/morrisjs/morris.css">
     <!-- mCustomScrollbar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../../css/scrollbar/jquery.mCustomScrollbar.min.css">
     <!-- metisMenu CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu.min.css">
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu-vertical.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu-vertical.css">
     <!-- calendar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.min.css">
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.print.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.print.min.css">
     <!-- modals CSS
     ============================================ -->
-    <link rel="stylesheet" href="../css/modals.css">
+    <link rel="stylesheet" href="../../css/modals.css">
     <!-- style CSS
         ============================================ -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../style.css">
     <!-- responsive CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
     <!-- modernizr JS
         ============================================ -->
-    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -105,8 +105,8 @@
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
-                <strong><a href="../painel.php"><img src="../img/logo/pf_logosn.png" alt="" /></a></strong>
+                <a href="../../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
+                <strong><a href="../../painel.php"><img src="../../img/logo/pf_logosn.png" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
@@ -127,8 +127,8 @@
                         <li <?php echo 'class="'.$active[0].'"'; if($active[0] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="index.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
                             <ul class="submenu-angle" aria-expanded="true">
-                                <li><a title="Provas" href="../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
-                                <li><a title="Meus Agendamentos" href="../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
+                                <li><a title="Provas" href="../../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
+                                <li><a title="Meus Agendamentos" href="../../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
                             </ul>
                         </li >
                         <!--<li>
@@ -143,7 +143,7 @@
                         <li <?php echo 'class="'.$active[1].'"'; if($active[1] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Students Profile" href="../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
+                                <li><a title="Students Profile" href="../../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
                             </ul>
                         </li>
                         <!--<li>
@@ -159,8 +159,8 @@
                         <li <?php echo 'class="'.$active[2].'"'; if($active[2] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Minhas Apostilas</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Library" href="../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
-                                <li><a title="Add Library" href="../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
+                                <li><a title="All Library" href="../../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
+                                <li><a title="Add Library" href="../../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
                             </ul>
                         </li>
                         <li>
@@ -205,7 +205,7 @@
                             </ul>
                         </li>-->
                         <li>
-                            <a  aria-expanded="false" href="../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
+                            <a  aria-expanded="false" href="../../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
                             
                         </li>
 
@@ -232,7 +232,7 @@
                             </ul>
                         </li>-->
                         <li id="removable">
-                            <a href="../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
+                            <a href="../../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -264,7 +264,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="logo-pro">
-                            <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
+                            <a href="../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -325,7 +325,7 @@
                                                                         <li>
                                                                             <a href="#" data-toggle="modal" data-target="<?php echo 'Modal'.$item->idAviso;?>">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     
@@ -345,7 +345,7 @@
                                                                         <li>
                                                                             <a href="#">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     <p>Você não tem mensagens no momento.</p>
@@ -496,10 +496,10 @@
                                                                 <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
                                                             </a>
                                                         <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                            <li><a href="./dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
+                                                            <li><a href="../../dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
                                                             </li>
                                                             </li>
-                                                            <li><a href="../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
+                                                            <li><a href="../../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -960,26 +960,26 @@
                                         <ul class="mobile-menu-nav">
                                             <li><a data-toggle="collapse" data-target="#Charts" href="#">Agendamento <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul class="collapse dropdown-header-top">
-                                                    <li><a href="../agendar_provas.php">Agendar Provas</a></li>
-                                                    <li><a href="../meusAgendamentos.php">Meus Agendamentos</a></li>
+                                                    <li><a href="../../agendar_provas.php">Agendar Provas</a></li>
+                                                    <li><a href="../../meusAgendamentos.php">Meus Agendamentos</a></li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demopro" href="#">Meus Dados <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demopro" class="collapse dropdown-header-top">
-                                                    <li><a href="../dadosdoAluno.php">Perfil do Aluno</a>
+                                                    <li><a href="../../dadosdoAluno.php">Perfil do Aluno</a>
                                                     </li>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demolibra" href="#">Minhas Apostilas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demolibra" class="collapse dropdown-header-top">
-                                                    <li><a href="../apostilaEntregue.php">Apostilas Entregues</a>
+                                                    <li><a href="../../apostilaEntregue.php">Apostilas Entregues</a>
                                                     </li>
-                                                    <li><a href="../apostilaDisponivel.php">Novas Apostilas</a>
+                                                    <li><a href="../../apostilaDisponivel.php">Novas Apostilas</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <li><a href="../../provas/1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -1005,7 +1005,7 @@
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                             <ul class="breadcome-menu">
-                                                <li><a href="../painel.php">Início</a>
+                                                <li><a href="../../painel.php">Início</a>
                                                 </li>
                                                 <li><span class="bread-blod"><?php echo $bread ?></span>
                                                 </li>
@@ -1023,130 +1023,185 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Nº</th>
-                                        <th>Data da Postagem</th>
-                                        <th>Curso</th>
-                                        <th>Tipo</th>
-                                        <th>Quantidade</th>
-                                        <th>Ação</th>
-                                    </tr>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>06/08/2019</td>
-                                        <td>ADMINISTRAÇÃO</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="./administracao/index.php"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>06/08/2019</td>
-                                        <td>CIÊNCIAS CONTÁBEIS</td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>06/08/2019</td>
-                                        <td>CIÊNCIAS ECONÔMICAS</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>06/08/2019</td>
-                                        <td>EDUCAÇÃO FÍSICA</td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>06/08/2019</td>
-                                        <td>GASTRONOMIA</td>
-                                        <td>Bimestral</td>
-                                        <td>1</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>06/08/2019</td>
-                                        <td>GEOGRAFIA</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>7</td>
-                                        <td>06/08/2019</td>
-                                        <td>GESTÃO AMBIENTAL</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>8</td>
-                                        <td>06/08/2019</td>
-                                        <td>GESTÃO COMERCIAL</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                        <td>06/08/2019</td>
-                                        <td>ANÁLISE DE SISTEMA</td>
-                                        <td>Bimestral</td>
-                                        <td>5</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>10</td>
-                                        <td>06/08/2019</td>
-                                        <td>TECLONOCIA DA INFORMAÇÃO</td>
-                                        <td>Bimestral</td>
-                                        <td>4</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                </table>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
+                            </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP INTERATIVA</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 18772758077</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> ADMINISTRAÇÃO</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> : 2º Bimestre - 5º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I - Questões objetivas – valendo 5,00 pontos</span></strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">II - Questões discursivas – valendo 5,00 pontos Gerada em:  05/06/2018 15:26:28</span></strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 623760 - Elaboração e Análise de Projetos </p>
+
+                                    <p><strong>Questão 1:</strong> A identificação das partes interessadas é o processo que visa identificar os stakeholders (partes interessadas) do projeto, ou seja, o modo como as pessoas ou organizações podem ser afetadas por ele. Qual das opções a seguir não é uma entrada desse processo?</br>
+
+                                    </br>A) Termo de abertura do projeto.</br> 
+
+                                    B) Documentos de aquisição.</br> 
+
+                                    C) Fatores ambientais da empresa.</br> 
+
+                                    D) Ativos de processos organizacionais.</br> 
+
+                                    E) Registro das partes interessadas.</br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> Sobre o diagrama de redes, é possível afirmar que: </br>
+
+                                    </br>A) A sua construção é uma tarefa do processo de definição de atividades.</br>v 
+
+                                    B) Pode ser feito através do método de diagrama de nós que utiliza apenas relações de dependência término-início.</br> 
+
+                                    C) É uma ferramenta do gerenciamento do escopo.</br> 
+
+                                    D) É uma ferramenta do gerenciamento da qualidade.</br> 
+
+                                    E) É uma ferramenta gráfica para desenvolvimento de projetos.</br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Um projeto é considerado um sucesso quando atende a, pelo menos, três condições fundamentais. Quais são elas?</br>
+
+                                    </br>A) Escopo, prazo e integração. 
+
+                                    B) Prazo, custo e escopo.</br> 
+
+                                    C) Integração, custo e comunicação.</br> 
+
+                                    D) Custo, comunicação e escopo.</br> 
+
+                                    E) Comunicação, integração e prazo.</br>
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> Qual dos grupos de processos a seguir do PMBOK é responsável pela definição de escopo?</br>
+
+                                    </br>A) Iniciação.</br> 
+                                    B) Planejamento.</br> 
+                                    C) Execução.</br> 
+                                    D) Monitoramento.</br>
+                                    E) Encerramento.</br> 
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> Qual é a estrutura organizacional que tem uma configuração hierárquica, possuindo relação de subordinação, em que um funcionário responde a outro acima dele, que responde a outro e assim por diante, até que se chegue à última instância?</br>
+
+                                    </br>A) Estrutura Matricial Fraca.</br> 
+
+                                    B) Estrutura Projetizada.</br> 
+
+                                    C) Estrutura Matricial Forte.</br> 
+
+                                    D) Estrutura Funcional.</br> 
+
+                                    E) Estrutura Matricial Balanceada.</br> 
+                                    </p>
+
+
+                                    <p><strong>Questão 6:</strong> A área de conhecimento de Gerenciamento do Escopo do Projeto preocupa-se com a definição de todo o trabalho do projeto e com o trabalho necessário para atingir com sucesso as metas e os seus objetivos. Para que haja sucesso, é necessário realizar o agrupamento dos componentes do projeto orientado aos entregáveis, que o organiza e define seu escopo total. Qual é o nome desse agrupamento?</br>
+
+                                    </br>A) Termo de Abertura do Projeto.</br> 
+
+                                    B) Plano de Gerenciamento de Projeto.</br> 
+
+                                    C) Estrutura Analítica de Projeto.</br> 
+
+                                    D) Mudanças aprovadas.</br> 
+
+                                    E) Caso de negócio.</br> 
+                                    </p>
+
+
+                                    <p><strong>Questão 7:</strong> O escritório de projetos (Project Management Office - PMO) é o departamento da organização responsável por gerenciar os projetos sob sua competência. Qual dos itens a seguir não está relacionado aos conceitos de PMO? </br>
+
+                                    </br>A) O PMO é um corpo ou entidade organizacional à qual são atribuídas várias responsabilidades relacionadas ao gerenciamento centralizado e coordenado dos projetos sob seu domínio.</br> 
+
+                                    B) Um dos papéis do PMO é determinar quais padrões, políticas e procedimentos serão utilizados no gerenciamento de projetos.</br> 
+
+                                    C) Uma das razões para se implementar um PMO é aperfeiçoamento das práticas de gestão de projetos e redução de projetos que apresentam problemas.</br> 
+
+                                    D) Na implantação de um PMO, o primeiro passo é o estabelecimento da missão e da estratégia do escritório.</br> 
+
+                                    E) As funções de um PMO são desmembradas em três: acompanhamento de profissionais; suporte e administração; treinamento e acompanhamento de profissionais.</br>
+                                    </p>
+
+                                    <p><strong>Questão 8:</strong> Analise as afirmativas a seguir sobre o conceito de projeto:</br>
+
+                                    </br>I - Um projeto é considerado um esforço temporário.</br> 
+                                    II - O resultado do projeto é algo que se repete.</br> 
+                                    III - Um projeto não precisa ter necessariamente um objetivo definido.</br>
+
+                                    </br>Escolha a alternativa correta:</br>
+
+                                    </br>A) Somente a afirmativa I é verdadeira.</br> 
+
+                                    B) Somente a afirmativa II é verdadeira.</br> 
+
+                                    C) Somente afirmativa III é verdadeira.</br> 
+
+                                    D) Somente as afirmativas I e II são verdadeiras.</br> 
+
+                                    E) Todas as afirmativas são falsas.</br>
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> Qual dos itens a seguir equivale a uma característica da organização matricial forte em gestão de projetos?</br>
+
+                                    </br>A) Possuem unidades organizacionais que se reportam ao gerente de projetos.</br>
+
+                                    B) Não há a figura do gerente funcional.</br>
+
+                                    C) O gerente de projetos trabalha em tempo integral.</br> 
+
+                                    D) Funcionários são agrupados por especialidades.</br> 
+
+                                    E) É a mais orientada a projetos.</br>
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> Qual dos itens a seguir denota uma característica nos níveis de maturidade de gestão de projetos, conforme o modelo PMMM?</br>
+
+                                    </br>A) Nível 1 - Processos Comuns.</br> 
+                                    B) Nível 2 - Metodologia singular.</br> 
+                                    C) Nível 3 - Benchmarking.</br> 
+                                    D) Nível 4 - Linguagem comum.</br> 
+                                    E) Nível 5 - Melhoria contínua.</br>
+                                    </p>
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./1.php">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1170,7 +1225,7 @@
         function marcarComoLida(id_aviso){
          
             var request = $.ajax({
-                url: '../PutAviso.php?idAviso='+id_aviso,
+                url: '../../PutAviso.php?idAviso='+id_aviso,
                 type: 'get',
                 dataType: 'html'
             });
@@ -1208,62 +1263,62 @@
     </script>
     <!-- jquery
         ============================================ -->
-    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../../js/vendor/jquery-1.12.4.min.js"></script>
     <!-- bootstrap JS
         ============================================ -->
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
     <!-- wow JS
         ============================================ -->
-    <script src="../js/wow.min.js"></script>
+    <script src="../../js/wow.min.js"></script>
     <!-- price-slider JS
         ============================================ -->
-    <script src="../js/jquery-price-slider.js"></script>
+    <script src="../../js/jquery-price-slider.js"></script>
     <!-- meanmenu JS
         ============================================ -->
-    <script src="../js/jquery.meanmenu.js"></script>
+    <script src="../../js/jquery.meanmenu.js"></script>
     <!-- owl.carousel JS
         ============================================ -->
-    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../../js/owl.carousel.min.js"></script>
     <!-- sticky JS
         ============================================ -->
-    <script src="../js/jquery.sticky.js"></script>
+    <script src="../../js/jquery.sticky.js"></script>
     <!-- scrollUp JS
         ============================================ -->
-    <script src="../js/jquery.scrollUp.min.js"></script>
+    <script src="../../js/jquery.scrollUp.min.js"></script>
     <!-- counterup JS
         ============================================ -->
-    <script src="../js/counterup/jquery.counterup.min.js"></script>
-    <script src="../js/counterup/waypoints.min.js"></script>
-    <script src="../js/counterup/counterup-active.js"></script>
+    <script src="../../js/counterup/jquery.counterup.min.js"></script>
+    <script src="../../js/counterup/waypoints.min.js"></script>
+    <script src="../../js/counterup/counterup-active.js"></script>
     <!-- mCustomScrollbar JS
         ============================================ -->
-    <script src="../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="../js/scrollbar/mCustomScrollbar-active.js"></script>
+    <script src="../../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../../js/scrollbar/mCustomScrollbar-active.js"></script>
     <!-- metisMenu JS
         ============================================ -->
-    <script src="../js/metisMenu/metisMenu.min.js"></script>
-    <script src="../js/metisMenu/metisMenu-active.js"></script>
+    <script src="../../js/metisMenu/metisMenu.min.js"></script>
+    <script src="../../js/metisMenu/metisMenu-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/morrisjs/raphael-min.js"></script>
-    <script src="../js/morrisjs/morris.js"></script>
-    <script src="../js/morrisjs/morris-active.js"></script>
+    <script src="../../js/morrisjs/raphael-min.js"></script>
+    <script src="../../js/morrisjs/morris.js"></script>
+    <script src="../../js/morrisjs/morris-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/sparkline/jquery.sparkline.min.js"></script>
-    <script src="../js/sparkline/jquery.charts-sparkline.js"></script>
-    <script src="../js/sparkline/sparkline-active.js"></script>
+    <script src="../../js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../../js/sparkline/jquery.charts-sparkline.js"></script>
+    <script src="../../js/sparkline/sparkline-active.js"></script>
     <!-- calendar JS
         ============================================ -->
-    <script src="../js/calendar/moment.min.js"></script>
-    <script src="../js/calendar/fullcalendar.min.js"></script>
-    <script src="../js/calendar/fullcalendar-active.js"></script>
+    <script src="../../js/calendar/moment.min.js"></script>
+    <script src="../../js/calendar/fullcalendar.min.js"></script>
+    <script src="../../js/calendar/fullcalendar-active.js"></script>
     <!-- plugins JS
         ============================================ -->
-    <script src="../js/plugins.js"></script>
+    <script src="../../js/plugins.js"></script>
     <!-- main JS
         ============================================ -->
-    <script src="../js/main.js"></script>
+    <script src="../../js/main.js"></script>
 </body>
 
 </html>

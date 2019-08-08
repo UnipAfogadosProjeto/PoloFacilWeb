@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / 1';
+    $bread = '/ Provas / 2';
     $active = ['', '', ''];
 
     include("../GetListaAvisos.php");
@@ -205,7 +205,7 @@
                             </ul>
                         </li>-->
                         <li>
-                            <a  aria-expanded="false" href="../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
+                            <a  aria-expanded="false" href="../provas.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
                             
                         </li>
 
@@ -1039,110 +1039,100 @@
                                         <th>Ação</th>
                                     </tr>
                                     <tr>
-                                        <td>1</td>
+                                        <td>11</td>
                                         <td>06/08/2019</td>
-                                        <td>ADMINISTRAÇÃO</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="./administracao/index.php"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>06/08/2019</td>
-                                        <td>CIÊNCIAS CONTÁBEIS</td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>06/08/2019</td>
-                                        <td>CIÊNCIAS ECONÔMICAS</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>06/08/2019</td>
-                                        <td>EDUCAÇÃO FÍSICA</td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                        <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>06/08/2019</td>
-                                        <td>GASTRONOMIA</td>
+                                        <td>HISTÓRIA</td>
                                         <td>Bimestral</td>
                                         <td>1</td>
                                         <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
+                                            <button class="pd-setting">Acessar</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>6</td>
+                                        <td>12</td>
                                         <td>06/08/2019</td>
-                                        <td>GEOGRAFIA</td>
+                                        <td>INGLÊS</td>
+                                        <td>Bimestral</td>
+                                        <td>3</td>
+                                        <td>
+                                            <button class="pd-setting">Acessar</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>06/08/2019</td>
+                                        <td>MARKETING</td>
                                         <td>Bimestral</td>
                                         <td>2</td>
                                         <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
+                                            <button class="pd-setting">Acessar</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>7</td>
+                                        <td>14</td>
                                         <td>06/08/2019</td>
-                                        <td>GESTÃO AMBIENTAL</td>
+                                        <td>MATEMÁTICA</td>
+                                        <td>Bimestral</td>
+                                        <td>3</td>
+                                        <td>
+                                            <button class="pd-setting">Acessar</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>06/08/2019</td>
+                                        <td>PEDAGOGIA</td>
+                                        <td>Bimestral</td>
+                                        <td>1</td>
+                                        <td>
+                                            <button class="pd-setting">Acessar</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td>06/08/2019</td>
+                                        <td>RECURSOS HUMANOS</td>
                                         <td>Bimestral</td>
                                         <td>2</td>
                                         <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
+                                            <button class="pd-setting">Acessar</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>8</td>
+                                        <td>17</td>
                                         <td>06/08/2019</td>
-                                        <td>GESTÃO COMERCIAL</td>
+                                        <td>REDES DE COMPUTADORES</td>
                                         <td>Bimestral</td>
                                         <td>2</td>
                                         <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
+                                            <button class="pd-setting">Acessar</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>9</td>
+                                        <td>18</td>
                                         <td>06/08/2019</td>
-                                        <td>ANÁLISE DE SISTEMA</td>
+                                        <td>SERVIÇOS SOCIAL</td>
                                         <td>Bimestral</td>
-                                        <td>5</td>
+                                        <td>2</td>
                                         <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
+                                            <button class="pd-setting">Acessar</button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>10</td>
+                                        <td>19</td>
                                         <td>06/08/2019</td>
-                                        <td>TECLONOCIA DA INFORMAÇÃO</td>
+                                        <td>ARTES VISUAIS</td>
                                         <td>Bimestral</td>
-                                        <td>4</td>
+                                        <td>2</td>
                                         <td>
-                                            <a href="#"class="pd-setting">Acessar</a>
+                                            <button class="pd-setting">Acessar</button>
                                         </td>
                                     </tr>
                                 </table>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
+                                     <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
                                     <li class="page-item"><a class="page-link" href="./1.php">1</a></li>
                                     <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
                                     <li class="page-item"><a class="page-link" href="#">3</a></li>
