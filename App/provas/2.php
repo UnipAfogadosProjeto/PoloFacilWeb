@@ -1031,102 +1031,38 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Nº</th>
-                                        <th>Data da Postagem</th>
+                                        <th>Acessar</th>
                                         <th>Curso</th>
                                         <th>Tipo</th>
                                         <th>Quantidade</th>
-                                        <th>Ação</th>
+                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
-                                        <td>11</td>
-                                        <td>06/08/2019</td>
-                                        <td>HISTÓRIA</td>
-                                        <td>Bimestral</td>
-                                        <td>1</td>
                                         <td>
-                                            <button class="pd-setting">Acessar</button>
+                                            <a href="./ingles/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
                                         </td>
-                                    </tr>
-                                    <tr>
-                                        <td>12</td>
-                                        <td>06/08/2019</td>
                                         <td>INGLÊS</td>
                                         <td>Bimestral</td>
-                                        <td>3</td>
-                                        <td>
-                                            <button class="pd-setting">Acessar</button>
-                                        </td>
+                                        <td>4</td>
+                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
-                                        <td>13</td>
-                                        <td>06/08/2019</td>
-                                        <td>MARKETING</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
                                         <td>
-                                            <button class="pd-setting">Acessar</button>
+                                            <a href="./matematica/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
                                         </td>
-                                    </tr>
-                                    <tr>
-                                        <td>14</td>
-                                        <td>06/08/2019</td>
                                         <td>MATEMÁTICA</td>
                                         <td>Bimestral</td>
-                                        <td>3</td>
-                                        <td>
-                                            <button class="pd-setting">Acessar</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>15</td>
-                                        <td>06/08/2019</td>
-                                        <td>PEDAGOGIA</td>
-                                        <td>Bimestral</td>
-                                        <td>1</td>
-                                        <td>
-                                            <button class="pd-setting">Acessar</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>16</td>
-                                        <td>06/08/2019</td>
-                                        <td>RECURSOS HUMANOS</td>
-                                        <td>Bimestral</td>
                                         <td>2</td>
-                                        <td>
-                                            <button class="pd-setting">Acessar</button>
-                                        </td>
+                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
-                                        <td>17</td>
-                                        <td>06/08/2019</td>
+                                        <td>
+                                            <a href="./redes_de_computadores/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                        </td>
                                         <td>REDES DE COMPUTADORES</td>
                                         <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <button class="pd-setting">Acessar</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>18</td>
-                                        <td>06/08/2019</td>
-                                        <td>SERVIÇOS SOCIAL</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <button class="pd-setting">Acessar</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>19</td>
-                                        <td>06/08/2019</td>
-                                        <td>ARTES VISUAIS</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>
-                                            <button class="pd-setting">Acessar</button>
-                                        </td>
+                                        <td>1</td>
+                                        <td>15/08/2019</td>
                                     </tr>
                                 </table>
                             </div>

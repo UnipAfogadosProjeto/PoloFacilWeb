@@ -1,29 +1,25 @@
-<?php
- session_start();
+<?php session_start(); 
 
+    $bread = '/ Provas / Administração';
+    $active = ['', '', ''];
 
-$bread = '/ Provas / Administração 1';
-$active = ['', '', '', 'active'];
-
-
-include("../GetListaAvisos.php");
-if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
-    $ra = $_SESSION['RA'];
-    $temAviso = false;
-    $msgList = GetLista($ra);
-    if($msgList->Avisos != "Sem Avisos"){
-        $temAviso = true;
-    }else{
+    include("../../GetListaAvisos.php");
+    if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
+        $ra = $_SESSION['RA'];
         $temAviso = false;
+        $msgList = GetLista($ra);
+        if($msgList->Avisos != "Sem Avisos"){
+            $temAviso = true;
+        }else{
+            $temAviso = false;
+        }
+
+    }else{
+        header('Location: login.php');
+        exit();
     }
 
-}else{
 
-}
-
-
- 
- 
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="pt-BR">
@@ -39,95 +35,78 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Dashboard | Polo Fácil</title>
+    <title>Provas - Administração | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
     <!-- Google Fonts
         ============================================ -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
     <!-- owl.carousel CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/owl.carousel.css">
-    <link rel="stylesheet" href="../css/owl.theme.css">
-    <link rel="stylesheet" href="../css/owl.transitions.css">
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <link rel="stylesheet" href="../../css/owl.transitions.css">
     <!-- animate CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../../css/animate.css">
     <!-- normalize CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
     <!-- meanmenu icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/meanmenu.min.css">
+    <link rel="stylesheet" href="../../css/meanmenu.min.css">
     <!-- main CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
     <!-- educate icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/educate-custon-icon.css">
+    <link rel="stylesheet" href="../../css/educate-custon-icon.css">
     <!-- morrisjs CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/morrisjs/morris.css">
+    <link rel="stylesheet" href="../../css/morrisjs/morris.css">
     <!-- mCustomScrollbar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../../css/scrollbar/jquery.mCustomScrollbar.min.css">
     <!-- metisMenu CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu.min.css">
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu-vertical.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu-vertical.css">
     <!-- calendar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.min.css">
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.print.min.css">
-    <!-- touchspin CSS
-        ============================================ -->
-    <link rel="stylesheet" href="../css/touchspin/jquery.bootstrap-touchspin.min.css">
-    <!-- datapicker CSS
-        ============================================ -->
-    <link rel="stylesheet" href="../css/datapicker/datepicker3.css">
-    <!-- forms CSS
-        ============================================ -->
-    <link rel="stylesheet" href="../css/form/themesaller-forms.css">
-    <!-- colorpicker CSS
-        ============================================ -->
-    <link rel="stylesheet" href="../css/colorpicker/colorpicker.css">
-    <!-- select2 CSS
-        ============================================ -->
-    <link rel="stylesheet" href="../css/select2/select2.min.css">
-    <!-- chosen CSS
-        ============================================ -->
-    <link rel="stylesheet" href="../css/chosen/bootstrap-chosen.css">
-        <!-- modals CSS
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.print.min.css">
+    <!-- modals CSS
     ============================================ -->
-    <link rel="stylesheet" href="../css/modals.css">
-    <!-- ionRangeSlider CSS
-        ============================================ -->
-    <link rel="stylesheet" href="../css/ionRangeSlider/ion.rangeSlider.css">
-    <link rel="stylesheet" href="../css/ionRangeSlider/ion.rangeSlider.skinFlat.css">
+    <link rel="stylesheet" href="../../css/modals.css">
     <!-- style CSS
         ============================================ -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../style.css">
     <!-- responsive CSS
         ============================================ -->
     <link rel="stylesheet" href="../../css/responsive.css">
     <!-- modernizr JS
         ============================================ -->
-    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- Start Left menu area -->
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
-                <strong><a href="../painel.php"><img src="../img/logo/pf_logosn.png" alt="" /></a></strong>
+                <a href="../../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
+                <strong><a href="../../painel.php"><img src="../../img/logo/pf_logosn.png" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
@@ -146,10 +125,10 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
                             </ul>
                         </li>-->
                         <li <?php echo 'class="'.$active[0].'"'; if($active[0] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
-                            <a class="has-arrow" href="#" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
+                            <a class="has-arrow" href="index.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
                             <ul class="submenu-angle" aria-expanded="true">
-                                <li><a title="Provas" href="../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
-                                <li><a title="Meus Agendamentos" href="meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
+                                <li><a title="Provas" href="../../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
+                                <li><a title="Meus Agendamentos" href="../../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
                             </ul>
                         </li >
                         <!--<li>
@@ -162,9 +141,9 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
                             </ul>
                         </li>-->
                         <li <?php echo 'class="'.$active[1].'"'; if($active[1] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
-                            <a class="has-arrow" href="#" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
+                            <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Students Profile" href="../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
+                                <li><a title="Students Profile" href="../../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
                             </ul>
                         </li>
                         <!--<li>
@@ -178,10 +157,10 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
                             </ul>
                         </li>-->
                         <li <?php echo 'class="'.$active[2].'"'; if($active[2] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
-                            <a class="has-arrow" href="#" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Minhas Apostilas</span></a>
+                            <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Minhas Apostilas</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Library" href="../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
-                                <li><a title="Add Library" href="../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
+                                <li><a title="All Library" href="../../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
+                                <li><a title="Add Library" href="../../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
                             </ul>
                         </li>
                         <li>
@@ -226,7 +205,7 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
                             </ul>
                         </li>-->
                         <li>
-                            <a  href="administracao_1_1.php" aria-expanded="false"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
+                            <a  aria-expanded="false" href="../../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
                             
                         </li>
 
@@ -253,7 +232,7 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
                             </ul>
                         </li>-->
                         <li id="removable">
-                            <a href="./logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
+                            <a href="../../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -277,13 +256,15 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
             </div>
         </div>
     </div>
+    <!-- End Left menu area -->
+    <!-- Start Welcome area -->
     <div class="all-content-wrapper">
         <div class="container-fluid">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="logo-pro">
-                            <a href="painel.php"><img class="main-logo" src="img/logo/pf_logo.png" alt="" /></a>
+                            <a href="../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -344,7 +325,7 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
                                                                         <li>
                                                                             <a href="#" data-toggle="modal" data-target="<?php echo 'Modal'.$item->idAviso;?>">
                                                                                 <div class="message-img">
-                                                                                    <img src="img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     
@@ -364,7 +345,7 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
                                                                         <li>
                                                                             <a href="#">
                                                                                 <div class="message-img">
-                                                                                    <img src="img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     <p>Você não tem mensagens no momento.</p>
@@ -515,10 +496,10 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
                                                                 <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
                                                             </a>
                                                         <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                            <li><a href="./dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
+                                                            <li><a href="../../dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
                                                             </li>
                                                             </li>
-                                                            <li><a href="logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
+                                                            <li><a href="../../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -979,26 +960,26 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
                                         <ul class="mobile-menu-nav">
                                             <li><a data-toggle="collapse" data-target="#Charts" href="#">Agendamento <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul class="collapse dropdown-header-top">
-                                                    <li><a href="agendar_provas.php">Agendar Provas</a></li>
-                                                    <li><a href="meusAgendamentos.php">Meus Agendamentos</a></li>
+                                                    <li><a href="../../agendar_provas.php">Agendar Provas</a></li>
+                                                    <li><a href="../../meusAgendamentos.php">Meus Agendamentos</a></li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demopro" href="#">Meus Dados <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demopro" class="collapse dropdown-header-top">
-                                                    <li><a href="dadosdoAluno.php">Perfil do Aluno</a>
+                                                    <li><a href="../../dadosdoAluno.php">Perfil do Aluno</a>
                                                     </li>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demolibra" href="#">Minhas Apostilas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demolibra" class="collapse dropdown-header-top">
-                                                    <li><a href="apostilaEntregue.php">Apostilas Entregues</a>
+                                                    <li><a href="../../apostilaEntregue.php">Apostilas Entregues</a>
                                                     </li>
-                                                    <li><a href="apostilaDisponivel.php">Novas Apostilas</a>
+                                                    <li><a href="../../apostilaDisponivel.php">Novas Apostilas</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a data-toggle="collapse" data-target="#Tablesmob" href="#">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <li><a href="../../provas/1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -1024,7 +1005,7 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                             <ul class="breadcome-menu">
-                                                <li><a href="./painel.php">Início</a>
+                                                <li><a href="../../painel.php">Início</a>
                                                 </li>
                                                 <li><span class="bread-blod"><?php echo $bread ?></span>
                                                 </li>
@@ -1038,58 +1019,26 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
                 </div>
             </div>
         </div>
-        <div class="mailbox-view-area mg-b-15">
+        <div class="product-status mg-b-15">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="hpanel shadow-inner responsive-mg-b-30">
-                            <div class="panel-body">
-                                <hr>
-                                <ul class="mailbox-list">
-                                    <li>
-                                        <label>Pesquisar provas</label>
-                                    </li>
-                                    <li>
-                                        <input type="text" class="form-control" name="" id="input-search" placeholder="Digite aqui...">
-                                    </li>
-                                    <li>
-                                        <a><input type="checkbox"  id="chk-ignore-case" value="false"> Ignore Case</a>
-                                    </li>
-
-                                    <li>
-                                        <a><input type="checkbox" id="chk-reveal-results" value="false"> Mostar Resultatos</a>
-                                    </li>
-                                </ul>
-                                <a class="btn btn-success compose-btn btn-block m-b-md" id="btn-search">Pesquisar</a>
-                                <a class="btn btn-success compose-btn btn-block m-b-md" style="margin-top: 10px;" id="btn-clear-search">Limpar</a>
-                                <hr>
-                                <ul class="mailbox-list">
-                                    <li>
-                                        <h4>Resultados</h4>
-                                        <div id="search-output"></div>
-                                    </li>
-                                </ul>
-                                <hr>
-                                <ul class="mailbox-list">
-                                    <li>
-                                        <h4>Arquivos</h4>
-                                        <div id="treeview-searchable" class=""></div>
-                                    </li>
-                                </ul>
-                            </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="col-md-9 col-md-9 col-sm-9 col-xs-12">
                         <div class="hpanel email-compose mailbox-view">
                             <div class="panel-heading hbuilt">
-
                                 <div class="p-xs h4">
+
                                     <small class="pull-right view-hd-ml">
                                             última atualização (04/08/2019)
                                         </small> Visualizador de provas
 
                                 </div>
                             </div>
+
                             <div class="border-top border-left border-right bg-light">
                                 <div class="p-m custom-address-mailbox">
 
@@ -1097,19 +1046,16 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
                                         <strong><span class="font-extra-bold">UNIP INTERATIVA</span></strong>
                                     </div>
                                     <div>
-                                       <strong><span class="font-extra-bold">Código da Prova: </span> 18712394097</strong>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 18630482272</strong>
                                     </div>
                                     <div>
-                                        <strong><span class="font-extra-bold">Curso: </span> ADMINISTRAÇÃO</strong>
+                                        <strong><span class="font-extra-bold">Curso: </span> CST em Redes de Computadores</strong>
                                     </div>
                                     <div>
-                                        <strong><span class="font-extra-bold">Série ou Período: </span> : 2º Bimestre - 1º Semestre</strong>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 2º Bimestre - 1º Semestre</strong>
                                     </div>
                                      <div>
-                                        <strong><span class="font-extra-bold">I - Questões objetivas – valendo 5,00 pontos</span></strong>
-                                    </div>
-                                    <div>
-                                        <strong><span class="font-extra-bold">II - Questões discursivas – valendo 5,00 pontos Gerada em: 05/06/2018 15:10:33</span></strong>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 04/06/2018 18:05:09</span></strong>
                                     </div>
                                 </div>
                             </div>
@@ -1117,155 +1063,173 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
                                 <div>
                                     <h4>Questões de múltipla escolha </h4>
 
-                                    <p>Disciplina: 623960 - Economia e Negócios</p>
+                                    <p>Disciplina: 306360 - Princípios de Sistemas de Informação</p>
 
-                                    <p><strong>Questão 1:</strong> (ENEM/2007 , FUVEST e UEPG/2007 com modificações). Leia um texto publicado no jornal Gazeta Mercantil. Esse texto é parte de um artigo que analisa algumas situações de crise no mundo, entre elas, a quebra da Bolsa de Nova Iorque em 1929, e foi publicado na época de uma iminente crise financeira no Brasil.</br>
+                                    <p><strong>Questão 1:</strong> Segundo Stair e Reynolds (2006), as informações para terem qualidade e valor para as organizações devem ser: precisas, completas, econômicas, flexíveis, confiáveis, relevantes, simples,verificáveis, acessíveis e seguras. Baseado nesta afirmação uma informação flexível deve: </br>
+                                    </br>
 
-                                    </br>“Deu no que deu. No dia 29 de outubro de 1929, uma terça-feira, praticamente, não havia compradores no pregão de Nova Iorque, só vendedores. Seguiu-se uma crise incomparável: o Produto Interno Bruto dos Estados Unidos caiu de 104 bilhões de dólares em 1929, para 56 bilhões em 1933, coisa inimaginável em nossos dias. O valor do dólar caiu a quase metade. O desemprego elevou-se de 1,5 milhão para 12,5 milhões de trabalhadores - cerca de 25% da população ativa - entre 1929 e 1933. A construção civil caiu 90%. Nove milhões de aplicações, tipo caderneta de poupança, perderam-se com o fechamento dos bancos. Oitenta e cinco mil firmas faliram. Houve saques e norte-americanos que passaram fome. (Gazeta Mercantil, 05/01/1999)” -</br>
+                                    A) Poder servir para mais de um propósito.</br>
 
-                                    </br>Ao citar dados referentes à crise ocorrida em 1929, o texto faz referência ao período em que:</br>
+                                    B) Poder ser alterada sem perder sua essência.</br>
 
-                                    I - A restrição na oferta de petróleo por parte da OPEP atingiu, fortemente, as economias mais desenvolvidas.</br>
+                                    C) Transmitir informações duplicadas.</br>
 
-                                    II  - A restrição à importação de produtos estrangeiros por parte dos países em desenvolvimento atingiu, fortemente, as economias mais desenvolvidas.</br>
+                                    D) Favorecer a análise da diretoria da empresa.</br>
 
-                                    III - Ao período de maior crescimento do Capital, tanto em termos dos países desenvolvidos como em termos dos países em desenvolvimento.</br>
-
-                                    </br>Em relação às afirmativas:</br>
-
-                                    A)  Apenas a I está incorreta.</br>
-                                    B)  Apenas a II está incorreta.</br>
-                                    C)  Apenas a III está incorreta.</br>
-                                    D)  Todas estão corretas.</br>
-                                    E)  Todas estão incorretas.</br>
-                                    </p>
-
-                                    <p><strong>Questão 2:</strong> A palavra economia deriva do grego oikosnomos (de óikos, casa; nomos, lei) que significa a administração de uma casa, ou do Estado, e pode ser assim definida: Economia é a ciência social que estuda como o indivíduo e a sociedade decidem (escolhem) empregar recursos produtivos escassos na produção de bens (de consumo final durável ou não durável, intermediário ou de capital) e serviços, de modo a distribuí-los entre as várias pessoas e grupos da sociedade, a fim de satisfazer as necessidades humanas. Portanto, estuda o problema da produção e da distribuição de bens e serviços produzidos pela sociedade, para dar atendimento às necessidades de consumo da própria sociedade.</br>
-
-                                    </br>Considere as seguintes afirmativas:</br>
-
-                                    I - Em qualquer sociedade os recursos produtivos são limitados.</br>
-
-                                    II  - As necessidades humanas são ilimitadas e sempre se renovam, por força do próprio crescimento populacional e do contínuo desejo de elevação do padrão de vida.</br>
-
-                                    III - Independente do grau de desenvolvimento do país, nenhum dispõe de todos os recursos necessários para satisfazer todas as necessidades da coletividade.</br>
-
-                                    </br>Sobre essas afirmativas:</br>
-
-                                    A)  Apenas a I está incorreta.</br>
-                                    B)  Apenas a II está incorreta.</br>
-                                    C)  Apenas a III está incorreta.</br>
-                                    D)  Estão incorretas I, II e III.</br>
-                                    E) Estão corretas I, II e III.</br>
-                                    </p>
-
-                                    <p><strong>Questão 3:</strong> “Sempre o homem experimentou novas necessidades ou descobriu maneiras diferentes de atender a necessidades antigas. Quando as comunidades humanas eram pequenas, acanhadas e, sobretudo, isoladas, a força da tradição de cada uma delas se fazia sentir com maior vigor, os costumes cristalizavam-se e as inovações eram tão lentas a ponto de poderem passar quase despercebidas ao longo de uma geração” (NUSDEO, Fabio - Curso de Economia - Introdução ao Direito Econômico -  . edição, São Paulo, Editora Revista dos Tribunais, 2000, p. 24).</br>
-
-                                    </br>O que o texto acima procura demonstrar?</br>
-
-                                    A)  Que é a partir da Revolução Industrial inglesa, no século XIII, que as necessidades humanas passaram a ser atendidas na sua totalidade; antes desse período, elas eram ilimitadas e atendidas apenas parcialmente.</br>
-                                    B)  Que as necessidades humanas sempre foram finitas e sempre puderam ser atendidas na sua totalidade, especialmente porque os recursos para a produção de bens e serviços foram e são ilimitados.</br>
-                                    C)   Que a satisfação humana, de forma total, é atendida apenas parcialmente; a razão para que isso aconteça é a escassez de recursos para a produção de bens e serviços.</br>
-                                    D)  Que a tecnologia vem promovendo a satisfação total das necessidades ilimitadas dos seres humanos.</br>
-                                    E)  Que a economia de mercado é capaz de atender, em maior proporção, às necessidades ilimitadas da sociedade, comparativamente à economia em que a tradição dita as regras de produção e distribuição de bens e serviços.</br>
-                                    </p>
-
-
-                                    <p><strong>Questão 4:</strong> Na sociedade medieval:</br>
-
-                                    </br>I - A economia era o aspecto dominante das relações sociais, apesar da falta de apoio da Igreja à conquista do bem-estar material.</br>
-                                    II  - As relações de troca entre os agentes eram realizadas apenas com a autorização das autoridades religiosas. III - Todos os bancos eram de propriedade da Igreja, que estabelecia as taxas de juros para o mercado.</br>
-
-                                    </br>Em relação a essas afirmativas:</br>
-
-                                    A)  Apenas a I está incorreta.</br>
-                                    B)  Apenas a II está incorreta.</br>
-                                    C)  Apenas a III está incorreta.</br>
-                                    D)  Estão corretas I, II e III.</br>
-                                    E)  Estão incorretas I, II e III.</br>
-                                    </p>
-
-
-                                    <p><strong>Questão 5:</strong> Em relação às medidas de crescimento e desenvolvimento, podemos afirmar que:</br>
-
-                                    </br>I - O IDH e o índice de Gini são, preferencialmente, mensuradores de desenvolvimento.</br>
-
-                                    II  - O índice de Gini e o PNB per capita são, preferencialmente, mensuradores de crescimento. III - O PNB per capita e o IDH são, preferencialmente, mensuradores de crescimento.</br>
-
-                                    </br>Sobre essas afirmativas:</br>
-
-                                    A)   Apenas a I está incorreta.</br>
-                                    B)   Apenas a II está incorreta.</br>
-                                    C)   Apenas a III está correta.</br>
-                                    D)   Estão corretas I, II e III.</br>
-                                    E)   Estão incorretas I, II e III.</br>
-                                    </p>
-
-
-                                    <p><strong>Questão 6:</strong> A respeito das curvas de possibilidades de produção, podemos afirmar que:</br>
-
-                                    </br>I - Em cada ponto de uma dada curva, temos combinações diferentes da produção de dois bens.</br>
-
-                                    II - O deslocamento de uma dada curva só pode ocorrer se houver mudança no estoque dos fatores de produção.</br>
-
-                                    III - O deslocamento em uma dada curva nos permite calcular o custo de oportunidade de deixar de produzir determinada quantidade de bem.</br>
-
-                                    </br>Em relação a essas afirmativas:</br>
-
-                                    A)   Apenas a I está incorreta.</br>
-                                    B)   Apenas a II está incorreta.</br>
-                                    C)   Apenas a III está correta.</br>
-                                    D)   Estão corretas I, II e III.</br>
-                                    E)   Estão incorretas I, II e III.</br>
-                                    </p>
-
-
-                                    <p><strong>Questão 7:</strong> Thomas Malthus foi um dos mais importantes pensadores do período clássico da história do pensamento econômico. A respeito de suas ideias, podemos dizer que:</br>
-
-                                    </br>A)   ele buscou mostrar como o estoque de alimentos sempre crescerá a uma taxa inversamente proporcional ao crescimento da população.</br>
-                                    B)   ele buscou mostrar como o estoque de alimentos cresce a uma taxa geométrica, enquanto a população cresce a taxas aritméticas.</br>
-                                    C)  ele buscou mostrar como o estoque de alimentos e a população crescem a uma mesma taxa aritmética.</br>
-                                    D)  ele buscou mostrar como o estoque de alimentos cresce a uma taxa aritmética, enquanto a população cresce a taxas geométricas.</br>
-                                    E)  ele buscou mostrar como o estoque de alimentos e a população crescem a uma mesma taxa geométrica.</br>
-                                    </p>
-
-
-                                    <p><strong>Questão 8:</strong> A Curva de Demanda reflete os desejos dos consumidores em adquirir os bens e serviços que necessitam. Neste sentido, podemos caracterizar que a demanda por um determinado bem depende:</br>
-
-                                    </br>I - Apenas do preço que está sendo cobrado por esse bem, no mercado.</br>
-
-                                    II - Das características de produção do respectivo bem.</br>
-
-                                    III - De vários fatores, destacando-se o seu preço, o de produtos complementares e substitutos e também das preferências e da renda dos consumidores.</br>
-
-                                    </br>Com base nas proposições, entendemos que:</br>
-
-                                    A)   Todas estão corretas.</br>
-                                    B)   II e III estão corretas, apenas.</br>
-                                    C)   III está correta, apenas.</br>
-                                    D)  I e III estão corretas, apenas.</br>
-                                    E)  As três estão incorretas.</br>
-                                    </p>
-
-                                    <h4>Questões de múltipla escolha </h4>
-
-                                    <p><strong>Questão 1:</strong> Considerando o assunto sistema econômico, cite e explique as principais características da economia mista.</br>
+                                    E) Receber inputsdurante sua análise.</br>
+                                    </br>
 
                                     </p>
 
-                                    <p><strong>Questão 2:</strong> A Conferência das Nações Unidas sobre o Desenvolvimento Sustentável (Rio +20) ocorreu entre os dias 13 e 22 de junho de 2012, na cidade do Rio de Janeiro. Na última semana de março de 2012, o Ministério da Justiça intimou a Associação Brasileira da Indústria de Hotéis do Rio de Janeiro (ABIH-RJ), a Federação Brasileira de Hospedagem e Alimentação (FNHRBS) e o Sindicato de Hotéis, Bares e Restaurantes do Rio (SindRio) a se explicarem quanto à acusação de recusa de prestação de serviços e aumento abusivo de preços. A ABIH-RJ informou que os preços praticados pelos estabelecimentos cariocas estavam apenas seguindo os padrões tarifários de períodos de alta temporada e de grandes eventos, não tendo informações a respeito de estabelecimentos estarem utilizando práticas abusivas de mercado.</br>
+                                    <p><strong>Questão 2:</strong> Por que os programas de computador, sendo executados numa mesma máquina, podem obter osrecursos necessários para suas tarefas e não causar conflitos, nem mesmo apresentação do resultado do programa A na tela do programa B por equívoco? Qual tipo de softwareque estudamos tem como característica gerenciar os recursos e tarefas dos usuários e aplicações:</br>
+                                    </br>
 
-                                    </br>I - Apenas do preço que está sendo cobrado por esse bem, no mercado.</br>
+                                    A) Softwarede Aplicações Proprietário.</br>
 
-                                    II - Das características de produção do respectivo bem.</br>
+                                    B) Softwarede Sistema.</br>
 
-                                    III - De vários fatores, destacando-se o seu preço, o de produtos complementares e substitutos e também das preferências e da renda dos consumidores.</br>
+                                    C) Softwarede Aplicações Gerenciais.</br>
 
-                                    </br>Com base nisso, explique:</br>
+                                    D) Softwarede Programação.</br>
 
-                                    A)  A qual estrutura de mercado o setor hoteleiro se encaixa?</br>
-                                    B)  Quais as principais características da estrutura de mercado em que está o setor hoteleiro?</br>
+                                    E) Softwarede Gerenciamento de dados.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Em um computador, o softwareé classificado como a parte lógica, cuja função é fornecer instruções para o hardware. Ele pode ser classificado como:</br>
+                                    </br>
+
+                                    A) De reconhecimento, de programação e de sistema operações.</br>
+
+                                    B) De aplicação, de informação e de sistema.</br>
+
+                                    C) De aplicação, de programação e de serviços.</br>
+
+                                    D) De aplicação, de facilidades e de sistema.</br>
+
+                                    E) De aplicação, de programação e de sistema.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> Um sistema trabalha recebendo dados e produzindo resultados baseado em mecanismos de processamento e transformação destes dados, para que as empresas tomem decisões mais assertivas e rápidas. As tomadas de decisão podem ser definidas em três níveis, que são estratégico, tático e operacional. Podemos definir como principais características do nível Estratégico:</br>
+                                    </br>
+
+                                    A) Corpo gerencial da empresa, informação macro e decisões de longo prazo.</br>
+
+                                    B) Corpo operacional da empresa, informação micro e decisões de curto prazo.</br>
+
+                                    C) Corpo diretor da empresa, informação macro e decisões de médio prazo.</br>
+
+                                    D) Corpo operacional da empresa, informação macro e decisões de médio prazo.</br>
+
+                                    E) Corpo diretor da empresa, informação macro e decisões de longo prazo.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> s softwaresaplicativos são programas de computadores que permitem ao usuário executar uma série de tarefas específicas em diversas áreas de atividade. Eles podem ser classificados em 3 categorias: De Aplicações Gerais, de Prateleira e Proprietários. Podemos definir um softwareaplicativo proprietário como:</br>
+                                    </br>
+
+                                    A) Aplicação desenvolvida para atender uma necessidade genérica de usuários finais.</br>
+
+                                    B) Aplicação pertencente a uma empresa que comercializa para outras, mas de atividade fim diferente.</br>
+
+                                    C) Aplicação cujo dono tem os direitos reservados e só ele pode vender.</br>
+
+                                    D) Aplicação desenvolvida para atender uma necessidade computacional específica de uma empresa.</br>
+
+                                    E) Aplicação desenvolvida para ajudar um determinado ramo de atividade do mercado global.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> As empresas buscam vantagem competitiva quando analisam as condições de mercado. Segundo Porter existem cinco forças que interagem entre si e que fazem com que as empresas busquem sua vantagem competitiva em relação ao mercado. São elas:</br>
+                                    </br>
+
+                                    A) Concorrência, forças, fraquezas, ameaças, oportunidades.</br>
+
+                                    B) Concorrência, ameaça de novos entrantes, fornecedores, clientes, produtos substitutos.</br>
+
+                                    C) Concorrência, oportunidades, fornecedores, clientes, produtos substitutos.</br>
+
+                                    D) Concorrência, forças, fornecedores, clientes, produtos substitutos.</br>
+
+                                    E) Concorrência, ameaça de novos entrantes, fraquezas, clientes, produtos substitutos.</br>
+                                    </br>
+                                    </p>
+
+
+                                    <p><strong>Questão 7:</strong> Um sistema de informação é normalmente composto de cinco elementos que interagem entre si para coletar, processar e armazenar dados e informações processadas. São os cinco elementos de um sistema de informação:</br>
+                                    </br>
+
+                                    A) Entrada, processamento, saída, realimentação e armazenamento.</br>
+
+                                    B) Pessoas, processamento, hardware, softwaree banco de dados.</br>
+
+                                    C) Pessoas, hardware, software, rede de telecomunicações e banco de dados.</br>
+
+                                    D) Entrada, processamento, saída, realimentação e banco de dados.</br>
+
+                                    E) Pessoas, hardware, software, rede de telecomunicações e processamento.</br>
+
+                                    </br>
+
+                                    </p>
+
+
+                                    <p><strong>Questão 8:</strong> Do ponto de vista técnico a Internet é:</br>
+                                    </br>
+
+                                    A) Uma rede mundial de computadores. </br>
+
+                                    B) Uma rede fechada a universidades. </br>
+
+                                    C) Uma rede dentro de uma Cidade. </br>
+
+                                    D) Uma rede personal. </br>
+
+                                    E) Uma rede simples. </br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> Telecomunicação é a comunicação a distância, ou seja, os sinais são transmitidos da origem para o destino por meio de recursos eletrônicos, vencendo barreiras geográficas da origem do sinal.A informação percorre milhares de quilômetros entre a origem e o destino numa fração de segundo. Ou seja, um programa de TV produzido em São Paulo está sendo transmitido ao mesmo tempo no Acre e no Chuí. Como podemos definir meio de transmissão nesse caso?</br>
+                                    </br>
+
+                                    A) Qualquer entidade capaz de carregar um sinal eletrônico e servir de interface entre dispositivos transmissores e receptores.</br> 
+
+                                    B) Qualquer entidade que carregue um sinal físico pelo mundo.</br>
+
+                                    C) Forma como o usuário busca a informação.</br>
+
+                                    D) Qualquer entidade capaz de carregar um sinal não eletrônico.</br>
+
+                                    E) Qualquer entidade que serve de interface entre dispositivos transmissores e receptores.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> 10: A estrutura de comunicação entre vários processadores é um ‘arranjo topológico’ ligadopor enlace físico e organizado por regras claras de comunicação, ou seja, os protocolos. Esses enlaces são as linhas de comunicação. Qual topologia tem como característica a comunicação entre dois dispositivos ligados diretamente?</br>
+                                    </br>
+
+                                    A) Anel.</br>
+
+                                    B) Estrela.</br>
+
+                                    C) Híbrida.</br>
+
+                                    D) Barramento.</br>
+
+                                    E) Ponto a Ponto.</br>
+
                                 </div>
+                            </div>
+                            <div class="custom-pagination">
+                                <ul class="pagination">
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -1288,7 +1252,7 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
         function marcarComoLida(id_aviso){
          
             var request = $.ajax({
-                url: 'PutAviso.php?idAviso='+id_aviso,
+                url: '../../PutAviso.php?idAviso='+id_aviso,
                 type: 'get',
                 dataType: 'html'
             });
@@ -1303,548 +1267,85 @@ if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
          
         }
     </script>
-        <script
-          src="https://code.jquery.com/jquery-3.4.1.min.js"
-          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-          crossorigin="anonymous"></script>
-
-
-        <!-- jquery
+    <script>
+ 
+    function imAnAjaxFunction(){
+     
+        var request = $.ajax({
+            url: 'phpfile.php',
+            type: 'get',
+            dataType: 'html'
+        });
+     
+        request.done( function ( data ) {
+            $('#ajaxButton').html( data );
+        });
+     
+        request.fail( function ( jqXHR, textStatus) {
+            console.log( 'Sorry: ' + textStatus );
+        });
+     
+    }
+     
+    </script>
+    <!-- jquery
         ============================================ -->
-        <script src="js/vendor/jquery-1.12.4.min.js"></script>
-        <!-- bootstrap JS
+    <script src="../../js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap JS
         ============================================ -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- wow JS
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- wow JS
         ============================================ -->
-        <script src="js/wow.min.js"></script>
-        <!-- price-slider JS
+    <script src="../../js/wow.min.js"></script>
+    <!-- price-slider JS
         ============================================ -->
-        <script src="js/jquery-price-slider.js"></script>
-        <!-- meanmenu JS
+    <script src="../../js/jquery-price-slider.js"></script>
+    <!-- meanmenu JS
         ============================================ -->
-        <script src="js/jquery.meanmenu.js"></script>
-        <!-- owl.carousel JS
+    <script src="../../js/jquery.meanmenu.js"></script>
+    <!-- owl.carousel JS
         ============================================ -->
-        <script src="js/owl.carousel.min.js"></script>
-        <!-- sticky JS
+    <script src="../../js/owl.carousel.min.js"></script>
+    <!-- sticky JS
         ============================================ -->
-        <script src="js/jquery.sticky.js"></script>
-        <!-- scrollUp JS
+    <script src="../../js/jquery.sticky.js"></script>
+    <!-- scrollUp JS
         ============================================ -->
-        <script src="js/jquery.scrollUp.min.js"></script>
-        <!-- mCustomScrollbar JS
+    <script src="../../js/jquery.scrollUp.min.js"></script>
+    <!-- counterup JS
         ============================================ -->
-        <script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script src="js/scrollbar/mCustomScrollbar-active.js"></script>
-        <!-- metisMenu JS
+    <script src="../../js/counterup/jquery.counterup.min.js"></script>
+    <script src="../../js/counterup/waypoints.min.js"></script>
+    <script src="../../js/counterup/counterup-active.js"></script>
+    <!-- mCustomScrollbar JS
         ============================================ -->
-        <script src="js/metisMenu/metisMenu.min.js"></script>
-        <script src="js/metisMenu/metisMenu-active.js"></script>
-        <!-- touchspin JS
+    <script src="../../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../../js/scrollbar/mCustomScrollbar-active.js"></script>
+    <!-- metisMenu JS
         ============================================ -->
-        <script src="js/touchspin/jquery.bootstrap-touchspin.min.js"></script>
-        <script src="js/touchspin/touchspin-active.js"></script>
-        <!-- colorpicker JS
+    <script src="../../js/metisMenu/metisMenu.min.js"></script>
+    <script src="../../js/metisMenu/metisMenu-active.js"></script>
+    <!-- morrisjs JS
         ============================================ -->
-        <script src="js/colorpicker/jquery.spectrum.min.js"></script>
-        <script src="js/colorpicker/color-picker-active.js"></script>
-        <!-- datapicker JS
+    <script src="../../js/morrisjs/raphael-min.js"></script>
+    <script src="../../js/morrisjs/morris.js"></script>
+    <script src="../../js/morrisjs/morris-active.js"></script>
+    <!-- morrisjs JS
         ============================================ -->
-        <script src="js/datapicker/bootstrap-datepicker.js"></script>
-        <script src="js/datapicker/datepicker-active.js"></script>
-        <!-- input-mask JS
+    <script src="../../js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../../js/sparkline/jquery.charts-sparkline.js"></script>
+    <script src="../../js/sparkline/sparkline-active.js"></script>
+    <!-- calendar JS
         ============================================ -->
-        <script src="js/input-mask/jasny-bootstrap.min.js"></script>
-        <!-- chosen JS
+    <script src="../../js/calendar/moment.min.js"></script>
+    <script src="../../js/calendar/fullcalendar.min.js"></script>
+    <script src="../../js/calendar/fullcalendar-active.js"></script>
+    <!-- plugins JS
         ============================================ -->
-        <script src="js/chosen/chosen.jquery.js"></script>
-        <script src="js/chosen/chosen-active.js"></script>
-        <!-- select2 JS
+    <script src="../../js/plugins.js"></script>
+    <!-- main JS
         ============================================ -->
-        <script src="js/select2/select2.full.min.js"></script>
-        <script src="js/select2/select2-active.js"></script>
-        <!-- ionRangeSlider JS
-        ============================================ -->
-        <script src="js/ionRangeSlider/ion.rangeSlider.min.js"></script>
-        <script src="js/ionRangeSlider/ion.rangeSlider.active.js"></script>
-        <!-- rangle-slider JS
-        ============================================ -->
-        <script src="js/rangle-slider/jquery-ui-1.10.4.custom.min.js"></script>
-        <script src="js/rangle-slider/jquery-ui-touch-punch.min.js"></script>
-        <script src="Js/rangle-slider/rangle-active.js"></script>
-        <!-- knob JS
-        ============================================ -->
-        <script src="js/knob/jquery.knob.js"></script>
-        <script src="js/knob/knob-active.js"></script>
-        <!-- tab JS
-        ============================================ -->
-        <script src="js/tab.js"></script>
-        <!-- plugins JS
-        ============================================ -->
-        <script src="js/plugins.js"></script>
-        <!-- main JS
-        ============================================ -->
-        <script src="js/main.js"></script>
-
-        <script src="js/bootstrap-treeview.js"></script>
-
-        <script type="text/javascript">
-
-                $(function() {
-
-                var defaultData = [
-                  {
-                    text: 'Administração',
-                    href: '#parent1',
-                    tags: ['4'],
-                    nodes: [
-                      {
-                        text: '1 Semestre',
-                        href: '#Semestre1',
-                        tags: ['2'],
-                        nodes: [
-                          {
-                            text: '1 Bimestre',
-                            href: '#Bimestre1',
-                            tags: ['0']
-                          },
-                          {
-                            text: '2 Bimestre',
-                            href: '#Bimestre2',
-                            tags: ['0']
-                          }
-                        ]
-                      },
-                      {
-                        text: '2 Semestre',
-                        href: '#Semestre2',
-                        tags: ['0']
-                      }
-                    ]
-                  },
-                  {
-                    text: 'Contabilidadae',
-                    href: '#parent2',
-                    tags: ['0']
-                  },
-                  {
-                    text: 'Analise de Sistemas',
-                    href: '#parent3',
-                     tags: ['0']
-                  },
-                  {
-                    text: 'Redes de Computadores',
-                    href: '#parent4',
-                    tags: ['0']
-                  },
-                  {
-                    text: 'Segurança do Trabalho',
-                    href: '#parent5'  ,
-                    tags: ['0']
-                  }
-                ];
-
-                var alternateData = [
-                  {
-                    text: 'Parent 1',
-                    tags: ['2'],
-                    nodes: [
-                      {
-                        text: 'Child 1',
-                        tags: ['3'],
-                        nodes: [
-                          {
-                            text: 'Grandchild 1',
-                            tags: ['6']
-                          },
-                          {
-                            text: 'Grandchild 2',
-                            tags: ['3']
-                          }
-                        ]
-                      },
-                      {
-                        text: 'Child 2',
-                        tags: ['3']
-                      }
-                    ]
-                  },
-                  {
-                    text: 'Parent 2',
-                    tags: ['7']
-                  },
-                  {
-                    text: 'Parent 3',
-                    icon: 'glyphicon glyphicon-earphone',
-                    href: '#demo',
-                    tags: ['11']
-                  },
-                  {
-                    text: 'Parent 4',
-                    icon: 'glyphicon glyphicon-cloud-download',
-                    href: '/demo.html',
-                    tags: ['19'],
-                    selected: true
-                  },
-                  {
-                    text: 'Parent 5',
-                    icon: 'glyphicon glyphicon-certificate',
-                    color: 'pink',
-                    backColor: 'red',
-                    href: 'http://www.tesco.com',
-                    tags: ['available','0']
-                  }
-                ];
-
-                var json = '[' +
-                  '{' +
-                    '"text": "Parent 1",' +
-                    '"nodes": [' +
-                      '{' +
-                        '"text": "Child 1",' +
-                        '"nodes": [' +
-                          '{' +
-                            '"text": "Grandchild 1"' +
-                          '},' +
-                          '{' +
-                            '"text": "Grandchild 2"' +
-                          '}' +
-                        ']' +
-                      '},' +
-                      '{' +
-                        '"text": "Child 2"' +
-                      '}' +
-                    ']' +
-                  '},' +
-                  '{' +
-                    '"text": "Parent 2"' +
-                  '},' +
-                  '{' +
-                    '"text": "Parent 3"' +
-                  '},' +
-                  '{' +
-                    '"text": "Parent 4"' +
-                  '},' +
-                  '{' +
-                    '"text": "Parent 5"' +
-                  '}' +
-                ']';
-
-
-                $('#treeview1').treeview({
-                  data: defaultData
-                });
-
-                $('#treeview2').treeview({
-                  levels: 1,
-                  data: defaultData
-                });
-
-                $('#treeview3').treeview({
-                  levels: 99,
-                  data: defaultData
-                });
-
-                $('#treeview4').treeview({
-
-                  color: "#428bca",
-                  data: defaultData
-                });
-
-                $('#treeview5').treeview({
-                  color: "#428bca",
-                  expandIcon: 'glyphicon glyphicon-chevron-right',
-                  collapseIcon: 'glyphicon glyphicon-chevron-down',
-                  nodeIcon: 'glyphicon glyphicon-bookmark',
-                  data: defaultData
-                });
-
-                $('#treeview6').treeview({
-                  color: "#428bca",
-                  expandIcon: "glyphicon glyphicon-stop",
-                  collapseIcon: "glyphicon glyphicon-unchecked",
-                  nodeIcon: "glyphicon glyphicon-user",
-                  showTags: true,
-                  data: defaultData
-                });
-
-                $('#treeview7').treeview({
-                  color: "#428bca",
-                  showBorder: false,
-                  data: defaultData
-                });
-
-                $('#treeview8').treeview({
-                  expandIcon: "glyphicon glyphicon-stop",
-                  collapseIcon: "glyphicon glyphicon-unchecked",
-                  nodeIcon: "glyphicon glyphicon-user",
-                  color: "yellow",
-                  backColor: "purple",
-                  onhoverColor: "orange",
-                  borderColor: "red",
-                  showBorder: false,
-                  showTags: true,
-                  highlightSelected: true,
-                  selectedColor: "yellow",
-                  selectedBackColor: "darkorange",
-                  data: defaultData
-                });
-
-                $('#treeview9').treeview({
-                  expandIcon: "glyphicon glyphicon-stop",
-                  collapseIcon: "glyphicon glyphicon-unchecked",
-                  nodeIcon: "glyphicon glyphicon-user",
-                  color: "yellow",
-                  backColor: "purple",
-                  onhoverColor: "orange",
-                  borderColor: "red",
-                  showBorder: false,
-                  showTags: true,
-                  highlightSelected: true,
-                  selectedColor: "yellow",
-                  selectedBackColor: "darkorange",
-                  data: alternateData
-                });
-
-                $('#treeview10').treeview({
-                  color: "#428bca",
-                  enableLinks: true,
-                  data: defaultData
-                });
-
-
-
-                var $searchableTree = $('#treeview-searchable').treeview({
-                  data: defaultData,
-                  enableLinks: true,
-                });
-
-                var search = function(e) {
-                  var pattern = $('#input-search').val();
-                  var options = {
-                    ignoreCase: $('#chk-ignore-case').is(':checked'),
-                    exactMatch: $('#chk-exact-match').is(':checked'),
-                    revealResults: $('#chk-reveal-results').is(':checked')
-                  };
-                  var results = $searchableTree.treeview('search', [ pattern, options ]);
-
-                  var output = '<p>' + results.length + ' arquivos encontrados</p>';
-                  $.each(results, function (index, result) {
-                    output += '<a href="' + result.text + '.html">' +result.text+'</a>';
-                  });
-                  $('#search-output').html(output);
-                }
-
-                $('#btn-search').on('click', search);
-                $('#input-search').on('keyup', search);
-
-                $('#btn-clear-search').on('click', function (e) {
-                  $searchableTree.treeview('clearSearch');
-                  $('#input-search').val('');
-                  $('#search-output').html('');
-                });
-
-
-                var initSelectableTree = function() {
-                  return $('#treeview-selectable').treeview({
-                    data: defaultData,
-                    multiSelect: $('#chk-select-multi').is(':checked'),
-                    onNodeSelected: function(event, node) {
-                      $('#selectable-output').prepend('<p>' + node.text + ' was selected</p>');
-                    },
-                    onNodeUnselected: function (event, node) {
-                      $('#selectable-output').prepend('<p>' + node.text + ' was unselected</p>');
-                    }
-                  });
-                };
-                var $selectableTree = initSelectableTree();
-
-                var findSelectableNodes = function() {
-                  return $selectableTree.treeview('search', [ $('#input-select-node').val(), { ignoreCase: false, exactMatch: false } ]);
-                };
-                var selectableNodes = findSelectableNodes();
-
-                $('#chk-select-multi:checkbox').on('change', function () {
-                  console.log('multi-select change');
-                  $selectableTree = initSelectableTree();
-                  selectableNodes = findSelectableNodes();          
-                });
-
-                // Select/unselect/toggle nodes
-                $('#input-select-node').on('keyup', function (e) {
-                  selectableNodes = findSelectableNodes();
-                  $('.select-node').prop('disabled', !(selectableNodes.length >= 1));
-                });
-
-                $('#btn-select-node.select-node').on('click', function (e) {
-                  $selectableTree.treeview('selectNode', [ selectableNodes, { silent: $('#chk-select-silent').is(':checked') }]);
-                });
-
-                $('#btn-unselect-node.select-node').on('click', function (e) {
-                  $selectableTree.treeview('unselectNode', [ selectableNodes, { silent: $('#chk-select-silent').is(':checked') }]);
-                });
-
-                $('#btn-toggle-selected.select-node').on('click', function (e) {
-                  $selectableTree.treeview('toggleNodeSelected', [ selectableNodes, { silent: $('#chk-select-silent').is(':checked') }]);
-                });
-
-
-
-                var $expandibleTree = $('#treeview-expandible').treeview({
-                  data: defaultData,
-                  onNodeCollapsed: function(event, node) {
-                    $('#expandible-output').prepend('<p>' + node.text + ' was collapsed</p>');
-                  },
-                  onNodeExpanded: function (event, node) {
-                    $('#expandible-output').prepend('<p>' + node.text + ' was expanded</p>');
-                  }
-                });
-
-                var findExpandibleNodess = function() {
-                  return $expandibleTree.treeview('search', [ $('#input-expand-node').val(), { ignoreCase: false, exactMatch: false } ]);
-                };
-                var expandibleNodes = findExpandibleNodess();
-
-                // Expand/collapse/toggle nodes
-                $('#input-expand-node').on('keyup', function (e) {
-                  expandibleNodes = findExpandibleNodess();
-                  $('.expand-node').prop('disabled', !(expandibleNodes.length >= 1));
-                });
-
-                $('#btn-expand-node.expand-node').on('click', function (e) {
-                  var levels = $('#select-expand-node-levels').val();
-                  $expandibleTree.treeview('expandNode', [ expandibleNodes, { levels: levels, silent: $('#chk-expand-silent').is(':checked') }]);
-                });
-
-                $('#btn-collapse-node.expand-node').on('click', function (e) {
-                  $expandibleTree.treeview('collapseNode', [ expandibleNodes, { silent: $('#chk-expand-silent').is(':checked') }]);
-                });
-
-                $('#btn-toggle-expanded.expand-node').on('click', function (e) {
-                  $expandibleTree.treeview('toggleNodeExpanded', [ expandibleNodes, { silent: $('#chk-expand-silent').is(':checked') }]);
-                });
-
-                // Expand/collapse all
-                $('#btn-expand-all').on('click', function (e) {
-                  var levels = $('#select-expand-all-levels').val();
-                  $expandibleTree.treeview('expandAll', { levels: levels, silent: $('#chk-expand-silent').is(':checked') });
-                });
-
-                $('#btn-collapse-all').on('click', function (e) {
-                  $expandibleTree.treeview('collapseAll', { silent: $('#chk-expand-silent').is(':checked') });
-                });
-
-
-
-                var $checkableTree = $('#treeview-checkable').treeview({
-                  data: defaultData,
-                  showIcon: false,
-                  showCheckbox: true,
-                  onNodeChecked: function(event, node) {
-                    $('#checkable-output').prepend('<p>' + node.text + ' was checked</p>');
-                  },
-                  onNodeUnchecked: function (event, node) {
-                    $('#checkable-output').prepend('<p>' + node.text + ' was unchecked</p>');
-                  }
-                });
-
-                var findCheckableNodess = function() {
-                  return $checkableTree.treeview('search', [ $('#input-check-node').val(), { ignoreCase: false, exactMatch: false } ]);
-                };
-                var checkableNodes = findCheckableNodess();
-
-                // Check/uncheck/toggle nodes
-                $('#input-check-node').on('keyup', function (e) {
-                  checkableNodes = findCheckableNodess();
-                  $('.check-node').prop('disabled', !(checkableNodes.length >= 1));
-                });
-
-                $('#btn-check-node.check-node').on('click', function (e) {
-                  $checkableTree.treeview('checkNode', [ checkableNodes, { silent: $('#chk-check-silent').is(':checked') }]);
-                });
-
-                $('#btn-uncheck-node.check-node').on('click', function (e) {
-                  $checkableTree.treeview('uncheckNode', [ checkableNodes, { silent: $('#chk-check-silent').is(':checked') }]);
-                });
-
-                $('#btn-toggle-checked.check-node').on('click', function (e) {
-                  $checkableTree.treeview('toggleNodeChecked', [ checkableNodes, { silent: $('#chk-check-silent').is(':checked') }]);
-                });
-
-                // Check/uncheck all
-                $('#btn-check-all').on('click', function (e) {
-                  $checkableTree.treeview('checkAll', { silent: $('#chk-check-silent').is(':checked') });
-                });
-
-                $('#btn-uncheck-all').on('click', function (e) {
-                  $checkableTree.treeview('uncheckAll', { silent: $('#chk-check-silent').is(':checked') });
-                });
-
-
-
-                var $disabledTree = $('#treeview-disabled').treeview({
-                  data: defaultData,
-                  onNodeDisabled: function(event, node) {
-                    $('#disabled-output').prepend('<p>' + node.text + ' was disabled</p>');
-                  },
-                  onNodeEnabled: function (event, node) {
-                    $('#disabled-output').prepend('<p>' + node.text + ' was enabled</p>');
-                  },
-                  onNodeCollapsed: function(event, node) {
-                    $('#disabled-output').prepend('<p>' + node.text + ' was collapsed</p>');
-                  },
-                  onNodeUnchecked: function (event, node) {
-                    $('#disabled-output').prepend('<p>' + node.text + ' was unchecked</p>');
-                  },
-                  onNodeUnselected: function (event, node) {
-                    $('#disabled-output').prepend('<p>' + node.text + ' was unselected</p>');
-                  }
-                });
-
-                var findDisabledNodes = function() {
-                  return $disabledTree.treeview('search', [ $('#input-disable-node').val(), { ignoreCase: false, exactMatch: false } ]);
-                };
-                var disabledNodes = findDisabledNodes();
-
-                // Expand/collapse/toggle nodes
-                $('#input-disable-node').on('keyup', function (e) {
-                  disabledNodes = findDisabledNodes();
-                  $('.disable-node').prop('disabled', !(disabledNodes.length >= 1));
-                });
-
-                $('#btn-disable-node.disable-node').on('click', function (e) {
-                  $disabledTree.treeview('disableNode', [ disabledNodes, { silent: $('#chk-disable-silent').is(':checked') }]);
-                });
-
-                $('#btn-enable-node.disable-node').on('click', function (e) {
-                  $disabledTree.treeview('enableNode', [ disabledNodes, { silent: $('#chk-disable-silent').is(':checked') }]);
-                });
-
-                $('#btn-toggle-disabled.disable-node').on('click', function (e) {
-                  $disabledTree.treeview('toggleNodeDisabled', [ disabledNodes, { silent: $('#chk-disable-silent').is(':checked') }]);
-                });
-
-                // Expand/collapse all
-                $('#btn-disable-all').on('click', function (e) {
-                  $disabledTree.treeview('disableAll', { silent: $('#chk-disable-silent').is(':checked') });
-                });
-
-                $('#btn-enable-all').on('click', function (e) {
-                  $disabledTree.treeview('enableAll', { silent: $('#chk-disable-silent').is(':checked') });
-                });
-
-
-
-                var $tree = $('#treeview12').treeview({
-                  data: json
-                });
-                });
-            </script>
+    <script src="../../js/main.js"></script>
 </body>
 
 </html>
-
-
-
-

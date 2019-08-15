@@ -1098,6 +1098,14 @@
 
                                     </tr>
                                 </table>
+                                <div class="custom-pagination">
+                                <ul class="pagination">
+                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
+                                    <li class="page-item"><a class="page-link" href="./1.php">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
+                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
+                                </ul>
+                            </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
