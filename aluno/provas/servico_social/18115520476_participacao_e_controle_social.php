@@ -1,9 +1,9 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / 1';
+    $bread = '/ Provas / Administração';
     $active = ['', '', ''];
 
-    include("../GetListaAvisos.php");
+    include("../../GetListaAvisos.php");
     if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
         $ra = $_SESSION['RA'];
         $temAviso = false;
@@ -15,7 +15,7 @@
         }
 
     }else{
-        header('Location: ../login.php');
+        header('Location: login.php');
         exit();
     }
 
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Painel | Polo Fácil</title>
+    <title>Provas - Administração | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -45,56 +63,56 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
     <!-- owl.carousel CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/owl.carousel.css">
-    <link rel="stylesheet" href="../css/owl.theme.css">
-    <link rel="stylesheet" href="../css/owl.transitions.css">
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <link rel="stylesheet" href="../../css/owl.transitions.css">
     <!-- animate CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../../css/animate.css">
     <!-- normalize CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
     <!-- meanmenu icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/meanmenu.min.css">
+    <link rel="stylesheet" href="../../css/meanmenu.min.css">
     <!-- main CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
     <!-- educate icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/educate-custon-icon.css">
+    <link rel="stylesheet" href="../../css/educate-custon-icon.css">
     <!-- morrisjs CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/morrisjs/morris.css">
+    <link rel="stylesheet" href="../../css/morrisjs/morris.css">
     <!-- mCustomScrollbar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../../css/scrollbar/jquery.mCustomScrollbar.min.css">
     <!-- metisMenu CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu.min.css">
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu-vertical.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu-vertical.css">
     <!-- calendar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.min.css">
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.print.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.print.min.css">
     <!-- modals CSS
     ============================================ -->
-    <link rel="stylesheet" href="../css/modals.css">
+    <link rel="stylesheet" href="../../css/modals.css">
     <!-- style CSS
         ============================================ -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../style.css">
     <!-- responsive CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
     <!-- modernizr JS
         ============================================ -->
-    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -105,8 +123,8 @@
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
-                <strong><a href="../painel.php"><img src="../img/logo/pf_logosn.png" alt="" /></a></strong>
+                <a href="../../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
+                <strong><a href="../../painel.php"><img src="../../img/logo/pf_logosn.png" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
@@ -127,8 +145,8 @@
                         <li <?php echo 'class="'.$active[0].'"'; if($active[0] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="index.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
                             <ul class="submenu-angle" aria-expanded="true">
-                                <li><a title="Provas" href="../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
-                                <li><a title="Meus Agendamentos" href="../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
+                                <li><a title="Provas" href="../../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
+                                <li><a title="Meus Agendamentos" href="../../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
                             </ul>
                         </li >
                         <!--<li>
@@ -143,7 +161,7 @@
                         <li <?php echo 'class="'.$active[1].'"'; if($active[1] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Students Profile" href="../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
+                                <li><a title="Students Profile" href="../../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
                             </ul>
                         </li>
                         <!--<li>
@@ -159,8 +177,8 @@
                         <li <?php echo 'class="'.$active[2].'"'; if($active[2] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Minhas Apostilas</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Library" href="../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
-                                <li><a title="Add Library" href="../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
+                                <li><a title="All Library" href="../../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
+                                <li><a title="Add Library" href="../../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
                             </ul>
                         </li>
                         <li>
@@ -205,7 +223,7 @@
                             </ul>
                         </li>-->
                         <li>
-                            <a  aria-expanded="false" href="../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
+                            <a  aria-expanded="false" href="../../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
                             
                         </li>
 
@@ -232,7 +250,7 @@
                             </ul>
                         </li>-->
                         <li id="removable">
-                            <a href="../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
+                            <a href="../../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -264,7 +282,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="logo-pro">
-                            <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
+                            <a href="../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -325,7 +343,7 @@
                                                                         <li>
                                                                             <a href="#" data-toggle="modal" data-target="<?php echo 'Modal'.$item->idAviso;?>">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     
@@ -345,7 +363,7 @@
                                                                         <li>
                                                                             <a href="#">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     <p>Você não tem mensagens no momento.</p>
@@ -496,10 +514,10 @@
                                                                 <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
                                                             </a>
                                                         <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                            <li><a href="./dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
+                                                            <li><a href="../../dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
                                                             </li>
                                                             </li>
-                                                            <li><a href="../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
+                                                            <li><a href="../../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -960,26 +978,26 @@
                                         <ul class="mobile-menu-nav">
                                             <li><a data-toggle="collapse" data-target="#Charts" href="#">Agendamento <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul class="collapse dropdown-header-top">
-                                                    <li><a href="../agendar_provas.php">Agendar Provas</a></li>
-                                                    <li><a href="../meusAgendamentos.php">Meus Agendamentos</a></li>
+                                                    <li><a href="../../agendar_provas.php">Agendar Provas</a></li>
+                                                    <li><a href="../../meusAgendamentos.php">Meus Agendamentos</a></li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demopro" href="#">Meus Dados <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demopro" class="collapse dropdown-header-top">
-                                                    <li><a href="../dadosdoAluno.php">Perfil do Aluno</a>
+                                                    <li><a href="../../dadosdoAluno.php">Perfil do Aluno</a>
                                                     </li>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demolibra" href="#">Minhas Apostilas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demolibra" class="collapse dropdown-header-top">
-                                                    <li><a href="../apostilaEntregue.php">Apostilas Entregues</a>
+                                                    <li><a href="../../apostilaEntregue.php">Apostilas Entregues</a>
                                                     </li>
-                                                    <li><a href="../apostilaDisponivel.php">Novas Apostilas</a>
+                                                    <li><a href="../../apostilaDisponivel.php">Novas Apostilas</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <li><a href="../../provas/1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -1005,7 +1023,7 @@
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                             <ul class="breadcome-menu">
-                                                <li><a href="../painel.php">Início</a>
+                                                <li><a href="../../painel.php">Início</a>
                                                 </li>
                                                 <li><span class="bread-blod"><?php echo $bread ?></span>
                                                 </li>
@@ -1023,120 +1041,211 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Acessar</th>
-                                        <th>Curso</th>
-                                        <th>Tipo</th>
-                                        <th>Quantidade</th>
-                                        <th>Data da Postagem</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./administracao/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>ADMINISTRAÇÃO</td>
-                                        <td>Bimestral</td>
-                                        <td>10</td>
-                                        <td>06/08/2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./ciencias_economicas/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>CIÊNCIAS CONTÁBEIS</td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                        <td>14/08/2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>CIÊNCIAS ECONÔMICAS</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>Aguardem...</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./educacao_fisica/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>EDUCAÇÃO FÍSICA</td>
-                                        <td>Bimestral</td>
-                                        <td>7</td>
-                                        <td>14/08/2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gastronomia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>GASTRONOMIA</td>
-                                        <td>Bimestral</td>
-                                        <td>1</td>
-                                        <td>14/08/2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./geografia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>GEOGRAFIA</td>
-                                        <td>Bimestral</td>
-                                        <td>10</td>
-                                        <td>15/08/2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gestao_ambiental/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>GESTÃO AMBIENTAL</td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                        <td>15/08/2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gesta0_comercial/index.php" class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>GESTÃO COMERCIAL</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>15/08/2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gestao_de_ads/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>ANÁLISE DE SISTEMA</td>
-                                        <td>Bimestral</td>
-                                        <td>6</td>
-                                        <td>15/08/2019</td>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
 
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gestao_de_ti/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
 
-                                        <td>TECLONOCIA DA INFORMAÇÃO</td>
-                                        <td>Bimestral</td>
-                                        <td>6</td>
-                                        <td>06/08/2019</td>
-                                    </tr>
-                                </table>
+                                </div>
+                            </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP INTERATIVA</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span>18115520476</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> SERVIÇO SOCIAL</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span>  2º Bimestre -5º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 04/06/2018 13:27:07</span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 651240 - Participação e Controle Social </p>
+
+                                    <p><strong>Questão 1:</strong> Qual alternativa é a correta de acordo com as características e peculiaridades da Lei de Domicílio, de 1662?</br>
+                                    </br>
+
+                                    A) Permitia que os trabalhadores se mudassem dos municípios onde trabalhavam sem uma comunicação prévia às autoridades, respeitando o trânsito de pessoas.</br>
+
+                                    B) Impedia que os senhores feudais se mudassem dos municípios onde possuíssem seu feudo sem uma comunicação prévia às autoridades.</br>
+
+                                    C) Impedia que os trabalhadores se mudassem dos municípios onde trabalhavam sem uma comunicação prévia às autoridades.</br>
+
+                                    D) Permitia que os membros do clero se mudassem dos municípios onde pregavam sem uma comunicação prévia às autoridades.</br>
+
+                                    E) Punia legalmente os trabalhadores que se mudassem dos municípios onde trabalhavam sem uma comunicação prévia às autoridades.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> A Assistência Social foi considerada Política Pública no Brasil a partir da Constituição Federal de 1988. Conforme o artigo 24 da Lei Orgânica da Assistência Social, as ações integradas e complementares com objetivo, tempo e área de abrangência definidos é a definição de:</br>
+                                    </br>
+
+                                    A) Benefícios.</br>
+
+                                    B) Esmoleres.</br>
+
+                                    C) Projetos.</br>
+
+                                    D) Planos.</br>
+
+                                    E) Programas.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Da intervenção desenvolvida junto às caixas de socorro, Behring e Boschetti (2010) informam que em 1892 fora autorizada a organização de uma caixa de socorro para funcionários da marinha. No ano de 1923, no entanto, as caixas de socorro passaram a ser denominadas caixas de aposentadoria e pensões ou Caps, conforme a Lei Elói Chaves, em 1923. Essas caixas tinham a forma de funcionamento similar às caixas de socorro, porém, tinham financiamento do Estado e também dos empresários.Quem podia usufruir dos serviços das Caps (Caixas de Aposentadoria e Pensão Social)?</br>
+                                    </br>
+
+                                    A) Todo brasileiro nato ou naturalizado.</br>
+
+                                    B) Brasileiros que trabalhassem formalmente e tivessem renda considerável.</br>
+
+                                    C) Brasileiros que trabalhassem formalmente independente da renda.</br>
+
+                                    D) Brasileiros que tivessem um ou mais filhos.</br>
+
+                                    E) Brasileiros aposentados.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> A instituição social criada em 1942 com a finalidade inicial de atender as famílias dos“pracinhas” envolvidos com a Segunda Guerra Mundial foi:</br>
+                                    </br>
+
+                                    A) O Serviço Nacional de Aprendizagem Industrial (Senai).</br>
+
+                                    B) O Serviço Nacional da Indústria (Sesi).</br>
+
+                                    C) O Serviço Nacional do Comércio (Sesc).</br>
+
+                                    D) A Legião Brasileira de Assistência.</br>
+
+                                    E) A Fundação Carlos Chagas.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> Em 1943, Vargas desenvolveu sua intervenção mais notória no âmbito dos direitos trabalhistas, a Consolidação das Leis Trabalhistas, ou CLT, que é uma união das leis trabalhistas existentes e na qual foram feitas orientações, nesta época, sobre os aspectos a seguir, exceto:</br>
+                                    </br>
+
+                                    A) Carteira de trabalho.</br>
+
+                                    B) Jornada de 8 horas por dia.</br>
+
+                                    C) Férias remuneradas.</br>
+
+                                    D) Salário maternidade.</br>
+
+                                    E) PLR (Participação nos Lucros e Resultados).</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> O financiamento das ações na área da Política de Assistência Social é posto pela Lei 8742/93, no artigo 27, que é de responsabilidade do:</br>
+                                    </br>
+
+                                    A) Fundo Monetário Internacional.</br>
+
+                                    B) Fundo de Investimentos.</br>
+
+                                    C) Fundo de Ações.</br>
+
+                                    D) Fundo Nacional da Saúde.</br>
+
+                                    E) Fundo Nacional de Assistência Social.</br>
+                                    </br>
+                                    </p>
+
+
+                                    <p><strong>Questão 7:</strong> Segundo Siqueira (2009), as Santas Casas de Misericórdia surgiram de uma ordem portuguesa denominada Irmandade de Misericórdia, que era vinculada à Igreja Católica e que pressupunha que os católicos mais abastados deveriam desenvolver a caridade. No caso, isso representa um movimento da Igreja denominado contrarreforma, mediante o qual essa organização buscava recuperar os fiéis e o prestígio perdido por meio da caridade. Com isso, em que ano surgiram no Brasil os primeiros hospitais? </br>
+                                    </br>
+
+                                    A) Em 1800 surgiram no Brasil os primeiros hospitais e, em 1802, aqueles específicos para atender a hansenianos.</br>
+
+                                    B) Em 1620 surgiram no Brasil os primeiros hospitais e, em 1622, aqueles específicos para atender a hansenianos.</br>
+
+                                    C) Em 1750 surgiram no Brasil os primeiros hospitais e, em 1802, aqueles específicos para atender a hansenianos.</br>
+
+                                    D) Em 1600 surgiram no Brasil os primeiros hospitais e, em 1702, aqueles específicos para atender a hansenianos.</br>
+
+                                    E) Em 1800 surgiram no Brasil os primeiros hospitais e, em 1902, aqueles específicos para atender a hansenianos.</br>
+                                    </br>
+
+                                    </p>
+
+
+                                    <p><strong>Questão 8:</strong> O modo de produção que surgiu no Japão e que recomenda a produção de acordo com a demanda e não a produção em massa é:</br>
+                                    </br>
+
+                                    A) Fordismo.</br>
+
+                                    B) Taylorismo.</br>
+
+                                    C) Toyotismo.</br>
+
+                                    D) Modo Mercedes.</br>
+
+                                    E) Keysianismo.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> O tipo de Estado que se caracteriza pela não intervenção estatal na regulação econômicae nos problemas sociaisé denominado:</br>
+                                    </br>
+
+                                    A) Estado Interventor.</br>
+
+                                    B) Estado de Direito.</br>
+
+                                    C) Estado Liberal.</br>
+
+                                    D) Estado Comunista.</br>
+
+                                    E) Estado Anarquista.</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> A instituição criada em 1946 no Rio de Janeiro para atender somente os moradores das favelas é:</br>
+                                    </br>
+
+                                    A) O Serviço Nacional de Aprendizagem Industrial (Senai).</br>
+
+                                    B) O Serviço Nacional da Indústria (Sesi).</br>
+
+                                    C) A Fundação Leão XIII.</br>
+
+                                    D) A Legião Brasileira de Assistência.</br>
+
+                                    E) A Fundação Carlos Chagas.</br>
+                                    
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./1.php">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1160,7 +1269,7 @@
         function marcarComoLida(id_aviso){
          
             var request = $.ajax({
-                url: '../PutAviso.php?idAviso='+id_aviso,
+                url: '../../PutAviso.php?idAviso='+id_aviso,
                 type: 'get',
                 dataType: 'html'
             });
@@ -1198,62 +1307,62 @@
     </script>
     <!-- jquery
         ============================================ -->
-    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../../js/vendor/jquery-1.12.4.min.js"></script>
     <!-- bootstrap JS
         ============================================ -->
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
     <!-- wow JS
         ============================================ -->
-    <script src="../js/wow.min.js"></script>
+    <script src="../../js/wow.min.js"></script>
     <!-- price-slider JS
         ============================================ -->
-    <script src="../js/jquery-price-slider.js"></script>
+    <script src="../../js/jquery-price-slider.js"></script>
     <!-- meanmenu JS
         ============================================ -->
-    <script src="../js/jquery.meanmenu.js"></script>
+    <script src="../../js/jquery.meanmenu.js"></script>
     <!-- owl.carousel JS
         ============================================ -->
-    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../../js/owl.carousel.min.js"></script>
     <!-- sticky JS
         ============================================ -->
-    <script src="../js/jquery.sticky.js"></script>
+    <script src="../../js/jquery.sticky.js"></script>
     <!-- scrollUp JS
         ============================================ -->
-    <script src="../js/jquery.scrollUp.min.js"></script>
+    <script src="../../js/jquery.scrollUp.min.js"></script>
     <!-- counterup JS
         ============================================ -->
-    <script src="../js/counterup/jquery.counterup.min.js"></script>
-    <script src="../js/counterup/waypoints.min.js"></script>
-    <script src="../js/counterup/counterup-active.js"></script>
+    <script src="../../js/counterup/jquery.counterup.min.js"></script>
+    <script src="../../js/counterup/waypoints.min.js"></script>
+    <script src="../../js/counterup/counterup-active.js"></script>
     <!-- mCustomScrollbar JS
         ============================================ -->
-    <script src="../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="../js/scrollbar/mCustomScrollbar-active.js"></script>
+    <script src="../../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../../js/scrollbar/mCustomScrollbar-active.js"></script>
     <!-- metisMenu JS
         ============================================ -->
-    <script src="../js/metisMenu/metisMenu.min.js"></script>
-    <script src="../js/metisMenu/metisMenu-active.js"></script>
+    <script src="../../js/metisMenu/metisMenu.min.js"></script>
+    <script src="../../js/metisMenu/metisMenu-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/morrisjs/raphael-min.js"></script>
-    <script src="../js/morrisjs/morris.js"></script>
-    <script src="../js/morrisjs/morris-active.js"></script>
+    <script src="../../js/morrisjs/raphael-min.js"></script>
+    <script src="../../js/morrisjs/morris.js"></script>
+    <script src="../../js/morrisjs/morris-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/sparkline/jquery.sparkline.min.js"></script>
-    <script src="../js/sparkline/jquery.charts-sparkline.js"></script>
-    <script src="../js/sparkline/sparkline-active.js"></script>
+    <script src="../../js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../../js/sparkline/jquery.charts-sparkline.js"></script>
+    <script src="../../js/sparkline/sparkline-active.js"></script>
     <!-- calendar JS
         ============================================ -->
-    <script src="../js/calendar/moment.min.js"></script>
-    <script src="../js/calendar/fullcalendar.min.js"></script>
-    <script src="../js/calendar/fullcalendar-active.js"></script>
+    <script src="../../js/calendar/moment.min.js"></script>
+    <script src="../../js/calendar/fullcalendar.min.js"></script>
+    <script src="../../js/calendar/fullcalendar-active.js"></script>
     <!-- plugins JS
         ============================================ -->
-    <script src="../js/plugins.js"></script>
+    <script src="../../js/plugins.js"></script>
     <!-- main JS
         ============================================ -->
-    <script src="../js/main.js"></script>
+    <script src="../../js/main.js"></script>
 </body>
 
 </html>

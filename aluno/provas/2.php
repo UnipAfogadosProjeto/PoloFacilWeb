@@ -1064,6 +1064,16 @@
                                         <td>1</td>
                                         <td>15/08/2019</td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="./servico_social/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                        </td>
+                                        <td>SERVIÇO SOCIAL</td>
+                                        <td>Bimestral</td>
+                                        <td>27</td>
+                                        <td>20/08/2019</td>
+                                    </tr>
+                                </table>
                                 </table>
                             </div>
                             <div class="custom-pagination">
@@ -1071,7 +1081,6 @@
                                      <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
                                     <li class="page-item"><a class="page-link" href="./1.php">1</a></li>
                                     <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
                                      <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
                                 </ul>
                             </div>

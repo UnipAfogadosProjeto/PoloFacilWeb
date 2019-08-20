@@ -1,9 +1,9 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / 1';
+    $bread = '/ Provas / Administração';
     $active = ['', '', ''];
 
-    include("../GetListaAvisos.php");
+    include("../../GetListaAvisos.php");
     if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
         $ra = $_SESSION['RA'];
         $temAviso = false;
@@ -15,7 +15,7 @@
         }
 
     }else{
-        header('Location: ../login.php');
+        header('Location: login.php');
         exit();
     }
 
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Painel | Polo Fácil</title>
+    <title>Provas - Administração | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -45,56 +63,56 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
     <!-- owl.carousel CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/owl.carousel.css">
-    <link rel="stylesheet" href="../css/owl.theme.css">
-    <link rel="stylesheet" href="../css/owl.transitions.css">
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <link rel="stylesheet" href="../../css/owl.transitions.css">
     <!-- animate CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../../css/animate.css">
     <!-- normalize CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
     <!-- meanmenu icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/meanmenu.min.css">
+    <link rel="stylesheet" href="../../css/meanmenu.min.css">
     <!-- main CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
     <!-- educate icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/educate-custon-icon.css">
+    <link rel="stylesheet" href="../../css/educate-custon-icon.css">
     <!-- morrisjs CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/morrisjs/morris.css">
+    <link rel="stylesheet" href="../../css/morrisjs/morris.css">
     <!-- mCustomScrollbar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../../css/scrollbar/jquery.mCustomScrollbar.min.css">
     <!-- metisMenu CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu.min.css">
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu-vertical.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu-vertical.css">
     <!-- calendar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.min.css">
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.print.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.print.min.css">
     <!-- modals CSS
     ============================================ -->
-    <link rel="stylesheet" href="../css/modals.css">
+    <link rel="stylesheet" href="../../css/modals.css">
     <!-- style CSS
         ============================================ -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../style.css">
     <!-- responsive CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
     <!-- modernizr JS
         ============================================ -->
-    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -105,8 +123,8 @@
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
-                <strong><a href="../painel.php"><img src="../img/logo/pf_logosn.png" alt="" /></a></strong>
+                <a href="../../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
+                <strong><a href="../../painel.php"><img src="../../img/logo/pf_logosn.png" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
@@ -127,8 +145,8 @@
                         <li <?php echo 'class="'.$active[0].'"'; if($active[0] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="index.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
                             <ul class="submenu-angle" aria-expanded="true">
-                                <li><a title="Provas" href="../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
-                                <li><a title="Meus Agendamentos" href="../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
+                                <li><a title="Provas" href="../../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
+                                <li><a title="Meus Agendamentos" href="../../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
                             </ul>
                         </li >
                         <!--<li>
@@ -143,7 +161,7 @@
                         <li <?php echo 'class="'.$active[1].'"'; if($active[1] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Students Profile" href="../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
+                                <li><a title="Students Profile" href="../../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
                             </ul>
                         </li>
                         <!--<li>
@@ -159,8 +177,8 @@
                         <li <?php echo 'class="'.$active[2].'"'; if($active[2] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Minhas Apostilas</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Library" href="../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
-                                <li><a title="Add Library" href="../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
+                                <li><a title="All Library" href="../../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
+                                <li><a title="Add Library" href="../../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
                             </ul>
                         </li>
                         <li>
@@ -205,7 +223,7 @@
                             </ul>
                         </li>-->
                         <li>
-                            <a  aria-expanded="false" href="../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
+                            <a  aria-expanded="false" href="../../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
                             
                         </li>
 
@@ -232,7 +250,7 @@
                             </ul>
                         </li>-->
                         <li id="removable">
-                            <a href="../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
+                            <a href="../../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -264,7 +282,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="logo-pro">
-                            <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
+                            <a href="../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -325,7 +343,7 @@
                                                                         <li>
                                                                             <a href="#" data-toggle="modal" data-target="<?php echo 'Modal'.$item->idAviso;?>">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     
@@ -345,7 +363,7 @@
                                                                         <li>
                                                                             <a href="#">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     <p>Você não tem mensagens no momento.</p>
@@ -496,10 +514,10 @@
                                                                 <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
                                                             </a>
                                                         <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                            <li><a href="./dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
+                                                            <li><a href="../../dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
                                                             </li>
                                                             </li>
-                                                            <li><a href="../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
+                                                            <li><a href="../../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -960,26 +978,26 @@
                                         <ul class="mobile-menu-nav">
                                             <li><a data-toggle="collapse" data-target="#Charts" href="#">Agendamento <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul class="collapse dropdown-header-top">
-                                                    <li><a href="../agendar_provas.php">Agendar Provas</a></li>
-                                                    <li><a href="../meusAgendamentos.php">Meus Agendamentos</a></li>
+                                                    <li><a href="../../agendar_provas.php">Agendar Provas</a></li>
+                                                    <li><a href="../../meusAgendamentos.php">Meus Agendamentos</a></li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demopro" href="#">Meus Dados <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demopro" class="collapse dropdown-header-top">
-                                                    <li><a href="../dadosdoAluno.php">Perfil do Aluno</a>
+                                                    <li><a href="../../dadosdoAluno.php">Perfil do Aluno</a>
                                                     </li>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demolibra" href="#">Minhas Apostilas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demolibra" class="collapse dropdown-header-top">
-                                                    <li><a href="../apostilaEntregue.php">Apostilas Entregues</a>
+                                                    <li><a href="../../apostilaEntregue.php">Apostilas Entregues</a>
                                                     </li>
-                                                    <li><a href="../apostilaDisponivel.php">Novas Apostilas</a>
+                                                    <li><a href="../../apostilaDisponivel.php">Novas Apostilas</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <li><a href="../../provas/1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -1005,7 +1023,7 @@
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                             <ul class="breadcome-menu">
-                                                <li><a href="../painel.php">Início</a>
+                                                <li><a href="../../painel.php">Início</a>
                                                 </li>
                                                 <li><span class="bread-blod"><?php echo $bread ?></span>
                                                 </li>
@@ -1023,120 +1041,214 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Acessar</th>
-                                        <th>Curso</th>
-                                        <th>Tipo</th>
-                                        <th>Quantidade</th>
-                                        <th>Data da Postagem</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./administracao/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>ADMINISTRAÇÃO</td>
-                                        <td>Bimestral</td>
-                                        <td>10</td>
-                                        <td>06/08/2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./ciencias_economicas/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>CIÊNCIAS CONTÁBEIS</td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                        <td>14/08/2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>CIÊNCIAS ECONÔMICAS</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>Aguardem...</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./educacao_fisica/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>EDUCAÇÃO FÍSICA</td>
-                                        <td>Bimestral</td>
-                                        <td>7</td>
-                                        <td>14/08/2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gastronomia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>GASTRONOMIA</td>
-                                        <td>Bimestral</td>
-                                        <td>1</td>
-                                        <td>14/08/2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./geografia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>GEOGRAFIA</td>
-                                        <td>Bimestral</td>
-                                        <td>10</td>
-                                        <td>15/08/2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gestao_ambiental/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>GESTÃO AMBIENTAL</td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                        <td>15/08/2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gesta0_comercial/index.php" class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>GESTÃO COMERCIAL</td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>15/08/2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gestao_de_ads/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>ANÁLISE DE SISTEMA</td>
-                                        <td>Bimestral</td>
-                                        <td>6</td>
-                                        <td>15/08/2019</td>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
 
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gestao_de_ti/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
 
-                                        <td>TECLONOCIA DA INFORMAÇÃO</td>
-                                        <td>Bimestral</td>
-                                        <td>6</td>
-                                        <td>06/08/2019</td>
-                                    </tr>
-                                </table>
+                                </div>
+                            </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP INTERATIVA</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 18265050330</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> Gestão em Design de Interiores</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 2º Bimestre -1º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 07/06/2018 20:15:01 </span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 300130 - Desenvolvimento Sustentável</p>
+
+                                    <p><strong>Questão 1:</strong> Princípio do Direito à Sadia qualidade de vida -Este princípio está na Constituição Brasileira de 1988 e diz respeito a ter uma condição de vida sadia, viver com dignidade. Esta qualidade está ligada à preservação do meio ambiente.</br>
+                                    </br>
+
+                                    O que é primordial para que isto aconteça?</br>
+                                    </br>
+
+                                    A)  Que a população mundial seja controlada, assim como o desenvolvimento econômico.</br>
+                                    
+                                    B)  Que a poluição mundial ocorra em fatores mais brandos e em áreas isoladas.</br>
+
+                                    C)  Que o capitalismo possa ser contido, que as pessoas consumam menos.</br>
+
+                                    D)  Controle do lixo ambiental é algo que impede o desenvolvimento sustentável.</br>
+
+                                    E)  O equilíbrio entre desenvolvimento econômico e preservação da natureza.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> A preocupação do Licenciamento Ambiental é manter o desenvolvimento do homem sem prejudicá-lo posteriormente com a agressão ao meio ambiente. O Licenciamento Ambiental é aplicável a:</br>
+                                    </br>
+
+                                    A)  Empresas de médio e grande porte somente.</br>
+
+                                    B)  Qualquer empreendimento e atividade que utiliza recursos ambientais que de alguma forma pode prejudicar o meio ambiente.</br>
+
+                                    C)  Pessoas físicas exclusivamente.</br>
+
+                                    D)  Empresas do setor de engenharia somente, responsáveis por grandes obras em todo território nacional.</br>
+
+                                    E)  Empresas estatais exclusivamente.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Precaução é substantivo do verbo precaver-se, do latim prae(antes) e cavere(tomar cuidado), o que sugere cuidados antecipados para evitar resultados indesejados. O Princípio da Precaução ganhou reconhecimento internacional ao ser incluído na Declaração do Rio (Princípio 15), que resultou da Conferência das Nações Unidas sobre Meio Ambiente e Desenvolvimento -Rio 92. Seu princípio:</br>
+                                    </br>
+
+                                    A)  É o mesmo princípio (sinônimo) da prevenção, agir de forma atuante com o meio ambiente.</br>
+
+                                    B)  Diz que sua estrutura de precaução é de ordem do Executivo, como a prevenção do Estado.</br>
+
+                                    C)  Diz que sua ação é nova, age somente em casos nos quais o Legislativo ainda não criou a lei.</br>
+
+                                    D)  Determina que antes de ter a certeza de que determinada intervenção não será adversa ao meio ambiente, esta não deverá acontecer, sob pena de ocorrerem danos irreversíveis e irreparáveis.</br>
+
+                                    E)  Determina a intervenção ao meio ambiente definida pelos poderes Executivos, Legislativos e Judiciários.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> As normas ISO 14000 não estabelecem níveis de desempenho ambiental, especificam somenteos requisitos que um sistema de gestão ambiental deverá cumprir. As empresas que adotam essas normastêm diversos benefícios. Sobre a ISSO 14000, qual das sentenças a seguir é verdadeira?</br>
+                                    </br>
+
+                                    A)  Ferramenta para aumentar a eficiência, diminuindo claramente a eficácia dos serviços.</br>
+
+                                    B)  Reduz custos, diminuindo a possibilidade de identificação de problemas.</br>
+
+                                    C)  Proporciona a definição clara de organização, com responsabilidades e autoridade de cada função.</br>
+
+                                    D)  Seu maior risco é diminuir o potencial de vendas de produtos da empresa.</br>
+
+                                    E)  Não tem benefícios diretos, é uma obrigação da empresa.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> São necessários atualmente desenvolvimentos de mais tecnologias limpas, com menos consumo de matéria e energia, menor quantidade de resíduos e possibilidades de reutilização de materiais.  Outro fator é preponderante para a questão de desenvolvimento sustentável é:</br>
+                                    </br>
+
+                                    A)  A criação de políticas de desenvolvimento mais rigorosas.</br>
+
+                                    B)  Que a econômica mundial seja freada em seu desenvolvimento.</br>
+
+                                    C)  Que a população reveja seus hábitos e repensem seus métodos produtivos.</br>
+
+                                    D)  Controle de natalidade mundial.</br>
+
+                                    E)  Controle da concentração populacional indevida em matas e beiras de rios.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> A norma NBR 16001 foi elaborada pela Associação Brasileira de Normas Técnicas (ABNT), representante oficial da ISO no Brasil, em 2004. Qual sua finalidade?</br>
+                                    </br>
+
+                                    A)  Busca atender exclusivamente a empresas brasileiras em detrimento ao protecionismo de empresasestrangeiras.</br>
+
+                                    B)  Busca atender a todos os tipos e portes de organizações, adequando-se às divergências geográficas, culturais e sociais brasileiras.</br>
+
+                                    C)  Atuar em indústrias de pequeno porte, incentivando sua inserção nas normas ISO vigentes.</br>
+
+                                    D)  Busca atender à pluralidade cultural, trabalhando com a diversidade nas organizações.</br>
+
+                                    E)  Busca atuar em indústrias de grande porte, incentivando sua inserção nas normas ISO vigentes.</br>
+                                    </br>
+                                    </p>
+
+
+                                    <p><strong>Questão 7:</strong> ISO -Organização internacional. O Brasil participa da ISO através da Associação Brasileira de Normas Técnicas (ABNT), associação sem fins lucrativos. Qual é o objetivo da ISO?</br>
+                                    </br>
+
+                                    A)  Criar uma instituição para defender os direitos ambientais.</br>
+
+                                    B)  Criar um certificado que atue na restrição de poluição ambiental.</br>
+
+                                    C)  Padronizar dados de poluição mundial.</br>
+
+                                    D)  Facilitar a coordenação internacional e a unificação dos padrões industriais.</br>
+
+                                    E)  Padronização de coordenação de processos.</br>
+                                    </br>
+
+                                    </p>
+
+
+                                    <p><strong>Questão 8:</strong> A emissão indiscriminada de substâncias poluentes e contaminantes no meio natural é um dos crimes mais comuns no mundo. Exemplos: poluição do ar e das águas, contaminação radioativa, entre outras. Qual lei julga crimes ambientais?</br>
+                                    </br>
+
+                                    A)  A Lei N° 9.605/98 -Lei de crimes ambientais.</br>
+
+                                    B)  A Lei N° 2.001, elaborada na Conferência no Rio de Janeiro.</br>
+
+                                    C)  Lei da Política Nacional do Meio Ambiente -Lei N° 6.938 de 1981.</br>
+
+                                    D)  Lei N° 1.968 feita em Roma.</br>
+
+                                    E)  A Lei N° 9.605/98 -Lei da Política Nacional do Meio Ambiente.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> “Esta licença estabelece condições, restrições, exigências e medidas de controle ambiental que deverão ser seguidas pelo empreendedor”.  A que etapa do Licenciamento Ambiental estamos nos referindo?</br>
+                                    </br>
+
+                                    A)  Licença de funcionamento.</br>
+
+                                    B)  Licença prévia.</br>
+
+                                    C)  Licença de instalação.</br>
+
+                                    D)  Licença de operação.</br>
+
+                                    E)  Licença de distribuição.</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> ISO -International Organization for Standardization, que, traduzindo, significa Organização Internacional para Padronização, é uma organização não governamental criada após a Segunda Guerra Mundial, situada em Genebra (Suíça). Seu objetivo: </br>
+                                    </br>
+
+                                    A) É criar um órgão fiscalizador dos processos.</br>
+
+                                    B)  Num período pós-guerra, era otimizar processos de produtos escassos.</br>
+
+                                    C)  Tem como intenção principal destacar países cujo comércio era pouco desenvolvido.</br>
+
+                                    D)  Busca orientar indústrias exclusivamente nos processos de captação de recursos.</br>
+
+                                    E)  É facilitar o comércio internacional de bens e serviços e criar normas para esse comércio. </br>
+                                    
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./1.php">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1160,7 +1272,7 @@
         function marcarComoLida(id_aviso){
          
             var request = $.ajax({
-                url: '../PutAviso.php?idAviso='+id_aviso,
+                url: '../../PutAviso.php?idAviso='+id_aviso,
                 type: 'get',
                 dataType: 'html'
             });
@@ -1198,62 +1310,62 @@
     </script>
     <!-- jquery
         ============================================ -->
-    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../../js/vendor/jquery-1.12.4.min.js"></script>
     <!-- bootstrap JS
         ============================================ -->
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
     <!-- wow JS
         ============================================ -->
-    <script src="../js/wow.min.js"></script>
+    <script src="../../js/wow.min.js"></script>
     <!-- price-slider JS
         ============================================ -->
-    <script src="../js/jquery-price-slider.js"></script>
+    <script src="../../js/jquery-price-slider.js"></script>
     <!-- meanmenu JS
         ============================================ -->
-    <script src="../js/jquery.meanmenu.js"></script>
+    <script src="../../js/jquery.meanmenu.js"></script>
     <!-- owl.carousel JS
         ============================================ -->
-    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../../js/owl.carousel.min.js"></script>
     <!-- sticky JS
         ============================================ -->
-    <script src="../js/jquery.sticky.js"></script>
+    <script src="../../js/jquery.sticky.js"></script>
     <!-- scrollUp JS
         ============================================ -->
-    <script src="../js/jquery.scrollUp.min.js"></script>
+    <script src="../../js/jquery.scrollUp.min.js"></script>
     <!-- counterup JS
         ============================================ -->
-    <script src="../js/counterup/jquery.counterup.min.js"></script>
-    <script src="../js/counterup/waypoints.min.js"></script>
-    <script src="../js/counterup/counterup-active.js"></script>
+    <script src="../../js/counterup/jquery.counterup.min.js"></script>
+    <script src="../../js/counterup/waypoints.min.js"></script>
+    <script src="../../js/counterup/counterup-active.js"></script>
     <!-- mCustomScrollbar JS
         ============================================ -->
-    <script src="../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="../js/scrollbar/mCustomScrollbar-active.js"></script>
+    <script src="../../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../../js/scrollbar/mCustomScrollbar-active.js"></script>
     <!-- metisMenu JS
         ============================================ -->
-    <script src="../js/metisMenu/metisMenu.min.js"></script>
-    <script src="../js/metisMenu/metisMenu-active.js"></script>
+    <script src="../../js/metisMenu/metisMenu.min.js"></script>
+    <script src="../../js/metisMenu/metisMenu-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/morrisjs/raphael-min.js"></script>
-    <script src="../js/morrisjs/morris.js"></script>
-    <script src="../js/morrisjs/morris-active.js"></script>
+    <script src="../../js/morrisjs/raphael-min.js"></script>
+    <script src="../../js/morrisjs/morris.js"></script>
+    <script src="../../js/morrisjs/morris-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/sparkline/jquery.sparkline.min.js"></script>
-    <script src="../js/sparkline/jquery.charts-sparkline.js"></script>
-    <script src="../js/sparkline/sparkline-active.js"></script>
+    <script src="../../js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../../js/sparkline/jquery.charts-sparkline.js"></script>
+    <script src="../../js/sparkline/sparkline-active.js"></script>
     <!-- calendar JS
         ============================================ -->
-    <script src="../js/calendar/moment.min.js"></script>
-    <script src="../js/calendar/fullcalendar.min.js"></script>
-    <script src="../js/calendar/fullcalendar-active.js"></script>
+    <script src="../../js/calendar/moment.min.js"></script>
+    <script src="../../js/calendar/fullcalendar.min.js"></script>
+    <script src="../../js/calendar/fullcalendar-active.js"></script>
     <!-- plugins JS
         ============================================ -->
-    <script src="../js/plugins.js"></script>
+    <script src="../../js/plugins.js"></script>
     <!-- main JS
         ============================================ -->
-    <script src="../js/main.js"></script>
+    <script src="../../js/main.js"></script>
 </body>
 
 </html>
