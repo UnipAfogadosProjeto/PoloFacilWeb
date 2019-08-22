@@ -10,6 +10,15 @@ URI     : https://colorlib.com
  -->
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
     <title>PoloFácil - SOFTWARE DE GERENCIAMENTO DE POLOS EAD</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -47,7 +56,14 @@ URI     : https://colorlib.com
                                 <li class="nav-item"> <a class="nav-link" href="#features">CARACTERÍSTICAS</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#gallery">GALERIA</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#contact">CONTATO</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="./aluno/calcular_media.php">CALCULAR MÉDIA</a> </li>
+                                <li class="nav-item dropdown"> 
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    CONTEÚDOS </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="nav-link" href="./aluno/calcular_media.php"> CALCULAR MÉDIA</a>
+                                    <a class="nav-link" href="./aluno/provas/preview/">PROVAS</a>
+                                    </div>
+                                </li>
                                 <li class="nav-item"><a href="./aluno/login.php" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">ACESSAR</a></li>
                             </ul>
                         </div>
