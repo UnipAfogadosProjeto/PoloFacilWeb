@@ -1046,6 +1046,15 @@
                                         <td>1º</td>
                                         <td>15/08/2019</td>
                                     </tr> 
+                                    <tr>
+                                        <td>
+                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                        </td>
+                                        <td>Comunicação Aplicada</td>
+                                        <td>2º</td>
+                                        <td>1º</td>
+                                        <td>22/08/2019</td>
+                                    </tr>
                                 </table>
                                 <div class="custom-pagination">
                                 <ul class="pagination">

@@ -1105,9 +1105,25 @@
                                         <td>2º</td>
                                         <td>3º</td>
                                         <td>14/08/2019</td>
-
                                     </tr>
-                                    
+                                    <tr>
+                                        <td>
+                                            <a href="18167674700_filosofia_aplicada_a_atividade_motora.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                        </td>
+                                        <td>FISIOLOGIA APLICADA A ATIVIDADE MOTORA</td>
+                                        <td>3º</td>
+                                        <td>4º</td>
+                                        <td>22/08/2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18562029323_ciencias_sociais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                        </td>
+                                        <td>CIÊNCIAS SOCIAI</td>
+                                        <td>3º</td>
+                                        <td>4º</td>
+                                        <td>22/08/2019</td>
+                                    </tr>
                                 </table>
                                 <div class="custom-pagination">
                                 <ul class="pagination">

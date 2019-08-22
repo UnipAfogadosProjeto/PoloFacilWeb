@@ -1039,7 +1039,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="545420_estrutura _e_funcionamento_da_educacao_basica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="545420_estrutura_e_funcionamento_da_educacao_basica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
                                         </td>
                                         <td>Estrutura e Funcionamento da Educação Básica</td>
                                         <td>2º</td>

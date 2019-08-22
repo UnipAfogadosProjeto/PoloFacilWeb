@@ -52,7 +52,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Administração | Polo Fácil</title>
+    <title>Provas - Administração - Página 2 | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1062,8 +1062,6 @@
                                         <td>2º</td>
                                         <td>1º</td>
                                         <td>07/08/2019</td>
-
-
                                     </tr>
                                     <tr>
                                         <td>
@@ -1074,7 +1072,6 @@
                                         <td>2º</td>
                                         <td>1º</td>
                                         <td>07/08/2019</td>
-   
                                     </tr>
                                     <tr>
                                         <td>
@@ -1084,6 +1081,43 @@
                                         <td>2º</td>
                                         <td>5º</td>
                                         <td>07/08/2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18202737853_liderancas_atributos_e_atribuicoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                        </td>
+                                        <td>DE - LIDERANÇA: ATRIBUTOS E ATRIBUIÇÕES</td>
+                                        <td>2º</td>
+                                        <td>1º</td>
+                                        <td>22/08/2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18207630592_direitos_nas_organizacoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            
+                                        </td>
+                                        <td>DIREITO NAS ORGANIZAÇÕES</td>
+                                        <td>2º</td>
+                                        <td>1º</td>
+                                        <td>22/08/2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18532623623_gestao_de_pessoas.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                        </td>
+                                        <td>GESTÃO DE PESSOAS</td>
+                                        <td>2º</td>
+                                        <td>4º</td>
+                                        <td>22/08/2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18665115417_topicos_de_atuacao_proficional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                        </td>
+                                        <td>DP - TÓPICOS DE ATUAÇÃO PROFISSIONAL</td>
+                                        <td>2º</td>
+                                        <td>5º</td>
+                                        <td>22/08/2019</td>
                                     </tr>
                                 </table>
                                 <div class="custom-pagination">

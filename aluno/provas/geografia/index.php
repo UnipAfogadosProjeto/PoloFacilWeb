@@ -1041,7 +1041,7 @@
                                         <td>
                                             <a href="18241055896_recursos_naturais_e_fontes_de_energia.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
                                         </td>
-                                        <td>RECURSOS NATURAIS E FONTES DE ENERGIA</td>
+                                        <td>Recursos Naturais e Fontes de Energia</td>
                                         <td>3º</td>
                                         <td>6º</td>
                                         <td>15/08/2019</td>
@@ -1050,7 +1050,7 @@
                                         <td>
                                             <a href="539340_metodos_de_pesquisa.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
                                         </td>
-                                        <td>MÉTODOS DE PESQUISA</td>
+                                        <td>Métodos de Pesquisa</td>
                                         <td>3º</td>
                                         <td>6º</td>
                                         <td>15/08/2019</td>
@@ -1122,7 +1122,7 @@
                                         <td>
                                             <a href="696940_direitos_humanos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
                                         </td>
-                                        <td>DIREITOS HUMANOS</td>
+                                        <td>Direitos Humanos</td>
                                         <td>3º</td>
                                         <td>6º</td>
                                         <td>15/08/2019</td>
@@ -1132,6 +1132,7 @@
                                 <ul class="pagination">
                                     <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
                                     <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
                                      <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
                                 </ul>
                             </div>
