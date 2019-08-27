@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Gestão Ambiental';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Administração | Polo Fácil</title>
+    <title>Provas - Gestão Ambiental | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1031,38 +1031,22 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="299460_etica_e_legislacao_trabalhista_e_empresarial.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="299460_etica_e_legislacao_trabalhista_e_empresarial.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Ética e Legislação: Trabalhista e Empresarial</a>
                                         </td>
-                                        <td>Ética e Legislação: Trabalhista e Empresarial</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="464860_recursos_materiais_e_patrimoniais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="464860_recursos_materiais_e_patrimoniais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Recursos Materiais e Patrimoniais</a>
                                         </td>
-                                        <td>Recursos Materiais e Patrimoniais</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="684560_gestao_de_recursos_naturais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="684560_gestao_de_recursos_naturais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Gestão de Recursos Naturais</a>
                                         </td>
-                                        <td>Gestão de Recursos Naturais</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>15/08/2019</td>
                                     </tr>  
                                 </table>
                                 <div class="custom-pagination">

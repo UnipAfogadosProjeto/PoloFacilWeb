@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Ciências Econômicas';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Administração | Polo Fácil</title>
+    <title>Provas - Ciências Econômicas | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1031,29 +1031,17 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="661260_historia_economica_geral.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="661260_historia_economica_geral.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> História Econômica Geral</a>
                                         </td>
-                                        <td>História Econômica Geral</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>14/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="702830_psicologia_economica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="702830_psicologia_economica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Psicologia Econômica</a>
                                         </td>
-                                        <td>Psicologia Econômica</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>14/08/2019</td>
                                     </tr>
                                 </table>
                                 <div class="custom-pagination">

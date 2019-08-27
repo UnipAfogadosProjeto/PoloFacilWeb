@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Marketing';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -1031,47 +1031,27 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18424977294_recursos_materiais_e_patrimoniais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18424977294_recursos_materiais_e_patrimoniais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Recursos Materiais e Patrimoniais</a>
                                         </td>
-                                        <td>Recursos Materiais e Patrimoniais</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18623542473_plano_de_negocios.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18623542473_plano_de_negocios.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Plano de Negócios</a>
                                         </td>
-                                        <td>Plano de Negócios</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18213342597_etica_e_legislacao_trabalhista_e_empresarial.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18213342597_etica_e_legislacao_trabalhista_e_empresarial.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Ética e Legislação: Trabalhista e Empresarial</a>
                                         </td>
-                                        <td>Ética e Legislação: Trabalhista e Empresarial</td>
-                                        <td>3º</td>
-                                        <td>3º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18564261447_economia_e_mercado.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18564261447_economia_e_mercado.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Economia e Mercado</a>
                                         </td>
-                                        <td>Economia e Mercado</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                 </table>
                                 <div class="custom-pagination">

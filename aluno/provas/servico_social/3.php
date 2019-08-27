@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Serviço Social / 3';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Serviço Social | Polo Fácil</title>
+    <title>Provas - Serviço Social | Página 3 | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1031,68 +1031,55 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18291235540_fundamentos_da_gestao_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18291235540_fundamentos_da_gestao_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Fundamentos da Gestão Social</a>
                                         </td>
-                                        <td>Fundamentos da Gestão Social</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18363661841_politicas_sociais_em_saude_educacao_e_habitacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18363661841_politicas_sociais_em_saude_educacao_e_habitacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Politicas Sociais em Saude Educacao e Habitação</a>
                                         </td>
-                                        <td>Politicas Sociais em Saude Educacao e Habitação</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
 
                                     <tr>
                                         <td>
-                                            <a href="18403190173_educacao_inclusiva.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18403190173_educacao_inclusiva.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Educação Inclusiva</a>
                                         </td>
-                                        <td>Educação Inclusiva</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
 
                                     <tr>
                                         <td>
-                                            <a href="18544836275_projeto_soc_no_terceiro_setor.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18544836275_projeto_soc_no_terceiro_setor.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Projeto Social no Terceiro Setor</a>
                                         </td>
-                                        <td>Projeto Social no Terceiro Setor</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18634387080_projetos_de_pesquisa_em_contextos_especificos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18634387080_projetos_de_pesquisa_em_contextos_especificos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Projetos de Pesquisa em Contextos Especificos</a>
                                         </td>
-                                        <td>projetos de Pesquisa em Contextos Especificos</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
 
                                     <tr>
                                         <td>
-                                            <a href="18868365219_direito_constitucional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18868365219_direito_constitucional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Direito Constitucional - Prova 3</a>
                                         </td>
-                                        <td>Direito Constitucional - Prova 3</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18397184929_psicologia_do_desenvolvimento_ciclo_vital.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> PSICOLOGIA DO DESENVOLVIMENTO: CICLO VITAL</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18673184341_homem_e_sociedade.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> HOMEM E SOCIEDADE</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18977794391_historia_do_pensamento_filosofico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> HISTÓRIA DO PENSAMENTO FILOSÓFICO</a>
+                                        </td>
                                     </tr>
                                     
                                 </table>

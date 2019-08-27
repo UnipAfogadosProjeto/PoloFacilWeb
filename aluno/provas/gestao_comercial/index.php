@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Gestão Comercial';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Administração | Polo Fácil</title>
+    <title>Provas - Gestão Comercial | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1031,29 +1031,17 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="464860_recursos_materiais_e_patrimoniais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="464860_recursos_materiais_e_patrimoniais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Recursos Materiais e Patrimoniais</a>
                                         </td>
-                                        <td>Recursos Materiais e Patrimoniais</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="712160_sistemas_de_informacao_em_comercio_e_servisos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="712160_sistemas_de_informacao_em_comercio_e_servisos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Sistemas de Informação em Comércio e Serviços</a>
                                         </td>
-                                        <td>Sistemas de Informação em Comércio e Serviços</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     
                                 </table>

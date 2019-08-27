@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Inglês';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Administração | Polo Fácil</title>
+    <title>Provas - Inglês | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1031,47 +1031,27 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="544160_gramatica_aplicada_da_lingua_portuguesa.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="544160_gramatica_aplicada_da_lingua_portuguesa.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Gramática Aplicada da Língua Portuguesa</a>
                                         </td>
-                                        <td>Gramática Aplicada da Língua Portuguesa</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="545320_didatica_geral.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="545320_didatica_geral.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Didática Geral</a>
                                         </td>
-                                        <td>Didática Geral</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="545780_morfossintaxe_da_lingua_portuguesa.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="545780_morfossintaxe_da_lingua_portuguesa.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Morfossintaxe da Língua Portuguesa</a>
                                         </td>
-                                        <td>Morfossintaxe da Língua Portuguesa</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="610840_educacao_ambiental.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="610840_educacao_ambiental.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Educação Ambiental</a>
                                         </td>
-                                        <td>Educação Ambiental</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     
                                 </table>

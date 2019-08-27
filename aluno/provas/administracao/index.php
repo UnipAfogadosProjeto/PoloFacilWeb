@@ -1031,71 +1031,60 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="623960-economia_e_negocios.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="623960-economia_e_negocios.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Economia e Negócios</a>
                                         </td>
-                                        <td>Economia e Negócios</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>07/08/2019</td>
-
-
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="539660-comportamento_humano_nas_organizacoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18334245599_administracao_interdisciplinar.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Administraçao Interdisciplinar - DP</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="539660-comportamento_humano_nas_organizacoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comportamento Humano nas Organizações</a>
                                             
                                         </td>
-                                        <td>Comportamento Humano nas Organizações</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>07/08/2019</td>
    
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="623760-elaboracao_e_analise_de_projetos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="623760-elaboracao_e_analise_de_projetos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Elaboração e Análise de Projetos</a>
                                         </td>
-                                        <td>Elaboração e Análise de Projetos</td>
-                                        <td>2º</td>
-                                        <td>5º</td>
-                                        <td>07/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="537860-economia_e_gestao_do_setor_publico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="537860-economia_e_gestao_do_setor_publico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Economia e Gestão de Setor Público</a>
                                         </td>
-                                        <td>Economia e Gestão de Setor Público</td>
-                                        <td>2º</td>
-                                        <td>7º</td>
-                                        <td>07/08/2019</td>
                                     </tr>
                                     <tr>
                                         
                                         <td>
-                                            <a href="540080-administracao_estrategica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="540080-administracao_estrategica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Administraçao Estratégica</a>
                                         </td>
-                                        <td>Administraçao Estratégica</td>
-                                        <td>2º</td>
-                                        <td>7º</td>
-                                        <td>07/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="539680-comportamento_humano_nas_organizacoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="539680-comportamento_humano_nas_organizacoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comportamento Humano nas Organizações</a>
                                         </td>
-                                        <td>Comportamento Humano nas Organizações</td>
-                                        <td>2º</td>
-                                        <td>9º</td>
-                                        <td>07/08/2019</td>
-
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18410656431_formacao_de_precos_de_venda.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Formaçao de Preços de Venda - DP</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18433799073_comportamento_humano_nas_organizacoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comportamento Humano nas Organizações - DP</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18490425563_empreendendorismo_e_plano_de_negocios.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Empreendedorismo e Plano de Negócios - DP</a>
+                                        </td>
                                     </tr>
                                 </table>
                                 <div class="custom-pagination">
@@ -1103,6 +1092,7 @@
                                     <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
                                     <li class="page-item"><a class="page-link" href="./1.php">1</a></li>
                                     <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="./3.php">3</a></li>
                                      <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
                                 </ul>
                             </div>

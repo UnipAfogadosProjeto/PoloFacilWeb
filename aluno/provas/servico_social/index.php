@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Serviço Social';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -1031,131 +1031,75 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18154682542_direito_constitucional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18154682542_direito_constitucional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Direito Constitucional</a>
                                         </td>
-                                        <td>Direito Constitucional</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18155268288_direito_constitucional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18155268288_direito_constitucional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Direito Constitucional - Prova 2</a>
                                         </td>
-                                        <td>Direito Constitucional - Prova 2</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18401436498_direito_constitucional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18401436498_direito_constitucional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Direito Constitucional - Prova 3</a>
                                         </td>
-                                        <td>Direito Constitucional - Prova 3</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>
-                                            <a href="18199767069_servico_social_e_questao_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18199767069_servico_social_e_questao_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Serviço Social e a Questão Social</a>
                                         </td>
-                                        <td>Serviço Social e a Questão Social</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18338467823_perspectivas_profissionais_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18338467823_perspectivas_profissionais_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Perspectivas Profissionais em Serviço Social</a>
                                         </td>
-                                        <td>Perspectivas Profissionais em Serviço Social</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18392558309_perspectivas_profissionais_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18392558309_perspectivas_profissionais_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Perspectivas Profissionais em Serviço Social - Prova 2</a>
                                         </td>
-                                        <td>Perspectivas Profissionais em Serviço Social - Prova 2</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18504224678_perspectivas_profissionais_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18504224678_perspectivas_profissionais_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Perspectivas Profissionais em Serviço Social - Prova 3</a>
                                         </td>
-                                        <td>Perspectivas Profissionais em Serviço Social - Prova 3</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18569747121_perspectivas_profissionais_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18569747121_perspectivas_profissionais_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Perspectivas Profissionais em Serviço Social - Prova 4</a>
                                         </td>
-                                        <td>Perspectivas Profissionais em Serviço Social - Prova 4</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18819234863_perspectivas_profissionais_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18819234863_perspectivas_profissionais_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Perspectivas Profissionais em Serviço Social - Prova 5</a>
                                         </td>
-                                        <td>Perspectivas Profissionais em Serviço Social - Prova 5</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18916328706_perspectivas_profissionais_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18916328706_perspectivas_profissionais_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Perspectivas Profissionais em Serviço Social - Prova 6</a>
                                         </td>
-                                        <td>Perspectivas Profissionais em Serviço Social - Prova 6</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>
-                                            <a href="18161103430_fundamentos_da_gestao_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18161103430_fundamentos_da_gestao_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Fundamentos da Gestão Social</a>
                                         </td>
-                                        <td>Fundamentos da Gestão Social</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18616647241_fundamentos_da_gestao_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18616647241_fundamentos_da_gestao_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Fundamentos da Gestão Social - Prova 2</a>
                                         </td>
-                                        <td>Fundamentos da Gestão Social - Prova 2</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
 
                                     <tr>
                                         <td>
-                                            <a href="18868127908_ciencias_sociais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18868127908_ciencias_sociais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Ciências Sociais</a>
                                         </td>
-                                        <td>Ciências Sociais</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     
                                 </table>

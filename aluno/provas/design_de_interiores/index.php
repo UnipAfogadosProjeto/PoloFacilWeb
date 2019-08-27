@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Design de Interiores';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Serviço Social | Polo Fácil</title>
+    <title>Provas - Design de Interiores | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1031,20 +1031,12 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18265050330_desenvolvimento_sustentavel.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18265050330_desenvolvimento_sustentavel.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Desenvolvimento Sustentável</a>
                                         </td>
-                                        <td>Desenvolvimento Sustentável</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     
                                 </table>

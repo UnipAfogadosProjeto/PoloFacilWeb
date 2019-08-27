@@ -1064,16 +1064,16 @@
                                         <strong><span class="font-extra-bold">UNIP INTERATIVA</span></strong>
                                     </div>
                                     <div>
-                                       <strong><span class="font-extra-bold">Código da Prova: </span> 18930519387</strong>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 18558014898</strong>
                                     </div>
                                     <div>
-                                        <strong><span class="font-extra-bold">Curso: </span> ADMINISTRAÇAO</strong>
+                                        <strong><span class="font-extra-bold">Curso: </span> SUP TEC EM GESTÃO DE RECURSOS HUMANOS</strong>
                                     </div>
                                     <div>
-                                        <strong><span class="font-extra-bold">Série ou Período: </span> DP</strong>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 2º Bimestre -1º Semestre</strong>
                                     </div>
                                      <div>
-                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 23/05/2018 12:07:58</span></strong>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 04/06/2018 16:31:16</span></strong>
                                     </div>
                                 </div>
                             </div>
@@ -1081,190 +1081,211 @@
                                 <div>
                                     <h4>Questões de múltipla escolha </h4>
 
-                                    <p>Disciplina: 623440 - Responsabilidade Socialv</p>
+                                    <p>Disciplina: 464860 - Recursos Materiais e Patrimoniais</p>
 
-                                    <p><strong>Questão 1:</strong> O Instituto Ethos de Empresas e Responsabilidade Social é uma organização sem fins lucrativos, caracterizada como Oscip (Organização da Sociedade Civil de Interesse Público). Sua missão é mobilizar, sensibilizar e ajudar as empresas a gerir seus negócios de forma socialmente responsável, tornando-as parceiras na construção de uma sociedade justa e sustentável. São linhas de atuação do Instituto Ethos:</br>
+                                    </br>Permitido o uso de calculadora. </br>
+
+                                    <p><strong>Questão 1:</strong> Determinada empresa de telefonia celular adquiriu 100.000 unidades de um aparelho. Esse modelo adquirido foi pesquisado pela equipe de marketing, que projetou a venda de todas as unidades em quatro meses. Porém, um mês depois da aquisição, o mercado foi invadido por um modelo do principal concorrente com duas vezes mais aplicativos, um designarrojado e com menor valor de venda no varejo. Assim, os clientes não procuravam mais os aparelhos adquiridos em grande quantidade e, para vender os itens estocados, a empresa se viu obrigada a reduzir os preços de venda em 30%, pois o produto se tornou, em apenas um mês, sob a ótica do cliente, ultrapassado. Essa situação gera um custo de estoque, a qual custo essa situação se refere?</br>
                                     </br>
 
-                                    A)  Sensibilização e engajamento de empresas em todo o Brasil, articulação de parcerias, sensibilização da mídia para o tema da RSE, coordenação da criação do Comitê Brasileiro do Pacto Global da ONU etc.</br>
+                                    A) Custo de pedido. </br>
 
-                                    B)  Influência sobre mercados e seus atores mais importantes, no sentido de criar um ambiente favorável à prática da RSE. Desenvolvimento de critérios de investimentos socialmente responsáveis com fundos de pensão no Brasil, desenvolvimento de programa de políticas públicas e RSE e participação em diversos conselhos governamentais para discussão da agenda pública brasileira.</br>
+                                    B) Custo de Frete.</br>
 
-                                    C)  Produção de informação, pesquisa anual "Empresas e Responsabilidade Social -Percepção e Tendências do Consumidor", produção e divulgação de conteúdo e um site de referência sobre o tema na internet, coleta e divulgação de dados e casos das empresas e promoção de intercâmbio com entidades internacionais líderes no tema da responsabilidade social.</br>
+                                    C) Custo de armazenagem.</br>
 
-                                    D)  Aprofundamento de práticas em RSE; Indicadores Ethos de RSE (incluindo versões para micro e pequenas empresas e para alguns setores da economia); Conferência Internacional Anual para mais de 1.000 participantes; constituição de redes de interesse; promoção da publicação de balanços sociais e de relatórios de sustentabilidade; produção de publicações e manuais práticos.</br>
+                                    D) Custo de obsolescência.</br>
 
-                                    E)  Todas as afirmativas acima são linhas de atuação do Instituto Ethos.</br>
-                                    </br>
-
-                                    </p>
-
-                                    <p><strong>Questão 2:</strong> Leia as afirmativas abaixo:</br>
-                                    </br>
-
-                                    Afirmativa 1:Uma empresa socialmente responsável no campo da preservação ambiental destaca-se pela sua excelência em política e gestão ambiental, pela sua atuação como agente de fomento do desenvolvimento sustentável local e regional, e de preservação da saúde, da segurança e da qualidade de vida de seusempregados e da comunidade situada ao seu redor, e pela inserção da questão ambiental como valor de sua gestão e como compromisso, sob forma de missão e visão do seu desempenho empresarial.</br>
-                                    </br>
-
-                                    Afirmativa 2:Uma empresa socialmente responsável no campo da gestão ambiental adota as seguintes posturas: bom relacionamento com os organismos ambientas; estabelecimento de uma política ambiental; eficientesistema de gestão ambiental; uso de tecnologia limpa; elevados investimentos em proteção ambiental; definição de um compromisso ambiental; associação das ações ambientais com os princípios estabelecidos na Carta parao Desenvolvimento Sustentável (Carta da Terra), entre outras.</br>
-                                    </br>
-
-                                    A) As duas afirmativas são verdadeiras, mas uma não tem relação nenhuma com a outra.</br>
-
-                                    B) As duas afirmativas são verdadeiras e a segunda dá exemplos do dito na primeira.</br>
-
-                                    C) A afirmativa 1 não é verdadeira. </br>
-
-                                    D) Somente a afirmativa 2 é verdadeira e justifica a necessidade de ser socialmente responsável com o meio ambiente.
-
-                                    E) As duas afirmativas são falsas.</br>
+                                    E) Custo fixo.</br>
                                     </br>
 
                                     </p>
 
-                                    <p><strong>Questão 3:</strong> Além do retorno do investimento pelo aumento de produtividade, a empresa socialmente responsável alcança diversos outros tipos de retorno, como, por exemplo:</br>
+                                    <p><strong>Questão 2:</strong> A empresa A tem demanda de 40.000 unidades de determinado item e compra lotes maiores para fazer menos pedidos no ano. A empresa B tem a mesma demanda, só que compra lotes menores e faz mais pedidos no ano.</br>
                                     </br>
 
-                                    A) Melhoria da qualidade de vida de seus empregados com reflexos positivos na família e na vizinhança. </br>
+                                    Em um cenário desse, podemos dizer que:</br>
+                                    </br>
 
-                                    B) Maior integração social do empregado e sua família e de ambos com a comunidade.</br>
+                                    A) A empresa A tem “estoque médio” menor, pois faz menos pedidos.</br>
 
-                                    C) Diminuição dos gastos com saúde e assistência social dos empregados, pois estes se tornam mais imunes às doenças profissionais, em especial, ao estresse.</br>
+                                    B) A empresa A gasta mais para “fazer os pedidos” dos itens no ano.</br>
 
-                                    D) Consolidação de uma nova cultura empresarial; retorno, sob a forma de cidadania profissional (transformação dos empregados em empregados-cidadãos).</br>
+                                    C) A empresa B tem estoque médio menor, pois os lotes são menores.</br>
 
-                                    E) Todas as alternativas anteriores estão corretas.</br>
+                                    D) A empresa B mantém um estoque maior.</br>
+
+                                    E) Os estoques são iguais, pois a demanda é a mesma.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Os custos diretamente proporcionais são os custos que aumentam com o aumento do volume estocado. Ocorrem quando os custos crescem com o aumento da quantidade média estocada. Por exemplo, quanto maior o estoque, maior o custo de capital investido. Quanto maior a quantidade de itens armazenados, maior a área necessária e maior o custo de aluguel. Considerando estas informações, qual o item ligado à obsolescência?</br>
+                                    </br>
+
+                                    A) Mais custos decorrentes das perdas.</br>
+
+                                    B) Maiores chances de materiais serem furtados.</br>
+
+                                    C) Mais custo de aluguel.</br>
+
+                                    D) Mais custo de mão de obra e de equipamentos.</br>
+
+                                    E) Mais custos decorrentes de materiais que não serão mais utilizados.</br>
                                     </br>
 
                                     </p>
                                     
-                                    <p><strong>Questão 4:</strong> De acordo com  o Instituto Ethos, a comunidade em que a empresa está inserida fornece-lhe infraestrutura e o capital social representado por seus empregados e parceiros, contribuindo decisivamente para a viabilização de seus negócios. O investimento pela empresa em ações que tragam benefícios para a comunidade é uma contrapartida justa, além de reverter em ganhos para o ambiente interno e na percepção que os clientes têm da própria empresa. O processo de avaliação da forma como a empresa gerencia suas relações com a comunidade segue os seguintes parâmetros:</br>
+                                    <p><strong>Questão 4:</strong> Observe a tabela a seguir:</br>
+                                    
+                                    </br><img src="./img/18558014898_recursos_materiais_e_patrimoniais_img1.jpg"></br>
                                     </br>
 
-                                    I) Tipo e natureza da relação: direta, através de projetos sociais próprios, ou indireta, por meiode doações e apoio.</br>
+                                    Nesse cenário, o giro de estoque é:</br>
 
-                                    II) O foco da relação: se está centrada em problemas sociais prioritários ou se está centrada em problemas sociais secundários.</br>
-
-                                    III) O alvo das ações: se está focalizado e direcionado para comunidades e populações-alvo ou se está disperso para diversas comunidades e segmentos populacionais.</br>
-
-                                    IV) O impacto das ações: se contribui para a melhoria da qualidade de vida da população ou se, além disso, também contribui para o desenvolvimento sustentável da comunidade local ou regional.</br>
+                                    </br><img src="./img/18558014898_recursos_materiais_e_patrimoniais_img2.jpg"></br>
                                     </br>
 
-                                    A) Somente as afirmativas II e IV estão corretas.</br>
+                                    A) 1,4 vezes.</br>
 
-                                    B) A afirmativa I não está correta.</br>
+                                    B) 4,22 vezes.</br>
 
-                                    C) Todas as afirmativas estão corretas.</br>
+                                    C) 1,9 vezes.</br>
 
-                                    D) A afirmativa III não está correta.</br>
+                                    D) 3,3 vezes.</br>
 
-                                    E) As afirmativas I e III estão incorretas.</br>
-                                    </br>
+                                    E) 5,1 vezes.</br>
 
-                                    </p>
 
-                                    <p><strong>Questão 5:</strong> Atualmente, a RSE está no centro das discussões das principais economias do mundo e é praticamente indissociável do conceito de desenvolvimento sustentável. Em resposta a esse anseio mundial, surgiram também os índices de sustentabilidade empresarial no mercado financeiro. Sobre o tema em questão, a única alternativa que não está correta é:</br>
-                                    </br>
-
-                                    A) O primeiro deles foi o Sustainability Index, lançado em 1999 pela Dow Jones, empresa americana dedicada a informações sobre negócios.</br>
-
-                                    B) O Sustainability funciona como uma ferramenta para investidores que busquem empresas ao mesmo tempo lucrativas e eficientes na integração dos fatores econômicos, ambientais e sociais nas estratégias de seus negócios.</br>
-
-                                    C) No Brasil, a Bolsa de Valores de São Paulo (Bovespa) lançou em 2005 o Índice de Sustentabilidade Empresarial (ISE).</br>
-
-                                    D) O ISE reflete o retorno de uma carteira composta por ações de empresas reconhecidamente comprometidas com a responsabilidade social e a sustentabilidade empresarial e atua como promotor de boas práticas no meio empresarial brasileiro.</br>
-
-                                    E) Os índices de sustentabilidade empresarial no mercado financeiro atualmente existem apenas nos EUA.</br>
                                     </br>
 
                                     </p>
 
-                                    <p><strong>Questão 6:</strong> Na busca pela garantia de espaço no mercado globalizado e na potencialização do seudesenvolvimento, as empresas inteligentes, incansáveis na redefinição de seus valores como forma de adequá-los às necessidades mercadológicas vigentes, desenvolvem um novo comportamento voltado para o seu estabelecimento no mundo competitivo: Responsabilidade Social de Empresas (RSE) é a nova forma de “como fazer” adotada pelas empresas modernas. </br>
+                                    <p><strong>Questão 5:</strong> Das afirmações a seguir, qual não é correta:</br>
                                     </br>
 
-                                    Sobre RSE não é correto afirmar:</br>
-                                    </br>
+                                    A) Com estoques elevados, os custos totais são maiores.</br>
 
-                                    A) Para ser socialmente responsável, a empresa precisa praticar a filantropia, ou seja, fazer doações. Esse é o primeiro passo e o caminho mais fácil para enquadra-se na RSE.</br>
+                                    B) Fazer mais pedidos e em menor volume reduz custos de estoques.</br>
 
-                                    B) A empresa deve atentar entre outros fatores, que ela precisa ser socialmente responsável com osseus fornecedores e também com os seus funcionários.</br>
+                                    C) Fazer menos pedidos e em maiores volumes reduz custos de estoques.</br>
 
-                                    C) A empresa deve atentar entre outros fatores, que ela precisa ser socialmente responsável com osseus clientes.</br>
+                                    D) O volume em estoque interfere diretamente em custos.</br>
 
-                                    D) A empresa deve atentar entre outros fatores, que para ser socialmente responsável, ela precisa agir de forma ética e transparente com o governo e sociedade.</br>
-
-                                    E) A empresa socialmente responsável, deve desenvolver a sua responsabilidade social também (entreoutros) com a comunidade local.</br>
+                                    E) Estoque em excesso é dinheiro parado. </br>
                                     </br>
 
                                     </p>
 
-                                    <p><strong>Questão 7:</strong> O marketingpara causas sociais (MCS) pode ser definido como uma ferramenta estratégica de marketinge de posicionamento, que associa uma empresa ou marca a uma questão ou causa social relevante, em benefício mútuo. Sobre o tema, apenas uma alternativa não está correta, qual?</br>
+                                    <p><strong>Questão 6:</strong> Na decisão entre comprar ou fabricar, a empresa deve considerar, entre outras coisas:</br>
                                     </br>
 
-                                    A) Marketingsocial é conceituado como um intercâmbio de valores não necessariamente físicos nem econômicos, mas que podem ser sociais, morais ou políticos, sendo utilizado para vender ideias ou propósitos queproporcionem bem-estar à comunidade.</br>
+                                    -O que a empresa considera estratégico?</br>
 
-                                    B) O marketing social é hoje, certamente, uma das mais eficazes formas de se relacionar com um consumidor fora do universo previsível da comunicação da marca.</br>
+                                    -O que a empresa tem mais experiência?</br>
+                                    </br>
 
-                                    C) Criar ferramentas de marketing social é possibilitar a criação de um canal de comunicação em outro momento psicológico do consumidor, diferente daquele em que ele sabe que se alguém está falando com ele, é porque há algum interesse imediato.</br>
+                                    No processo de decisão entre comprar ou fabricar, esses pontos se referem a:</br>
+                                    </br>
 
-                                    D) O MCS também pode estabelecer relacionamentos valiosos com uma série de outras partes importantes envolvidas numa empresa, como funcionários, fornecedores e órgãos do governo.</br>
+                                    A) É melhor fazer tudo internamente.</br>
 
-                                    E) Do ponto de vista organizacional, pode-se inferir que o marketingsocial é uma causa que leva à responsabilidadesocial. A empresa é socialmente responsável para poder divulgar essas atitudes.</br>
+                                    B) Foco no negócio.</br>
+
+                                    C) Custos para manter a fabricação interna.</br>
+
+                                    D) Buscar novas fontes de fornecimento.</br>
+
+                                    E) Foco no que é rentável.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> Uma empresa comercializa um produto cuja demanda é de 40.000 unidades/ano. O produto é comprado por R$ 2,00 a unidade. Numa taxa de juros corrente no mercado de 24% ao ano, os custos anuais de armazenagem são de R$ 0,80 por unidade, e os custos fixos anuais para esse item de estoque são estimados em R$ 150,00. O custo de obtenção é de R$ 25,00 por pedido. Se a empresa fizer compras em lotes de 1.000 unidades, 1.200 unidades e 1.400 unidades, quantos pedidos respectivamente seriam feitos em cada uma das situações?</br>
+                                    </br>
+
+                                    Fórmula: D/Q</br>
+                                    </br>
+
+                                    D= demanda </br>
+                                    </br>
+
+                                    Q= Lote</br>
+                                    </br>
+
+                                    A) 28,57 pedidos -33,33 pedidos -40 pedidos.</br>
+
+                                    B) 40 pedidos -33,33 pedidos -28,57  pedidos.</br>
+
+                                    C) 33,33 pedidos -40 pedidos -28,57 pedidos.</br>
+
+                                    D) 40 pedidos -28,57 pedidos -33,33 pedidos.</br>
+
+                                    E) 33,33 pedidos -28,57 pedidos -40 pedidos.</br>
                                     </br>
 
                                     <p>
 
-                                    <p><strong>Questão 8:</strong> Sobre Responsabilidade Social na relação com os clientes, é correto afirmar que:</br>
+                                    <p><strong>Questão 8:</strong> A Pizzaria da Mama tinha como característica oferecer pizza caseira, era a pizza mais conhecida da região. Segundo a visão dos clientes, a relação custo-benefício era aceitável, pois a pizza tinhapreços bem acima da média da região, mas a qualidade era ímpar. O Sr. Genaro, fundador da pizzaria, não se preocupava com custos, pois as margens eram altas. O preço médio das pizzas Mama era de R$ 25,00, a média da região era de R$ 18,00. Com o sucesso da Pizza Mama, a concorrência começou a aumentar, alguns concorrentes novos chegavam a vender pizza com preço médio de R$ 15,00. A clientela agora acha que a diferença de valor é muito grande, assim muitos clientes passaram a consumir a pizza mais barata. </br>
                                     </br>
 
-                                    A) A responsabilidade social, em relação aos clientes e consumidores, exige da empresa o investimento permanente no desenvolvimento de produtos e serviços confiáveis, que minimizem os riscos de danos à saúde dos usuários e das pessoas em geral.</br>
+                                    A Pizzaria Mama então teve que reajustar seus preços para ser competitiva; passou a controlar melhor os ingredientes das pizzas, comprava somente o necessário e estocava próximo da área de consumo. Percebeu, por exemplo, que a quantidade de cebola poderia ser reduzida sem que isso significasse redução da qualidade, a mesma coisa com as azeitonas. Criou uma linha de produção de pizza em que as etapas básicas ficavam semiprontas, finalizando com o restante dos ingredientes somente na hora em que eramsolicitadas pelos clientes. Com o conjunto de ações, o tempo médio das pizzas foi reduzido e a qualidade continuou a mesma, o que para os clientes foi bem significativo. </br>
+                                    </br> 
 
-                                    B) A publicidade de produtos e serviços deve garantir seu uso adequado.</br>
-
-                                    C) Informações detalhadas devem ser incluídas nas embalagens e deve ser assegurado suporte para o cliente antes, durante e após o consumo.</br>
-
-                                    D) A empresa deve alinhar-se aos interesses do cliente e buscar satisfazer suas necessidades.</br>
-
-                                    E) Todas as alternativas estão corretas.</br>
+                                    Podemos dizer que o recurso gerenciado para atingir seus objetivos foi:</br>
                                     </br>
 
-                                    </p>
+                                    A) Patrimonial.</br>
 
-                                    <p><strong>Questão 9:</strong> Sobre as certificações socioambientais, não é correto afirmar que:</br>
-                                    </br>
+                                    B) Materiais.</br>
 
-                                    A) No intuito de estimular a responsabilidade social empresarial, uma série de instrumentos de certificação foi criada nos últimos anos.</br>
+                                    C) Capital.</br>
 
-                                    B) O apelo relacionado a esses selos ou certificados é de fácil compreensão. Num mundo cada vez mais competitivo, empresas veem vantagens comparativas em adquirir certificações que atestem sua boa prática empresarial.</br>
+                                    D) Humano.</br>
 
-                                    C) As empresas que não possuem nenhum desses certificados, não podem apresentar seu balanço social.</br>
-
-                                    D) Entre algumas das certificações mais cobiçadas atualmente, enumeramos as seguintes: Selo Empresa Amiga da Criança, ISO 14000, AA1000 e AS 8000. </br>
-
-                                    E) A pressão por produtos e serviços socialmente corretos faz com que empresas adotem processos dereformulação interna, para se adequarem às normas impostas pelas entidades certificadoras.</br>
+                                    E) Tecnológico.</br>
                                     </br>
 
                                     </p>
 
-                                    <p><strong>Questão 10:</strong> Sobre o marketingsocial, leia as duas afirmativas abaixo:</br>
+                                    <p><strong>Questão 9:</strong> Há um conceito que prevê o suprimento de produtos apenas quando são necessários. Desse modo, trabalha-se praticamente sem estoque, diminuindo os custos de produção ou venda. Esse conceitoé:</br>
                                     </br>
 
-                                    AAfirmativa 1: Do ponto de vista organizacional, pode-se inferir que o marketingsocial é uma consequência da Responsabilidade Social. A empresa deve se utilizar das estratégias de marketingsocial, observando o modo de fazer, por que fazer e quando fazer. Muitas empresas utilizam o marketingpara divulgar suasações relacionadas ao social, principalmente se ela é responsável socialmente.</br>
+                                    A) PCP -planejamento e controle da produção.</br>
+
+                                    B) JIT -Just -in -time.</br>
+
+                                    C) Classificação ABC.</br>
+
+                                    D) Lote econômico.</br>
+
+                                    E) Nenhuma das alternativas anteriores.</br>
                                     </br>
 
-                                    Afirmativa 2: Assim, pode-se dizer que a Responsabilidade Social e o marketingsocial dependem intrinsecamente um do outro. O marketingsocial inicia-se como uma verdadeira forma de exercício de Responsabilidade Social, podendo chegar a construir, a longo prazo, um valor diferencial para a marca, agregação de valor ao produto, aquisição de clientes e possibilitar uma vantagem competitiva para as empresas.</br>
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> Uma empresa que atue com um sistema de produção em que produz de acordo com a previsão de demanda do mercado deve seguir:</br>
                                     </br>
 
-                                    A) As duas afirmativas são verdadeiras, se completam e justificam a necessidade de uma empresa sersocialmente responsável.</br>
+                                    I -A estimativa da demanda futura.</br>
 
-                                    B) As duas afirmativas são verdadeiras, e a segunda dá exemplos do dito na primeira.</br>
+                                    II -A quantidade a ser produzida, que deve levar em consideração as políticas de estoque de segurança.</br>
 
-                                    C) A afirmativa 1 não é verdadeira. </br>
+                                    III -Em um modelo como esse não funcionaria o JIT.</br>
+                                    </br>
 
-                                    D) Somente a afirmativa 2 é verdadeira e justifica a necessidade de ser socialmente responsável com o meio ambiente.</br>
+                                    Em relação às afirmativas, podemos dizer que:</br>
+                                    </br>
 
-                                    E) As duas afirmativas são verdadeiras e se complementam.</br>
+                                    A) As afirmativas I e II estão corretas.</br>
 
-                                    
+                                    B) As afirmativas I e III estão corretas.</br>
+
+                                    C) As afirmativas II e III estão corretas.</br>
+
+                                    D) Somente a afirmativa I está correta.</br>
+
+                                    E) Somente a afirmativa III está correta.</br>
                                 </div>
                             </div>
                             <div class="custom-pagination">

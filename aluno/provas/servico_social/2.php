@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Serviço Social / 2';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Serviço Social | Polo Fácil</title>
+    <title>Provas - Serviço Social | Página 2| Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1031,104 +1031,60 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18159820000_seminarios_de_pesquisa_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18159820000_seminarios_de_pesquisa_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Seminários de Pesquisa em Serviço Social - DP</a>
                                         </td>
-                                        <td>Seminários de Pesquisa em Serviço Social - DP</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr> 
                                     <tr>
                                         <td>
-                                            <a href="18161103430_fundamentos_da_gestao_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18161103430_fundamentos_da_gestao_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Fundamentos da Gestão Social</a>
                                         </td>
-                                        <td>Fundamentos da Gestão Social</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18616647241_fundamentos_da_gestao_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18616647241_fundamentos_da_gestao_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Fundamentos da Gestão Social - Prova 2</a>
                                         </td>
-                                        <td>Fundamentos da Gestão Social - Prova 2</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
 
                                     <tr>
                                         <td>
-                                            <a href="18868127908_ciencias_sociais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18868127908_ciencias_sociais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Ciências Sociais</a>
                                         </td>
-                                        <td>Ciências Sociais</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="8118503096_perspectivas_proficionais_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="8118503096_perspectivas_proficionais_em_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Perspectiva Proficionais em Servico Social</a>
                                         </td>
-                                        <td>Perspectiva Proficionais em Servico Social</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr> 
                                     <tr>
                                         <td>
-                                            <a href="18115520476_participacao_e_controle_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18115520476_participacao_e_controle_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Participacao e Controle Social</a>
                                         </td>
-                                        <td>Participacao e Controle Social</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18120270812_etica_profissional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18120270812_etica_profissional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Etica Profissional</a>
                                         </td>
-                                        <td>Etica Profissional</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
 
                                     <tr>
                                         <td>
-                                            <a href="18132268997_servico_social_indiciplinar.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18132268997_servico_social_indiciplinar.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Serviço Social Indiciplinar</a>
                                         </td>
-                                        <td>Serviço Social Indiciplinar</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
 
                                     <tr>
                                         <td>
-                                            <a href="18160114288_acao_social_junto_a_crianca_adolecente_e_terceira_idade.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18160114288_acao_social_junto_a_crianca_adolecente_e_terceira_idade.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Ação Social Junto a Criança Adolecente e Terceira Idade</a>
                                         </td>
-                                        <td>Ação Social Junto a Criança Adolecente e Terceira Idade</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18233222559_supervisao_da_formacao_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18233222559_supervisao_da_formacao_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Supervisão da Formação Social</a>
                                         </td>
-                                        <td>Supervisão da Formação Social.</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     
                                 </table>

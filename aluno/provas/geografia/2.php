@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Geografia / 2';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -1031,47 +1031,27 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="19329261331_interpretacao_e_producao_de_textos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="19329261331_interpretacao_e_producao_de_textos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> INTERPRETAÇÃO E PRODUÇÃO DE TEXTOS</a>
                                         </td>
-                                        <td>INTERPRETAÇÃO E PRODUÇÃO DE TEXTOS</td>
-                                        <td>1º</td>
-                                        <td>7º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="19630832433_homem_e_sociedade.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="19630832433_homem_e_sociedade.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> HOMEM E SOCIEDADE</a>
                                         </td>
-                                        <td>HOMEM E SOCIEDADE</td>
-                                        <td>1º</td>
-                                        <td>7º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="19648000087_elementos_de_economia.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="19648000087_elementos_de_economia.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ELEMENTOS DE ECONOMIA</a>
                                         </td>
-                                        <td>ELEMENTOS DE ECONOMIA</td>
-                                        <td>1º</td>
-                                        <td>7º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18691622622_planejmento_urbano_e_o_espaco_rural.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18691622622_planejmento_urbano_e_o_espaco_rural.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> PLANEJAMENTO URBANO E O ESPAÇO RURAL</a>
                                         </td>
-                                        <td>PLANEJAMENTO URBANO E O ESPAÇO RURAL</td>
-                                        <td>4º</td>
-                                        <td>5º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                 </table>
                                 <div class="custom-pagination">

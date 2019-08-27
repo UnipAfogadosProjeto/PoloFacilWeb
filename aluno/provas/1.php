@@ -1031,103 +1031,79 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Curso</th>
                                         <th>Tipo</th>
                                         <th>Quantidade</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./administracao/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="./administracao/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ADMINISTRAÇÃO</a>
                                         </td>
-                                        <td>ADMINISTRAÇÃO</td>
                                         <td>Bimestral</td>
-                                        <td>10</td>
-                                        <td>06/08/2019</td>
+                                        <td>22</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./ciencias_economicas/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="./ciencias_economicas/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> CIÊNCIAS CONTÁBEIS</a>
                                         </td>
-                                        <td>CIÊNCIAS CONTÁBEIS</td>
                                         <td>Bimestral</td>
                                         <td>3</td>
-                                        <td>14/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="#"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="#"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> CIÊNCIAS ECONÔMICAS</a>
                                         </td>
-                                        <td>CIÊNCIAS ECONÔMICAS</td>
                                         <td>Bimestral</td>
                                         <td>2</td>
-                                        <td>Aguardem...</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./educacao_fisica/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="./educacao_fisica/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> EDUCAÇÃO FÍSICA</a>
                                         </td>
-                                        <td>EDUCAÇÃO FÍSICA</td>
                                         <td>Bimestral</td>
                                         <td>7</td>
-                                        <td>14/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./gastronomia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="./gastronomia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GASTRONOMIA</a>
                                         </td>
-                                        <td>GASTRONOMIA</td>
                                         <td>Bimestral</td>
                                         <td>1</td>
-                                        <td>14/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./geografia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="./geografia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GEOGRAFIA</a>
                                         </td>
-                                        <td>GEOGRAFIA</td>
                                         <td>Bimestral</td>
                                         <td>10</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./gestao_ambiental/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="./gestao_ambiental/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO AMBIENTAL</a>
                                         </td>
-                                        <td>GESTÃO AMBIENTAL</td>
                                         <td>Bimestral</td>
                                         <td>3</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./gesta0_comercial/index.php" class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="./gesta0_comercial/index.php" class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO COMERCIAL</a>
                                         </td>
-                                        <td>GESTÃO COMERCIAL</td>
                                         <td>Bimestral</td>
                                         <td>2</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./gestao_de_ads/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="./gestao_de_ads/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ANÁLISE DE SISTEMA</a>
                                         </td>
-                                        <td>ANÁLISE DE SISTEMA</td>
                                         <td>Bimestral</td>
                                         <td>6</td>
-                                        <td>15/08/2019</td>
-
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./gestao_de_ti/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="./gestao_de_ti/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> TECLONOCIA DA INFORMAÇÃO</a>
                                         </td>
-
-                                        <td>TECLONOCIA DA INFORMAÇÃO</td>
                                         <td>Bimestral</td>
                                         <td>6</td>
-                                        <td>06/08/2019</td>
                                     </tr>
                                 </table>
                             </div>

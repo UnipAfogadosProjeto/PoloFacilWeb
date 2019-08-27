@@ -1031,56 +1031,51 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Curso</th>
                                         <th>Tipo</th>
                                         <th>Quantidade</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./ingles/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="./ingles/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> INGLÊS</a>
                                         </td>
-                                        <td>INGLÊS</td>
                                         <td>Bimestral</td>
                                         <td>4</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./matematica/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="./matematica/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> MATEMÁTICA</a>
                                         </td>
-                                        <td>MATEMÁTICA</td>
                                         <td>Bimestral</td>
-                                        <td>2</td>
-                                        <td>15/08/2019</td>
+                                        <td>5</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./redes_de_computadores/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="./redes_de_computadores/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> REDES DE COMPUTADORES</a>
                                         </td>
-                                        <td>REDES DE COMPUTADORES</td>
                                         <td>Bimestral</td>
                                         <td>1</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./servico_social/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="./servico_social/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> SERVIÇO SOCIAL</a>
                                         </td>
-                                        <td>SERVIÇO SOCIAL</td>
                                         <td>Bimestral</td>
                                         <td>27</td>
-                                        <td>20/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./design_de_interiores/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="./design_de_interiores/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> DESIGN DE INTERIORES</a>
                                         </td>
-                                        <td>DESIGN DE INTERIORES</td>
                                         <td>Bimestral</td>
                                         <td>1</td>
-                                        <td>20/08/2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="./recursos_humanos/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> RECUROS HUMANOS</a>
+                                        </td>
+                                        <td>Bimestral</td>
+                                        <td>5</td>
                                     </tr>
                                 </table>
                                 </table>

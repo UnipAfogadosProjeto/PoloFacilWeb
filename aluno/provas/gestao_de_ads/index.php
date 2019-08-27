@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Gestão ADS';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Administração | Polo Fácil</title>
+    <title>Provas - Gestão ADS | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1031,65 +1031,37 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="306260_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="306260_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
                                         </td>
-                                        <td>Organização de Computadores</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="306360_principios_de_sistemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="306360_principios_de_sistemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
                                         </td>
-                                        <td>Princípios de Sistemas de Informação</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="306750_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="306750_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
                                         </td>
-                                        <td>Comunicação Aplicada</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="308250_gestao_estrategica_de_recursos_humanos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="308250_gestao_estrategica_de_recursos_humanos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Gestão Estratégica de Recursos Humanos</a>
                                         </td>
-                                        <td>Gestão Estratégica de Recursos Humanos</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="685560_danco_de_dados.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="685560_danco_de_dados.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Banco de Dados</a>
                                         </td>
-                                        <td>Banco de Dados</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="685860_analise_de_sistemas_orientada_a_objetos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="685860_analise_de_sistemas_orientada_a_objetos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Análise de Sistemas Orientada a Objetos</a>
                                         </td>
-                                        <td>Análise de Sistemas Orientada a Objetos</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     
                                 </table>

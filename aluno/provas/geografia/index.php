@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Geografia';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -1031,101 +1031,57 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18241055896_recursos_naturais_e_fontes_de_energia.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18241055896_recursos_naturais_e_fontes_de_energia.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Recursos Naturais e Fontes de Energia</a>
                                         </td>
-                                        <td>Recursos Naturais e Fontes de Energia</td>
-                                        <td>3º</td>
-                                        <td>6º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="539340_metodos_de_pesquisa.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="539340_metodos_de_pesquisa.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Métodos de Pesquisa</a>
                                         </td>
-                                        <td>Métodos de Pesquisa</td>
-                                        <td>3º</td>
-                                        <td>6º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="545320_gidatica_geral.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="545320_gidatica_geral.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Didática Gera</a>
                                         </td>
-                                        <td>Didática Geral</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="623260_geopolitica_regionalizacao_e_integracao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="623260_geopolitica_regionalizacao_e_integracao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Geopolítica, Regionalização e Integração</a>
                                         </td>
-                                        <td>Geopolítica, Regionalização e Integração</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="660580_fundamentos_de_eografia_organização_do_espaco_e_conceitos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="660580_fundamentos_de_eografia_organização_do_espaco_e_conceitos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Fundamentos de Geografia: Organização do Espaço e Conceitos</a>
                                         </td>
-                                        <td>Fundamentos de Geografia: Organização do Espaço e Conceitos</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="660640_biomas_terrestres_e_sua_dinamica_questao_ambiental.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="660640_biomas_terrestres_e_sua_dinamica_questao_ambiental.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Biomas Terrestres e sua Dinâmica: Questão Ambiental</a>
                                         </td>
-                                        <td>Biomas Terrestres e sua Dinâmica: Questão Ambiental</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="679460_oganizacao_do_espaco_estudos_de__territorio_e_america.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="679460_oganizacao_do_espaco_estudos_de__territorio_e_america.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização do espaço: Estudos de Território e América</a>
                                         </td>
-                                        <td>Organização do espaço: Estudos de Território e América</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="679840_geografia_integrada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="679840_geografia_integrada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Geografia Integrada</a>
                                         </td>
-                                        <td>Geografia Integrada</td>
-                                        <td>2º</td>
-                                        <td>5º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="680240_geografia_do_turismo_e_oceania.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="680240_geografia_do_turismo_e_oceania.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Geografia do Turismo  e Oceania</a>
                                         </td>
-                                        <td>Geografia do Turismo  e Oceania</td>
-                                        <td>2º</td>
-                                        <td>5º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="696940_direitos_humanos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="696940_direitos_humanos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Direitos Humanos</a>
                                         </td>
-                                        <td>Direitos Humanos</td>
-                                        <td>3º</td>
-                                        <td>6º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                 </table>
                                 <div class="custom-pagination">

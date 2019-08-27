@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Educação Física';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Administração | Polo Fácil</title>
+    <title>Provas - Educação Física | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1031,98 +1031,54 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="700760_ filosofia_e_dimensoes_historicas_da_educacao_fisica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="700760_ filosofia_e_dimensoes_historicas_da_educacao_fisica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> FILOSOFIA E DIMENSÕES HISTÓRICAS DA EDUCAÇÃO FÍSICA</a>
                                         </td>
-                                        <td>FILOSOFIA E DIMENSÕES HISTÓRICAS DA EDUCAÇÃO FÍSICA</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>14/08/2019</td>
-
-
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="700930_corporeidade_e_motoiridade_humana.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="700930_corporeidade_e_motoiridade_humana.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> CORPOREIDADE E MOTRICIDADE HUMANA</a>
                                             
                                         </td>
-                                        <td>CORPOREIDADE E MOTRICIDADE HUMANA</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>14/08/2019</td>
-   
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="701030_primeiros_socorros.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="701030_primeiros_socorros.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> PRIMEIROS SOCORROS</a>
                                         </td>
-                                        <td>PRIMEIROS SOCORROS</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>14/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="701130_bioestatistica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="701130_bioestatistica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> BIOESTATÍSTICA</a>
                                         </td>
-                                        <td>BIOESTATÍSTICA</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>14/08/2019</td>
-                                    </tr>
-                                    <tr>
-                                        
-                                        <td>
-                                            <a href="706330_genetica_aplicada_a_atividade_motora(falta_imagem).php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                        </td>
-                                        <td>Genética Aplicada a Atividade Motora</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>14/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="706460_biomecanica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="706330_genetica_aplicada_a_atividade_motora(falta_imagem).php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Genética Aplicada a Atividade Motora</a>
                                         </td>
-                                        <td>Biomecânica</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>14/08/2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="706460_biomecanica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Biomecânica</a>
+                                        </td>
 
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="706860_ginastica_artistica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="706860_ginastica_artistica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Ginástica Artística</a>
                                         </td>
-                                        <td>Ginástica Artística</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>14/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18167674700_filosofia_aplicada_a_atividade_motora.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18167674700_filosofia_aplicada_a_atividade_motora.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> FISIOLOGIA APLICADA A ATIVIDADE MOTORA</a>
                                         </td>
-                                        <td>FISIOLOGIA APLICADA A ATIVIDADE MOTORA</td>
-                                        <td>3º</td>
-                                        <td>4º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18562029323_ciencias_sociais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18562029323_ciencias_sociais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> CIÊNCIAS SOCIAL</a>
                                         </td>
-                                        <td>CIÊNCIAS SOCIAI</td>
-                                        <td>3º</td>
-                                        <td>4º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                 </table>
                                 <div class="custom-pagination">

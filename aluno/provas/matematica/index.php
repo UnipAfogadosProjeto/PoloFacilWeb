@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Matemática';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Administração | Polo Fácil</title>
+    <title>Provas - Matemática | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1031,29 +1031,32 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="545420_estrutura_e_funcionamento_da_educacao_basica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="545420_estrutura_e_funcionamento_da_educacao_basica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Estrutura e Funcionamento da Educação Básica</a>
                                         </td>
-                                        <td>Estrutura e Funcionamento da Educação Básica</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="549580_informatica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="549580_informatica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Informática</a>
                                         </td>
-                                        <td>Informática</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>15/08/2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18178452107_historia_da_matematica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> História da Matemática</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18680814984_estrutura_e_funcionamento_da_educacao_basica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Estrutura e Funcionamento da Educação Básica</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18704078825_informatica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Informática - 2</a>
+                                        </td>
                                     </tr>
                                 </table>
                                 <div class="custom-pagination">

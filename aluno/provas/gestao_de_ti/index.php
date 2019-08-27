@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Gestão de T.I';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Administração | Polo Fácil</title>
+    <title>Provas - Gestão de T.I | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1031,65 +1031,37 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="306260_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="306260_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
                                         </td>
-                                        <td>Organização de Computadores</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="306360_principios_de_sistemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="306360_principios_de_sistemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
                                         </td>
-                                        <td>Princípios de Sistemas de Informação</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="306750_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="306750_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
                                         </td>
-                                        <td>Comunicação Aplicada</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="307660_planejamento_estrategico_de_ti.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="307660_planejamento_estrategico_de_ti.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Planejamento Estratégico de TI</a>
                                         </td>
-                                        <td>Planejamento Estratégico de TI</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="307760 _modelagem_de_sistemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="307760 _modelagem_de_sistemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Modelagem de Sistemas de Informação</a>
                                         </td>
-                                        <td>Modelagem de Sistemas de Informação</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="308060_seguranca_da_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="308060_seguranca_da_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Segurança da Informação</a>
                                         </td>
-                                        <td>Segurança da Informação</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>15/08/2019</td>
                                     </tr>
                                     
                                 </table>

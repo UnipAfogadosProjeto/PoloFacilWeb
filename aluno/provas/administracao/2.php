@@ -1048,76 +1048,59 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18450333062_comportamento_humano_nas_organizacoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18450333062_comportamento_humano_nas_organizacoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> COMPORTAMENTO HUMANO NAS ORGANIZAÇÕES - DP</a>
                                         </td>
-                                        <td>DP - COMPORTAMENTO HUMANO NAS ORGANIZAÇÕES</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>07/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18463363701_analise_de_custos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18463363701_analise_de_custos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ANÁLISE DE CUSTOS - DP</a>
                                             
                                         </td>
-                                        <td>DP - ANÁLISE DE CUSTOS</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>07/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18709578501_economia_e_negocios.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18709578501_economia_e_negocios.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ECONOMIA E NEGÓCIOS - DP</a>
                                         </td>
-                                        <td>DP - ECONOMIA E NEGÓCIOS</td>
-                                        <td>2º</td>
-                                        <td>5º</td>
-                                        <td>07/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18202737853_liderancas_atributos_e_atribuicoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18202737853_liderancas_atributos_e_atribuicoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> LIDERANÇA: ATRIBUTOS E ATRIBUIÇÕES - DP</a>
                                         </td>
-                                        <td>DE - LIDERANÇA: ATRIBUTOS E ATRIBUIÇÕES</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18207630592_direitos_nas_organizacoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18207630592_direitos_nas_organizacoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> DIREITO NAS ORGANIZAÇÕES</a>
                                             
                                         </td>
-                                        <td>DIREITO NAS ORGANIZAÇÕES</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18532623623_gestao_de_pessoas.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18532623623_gestao_de_pessoas.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO DE PESSOAS</a>
                                         </td>
-                                        <td>GESTÃO DE PESSOAS</td>
-                                        <td>2º</td>
-                                        <td>4º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18665115417_topicos_de_atuacao_proficional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18665115417_topicos_de_atuacao_proficional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ÓPICOS DE ATUAÇÃO PROFISSIONAL - DP</a>
                                         </td>
-                                        <td>DP - TÓPICOS DE ATUAÇÃO PROFISSIONAL</td>
-                                        <td>2º</td>
-                                        <td>5º</td>
-                                        <td>22/08/2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18573292057_governanca_corporativa.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Governança Corporativa - DP</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18652298832_gestao_das_informacoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Gestão das Informações - DP</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18770430952_elaboracao_e_analise_de_projetos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Elaboração e Análise de Projetos - DP</a>
+                                        </td>
                                     </tr>
                                 </table>
                                 <div class="custom-pagination">
@@ -1125,6 +1108,7 @@
                                     <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
                                     <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
                                     <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="./3.php">3</a></li>
                                      <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
                                 </ul>
                             </div>

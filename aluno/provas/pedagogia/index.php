@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Administração';
+    $bread = '/ Provas / Pedagogia';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas -Pedagogia | Polo Fácil</title>
+    <title>Provas - Pedagogia | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1031,110 +1031,62 @@
                             <div class="asset-inner">
                                 <table>
                                     <tr>
-                                        <th>Acessar</th>
                                         <th>Disciplina</th>
-                                        <th>Bimestre</th>
-                                        <th>Semestre</th>
-                                        <th>Data da Postagem</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18142676622_gestao_educacional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18142676622_gestao_educacional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Gestão Educacional</a>
                                         </td>
-                                        <td>Gestão Educacional</td>
-                                        <td>2º</td>
-                                        <td>5º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18157328450_historia_do_pensamento_filosofico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18157328450_historia_do_pensamento_filosofico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> História do Pensamento Filosófico</a>
                                         </td>
-                                        <td>História do Pensamento Filosófico</td>
-                                        <td>2º</td>
-                                        <td>7º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18213833741_historia_da_educacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18213833741_historia_da_educacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> História da Educação</a>
                                         </td>
-                                        <td>História da Educação</td>
-                                        <td>2º</td>
-                                        <td>7º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18217398988_historia_do_pensamento_filosofico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18217398988_historia_do_pensamento_filosofico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> História do Pensamento Filosófico</a>
                                         </td>
-                                        <td>História do Pensamento Filosófico</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18313742303_politica_e_organizacao_da_educacao_basica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18313742303_politica_e_organizacao_da_educacao_basica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Política e Organização da Educação Básica</a>
                                         </td>
-                                        <td>Política e Organização da Educação Básica</td>
-                                        <td>2º</td>
-                                        <td>7º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18434908024_alfabetizacao_e_letramento.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18434908024_alfabetizacao_e_letramento.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Alfabetização e Letramento</a>
                                         </td>
-                                        <td>Alfabetização e Letramento</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18568907100_psicologia_contrutivista.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18568907100_psicologia_contrutivista.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Psicologia Construtivista</a>
                                         </td>
-                                        <td>Psicologia Construtivista</td>
-                                        <td>2º</td>
-                                        <td>3º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18574077284_ejd_fundamentos_e_metodologia.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18574077284_ejd_fundamentos_e_metodologia.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> EDUCAÇÃO DE JOVENS E ADULTOS: FUNDAMENTOS E METODOLOGIA</a>
                                         </td>
-                                        <td>EDUCAÇÃO DE JOVENS E ADULTOS: FUNDAMENTOS E METODOLOGIA</td>
-                                        <td>2º</td>
-                                        <td>5º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18659435734_historia_da_educacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18659435734_historia_da_educacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> História da Educação</a>
                                         </td>
-                                        <td>História da Educação</td>
-                                        <td>2º</td>
-                                        <td>1º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18798949461_sociologia_e_educacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="18798949461_sociologia_e_educacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Psicologia Construtivista</a>
                                         </td>
-                                        <td>Psicologia Construtivista</td>
-                                        <td>2º</td>
-                                        <td>5º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="19773980565_estrutura_e_org_da_escola_de_educacao_infantil.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                            <a href="19773980565_estrutura_e_org_da_escola_de_educacao_infantil.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ESTRUTURA E ORG DA ESCOLA DE EDUCAÇÃO INFANTIL</a>
                                         </td>
-                                        <td>ESTRUTURA E ORG DA ESCOLA DE EDUCAÇÃO INFANTIL</td>
-                                        <td>1º</td>
-                                        <td>3º</td>
-                                        <td>22/08/2019</td>
                                     </tr>
                                 </table>
                                 <div class="custom-pagination">
