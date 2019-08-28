@@ -1080,6 +1080,11 @@
                                             <a href="18562029323_ciencias_sociais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> CIÊNCIAS SOCIAL</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18682649083_atletismo_aspectos_pedagogicos_e_aprofundamentos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ATLETISMO ASPECTOS PEDAGÓGICOS E APROFUNDAMENTOS</a>
+                                        </td>
+                                    </tr>
                                 </table>
                                 <div class="custom-pagination">
                                 <ul class="pagination">

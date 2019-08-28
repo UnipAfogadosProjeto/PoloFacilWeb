@@ -1097,6 +1097,7 @@
                                     </br>
 
                                     A) Apenas a afirmativa I está correta.</br>
+                        
 
                                     B) Apenas a afirmativa II está correta.</br>
 
@@ -1105,7 +1106,6 @@
                                     D) As afirmativas I e II estão corretas.</br>
 
                                     E) As afirmativas II e III estão corretas.</br>
-                                    
                                     </br>
 
                                     </p>
@@ -1125,6 +1125,7 @@
                                     D) Maturidade moral.</br>
 
                                     E) Escuta empática.</br>
+
                                     </br>
 
                                     </p>
@@ -1156,7 +1157,7 @@
                                     </br>
 
                                     </p>
-                                    
+
                                     <p><strong>Questão 4:</strong> Klemp Jr. (1999) identificou nove metacompetências. Esse conjunto foi chamado de “modelo de nove baldes” ou “compartimentos de práticas de liderança”. </br>
                                     </br>
 
@@ -1172,7 +1173,6 @@
                                     D) Os líderes devem compreender a importância de manter relacionamentos sólidos, de confiança e respeito. </br>
 
                                     E) Os líderes devem criar relacionamentos em vários níveis, tanto fora da empresa (clientes, parceiros, fornecedores) quanto dentro (pares, superiores, funcionários).</br>
-
                                     </br>
 
                                     </p>
@@ -1201,7 +1201,7 @@
 
                                     I -O que define as respostas de uma pessoa, o que orienta as tomadas de decisão não é o estímulo ou a consequência desse estímulo, mas a forma como ___________ o estímulo. </br>
 
-                                    II -As crenças se originam a partir da tentativa de dar sentido aos acontecimentos do mundo. E são elas que fundamentam as ____________que fazemos dos eventos que acontecem ao nosso redor.</br>
+                                    II -As crenças se originam a partir da tentativa de dar sentido aos acontecimentos do mundo. E são elas que fundamentam as ____________que fazemos dos eventos que acontecem ao nosso redor. </br>
                                     </br>
 
                                     Assinale a alternativa que completa adequadamente a lacuna do texto.</br>
@@ -1211,7 +1211,7 @@
 
                                     B) Interpreta/interpretações.</br>
 
-                                    C) Interpreta/reações. </br>
+                                    C) Interpreta/reações.</br> 
 
                                     D) Respondemos para/relações.</br>
 
@@ -1227,10 +1227,7 @@
 
                                     II -Habilidade de formar modelos e usá-los de forma prática nas organizações para entender os outros.</br>
 
-                                    III -Habilidade, voltada para si mesmo, de formar modelos e usá-los de forma efetiva e construtiva.</br>
-                                    </br>
-
-                                    Assinale a alternativa correta.</br>
+                                    III -Habilidade, voltada para si mesmo, de formar modelos e usá-los de forma efetiva e construtiva.Assinale a alternativa correta.</br>
                                     </br>
 
                                     A) Apenas a afirmativa I está correta.</br>
@@ -1242,9 +1239,11 @@
                                     D) As afirmativas II e III estão corretas.</br>
 
                                     E) As afirmativas I e III estão corretas.</br>
+                                    </br>
+
                                     <p>
 
-                                    <p><strong>Questão 8:</strong> A percepção é um processo pelo qual um indivíduo recebe um conjunto de estímulos por meio dos sentidos, selecionando-os, comparando-os e interpretando-os de forma conveniente. Segundo Kemp (1975, p. 13), percepção é “o processo pelo qual um indivíduo se apercebe do mundo que o rodeia”. Osdiferentes órgãos sensoriais (olhos, ouvidos, tato etc.) estão submetidos a uma multidão de estímulos, produzindo uma sensação na pessoa.</br>
+                                    <p><strong>Questão 8:</strong> A percepção é um processo pelo qual um indivíduo recebe um conjunto de estímulos por meio dos sentidos, selecionando-os, comparando-os e interpretando-os de forma conveniente. Segundo Kemp (1975, p. 13), percepção é “o processo pelo qual um indivíduo se apercebe do mundo que o rodeia”. Osdiferentes órgãos sensoriais (olhos, ouvidos, tato etc.) estão submetidos a uma multidão de estímulos, produzindo uma sensação na pessoa.   </br>
                                     </br>
 
                                     Nesse sentido, sensação é:</br>
@@ -1254,7 +1253,10 @@
 
                                     II -Uma tomada de consciência psicológica das reações fisiológicas.</br>
 
-                                    III -Uma resposta imediata dos órgãos sensoriais.Assinale a alternativa correta.</br>
+                                    III -Uma resposta imediata dos órgãos sensoriais.</br>
+                                    </br>
+
+                                    Assinale a alternativa correta.</br>
                                     </br>
 
                                     A) Apenas a afirmativa I está correta.</br>
@@ -1265,7 +1267,7 @@
 
                                     D) As afirmativas I e II estão corretas.</br>
 
-                                    .E) As afirmativas II e III estão corretas.</br>
+                                    E) As afirmativas II e III estão corretas.</br>
                                     </br>
 
                                     </p>
@@ -1301,7 +1303,6 @@
                                     D) Fazer a integração de todas as funções da organização, para que os objetivos finais dela sejam atingidos.</br>
 
                                     E) Transformar a matéria-prima em produtos ou serviços, realizando o objetivo primordial da empresa. </br>
-                                    
                                 </div>
                             </div>
                             <div class="custom-pagination">

@@ -1069,7 +1069,7 @@
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../1.php">Voltar</a></li>
+                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
 
                                 </ul>
                             </div>

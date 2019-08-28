@@ -1060,6 +1060,21 @@
                                             <a href="18930519387_responsabilidade_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Responsabilidade Social - DP</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="17193771856_liderancas_atributos_e_atribuicoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Liderança: atributos e atribuições</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="17617069227_topicos_de_atuacao_profissional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Tópicos de Atuação Profissional - Administração</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18202737853_liderancas_atributos_e_atribuicoes.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Liderança: atributos e atribuições - prova 2</a>
+                                        </td>
+                                    </tr>
                                 </table>
                                 <div class="custom-pagination">
                                 <ul class="pagination">

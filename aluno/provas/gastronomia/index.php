@@ -1038,6 +1038,16 @@
                                             <a href="696860_cozinha_fria.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Cozinha Fria</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18552488206_controle_de_qualidade_e_consev_de_alimentos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Controle de Qualidade e Conserv dos Alimentos</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18746797162_tecnicas_de_cozinha_profissional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Técnicas de Cozinha Profissional</a>
+                                        </td>
+                                    </tr>
                                     
                                 </table>
                                 <div class="custom-pagination">

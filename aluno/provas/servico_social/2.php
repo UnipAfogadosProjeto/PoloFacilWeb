@@ -1094,13 +1094,14 @@
                                     <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
                                     <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
                                     <li class="page-item"><a class="page-link" href="./3.php">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="./4.php">4</a></li>
                                      <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
                                 </ul>
                             </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../1.php">Voltar</a></li>
+                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
 
                                 </ul>
                             </div>

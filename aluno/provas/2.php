@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Painel | Polo Fácil</title>
+    <title>Provas UNIP | Página 2 | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1054,21 +1054,21 @@
                                             <a href="./redes_de_computadores/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> REDES DE COMPUTADORES</a>
                                         </td>
                                         <td>Bimestral</td>
-                                        <td>1</td>
+                                        <td>2</td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <a href="./servico_social/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> SERVIÇO SOCIAL</a>
                                         </td>
                                         <td>Bimestral</td>
-                                        <td>27</td>
+                                        <td>34</td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <a href="./design_de_interiores/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> DESIGN DE INTERIORES</a>
                                         </td>
                                         <td>Bimestral</td>
-                                        <td>1</td>
+                                        <td>2</td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -1076,6 +1076,34 @@
                                         </td>
                                         <td>Bimestral</td>
                                         <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="./gestao_em_logistica/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO EM LOGÍSTICA</a>
+                                        </td>
+                                        <td>Bimestral</td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="./gestao_financeira/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO FINACEIRA</a>
+                                        </td>
+                                        <td>Bimestral</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="./gestao_hospitalar/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO HOSPITALAR</a>
+                                        </td>
+                                        <td>Bimestral</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="./historia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> HISTÓRIA</a>
+                                        </td>
+                                        <td>Bimestral</td>
+                                        <td>2</td>
                                     </tr>
                                 </table>
                                 </table>
@@ -1085,6 +1113,7 @@
                                      <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
                                     <li class="page-item"><a class="page-link" href="./1.php">1</a></li>
                                     <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="./3.php">3</a></li>
                                      <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
                                 </ul>
                             </div>

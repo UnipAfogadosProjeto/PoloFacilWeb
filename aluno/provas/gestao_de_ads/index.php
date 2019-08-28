@@ -1063,6 +1063,11 @@
                                             <a href="685860_analise_de_sistemas_orientada_a_objetos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Análise de Sistemas Orientada a Objetos</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18553104516_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada - Prova 2</a>
+                                        </td>
+                                    </tr>
                                     
                                 </table>
                                 <div class="custom-pagination">

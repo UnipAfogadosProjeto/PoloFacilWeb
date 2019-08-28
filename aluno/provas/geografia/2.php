@@ -1053,6 +1053,21 @@
                                             <a href="18691622622_planejmento_urbano_e_o_espaco_rural.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> PLANEJAMENTO URBANO E O ESPAÇO RURAL</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18336499187_direitos_humanos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> DIREITOS HUMANOS</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18507931038_recursos_naturais_e_fontes_de_energia.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> RECURSOS NATURAIS E FONTES DE ENERGIA</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18908904864_metodos_de_pesquisa.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> MÉTODOS DE PESQUISA</a>
+                                        </td>
+                                    </tr>
                                 </table>
                                 <div class="custom-pagination">
                                 <ul class="pagination">

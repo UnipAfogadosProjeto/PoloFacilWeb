@@ -1047,7 +1047,17 @@
                                         <td>
                                             <a href="684560_gestao_de_recursos_naturais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Gestão de Recursos Naturais</a>
                                         </td>
-                                    </tr>  
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18368106275_economia_e_mercado.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Economia e Mercado</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18924682844_auditoria_e_certificacao_ambiental.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Auditoria e Certificação Ambiental</a>
+                                        </td>
+                                    </tr> 
                                 </table>
                                 <div class="custom-pagination">
                                 <ul class="pagination">

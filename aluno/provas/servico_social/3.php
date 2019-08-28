@@ -1081,6 +1081,11 @@
                                             <a href="18977794391_historia_do_pensamento_filosofico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> HISTÓRIA DO PENSAMENTO FILOSÓFICO</a>
                                         </td>
                                     </tr>
+                                     <tr>
+                                        <td>
+                                            <a href="18592957380_etica_profissional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Ética Profissional</a>
+                                        </td>
+                                    </tr>
                                     
                                 </table>
                                 <div class="custom-pagination">
@@ -1089,13 +1094,14 @@
                                     <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
                                     <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
                                     <li class="page-item"><a class="page-link" href="./3.php">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="./4.php">4</a></li>
                                      <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
                                 </ul>
                             </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../1.php">Voltar</a></li>
+                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
 
                                 </ul>
                             </div>

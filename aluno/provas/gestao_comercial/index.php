@@ -1043,12 +1043,33 @@
                                             <a href="712160_sistemas_de_informacao_em_comercio_e_servisos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Sistemas de Informação em Comércio e Serviços</a>
                                         </td>
                                     </tr>
-                                    
+                                    <tr>
+                                        <td>
+                                            <a href="18382178423_comercio_eletronico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> COMÉRCIO ELETRÔNICO</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18394741177_direito_do_consumidor.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> DIREITO DO CONSUMIDOR</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18763502408_planejamento_estrategico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> PLANEJAMENTO ESTRATÉGICO</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18682554034_etica_e_legislacao_trabalhista_e_empresarial.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Ética e Legislação: Trabalhista e Empresarial</a>
+                                        </td>
+                                        
+                                    </tr>
                                 </table>
                                 <div class="custom-pagination">
                                 <ul class="pagination">
                                     <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
                                     <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
                                      <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
                                 </ul>
                             </div>

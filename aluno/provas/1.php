@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Painel | Polo Fácil</title>
+    <title>Provas UNIP | Página 1 | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1040,18 +1040,11 @@
                                             <a href="./administracao/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ADMINISTRAÇÃO</a>
                                         </td>
                                         <td>Bimestral</td>
-                                        <td>22</td>
+                                        <td>24</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./ciencias_economicas/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> CIÊNCIAS CONTÁBEIS</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> CIÊNCIAS ECONÔMICAS</a>
+                                            <a href="./ciencias_economicas/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> CIÊNCIAS ECONÔMICAS</a>
                                         </td>
                                         <td>Bimestral</td>
                                         <td>2</td>
@@ -1061,42 +1054,42 @@
                                             <a href="./educacao_fisica/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> EDUCAÇÃO FÍSICA</a>
                                         </td>
                                         <td>Bimestral</td>
-                                        <td>7</td>
+                                        <td>10</td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <a href="./gastronomia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GASTRONOMIA</a>
                                         </td>
                                         <td>Bimestral</td>
-                                        <td>1</td>
+                                        <td>3</td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <a href="./geografia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GEOGRAFIA</a>
                                         </td>
                                         <td>Bimestral</td>
-                                        <td>10</td>
+                                        <td>17</td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <a href="./gestao_ambiental/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO AMBIENTAL</a>
                                         </td>
                                         <td>Bimestral</td>
-                                        <td>3</td>
+                                        <td>5</td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <a href="./gesta0_comercial/index.php" class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO COMERCIAL</a>
                                         </td>
                                         <td>Bimestral</td>
-                                        <td>2</td>
+                                        <td>6</td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <a href="./gestao_de_ads/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ANÁLISE DE SISTEMA</a>
                                         </td>
                                         <td>Bimestral</td>
-                                        <td>6</td>
+                                        <td>7</td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -1112,6 +1105,7 @@
                                     <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
                                     <li class="page-item"><a class="page-link" href="./1.php">1</a></li>
                                     <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="./3.php">3</a></li>
                                      <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
                                 </ul>
                             </div>
