@@ -1079,7 +1079,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="./gesta0_comercial/index.php" class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO COMERCIAL</a>
+                                            <a href="./gestao_comercial/index.php" class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO COMERCIAL</a>
                                         </td>
                                         <td>Bimestral</td>
                                         <td>6</td>
