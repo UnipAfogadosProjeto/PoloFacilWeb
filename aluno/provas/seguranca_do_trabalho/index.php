@@ -1040,7 +1040,7 @@
                                     </tr> 
                                     <tr>
                                         <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Legislação e Normas Técnicas em Segurança do Trabalho</a>
+                                            <a href="18716347591_legislacao_e_normas_tecnicas_em_seguranca_do_trabalho.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Legislação e Normas Técnicas em Segurança do Trabalho</a>
                                         </td>
                                     </tr>
                                 </table>
