@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / gEOGRAFIA / BIOGEOGRAFIA/ SOCIOBIOGEOGRAFIA E AMBIENTE';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Geografia | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1023,44 +1041,247 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Disciplina</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="custom-pagination">
-                                <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
-                                </ul>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
                             </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP EAD</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 19158296850</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> GEOGRAFIA</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 1º Bimestre - 5º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 02/04/2019 12:26:31</span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 679960 - BIOGEOGRAFIA/ SOCIOBIOGEOGRAFIA E AMBIENTE</p>
+
+                                    <p><strong>Questão 1:</strong> Diversas mudanças e transformações ocorrem durante a sucessão ecológica. Nas alternativas abaixo estão diversas dessas mudanças com exceção de uma, a qual seria:</br>
+                                    </br>
+
+                                    A) O início do processo ocorre com o estabelecimento de espécies pioneiras.</br>
+
+                                    B) Mudanças nos tipos de plantas e animais que compõem as comunidades.</br>
+
+                                    C) O aumento de biomassa nas comunidades.</br>
+
+                                    D) A ausência de alterações relativas à reciclagem de nutrientes nas comunidades.</br>
+
+                                    E) O aumento da complexidade das teias alimentares.</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> Leia o trecho a seguir:</br>
+                                    </br>
+
+                                    “De origem bastante discutida, essa formação é característica das áreas onde o clima apresenta duas estações bem marcadas: uma seca e outra chuvosa, como no Planalto Central. Ela apresenta dois estratos nítidos: uma arbóreo-arbustivo, onde as espécies tortuosas têm os caules geralmente revestidos de casca espessa, e outro herbáceo, com as espécies geralmente dispostas em tufos”.</br>
+                                    </br>
+
+                                    O texto refere-se a qual formação vegetal?</br>
+                                    </br>
+
+                                    A) Floresta tropical.</br>
+
+                                    B) Caatinga.</br>
+
+                                    C) Formação do Pantanal.</br>
+
+                                    D) Mata Atlântica.</br>
+
+                                    E) Cerrado. </br>
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Considere as seguintes frases:</br>
+                                    </br>
+
+                                    I -Os gafanhotos são verdes para poderem viver entre folhas verdes.</br>
+
+                                    II -Folhas transformadas em espinhos permitem a economia de água, já que têm menor superfície.</br>
+
+                                    III -O urso polar pode sobreviver na neve porque tem pelo branco e espesso.</br>
+
+                                    IV -Como o apêndice vermiforme humano não é necessário, pois não tem função aparente, vai desaparecer.São frases de caráter darwinista:</br>
+                                    </br>
+
+                                    A) I, II, III e IV.</br>
+
+                                    B) II e III.</br>
+
+                                    C) II, III e IV.</br>
+
+                                    D) II e IV.</br>
+
+                                    E) I e IV.</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> As fontes termais submarinas constituem um ambiente favorável para o estudo da origem da vida em nosso planeta. Sobre o assunto, veja as observações a seguir:</br>
+                                    </br>
+
+                                    I -Para alguns pesquisadores, essas condições se assemelham ao ambiente inicial, que foi favorável à formação e integridade de moléculas orgânicas e que existiu nos primórdios da evolução biológica.</br>
+
+                                    II -Para outros pesquisadores, a água rica em gás sulfeto de hidrogênio seria uma fonte de nutrientes e energia para que os primeiros organismos produzissem seu alimento.</br>
+                                    </br>
+
+
+                                    As informações acima estão relacionadas com duas hipóteses distintas sobre a origem da vida. Sobreisso, assinale a alternativa correta. </br>
+                                    </br>
+
+                                    A) I refere-se à hipótese autotrófica, segundo a qual organismos fotossintetizantes convertiam H2Oe CO2 em compostos orgânicos mais complexos e ricos em energia química.</br>
+
+                                    B) II refere-se à hipótese heterotrófica, segundo a qual os primeiros organismos se alimentavam decompostos orgânicos formados de forma abiótica a partir de compostos simples.</br>
+
+                                    C) I está relacionada à panspermia, hipótese segundo a qual a vida teria surgido fora do planeta esemeada aqui por meteoritos vindos do espaço sideral.</br>
+
+                                    D) II relaciona-se a hipótese autotrófica, segundo a qual organismos quimiossintetizantes produzemalimento com energia obtida por reações químicas inorgânicas.</br>
+
+                                    E) I está associada à hipótese simbiótica segundo a qual organismos eucarióticos primitivos incorporaram bactérias que passaram a funcionar como mitocôndrias e cloroplastos.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> A presença de materiais indesejáveis no ar altera a composição da atmosfera terrestre, tornando-a praticamente irrespirável. Em São Paulo, foi realizado um rigoroso programa de racionamento do tráfego de veículos automotores, com o objetivo de diminuir os índices de poluição. Com relação a esse problema, escolha a alternativa correta:</br>
+                                    </br>
+
+                                    A) O ar ideal para se respirar deve ser constituído somente de oxigênio.</br>
+
+                                    B) O ar ideal para se respirar deve ser constituído mais de oxigênio do que de nitrogênio.</br>
+
+                                    C) O ar não poluído e adequado ao ser humano deve ser constituído de nitrogênio, oxigênio e hidrogênio em partes iguais.</br>
+
+                                    D) A atmosfera terrestre não poluída é constituída mais de nitrogênio do que de oxigênio.</br>
+
+                                    E) A atmosfera ideal é uma mistura heterogênea formada de vapor d’água e oxigênio.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> Durante a época onde Charles Darwin propôs a Teoria da Evolução baseado na seleção natural, não eram conhecidas as causas da variabilidade biológica, sobre a qual a seleção natural age. Esse conhecimento só veio posteriormente, com o que ficou conhecido como Neodarwinismo. Sobre o Neodarwinismo ou a Teoria Sintética da Evolução, temos que:</br>
+                                    </br>
+                                    
+
+                                    A) As mutações são dirigidas pelo meio.</br>
+
+                                    B) A necessidade pela adaptação faz os organismos se modificarem.</br>
+
+                                    C) A herança dos caracteres adquiridos é o principal fator.</br>
+
+                                    D) As mutações que ocorrem ao acaso e a recombinação gênica são os fatores que explicam a variabilidade.</br>
+
+                                    E) A recombinação gênica acontece apenas nas reproduções assexuadas.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> O feito estufa é o aquecimento da Terra, provocado por aumento da taxa de:</br>
+                                    </br>
+
+                                    A) N2.</br>
+
+                                    B) O2.</br>
+
+                                    C) CO.</br>
+
+                                    D) CO2.</br>
+
+                                    E) NH2.</br>
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> Considere os seguintes dados relativos à origem da vida:</br>
+                                    </br>
+
+                                    I -Surgimento das células eucarióticas.</br>
+
+                                    II -Desenvolvimento da respiração anaeróbica.</br>
+
+                                    III -Surgimento das células procarióticas. </br>
+
+                                    IV -Sopa primordial pré-biótica.</br>
+
+                                    V -Desenvolvimento da fotossíntese.</br>
+                                    </br>
+
+                                    Qual é a sequência correta para a evolução da vida na Terra?</br>
+                                    </br>
+
+                                    A) I, III, V, II e IV.</br>
+
+                                    B) IV, II, III, V e I.</br>
+
+                                    C) IV, III, II, V e I.</br>
+
+                                    D) II, III, V, I e IV.</br>
+
+                                    E) IV, II, III, I e V.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> A sucessão ecológica envolve uma série de mudanças e transformações que ocorrem duranteo processo. Do processo de colonização até a comunidade clímax, temos:</br>
+                                    </br>
+
+                                    A) Constância de biomassa e de espécies.</br>
+
+                                    B) Diminuição de biomassa e menor diversificação de espécies.</br>
+
+                                    C) Diminuição de biomassa e maior diversificação de espécies.</br>
+
+                                    D) Aumento de biomassa e menor diversificação de espécies.</br>
+
+                                    E) Aumento de biomassa e maior diversificação de espécies.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> Entende-se por sucessão ecológica:</br>
+                                    </br>
+
+                                   A) Uma comunidade que está em homeostase.</br>
+
+                                   B) Um ambiente que se modifica em função da atividade humana.</br>
+
+                                   C) A adaptação de uma população às condições ambientais sem a interferência humana.</br>
+
+                                   D) Comunidades bióticas que apresentam um equilíbrio dinâmico.</br>
+
+                                   E) Uma série de estágios de transformação da paisagem de uma comunidade estável ao longo do tempo.</br>
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
-
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>

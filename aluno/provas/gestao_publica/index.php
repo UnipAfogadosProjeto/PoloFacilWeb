@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Gestão Publica';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Gestão Publica | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1035,17 +1035,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
+                                            <a href="18150928087_recursos_materiais_e_patrimoniais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Recursos Materiais e Patrimoniais</a>
                                         </td>
                                     </tr>
                                 </table>

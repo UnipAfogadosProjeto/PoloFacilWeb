@@ -31,9 +31,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="polo fácil unip oline">
+    <meta name="description" content="Agende provas, confira apostilas disponiveis, tenha acesso a centenas de provas simuladas para estudar e muito mais. Tudo de forma rápida, simples e segura. PoloFácil Web">
     <meta name="author" content="vse tecnologia">
-    <meta name="keywords" content="gerenciamente de polos ead">
+    <meta name="keywords" content="gerenciamento de polos ead, provas unip, polofacil, calcular media">
 
     <title>Provas UNIP | Página 3 | Polo Fácil</title>
 
@@ -1045,6 +1045,20 @@
                                     <tr>
                                         <td>
                                             <a href="./sociologia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> SOCIOLOGIA</a>
+                                        </td>
+                                        <td>Bimestral</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="./fisica/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> FÍSICA</a>
+                                        </td>
+                                        <td>Bimestral</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="./gestao_publica/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO PUBLICA</a>
                                         </td>
                                         <td>Bimestral</td>
                                         <td>4</td>

@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Gestão Pública / Recursos Materiais e Patrimoniais';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Gestão Pública | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1023,44 +1041,224 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Disciplina</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="custom-pagination">
-                                <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
-                                </ul>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
                             </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP INTERATIVA</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 18150928087</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> SUP TEC EM GESTÃO PÚBLICA</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span>2º Bimestre - 1º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 04/06/2018 20:15:20</span></strong>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 464860 - Recursos Materiais e Patrimoniais</p>
+
+                                    <p><strong>Questão 1:</strong> A empresa JCC Ltda, fez em seu último balanço, uma relação dos itens que foram conferidos. No ano de 2005, foram conferidos 4.000 itens e em 40 itens os valores levantados na conferência não eram os valores esperados. No ano de 2004, com a mesma quantidade de itens conferidos, as divergências foramem 100 dos itens conferidos. Já no ano de 2003, as divergências foram em 120 itens, com a mesma quantidade de itens conferidos. Assim podemos dizer que essa empresa melhorou em qual índice?</br>
+                                    </br>
+
+                                    A) Giro de estoque.</br>
+
+                                    B) Nível de serviços.</br>
+
+                                    C) Acuracidade.</br>
+
+                                    D) Tempo de entrega.</br>
+
+                                    E) Tempo de cobertura.</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> No que se refere a planejamento e controle de estoque, temos que dar importância aonível deatendimento ao cliente que pretendemos ter e ao controle de custos. Para atingir esse objetivo énecessário, entre outras coisas, ter uma ideia muito precisa de quanto o mercado vai precisar ou consumir desse item em determinado período. Essa necessidade citada é:</br>
+                                    </br>
+
+                                    A) Previsão de demanda.</br>
+
+                                    B) Seleção de fornecedores.</br>
+
+                                    C) Programação de compras.</br>
+
+                                    D) Avaliação de fornecedores.</br>
+
+                                    E) Programação de produção.</br>
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> A função que tem como objetivo administrar contratos de fornecimento, gerando programação de entrega para os fornecedores, é a função de:</br>
+                                    </br>
+
+                                    A) Compras.</br>
+
+                                    B) Recebimento.</br>
+
+                                    C) Controle de qualidade.</br>
+
+                                    D) Estoque.</br>
+
+                                    E) Transporte. </br>
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> João tinha o sonho de abrir sua própria empresa. Com esse intuito, foi juntando dinheiro e, em certo tempo, esse sonho se tornou realidade. Com o dinheiro que juntou e com os recursos de sua aposentadoria, comprou um prédio e maquinário e começou a trabalhar. Desconsiderando o envolvimento do capital inicial de João, os recursos adquiridos são respectivamente recursos:</br>
+                                    </br>
+
+                                    A) Patrimoniais e Materiais.</br>
+
+                                    B) Materiais e Patrimoniais. </br>
+
+                                    C) Materiais e Materiais.</br>
+
+                                    D) Patrimoniais e Patrimoniais.</br>
+
+                                    E) Tecnológicos e Materiais.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> Das afirmações a seguir, qual não é correta:</br>
+                                    </br>
+
+                                    A) Com estoques elevados, os custos totais são maiores.</br>
+
+                                    B) Fazer mais pedidos e em menor volume reduz custos de estoques.</br>
+
+                                    C) Fazer menos pedidos e em maiores volumes reduz custos de estoques.</br>
+
+                                    D) O volume em estoque interfere diretamente em custos.</br>
+
+                                    E) Estoque em excesso é dinheiro parado. </br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> A gestão desses recursos escassos tem sido a preocupação dos gestores ligados direta ou indiretamente às atividades produtivas, tanto na produção de bens tangíveis quanto na prestação de serviços. O recurso mais perceptível é:</br>
+                                    </br>
+                                    
+                                    A) O capital (dinheiro).</br>
+
+                                    B) Um edifício que abriga as instalações de uma empresa.</br>
+
+                                    C) Um item de estoque.</br>
+
+                                    D) As máquinas e equipamentos.</br>
+
+                                    E) Todas as alternativas anteriores.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> A empresa JCC Ltda. decidiu controlar melhor os recursos patrimoniais, acompanhando, por exemplo, o tempo de vida útil, programando manutenção periódica, avaliando a produtividade. Dos itens a seguir, qual é um recurso patrimonial?</br>
+                                    </br>
+
+                                    A) Dinheiro.</br>
+
+                                    B) Materiais de estoque.</br>
+
+                                    C) Maquinários.</br>
+
+                                    D) Material de escritório.</br>
+
+                                    E) Matéria-prima. </br>
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> A empresa A tem demanda de 40.000 unidades de determinado item e compra lotes maiores para fazer menos pedidos no ano. A empresa B tem a mesma demanda, só que compra lotes menores e faz mais pedidos no ano.</br>
+                                    </br>
+
+                                    Em um cenário desse, podemos dizer que:</br>
+                                    </br>
+
+                                    A) A empresa A tem “estoque médio” menor, pois faz menos pedidos.</br>
+
+                                    B) A empresa A gasta mais para “fazer os pedidos” dos itens no ano.</br>
+
+                                    C) A empresa B tem estoque médio menor, pois os lotes são menores.</br>
+
+                                    D) A empresa B mantém um estoque maior.</br>
+
+                                    E) Os estoques são iguais, pois a demanda é a mesma.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> Ter estoque possibilita algumas vantagens, entre elas podemos citar:</br>
+                                    </br>
+
+                                    A) Melhora o nível do serviço ao cliente.</br>
+
+                                    B) Permite antecipar-se a aumentos.</br>
+
+                                    C) Protege contra contingências.</br>
+
+                                    D) Amortece o impacto na oscilação de demanda.</br>
+
+                                    E) Todas as alternativas anteriores estão corretas.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> Para alguns autores, a decisão entre produzir ou terceirizar deve levar em consideração:</br>
+                                    </br>
+
+                                    I -Demanda média: manter a produção interna é melhor se a demanda tiver escala que a justifique ese for uma estratégia.</br> 
+
+                                    II -Pico de demanda: se há muita flutuação, pode ser complicado ou impossível à produção interna atendê-la.</br> 
+
+                                    III -Nível de estoque: será função da confiabilidade do atendimento.</br> 
+
+                                    IV -Área necessária: tanto para produção interna quanto para estocagem da quantidade enviada pelofornecedor. </br>
+                                    </br>
+
+                                    Analisando as afirmativas, podemos dizer que:</br>
+                                    </br>
+
+                                    A) Somente a afirmativa I está correta.</br>
+
+                                    B) Somente a afirmativa II está correta.</br>
+
+                                    C) Somente a afirmativa III está correta.</br>
+
+                                    D) Somente a afirmativa IV está errada.</br>
+
+                                    E) Todas as afirmativas anteriores estão corretas.</br>
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
-
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>

@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Física / HOMEM E SOCIEDADE';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Física | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1023,44 +1041,221 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Disciplina</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="custom-pagination">
-                                <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
-                                </ul>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
                             </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP EAD</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 19338181384</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> FÍSICA</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 1º Bimestre -3º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 02/04/2019 12:30:42 </span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 536530 - HOMEM E SOCIEDADE</p>
+
+                                    <p><strong>Questão 1:</strong> “Os mais aptos, por estarem mais adaptados têm mais chances de reproduzir e deixar essa carga genética para a próxima geração. Por isso, os indivíduos gerados por esse processo serão ainda mais privilegiados a sobreviver, pois já nascem com “vantagens genéticas” e passam mais uma geração adiante essa vantagem adaptativa.” Trata-se da definição de:</br>
+                                    </br>
+
+                                    A) Adaptação ao meio.</br>
+
+                                    B) Seleção natural.</br>
+
+                                    C) Identidade coletiva.</br>
+
+                                    D) Diversidade cultural.</br>
+
+                                    E) Sociabilidade</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> A antropologia ocupa-se das mais variadas manifestações culturais para estudar a história e as funções sociais envolvidas em suas concepções de vida e de morte. Assinale a alternativa com trechosdo livro-texto, de Kênia Kemp, que apresente transformações em significados originais da morte, coerentes aos novos tempos de intensos contatos culturais entre os povos.</br>
+                                    </br>
+
+                                    A) Pensando no caso dos funerais, a dor da perda de um indivíduo tem sido, ao longo da história humana, um exemplo de diversidade. Os funerais são rituais que expressam diferentes questões humanas com relação à inevitabilidade da morte, dos medos sobre a condição do morto após a morte, da putrefação do corpo, da perda de um ente querido etc., já que cada cultura responde de uma forma diferente: a cremação e o canibalismo do corpo do indivíduo morto são formas de solucionar a sua decomposição física; os egípcios desenvolveram o embalsamento para evitar esse processo; já o sepultamento é uma forma de afastar os vivos dos mortos. </br>
+
+                                    B) Objetos utilitários como as facas podem servir também para demarcar posições de status social ou de especialização de funções. Assim, existem as facas com cabos adornados com madre pérola, ou com pequenos encraves de pedras preciosas e ouro. Nesse caso, não há uma utilidade no adorno do cabo, mas uma função social simbólica. Quando vemos o objeto, mesmo longe de seu proprietário, sabemos se tratar de algo que pertence a alguém com posição social privilegiada. A estética, a ornamentação das facas ou de qualquer objeto utilitário que está à nossa disposição, também simboliza e expressa as características da forma de organização de uma sociedade. Isso porque nós “atribuímos significado às coisas do mundo” e percebemos que a quase totalidade do que vemos, ouvimos e sentimos adquirem significado. Assim, as facas trazem ornamentos como pedras ouformas adicionadas ao cabo, que as tornam atraentes ou únicas. As cores têm significado: o branco pode simbolizar a paz, o preto pode simbolizar tristeza ou mistério, o vermelho a sensualidade ou o amor. Os sons também: obadalar dos sinos em uma igreja podem simbolizar comemoração ou morte, o som da água em uma fonte pode simbolizar tranquilidade e, por isso, é utilizado terapeuticamente para acalmar.</br></br>
+
+                                    C) Existem rituais fúnebres tradicionais, como os excêntricos realizados na cidade de New Orleans nos Estados Unidos. Há uma procissão que leva o corpo até o cemitério, acompanhada de uma banda de jazz, que segue entoando canções tristes e cheias de lamento. Os parentes e amigos que seguem a procissão a pé demonstram tristeza, perda e consternação. Entretanto, ao sair do cemitério, a procissão faz o caminho inverso,retornando. E de fato, tudo se inverte. A música se torna alegre e agitada, e as pessoas que seguem a procissão dançam, demonstram muita alegria e satisfação. Isso é um exemplo de diversidade e de como dependemos de um aprendizado social para dar sentido a tais ações. Pode-se lembrar também dos rituais realizados no México, em que há festas nos cemitérios.</br></br>
+
+                                    D) O caso de Sakineh, de 43 anos, atraiu a atenção do mundo inteiro, em uma campanha que mobilizou inúmeros governos e entidades humanitárias. Considerada culpada de adultério pela justiça iraniana, ela foi condenada à morte por apedrejamento, mas a pena acabou sendo suspensa no início de setembro de 2010. Em seguida,autoridades locais anunciaram o castigo de enforcamento como punição pela participação na morte do marido. A medida foi logo retificada pela Chancelaria do Irã, a qual afirmou que as formalidades legais do processo ainda não estavam concluídas. Entre os que tentaram intervir estiveram o presidente Luiz Inácio Lula da Silva,que pediu a libertação de Sakineh e ofereceu-lhe asilo. </br></br>
+
+                                    E) Alguns exemplos sobre a socialização e o aprendizado das atitudes sociais: para um muçulmano, faz sentido o autoflagelamento após a morte de um líder político como forma de expressão de todo seu pesar e sofrimento, comportamento esse esperado de todos os colegas. Entretanto, em nossa cultura, os padrões, valores ehábitos são bem diferentes, de modo que nossa reação diante da morte de políticos não segue esse tipo de conduta. Exemplos como este nos leva a perceber como a cultura e os processos de socialização modelam nossa forma de perceber o mundo e agir em cada situação. Quanto mais somos expostos a situações, mais a compreendemos e nos tornamos pessoas mais seguras de nossas atitudes, reafirmando-as.</br></br>
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Uma importante característica da cultura é que em seu processo de representação e experimentação do mundo, ela sempre inclui tudo do ambiente ao redor e do universo interno. Isso significa que:</br>
+                                    </br>
+
+                                    A) Toda cultura é universal, atribuindo valores e sentido a tudo que existe.</br>
+
+                                    B) Na impossibilidade de tudo explicar, cada sociedade, originalmente, precisa complementar suas referências com aquelas de outras culturas.</br>
+
+                                    C) Não há fatos culturais universais, mas fenômenos particulares que não podem ser generalizados.</br>
+
+                                    D) Nada em uma sociedade pode ser generalizado; tudo o que nela acontece é singular, havendo apenas explicações locais para os fatos e processos naturais. </br>
+
+                                    E) Como nenhum lugar e nenhum povo são iguais a outros, também não pode haver processos universais.</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> Sabemos que a diversidade cultural desafia desde o início as explicações das Ciências Humanas. Uma delas defende que o meio físico -ambiente e clima -é determinante para os aspectos de uma cultura. A esse respeito, assinale a alternativa correta de acordo com a perspectiva da Antropologia:</br>
+                                    </br>
+
+                                    A) Essa afirmação é correta, pois podemos perceber que existe um padrão cultural que corresponde a cada meio ambiente.</br>
+
+                                    B) Essa afirmação é correta, pois não existe outra forma de explicar que os povos de cultura superior são todos das regiões de clima mais frio, enquanto os povos de cultura inferior são todos das regiões de clima mais quente.</br>
+
+                                    C) Essa afirmação é incorreta, uma vez que mesmo em climas frios temos algumas culturas que não se desenvolveram tanto.</br>
+
+                                    D) Essa afirmação é incorreta, pois o meio físico não é determinante para os aspectos de uma cultura; existem fatores mais importantes, como por exemplo, a raça.</br>
+
+                                    E) Essa afirmação é incorreta, pois apesar de ser um aspecto importante, o meio físico não determina os aspectos de uma cultura; podemos encontrar diferentes culturas em meios ambientalmente muito semelhantes.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> O etnocentrismo pode ser definido como uma “atitude emocionalmente condicionada queleva a considerar e julgar sociedades culturalmente diversas com critérios fornecidos pela própria cultura.Assim, compreende-se a tendência para menosprezar ou odiar culturas cujos padrões se afastam ou divergem dos da cultura do observador que exterioriza a atitude etnocêntrica. [...] Preconceito racial, nacionalismo, preconceito de classe ou de profissão, intolerância religiosa são algumas formas de etnocentrismo” (WILLEMS, E. Dicionário de sociologia. Porto Alegre: Globo, 1970. p. 125).Com base no texto, assinale a alternativa cujo discurso revela uma atitude etnocêntrica:</br>
+                                    </br>
+
+                                    A) A existência de culturas subdesenvolvidas relaciona-se à presença, em sua formação, de etnias de tipo incivilizado.</br>
+
+                                    B) Os povos indígenas possuem um acúmulo de saberes que podem influenciar as formas de conhecimento ocidentais.</br>
+
+                                    C) Os critérios de julgamento das culturas diferentes devem primar pela tolerância e pela compreensão dos valores, da lógica e da dinâmica própria a cada uma delas.</br>
+
+                                    D) As culturas podem conviver de forma democrática, dada a inexistência de relações de superioridade e inferioridade entre elas.</br>
+
+                                    E) O encontro entre diferentes culturas propicia a humanização das relações sociais, a partirdo aprendiz.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> 6: Clifford Geertz, em 1973 definiu para a antropologia o conceito de cultura conformea frase abaixo:</br>
+                                    </br>
+                                    
+                                    “Cultura é um sistema simbólico, característica fundamental e comum da humanidade de atribuir, deforma sistemática, racional e estruturada, significados e sentidos às coisas do mundo”.</br>
+                                    </br>
+
+                                    Assim sabemos que todas as culturas dependem da criação de símbolos para a nossa comunicação e compreensão do mundo que nos cerca. Sobre os símbolos, assinale a alternativa correta:</br>
+                                    </br>
+
+                                    A) Cada cultura tem um conjunto de símbolos que lhe é própria, e não é possível encontrarmos um mesmo símbolo em duas culturas diferentes.</br>
+
+                                    B) A simbolização pode ser compreendida como uma forma de evolução cultural, assim, quanto mais símbolos tem uma cultura, mais evoluída ela se encontra.</br>
+
+                                    C) Apesar dos símbolos serem próprios a cada cultura, alguns símbolos atualmente são encontrados em muitas culturas diferentes; isso é conseqüência principalmente da circulação de bens no mercado e das trocas culturais entre diferentes povos.</br>
+
+                                    D) Apenas as religiões conseguem que seus símbolos se espalhem em diferentes culturas mantendoo mesmo significado; já o mercado consumidor de bens depende que cada cultura crie e divulgue seus próprios símbolos.</br>
+
+                                    E) Os símbolos das culturas dominantes economicamente são menos interessantes e originais que os símbolos das culturas mais tradicionais e isoladas.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> Partindo do princípio de que a cultura é uma lente através da qual o homem vê o mundo, pessoas de culturas diferentes usam lentes diferentes e, portanto, têm visões distintas das coisas. Escolha a alternativa correta:</br>
+                                    </br>
+
+                                    A) A visão de mundo determina as respostas e o comportamento humano a partir da sociedade em que está inserido.</br>
+
+                                    B) O processo de alimentar-se é característica de todo ser vivo, portanto, o homem se alimentade uma mesma maneira em qualquer que seja a cultura de que faça parte.</br>
+
+                                    C) Não há diferenças entre as visões de mundo, a cultura sempre se apresenta de uma mesma forma seja qual for a sociedade.</br>
+
+                                    D) Um índio amazonense concebe o mundo e a sua forma de vida da mesma maneira de um paulistanoque sempre viveu na cidade de São Paulo.</br>
+
+                                    E) Na concepção de mundo, todo ser humano deve se submeter aos seus instintos e desprezar a cultura em que vive.</br>
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> Tudo que compartilhamos ao viver em sociedade, e que podemos observar que se repetena maioria dos indivíduos de nosso grupo, é resultado de um processo de aprendizagem da cultura que denominamos:</br>
+                                    </br>
+
+                                    A) Determinismo biológico.</br>
+
+                                    B) Determinismo geográfico.</br>
+
+                                    C) Socialização.</br>
+
+                                    D) Identidade.</br>
+
+                                    E) Educação.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> Segundo Laraia (2004), o primeiro escritor a definir o conceito de cultura foi Edward Tylor em 1871. Na verdade, ele sintetizou idéias sobre o tema que já existiam pelo menos desde de Locke (1632-1704). Desta forma, Tylor definiu o termo da seguinte forma:</br>
+                                    </br>
+
+                                    Cultura, que ‘tomado em seu amplo sentido etnográfico é este todo complexo que inclui conhecimentos, crenças, arte, moral, leis, costumes ou qualquer outra capacidade ou hábitos adquiridos pelo homem como membro de uma sociedade’. </br>
+                                    </br>
+
+                                    O conceito de cultura de Tylor está relacionado com o que segue: </br>
+                                    </br>
+
+                                    A) Aquisição inata;</br>
+
+                                    B) Fruto da ação mecânica da natureza sobre uma humanidade receptiva;</br>
+
+                                    C) Resultado da ação do homem como ser sobrenatural;</br>
+
+                                    D) Aprendizado em oposição à idéia de aquisição inata;</br>
+
+                                    E) Um processo estático que se reproduz a cada geração.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> Com relação à importância do Estado e dos conceitos de nação e território para a antropologia, é correto afirmar que:</br>
+                                    </br>
+
+                                    A) a totalidade de uma cultura necessariamente coincide com os traços nacionais.</br>
+
+                                    B) o conceito de nação está vinculado basicamente à dimensão biológica.</br>
+
+                                    C) o Estado é uma categoria política por excelência, embora seja resultado de processos econômicos, territoriais e culturais, historicamente definidos.</br>
+
+                                    D) a formação de grandes blocos econômicos destrói a soberania, a autonomia política dos Estados, o que os afasta das negociações tanto comerciais quanto diplomáticas.</br>
+
+                                    E) os Estados nacionais são formações separadas da cultura e não requerem território (recursosambientais).</br>
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
-
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>

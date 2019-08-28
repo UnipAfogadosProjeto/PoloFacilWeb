@@ -1038,6 +1038,11 @@
                                             <a href="18807956105_economia_e_mercado.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Economia e Mercado</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18611785482_recursos_materiais_e_patrimoniais.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Recursos Materiais e Patrimoniais</a>
+                                        </td>
+                                    </tr>
                                 </table>
                                 <div class="custom-pagination">
                                 <ul class="pagination">

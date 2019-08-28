@@ -1051,6 +1051,13 @@
                                     </tr>
                                     <tr>
                                         <td>
+                                            <a href="./ciencias_contabeis/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> CIÊNCIAS CONTÁBEIS</a>
+                                        </td>
+                                        <td>Bimestral</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
                                             <a href="./educacao_fisica/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> EDUCAÇÃO FÍSICA</a>
                                         </td>
                                         <td>Bimestral</td>

@@ -31,9 +31,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="polo fácil unip oline">
+    <meta name="description" content="Agende provas, confira apostilas disponiveis, tenha acesso a centenas de provas simuladas para estudar e muito mais. Tudo de forma rápida, simples e segura. PoloFácil Web">
     <meta name="author" content="vse tecnologia">
-    <meta name="keywords" content="gerenciamente de polos ead">
+    <meta name="keywords" content="gerenciamento de polos ead, provas unip, polofacil, calcular media">
 
     <title>Provas - Serviço Social | Página 4 | Polo Fácil</title>
 
@@ -1047,6 +1047,27 @@
                                     <tr>
                                         <td>
                                             <a href="19995798812_historia_do_pensamento_filosofico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> HISTÓRIA DO PENSAMENTO FILOSÓFICO</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="19221214835_servico_social_interdiciplinar.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> SERVIÇO SOCIAL INTERDISCIPLINAR</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="19394551548_supervisao_do_estagio_academico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> SUPERVISÃO DO ESTÁGIO ACADÊMICO</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <a href="19660312306_metodologia_do_trabalho_academico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> METODOLOGIA DO TRABALHO ACADÊMICO</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="19816726160_servico_social_e_realidade_regional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> SERVIÇO SOCIAL E REALIDADE REGIONAL</a>
                                         </td>
                                     </tr>
                                     

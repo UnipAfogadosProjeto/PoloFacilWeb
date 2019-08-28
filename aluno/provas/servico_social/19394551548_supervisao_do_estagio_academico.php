@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Serviço Social / SUPERVISÃO DO ESTÁGIO ACADÊMICO';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Serviço Social | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1023,44 +1041,264 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Disciplina</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="custom-pagination">
-                                <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
-                                </ul>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
                             </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP EAD</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 19394551548</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> SERVIÇO SOCIAL</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 1º Bimestre - 5º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 01/04/2019 09:24:16</span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 651160 - SUPERVISÃO DO ESTÁGIO ACADÊMICO</p>
+
+                                    <p><strong>Questão 1:</strong> O assistente social efetua sua função mediante uma autonomia: </br>
+                                    </br>
+
+                                    A) Relativa.</br>
+
+                                    B) Absoluta.</br>
+
+                                    C) Completa.</br>
+
+                                    D) Plena.</br>
+
+                                    E) Irrestrita.</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> A partir de qual década um grupo de profissionais começou a refletir sobre o serviço social estar pautado pela caridade e benesse difundidos pela igreja católica, e qual movimento ocorreu na AméricaLatina que marcou a profissão, suscitando em reflexões e mudanças na constituição e nas formas de atuação do assistente social?</br>
+                                    </br>
+
+                                    A) Década de 1930; Revolução Constitucionalista.</br>
+
+                                    B) Década de 1940; Segunda Guerra Mundial.</br>
+
+                                    C) Década de 1950; Eleição de Getúlio Vargas.</br>
+
+                                    D) Década de 1960; Movimento de Reconceituação. </br>
+
+                                    E) Década de 1970; Golpe Militar no Chile.</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Sobre a divisão do estudo econômico, podemos afirmSobre as áreas de atuação do Assistente Social no primeiro, segundo e terceiro setores,marque V para as alternativas verdadeiras e F para as falsas.</br>
+                                    </br>
+
+                                    ( ) No primeiro setor, o Assistente Social atua no setor público em âmbito nacional, estadual e municipal: saúde, assistência social, previdência, educação, habitação.</br>
+
+                                    ( ) No segundo setor, o Assistente Social deve atuar de forma reflexiva para não incorrer em uma prática profissional que atenda exclusivamente os interesses dos empregadores.</br>
+
+                                    ( ) No terceiro setor, nas organizações não-governamentais (ONGs), o Assistente Social atua diretamente com a sociedade civil organizada e movimentos populares.</br>
+
+                                    ( ) Com a municipalização das políticas públicas, surgem novas oportunidadesde intervenção no âmbito da sociedade civil organizada para o Assistente Social, com destaque paraa formulação, gestão e controle social das políticas sociais.</br>
+
+                                    ( ) No terceiro setor, o Assistente Social deve atuar no reforço do poder local no âmbito municipal; ampliar a possibilidade de participação da comunidade local na busca de soluções para os seus problemas, por meio da fiscalização, formulação e gestão das políticas e programas sociais. </br>
+                                    </br>
+
+                                    Assinale a alternativa correta.</br>
+                                    </br>
+
+                                    A) V, F, V, F, V.</br>
+
+                                    B) V, V, V, F, F.</br>
+
+                                    C) V, V, V, V, V.</br>
+
+                                    D) F, V, V, V, F.</br>
+
+                                    E) F, F, F, F, F.</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> A técnica de reunião constitui-se como o que para o/a assistente social?</br>
+                                    </br>
+
+                                    A) Terapia.</br>
+
+                                    B) Meio para punir.</br>
+
+                                    C) Terapia e método punitivo.</br>
+
+                                    D) Operacionalidade da profissão, pois sem este não se tem o “fazer” cotidiano do assistente social.</br>
+
+                                    E) Instrumental.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> O ser humano tem natureza:</br>
+                                    </br>
+
+                                    A) Capitalista.</br>
+
+                                    B) Popular.</br>
+
+                                    C) Rudimentar.</br>
+
+                                    D) Social.</br>
+
+                                    E) Estrutural.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> Sobre a relação teoria e prática no campo de estágio supervisionado do Serviço Social, podemos afirmar que:</br>
+                                    </br>
+                                    
+                                    I. o estágio supervisionado é o primeiro contato do estagiário com a prática profissional e o primeiro local onde o estagiário aplica a teoria na prática.</br>
+
+                                    II. os conhecimentos teóricos devem nortear a prática profissional no campo de estágio.</br>
+
+                                    III. as ações desenvolvidas pelo estagiário devem ser pautadas pela fundamentação teórica apenas em algumas situações apresentadas a ele.</br>
+
+                                    IV. no estágio supervisionado, o estagiário pode aplicar na prática todos os seus conhecimentos teóricos adquiridos no curso de Serviço Social.</br>
+                                    </br>
+
+                                    Estão corretas apenas:</br>
+                                    </br></br>
+
+                                    A) I e III. </br>
+
+                                    B) III e IV.</br>
+
+                                    C) I e II. </br>
+
+                                    D) I e IV.</br>
+
+                                    E) II e IV.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> Com base na discussão do livro texto sobre a prática institucionalizada, marque comC (certo) para as alternativas a seguir que coadunam com o fazer profissional do Assistente Social que conhece e decifra as instituições onde ocorre sua atuação e E (errado) para as alternativas que não correspondem com o perfil ideal de profissional que almejamos ser:</br>
+                                    </br>
+
+                                    ( ) Estar atento ao todo institucional, para compreender toda a dinâmica da instituição.</br>
+
+                                    ( ) Focar sua atenção exclusivamente no seu fazer profissional, pois cada setor é responsável por si.</br>
+
+                                    ( ) O profissional que está inserido em determinada instituição tem total autonomia para realizar sua prática profissional.</br>
+
+                                    ( ) Estar sujeito ao poder institucional e, por isso, compreender a contradição existente e usar de estratégias para efetivar seu fazer profissional.</br>
+                                    </br>
+
+                                    A) C, E, E, C.</br>
+
+                                    B) E, C, C, E.</br>
+
+                                    C) C, E, C, E.</br>
+
+                                    D) Todas são corretas.</br>
+
+                                    E) Todas são erradas.</br>
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> O Estatuto da Criança e do Adolescente está regido pela Lei nº:</br>
+                                    </br>
+
+                                    A) 8.142.</br>
+
+                                    B) 8.742.</br>
+
+                                    C) 8.069.</br>
+
+                                    D) 9.394.</br>
+
+                                    E) 8.842.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> (Vunesp, Unesp-Franca, 2012). O encontro do serviço social com a perspectiva ____________ deu-se por meio do filtro da prática político-partidária. Desse modo, muitas inquietudes foram transferidas da militância política para a prática profissional, estabelecendo-se frequentemente uma relação de identidade entre ambas, deixando de lado suas diferenças, e assim impossibilitando a análise criteriosa de suas mútuas relações.</br>
+                                    </br>
+
+                                    Assinale a alternativa que preenche corretamente a lacuna do texto.</br>
+                                    </br>
+
+                                    A) Funcionalista.</br>
+
+                                    B) Universal.</br>
+
+                                    C) Crítico-dialética.</br>
+
+                                    D) Tradicional.</br>
+
+                                    E) Fenomenológica.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> Em relação ao exercício profissional do Assistente Social, analise as afirmativas a seguir:</br>
+                                    </br>
+
+                                    I. O espaço de atuação do Assistente Social está acabando devido às transformações societárias em curso.</br>
+
+                                    II. Os espaços de atuação do Assistente Social estão sofrendo modificações em função dos novos reordenamentos das políticas públicas.</br>
+
+                                    III. O Estado vem crescendo alarmantemente, provendo todos os bens e serviços de que a população necessita.</br>
+
+                                    IV. Os profissionais do Serviço Social, ao se formarem, são capazes de transformar e revolucionar o mundo.</br>
+
+                                    V. Profissional propositivo é aquele capaz de apresentar alternativas, soluções, respostas fundamentadas, teórico e metodologicamente, com planejamento.</br>
+
+                                    VI. Um dos desafios para a profissão é dominar as novas tecnologias sociais e informacionais.</br>
+                                    </br>
+
+                                    Assinale a alternativa correta:</br>
+                                    </br>
+
+                                    A) Somente as afirmativas II, V e VI estão corretas.</br>
+
+                                    B) Somente as afirmativas I, II e III estão corretas.</br>
+
+                                    C) Somente as afirmativas II e IV estão corretas.</br>
+
+                                    D) Todas as afirmativas estão corretas.</br>
+
+                                    E) Todas as afirmativas estão incorretas.</br>
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
-
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>

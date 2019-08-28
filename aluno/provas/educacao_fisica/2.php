@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Educação Física / 2';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Educação Física - Páagina 2 | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1035,17 +1035,13 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
+                                            <a href="19136322107_voleibol_aspectos_pedagogicos_e_aprofundamentos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> VOLEIBOL: ASPECTOS PEDAGÓGICOS E APROFUNDAMENTOS</a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
+                                            <a href="19740607849_metodologia_do_trabalho_academico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> METODOLOGIA DO TRABALHO ACADÊMICO</a>
+                                            
                                         </td>
                                     </tr>
                                 </table>
@@ -1053,13 +1049,14 @@
                                 <ul class="pagination">
                                     <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
                                     <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
                                      <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
                                 </ul>
                             </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
+                                    <li class="page-item"><a class="page-link" href="../1.php">Voltar</a></li>
 
                                 </ul>
                             </div>

@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas /  Redes de Computadores / Organização de Computadores';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -1023,44 +1041,192 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Disciplina</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="custom-pagination">
-                                <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
-                                </ul>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
                             </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP INTERATIVA</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 18359338005</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span>CST em Redes de Computadores</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span>2º Bimestre -1º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  5,00 pontos </span></strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">II -Questões discursivas –valendo  5,00 pontos Gerada em: 04/06/2018 18:04:47</span></strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 306260 - Organização de Computadores</p>
+
+                                    <p><strong>Questão 1:</strong> O pipelineou paralelismo é a técnica de:</br>
+                                    </br>
+
+                                    A) Dividir a execução da instrução em várias partes, e cada uma será manipulada por uma parte específica do processador.</br>
+
+                                    B) Multiplicar a execução da instrução em várias partes, e cada uma será manipulada por uma parte específica do processador.</br>
+
+                                    C) Somar a execução da instrução em várias partes, e cada uma será manipulada por uma parte específica do processador.</br>
+
+                                    D) Subtrair a execução da instrução em várias partes, e cada uma será manipulada por uma parte específica do processador.</br>
+
+                                    E) Dividir e subtrair as instruções do processador.</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> A característica predominante dos processadores RISC era:</br>
+                                    </br>
+
+                                    A) Ter vários núcleos.</br>
+
+                                    B) Ter acesso a uma grande quantidade de memória.</br>
+
+                                    C) Ter um conjunto de instruções reduzido.</br>
+
+                                    D) Ter uma velocidade de clockbaixa.</br>
+
+                                    E) Ter um conjunto de instruções complexo.</br>
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> O clockdo  processador ou interno é um chip que emite sinais elétricos atravésde um cristal de quartzo e realiza:</br>
+                                    </br>
+
+                                    A) O ligamento da informações a serem processadas.</br>
+
+                                    B) A transição entre as informações a serem processadas.</br>
+
+                                    C) A quebra das instruções a serem processadas.</br>
+
+                                    D) A sincronização entre as instruções a serem processadas.</br>
+
+                                    E) O ligamento e a sincronização das informações quebra o processamento.</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> Chipseté um chipresponsável pelo controle de diversos dispositivos deentrada e saída, acesso a discos, além da comunicação do processador com a memória:</br>
+                                    </br>
+
+                                    A) RAM.</br>
+
+                                    B) ROM.</br>
+
+                                    C) Principal.</br>
+
+                                    D) Secundária.</br>
+
+                                    E) Terciária.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> Desde a primeira geração de computadores, a máquina de von Neumann é a estrutura básicade quase todos os computadores digitais da atualidade. Assinale a opção que nãorepresenta um componente dessa máquina:</br>
+                                    </br>
+
+                                    A) Memória.</br>
+
+                                    B) Unidade lógico-aritmética.</br>
+
+                                    C) Unidade auxiliar de processamento.</br>
+
+                                    D) Unidade de controle.</br>
+
+                                    E) Dispositivos de entrada e saída.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> “É um barramento voltado para a área gráfica, ou seja, os slotssão para a utilização de placa de vídeo. Esse barramento foi criado porque, com a evolução da computação, a parte gráfica começou a ser exigida e a exigir hardwaresque ilustrassem com mais qualidade as cores e as quantidades depixelsna tela. Começou a trabalhar com 32 bits, podendo transferir até 266 MBs, porém, esse mesmo barramento poderia ser configurado para utilizar uma frequência maior, duas vezes o clockpadrão, conseguindo assim atingir até 532 MBs.” Refere-se ao barramento:</br>
+                                    </br>
+
+                                    A) PCI-X.</br>
+
+                                    B) ISA.</br>
+
+                                    C) AGP.</br>
+
+                                    D) AMR.</br>
+
+                                    E) BUS.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> As portas lógicas mais utilizadas são: </br>
+                                    </br>
+
+                                    A) IF, THEN, ELSE.</br>
+
+                                    B) XOR, NAND, RAR.</br> 
+
+                                    C) RAM, MDR, MBR.</br>
+
+                                    D) AND, OR, NOT.</br>
+
+                                    E) ISA, AGP, PCI.</br>
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> As DRAMs usam:</br>
+                                    </br>
+
+                                    A) Transistores e capacitores.</br>
+
+                                    B) Registradores e capacitores.</br>
+
+                                    C) Memórias e capacitores.</br>
+
+                                    D) Processadores e capacitores.</br>
+
+                                    E) Bios e capacitores.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <h4>Questões discursivas<h4>
+
+                                    <p><strong>Questão 1:</strong> De acordo com Stallings (2002), quais as cinco principais funções de um processador?</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong>Converta o número decimal 112 para hexadecimal.</br>
+                                    
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
-
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>

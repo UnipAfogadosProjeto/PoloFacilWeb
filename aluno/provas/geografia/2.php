@@ -1068,6 +1068,16 @@
                                             <a href="18908904864_metodos_de_pesquisa.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> MÉTODOS DE PESQUISA</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="19158296850_biogeografia_sociobiogeografia_e_ambiente.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> BIOGEOGRAFIA/ SOCIOBIOGEOGRAFIA E AMBIENTE</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="19893244964_metodologia_do_trabalho_academico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> METODOLOGIA DO TRABALHO ACADÊMICO</a>
+                                        </td>
+                                    </tr>
                                 </table>
                                 <div class="custom-pagination">
                                 <ul class="pagination">

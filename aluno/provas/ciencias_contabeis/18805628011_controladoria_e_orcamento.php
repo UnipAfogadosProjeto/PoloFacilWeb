@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Ciênias Contábeis / Controladoria e Orçamento';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Ciências Contábeis - Controladoria e Orçamento | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1023,44 +1041,189 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Disciplina</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="custom-pagination">
-                                <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
-                                </ul>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
                             </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP INTERATIVA</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 18805628011</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> CIÊNCIAS CONTÁBEIS</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 2º Bimestre - 7º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">II -Questões discursivas –valendo  5,00 pontos Gerada em: 05/06/2018 16:06:33</span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 654140 - Controladoria e Orçamento</p>
+
+                                    <p><strong>Questão 1:</strong> O plano de markentigé um dos elementos complementares para a formulação do planejamento e controle de vendas, por conter:</br>
+                                    </br>
+
+                                    A) Toda estratégia determinada pela empresa em relação às decisões a serem tomadas.
+
+                                    B) Somente as diretrizes do departamento de vendas da organização.
+
+                                    C) Tanto o plano de promoção de vendas quanto o de despesas de vendas.
+
+                                    D) Os valores necessários para o desempenho da gestão comercial da empresa.
+
+                                    E) As informações técnicas que envolvem uma decisão comercial.
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> O sistema de informação é definido por:</br>
+                                    </br>
+
+                                    A) Um conjunto de recursos humanos, materiais, tecnológicos e financeiros.
+
+                                    B) Recursos advindos tanto do mercado interno quanto do externo.
+
+                                    C) Controles internos da organização.
+
+                                    D) Controles internos determinados pela auditoria externa em conjunto com a presidência.
+
+                                    E) Um conjunto de equipamentos informatizados que garantem a sobrevivência da empresa.
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> O planejamento e controle de resultados é elaborado a partir do:</br>
+                                    </br>
+
+                                    A) Planejamento e controle de vendas.
+
+                                    B) Planejamento de produção.
+
+                                    C) Planejamento e controle de matérias-primas.
+
+                                    D) Planejamento e controle de custos de mão de obra.
+
+                                    E) Planejamento e controle de despesas.
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> Cabe à controladoria:</br>
+                                    </br>
+
+                                    A) Estabelecer o percentual de crescimento para a empresa nos próximos cinco anos.
+
+                                    B) Treinar os gestores de áreas, tomando como base o objetivo proposto pela alta direção da empresa.
+
+                                    C) Monitorar somente o planejamento operacional determinado pela organização.
+
+                                    D) Colocar em prática o planejamento estratégico elaborado em cada departamento da empresa.
+
+                                    E) Não só monitorar o planejamento elaborado pela alta direção como também o planejamento operacional, envolvendo programação, execução e controle.
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> Há diferença entre a função de tesoureiro e a de controller?</br>
+                                    </br>
+
+                                    A) Sim, o tesoureiro reporta-se ao vice-presidente administrativo-financeiro, ao passo que o controllerreporta-se ao presidente.
+
+                                    B) Sim, embora ambos reportem-se ao presidente, somente o controllertem poder de decisão dentro da empresa.
+
+                                    C) Não, são apenas sinônimos, logo, a função é a mesma, a de controlar os recursos financeirosda entidade.
+
+                                    D) Sim, enquanto o tesoureiro capta recursos financeiros, o controller tem a responsabilidade de controlar a empresa como um todo e avaliar o desempenho alcançado perante o uso dos recursos financeiros.
+
+                                    E) Não, apenas a subordinação difere, o primeiro está subordinado ao presidente e o segundo, ao diretor administrativo-financeiro.
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> O principal item na elaboração do orçamento de matérias-primas é:</br>
+                                    </br>
+
+                                    A) O valor da matéria-prima tanto no mercado interno quanto no externo.
+
+                                    B) A qualidade da matéria-prima a ser adquirida.
+
+                                    C) A máquina (ou equipamento industrial) envolvida na transformação da matéria-prima.
+
+                                    D) O tipo de matéria-prima, mineral ou vegetal.
+
+                                    E) A quantidade da matéria-prima empregada no processo produtivo.
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> Com relação ao planejamento e controle das vendas, qual das afirmações abaixo é correta:</br>
+                                    </br>
+
+                                    A) O objetivo do planejamento de vendas é adivinhar o volume real de vendas e compará-lo com as vendas planejadas para verificar se o plano é realista ou não.
+
+                                    B) O objetivo do planejamento de vendas é comparar as vendas realizadas com o mesmo período doano anterior, utilizando as variações com orientação para os esforços de venda, visando sempre aumentar a receita.
+
+                                    C) O planejamento das vendas é elaborado com base no planejamento de produção, pois só é possível vender no máximo a capacidade produtiva da empresa.
+
+                                    D) O objetivo do planejamento de vendas é estabelecer metas de vendas, orientar a aplicação deesforços para alcançá-las e depois comparar as vendas reais para verificar se o esforço de vendas foi adequado ou não.
+
+                                    E) O objetivo do planejamento é verificar se há aceitação no mercado para todos os produtos pertencentes à empresa.
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> O modelo de gestão da empresa deverá ser pautado em sua missão, crenças e valores. Pode-se exemplificar como missão empresarial para uma empresa do ramo educacional (uma faculdade ou universidade pública ou privada):</br>
+                                    </br>
+
+                                    A) “Vender os produtos somente para o mercado nacional.”
+
+                                    B) “Expandir a empresa: duas filiais anuais no mercado interno e uma no externo.”
+
+                                    C) “Garantir à sociedade formação sólida profissional.”
+
+                                    D) “Obter 75% do mercado interno de colchões para leitos hospitalares.”
+
+                                    E) “Tornar-se líder na exportação de cajus nos próximos dois anos.”
+                                    </br>
+
+                                    </p>
+
+                                    <h4>Questões discursivas<h4>
+
+                                    <p><strong>Questão 1:</strong> Welsch (1983, p. 22), entende que a contabilidade na formação do planejamento e controle de resultados é fundamental, porém precisa ser adaptada. No caso, qual é a finalidade dessa adaptação? Cite pelo menos dois exemplos.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> Pode-se afirmar que a função do controllere do tesoureiro é a mesma. Em outras palavras, enquanto que o controllerobrigatoriamente tem uma formação acadêmica em ciências contábeis,o tesoureiro, por sua vez, terá a formação em gestão financeira. Estas afirmações estão corretas? Explicar sua resposta.</br>
+                                    
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
-
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>

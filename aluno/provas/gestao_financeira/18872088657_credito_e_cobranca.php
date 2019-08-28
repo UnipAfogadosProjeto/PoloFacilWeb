@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Gestão Financeira / Crédito e Cobrança';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Gestão Financeira | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1023,44 +1041,301 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Disciplina</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="custom-pagination">
-                                <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
-                                </ul>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
                             </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP INTERATIVA</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 18872088657</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> SUP TEC EM  GESTÃO FINANCEIRA</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 2º Bimestre - 3º SemestreTipo: Bimestral</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  5,00 pontos </span></strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">II -Questões discursivas –valendo  5,00 pontos Gerada em: 04/06/2018 20:08:41</span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 300760 - Crédito e Cobrança</p>
+
+                                    <p><strong>Questão 1:</strong> Uma boa política de crédito interfere no trabalho de cobrança da seguinte maneira:</br>
+                                    </br>
+
+                                    I -Diminui índice de protestos;</br>
+
+                                    II -Amplia a atuação de cobrança;</br>
+
+                                    III -Aumenta volume de recebimento da empresa;</br>
+                                    </br>
+
+                                    É correto o que se afirma em:</br>
+                                    </br>
+
+                                    A)  I, apenas;</br>
+
+                                    B)  II, apenas;</br>
+
+                                    C)  III, apenas;</br>
+
+                                    D)  I, II e III;</br>
+
+                                    E)  Nenhuma das afirmativas.</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> No contexto das políticas de crédito e cobrança, função da cobrança:</br>
+                                    </br>
+
+                                    I -Criar critérios de avaliação de crédito;</br>
+
+                                    II -Criar critérios específicos para cada período de atrasos dos clientes;</br>
+
+                                    III -Recuperar perdas oriundas do crédito;</br>
+                                    </br>
+
+
+                                    É correto o que se afirma em:</br>
+                                    </br>
+
+                                    A)  I, apenas;</br>
+
+                                    B)  II, apenas;</br>
+
+                                    C)  III, apenas;</br>
+
+                                    D)  II e III, apenas;</br>
+
+                                    E)  I, II e III.</br>
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Em tempos de crise a inadimplência aumenta em todos os setores, e inadimplência pode colocar em cheque o crédito mundial. Para minimizar esses riscos as empresas adotam algumas medidas para sua proteção. Uma das medidas adotadas consiste em buscar informações sobre eventuais restrições em órgãos de proteção ao crédito relacionadas a clientes. Para atender a essa necessidade o mercado recorre a informações sobre:</br>
+                                    </br>
+
+                                    A)  A experiência comercial que a empresa tem com o cliente;</br>
+
+                                    B)  A avaliação retrospectiva das demonstrações contábeis;</br>
+
+                                    C)  Consultas em órgãos, como a Serasa Experian;</br>
+
+                                    D)  O conhecimento e confiança pessoal no cliente;</br>
+
+                                    E)  O porte ou renda do cliente.</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> Considerando os riscos inerentes ao excesso de crédito, é possível averiguar, em alguns casos, um aumento de atrasos em prestações de bens de consumo (por exemplo, carros), e nestes casos há certo receio que ocorra o mesmo com o financiamento imobiliário. Diante dessa percepção de cenário econômico, o governo deve agir, pois se a financeira não receber, não devolve o dinheiro aos investidores e por sua vez falta crédito para financiar novas produções. Esse cenário realmente pode ocorrer?</br>
+                                    </br>
+
+                                    A)  Sim, mas não é problema de quem vende ou produz somente, mas sim, exclusivamente, das financeiras que devem avaliar criteriosamente seus clientes;</br>
+
+                                    B)  Sim, pois as empresas funcionam em um ambiente sistêmico de crédito, no qual uma financiando aoutra, e um problema com uma empresa será necessariamente problema na rede toda;</br>
+
+                                    C)  Não, pois a ausência de crédito em uma financeira é automaticamente compensada por outra;</br>
+
+                                    D)  Não, pois durante uma crise é necessário buscar uma iniciativa de mudar a forma de vender;</br>
+
+                                    E)  Sim, mas a inadimplência é sempre controlada por um aumento de parcelas e uma diminuição dos valores parcelados.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> A empresa X tem uma carteira de 100 clientes em aberto, ou seja, em atraso. Após uma análise dessa carteira, descobriu-se que:</br>
+                                    </br>
+
+                                    • 60 clientes em aberto estavam com atrasos de 15 a 25 dias;</br>
+
+                                    • 10 clientes em aberto estavam com atrasos entre 30 a 50 dias;</br>
+
+                                    • 10 clientes em aberto estavam com atrasos entre 95 e 100 dias;</br>
+
+                                    • 10 clientes em aberto estavam com atrasos entre 60 e 90 dias;</br>
+
+                                    • 10 clientes em aberto com atrasos acima de 200 dias.</br>
+                                    </br>
+
+                                    Isso significa que:</br>
+                                    </br>
+
+                                    A)  40% dos clientes em aberto estão na classificação D;</br>
+
+                                    B)  60% dos clientes em aberto estão na classificação B;</br>
+
+                                    C)  40% dos clientes em aberto estão com contas atrasadas;</br>
+
+                                    D)  60% dos clientes em aberto estão com contas em dia;</br>
+
+                                    E)  100% das vendas da empresa estão atrasadas.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> Em relação ao crédito podemos dizer que:</br>
+                                    </br>
+                                    
+                                    I -Quanto maior grau de risco menor é a provisão de crédito de liquidação duvidosa;</br>
+
+                                    II -Quanto menor o grau de risco menor é a provisão de crédito de liquidação duvidosa;</br>
+
+                                    III -O grau de risco não interfere na provisão de crédito de liquidação duvidosa;</br>
+                                    </br>
+
+                                    É correto o que se afirma, apenas, em:</br>
+                                    </br>
+
+                                    A)  I;</br>
+
+                                    B)  II;</br>
+
+                                    C)  III;</br>
+
+                                    D)  I, II e III;</br>
+
+                                    E)  Nenhuma das afirmativas.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> Considere, primeiramente, uma determinada empresa que apresenta os seguintes dados referentes ao seu balanço patrimonial:</br>
+                                    </br>
+
+                                    • Ativo Circulante</br>
+
+                                    • Caixa: 1.000  </br>
+
+                                    • Banco: 1.000</br>
+
+                                    • Estoque: 1.000</br>
+                                    </br>
+
+
+                                    • Passivo Circulante</br>
+
+                                    • Fornecedores: 500</br>
+
+                                    • Impostos: 500</br>
+
+                                    • Outras obrigações circulantes: 500</br>
+                                    </br>
+
+
+                                    Em seguida, considere uma segunda empresa com os seguintes dados, também, referentes ao seu balanço patrimonial:</br>
+                                    </br></br>
+
+                                    • Ativo Circulante </br>
+
+                                    • Caixa: 1.000</br>
+
+                                    • Banco: 500</br>
+
+                                    • Estoque: 1.500</br>
+                                    </br>
+
+
+                                    •Passivo Circulante</br>
+
+                                    •Fornecedores: 500</br>
+
+                                    • Impostos: 500</br>
+
+                                    • Outras obrigações circulantes: 500</br>
+                                    </br>
+
+                                    Considerando as informações expostas sobre as duas empresas, examine as afirmações abaixo:</br>
+                                    </br>
+
+                                    I -As duas empresas têm a mesma liquidez corrente;</br>
+
+                                    II -A primeira empresa tem liquidez imediata melhor do que a liquidez da segunda empresa;</br>
+
+                                    III -A liquidez seca da segunda empresa é menor do que a liquidez seca da primeira empresa.</br>
+                                    </br>
+
+                                    É correto o que se afirma, apenas, em:</br>
+                                    </br>
+
+                                    A)  I;</br>
+
+                                    B)  II;</br>
+
+                                    C)  III;</br>
+
+                                    D)  I, II e III;</br>
+
+                                    E)  Nenhuma das afirmativas.</br>
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> Considere o seguinte cenário: o volume total de crédito do sistema financeiro nacional alcançou R$ 1,230 trilhão em fevereiro, o que representa um crescimento de 0,1% em relação ao apurado em janeiroe um avanço de 30,1% em 12 meses. Segundo a Nota de Política Monetária elaborada pelo Banco Central, no mês, a participação do volume de crédito sobre o PIB (Produto Interno Bruto) passou de 34,5% em fevereiro do ano anterior para 41,6% no mesmo período deste ano.</br>
+
+                                    </br><img src="./img/18872088657_credito_e_cobranca_img1.jpg"></br>
+                                    </br>
+
+                                    O Governo Brasileiro tem adotado políticas robustas e agressivas para ampliar esses dados. O setorimobiliário, indústria de forma geral e em específico automotivo tem recebido incentivos diretos para adoção de crédito e consequentemente ampliarem as vendas. Ao pensar na importância do crédito para a economia como um todo, aponte a alternativa que apresenta uma afirmação incorreta:
+
+                                    A) Aumento de concessão de crédito pode relacionar-se com crescimento econômico;
+
+                                    B) Diante do crescimento apresentado, a necessidade de segurança na operação de crédito aumenta;
+
+                                    C) Com o aumento de crédito o risco é maior;
+
+                                    D) Crescimento de oferta de crédito não indica momento de crescimento econômico no país;
+
+                                    E) Nenhuma das alternativas anteriores.
+                                    </br>
+
+                                    </p>
+
+                                    <h4>Questões discursivas<h4>
+
+                                    <p><strong>Questão 1:</strong> A modalidade de crédito entendida como operação de arrendamento mercantil ou aluguel pode ser conceituada como ___________________.</br>
+                                    </br>
+
+                                    Qual é a modalidade de crédito que preenche corretamente a lacuna anterior?</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> Com a ampliação das linhas de crédito, há também o aumento das linhas de cobrança. Assim, o sucesso da cobrança depende prioritariamente da capacidade das instituições em garantir a adoção constante da estratégia ideal para cada devedor. O desafio em tempos de turbulência é determinar qual será essa estratégia. O segredo está em desenvolver metodologias de teste e aprendizado que permitam aplicar novas estratégias ou roteiros em tempo real e sem impacto sobre as atividades de cobrança. Isso permite minimizar o risco de perda associado a mudanças e, ao mesmo tempo, determinar os benefícios por meiode evidências concretas. Assim, a cobrança tem o papel de diminuir o não recebimento, dando maior sustentabilidade ao sistema financeiro. As ações do governo quando amplia prazos de crédito e reduz taxas de juros tem quais efeitos na oferta de crédito no mercado?</br>
+                                    
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
-
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>

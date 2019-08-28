@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Educação Física / METODOLOGIA DO TRABALHO ACADÊMICO';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Educação Física | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1023,44 +1041,278 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Disciplina</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="custom-pagination">
-                                <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
-                                </ul>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
                             </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP EAD</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 19740607849</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> EDUCAÇÃO FÍSICA (GRADUAÇÃO PLENA)</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 1º Bimestre - 5º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 02/04/2019 09:41:44</span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 538730 - METODOLOGIA DO TRABALHO ACADÊMICO</p>
+
+                                    <p><strong>Questão 1:</strong> Suponhamos a seguinte situação: você é um pesquisador responsável por conhecer a qualidade dos serviços prestados pela rede pública de saúde no Brasil. Para isso, precisa de uma metodologia específica. Para atingir seu objetivo, faria uso:</br>
+                                    </br>
+
+                                    A) Da pesquisa exploratória, consultando jornais e revistas.</br>
+
+                                    B) De um estudo de caso, pois todos os hospitais são iguais.</br>
+
+                                    C) De um estudo bibliográfico, já que livros são fontes seguras de informação.</br>
+
+                                    D) De questionários e da observação sistemática, instrumentos oferecidos pela pesquisa qualitativa.</br>
+
+                                    E) De consultas às autoridades locais.</br>
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> Na Idade Contemporânea é requerido que a ciência dê respostas definitivas às novas perguntas da humanidade, de modo a ampliar cada vez mais o conhecimento humano. Assim, a ciência acaba por conquistar mais adeptos, tornando-se objeto de uma confiança ilimitada. Com base nisso, observe o que se afirma:</br>
+                                    </br>
+
+                                    I -No Brasil, o processo de conhecer, específico do ser humano, está profundamente vinculado à escola.</br> 
+
+                                    II -A finalidade das pesquisas, no nível de ensino de graduação, é levar o estudante a refazer oscaminhos já percorridos por outros pesquisadores, e, dessa forma, auxiliá-lo a repensar o mundo.</br> 
+
+                                    III -A universidade, de forma geral, é o espaço onde as pessoas se unem para conhecer, criar e produzir conhecimento.</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) I e II.</br>
+
+                                    B) I e III.</br>
+
+                                    C) II e III.</br>
+
+                                    D) I.  </br>
+
+                                    E) Todas as afirmativas são corretas.</br>
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Quanto à escrita e produção de textos, avalie as afirmativas a seguir:</br>
+                                    </br>
+
+                                    I -Ter boa letra, quando da escrita à mão, ajuda na comunicação e envolve o escritor-leitor.</br>
+
+                                    II -Mesmo com a informatização da escrita, a escolha da fonte correta para cada caso obedece à metodologia.</br>
+
+                                    III -Produzir texto é algo que se conquista com exercício de leitura e escrita.</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) I.</br>
+
+                                    B) II.</br>
+
+                                    C) III.</br>
+
+                                    D) II e III.</br>
+
+                                    E) Todas as afirmativas são corretas.</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> Considere as afirmações a seguir que tratam das formas de conhecimento e do saber.</br>
+                                    </br>
+
+                                    I -Conhecer é estabelecer uma relação entre a pessoa que conhece e o objeto que passa a ser conhecido.</br>
+
+                                    II -A conclusão científica é infalível.</br>
+
+                                    III -Sentido, raciocínio, tradição e autoridade são formas de aquisição de conhecimento.</br>
+
+                                    IV -A ciência está sempre limitada às condições de sua época.</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) I e III.</br>
+
+                                    B) II.</br>
+
+                                    C) Todas as afirmativas são corretas.</br>
+
+                                    D) I, II e IV.</br>
+
+                                    E) I.</br>
+                                    
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> Sobre os tipos de conhecimento, notadamente o filosófico e o teológico, assinale a alternativa correta.</br>
+                                    </br>
+
+                                    A) O conhecimento filosófico é resultado da existência de forças sobrenaturais.</br>
+
+                                    B) O conhecimento filosófico é necessariamente verificável.</br>
+
+                                    C) O conhecimento religioso é impregnado de inspiração.</br>
+
+                                    D) O conhecimento religioso é verificável pela expressão da fé.</br>
+
+                                    E) Tanto o conhecimento filosófico quanto o religioso não podem ser sistemáticos.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> Sobre as formas de conhecimento, leia as afirmativas a seguir:</br>
+                                    </br>
+
+                                    I -A Filosofia -como qualquer outra forma de compreensão -tem por finalidade geral estabelecer uma forma de transformação da realidade.</br>
+
+                                    II -Filosofia e Ciência são duas formas de conhecimento que procuram, com rigor, valendo-se de uminstrumental metodológico, buscar um entendimento do mundo que auxilie o ser humano a viver melhor e mais adequadamente, já que ambas tornam o mundo mais compreensível.</br>
+
+                                    III -O conhecimento científico não se ocupa dos fenômenos da natureza (físicos, biológicos, químicos etc.), dos objetos ideais (lógicos e matemáticos) e dos fenômenos culturais (relações sociais, processos históricos, produção cultural etc.).</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) I e II.</br>
+
+                                    B) II.</br>
+
+                                    C) II e III.</br>
+
+                                    D) III.</br>
+
+                                    E) I.</br>
+                                    
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> Conforme afirma Heitor Matallo Jr em A problemática do conhecimento(2000), "Platão foi o primeiro filósofo a desenvolver uma teoria sobre o mundo utilizando a intuição como forma de pensamento superior. Para Platão, o mundo sensível está em constante mudança e, neste caso, se tornaimpossível conhecê-lo por razões óbvias: não se pode conhecer uma coisa que deixa de ser ela mesma na sucessão do tempo".</br>
+                                    </br>
+
+                                    Com base no trecho proposto e de seus conhecimentos da disciplina, avalie seguintes afirmativas:</br>
+                                    </br> 
+
+                                    I -A preocupação científica procura fundamentações verdadeiras para explicar a ocorrência dos fenômenos. </br>
+
+                                    II -Quando, no texto em questão, apresenta-se a expressão "intuição como forma de pensamento superior”, Platão dirige-se ao conhecimento vulgar que tem essa característica.</br>
+
+                                    III -No excerto, pode-se perceber referência ao senso comum na passagem "não se pode conhecer umacoisa que deixa de ser ela mesma na sucessão do tempo".</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) I e II.</br>
+
+                                    B) II e III.</br>
+
+                                    C) I e III.</br>
+
+                                    D) III.</br>
+
+                                    E) Todas as afirmativas são corretas.</br>
+                                    
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> Sobre os trabalhos científicos, considere as seguintes afirmativas:</br>
+                                    </br>
+
+                                    I -Os trabalhos científicos devem permitir a outro pesquisador reproduzir as experiências e obterresultados descritos, com a mesma precisão e sem ultrapassar a margem de erro indicada pelo autor.</br>
+
+                                    II -Os trabalhos científicos devem permitir a outro pesquisador repetir observações e julgar as conclusões do autor.</br>
+
+                                    III -Os trabalhos científicos devem permitir a outro pesquisador verificar a exatidão das análises e deduções que possibilitem ao autor chegar às conclusões.</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) Todas as afirmativas são corretas.</br>
+                                    
+                                    B) I e II.</br>
+
+                                    C) I e III.</br>
+
+                                    D) II e III.</br>
+
+                                    E) Todas as afirmativas são incorretas.</br>
+                                    
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> Assinale a resposta correta sobre senso comum enquanto forma de conhecimento.</br>
+                                    </br>
+
+                                    A) Pelo senso comum, o homem simples conhece o fato e sua ordem aparente.</br>
+
+                                    B) Pelo senso comum, o homem conhece as causas e as leis que regem os fenômenos.</br>
+
+                                    C) Pelo senso comum é possível formular leis gerais.</br>
+
+                                    D) Pelo senso comum, pode-se analisar o significado de um fenômeno.</br>
+
+                                    E) Pelo senso comum, é possível formalizar um modelo científico.</br>
+                                    
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> Durante a Idade Média, predominou na Europa a religião cristã, que tendia a encarar o conhecimento, sobretudo o conhecimento da natureza.</br>
+                                    </br>
+
+                                    A) De uma maneira religiosa, abandonando a herança grega.</br>
+
+                                    B) De uma maneira tecnológica.</br>
+
+                                    C) De modo a unir a religião com a herança grega.</br>
+
+                                    D) De forma a prestigiar o método científico e o religioso.</br>
+
+                                    E) Como assunto dos alquimistas, ligados a Deus.</br>
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
-
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>

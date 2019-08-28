@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Serviço Social / SERVIÇO SOCIAL INTERDISCIPLINAR';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Serviço Social | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1023,44 +1041,231 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Disciplina</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="custom-pagination">
-                                <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
-                                </ul>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
                             </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP EAD</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 19221214835</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> SERVIÇO SOCIAL</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 1º Bimestre - 5º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 01/04/2019 09:23:26</span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 558130 - SERVIÇO SOCIAL INTERDISCIPLINAR</p>
+
+                                    <p><strong>Questão 1:</strong> O que a interdisciplinaridade generalizadora compreende?</br>
+                                    </br>
+
+                                    A)  Que há possibilidade de se chegar a um saber sucinto.</br>
+
+                                    B)  Que há possibilidade de se chegar a um saber contraditório.</br>
+
+                                    C)  Que há possibilidade de se chegar a um saber neutro.</br>
+
+                                    D)  Que há possibilidade de se chegar a um saber absoluto.</br>
+
+                                    E)  Que há possibilidade de se chegar a um saber imaginado.</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> Ely (2003) diz que a prática interdisciplinar do serviço social demanda que os/as assistente sociais desenvolvam um:</br>
+                                    </br>
+
+                                    A)  Nível primário de cooperação e coordenação;</br>
+
+                                    B)  Nível avançado de cooperação e coordenação;</br>
+
+                                    C)  Nível primário de cooperação e individualização;</br>
+
+                                    D)  Nível secundário de individualização e coordenação;</br>
+
+                                    E)  Nível secundário de ação.</br>
+                                    
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong>  Leia a frase retirada do Livro-Texto:“(...) por meio da __________, a __________é __________”.Marque a opção que contenha a palavra ou expressão que melhor preencha a lacuna e que condiza com a profissão do/a assistente social:</br>
+                                    </br>
+
+                                    A)  Teoria / prática /enriquecida.</br>
+
+                                    B)  Técnica / prática /enfraquecida.</br>
+
+                                    C)  Técnica / assistente social /contratada.</br>
+
+                                    D)  Seletividade / assistente social /controladora.</br>
+
+                                    E)  Seletividade / prática / enriquecida.</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> Caso o conhecimento interdisciplinar não se constitua na verdade e não faça parte da rotina do conhecimento moderno, as disciplinas e as diversas formas de conhecimento poderão vir a se constituir nos termos de Japiassu (1976) em:</br>
+                                    </br>
+
+                                    A)  “Feudos intelectuais”.</br>
+
+                                    B)  “Conhecimento vazio”.</br>
+
+                                    C)  “Saber privado”.</br>
+
+                                    D)  “Capitalização do indivíduo”.</br>
+
+                                    E)  “Saber vazio”.</br>
+
+                                    
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> Leia:</br>
+                                    </br>
+
+                                    I-multidisciplinaridade;</br>
+
+                                    II-pluridisciplinaridade;</br>
+
+                                    III-interdisciplinaridade auxiliar;</br>
+
+                                    IV-interdisciplinaridade;</br>
+
+                                    V-transdisciplinaridade.</br>
+                                    </br>
+
+                                    Recorrendo a Vasconcelos (1997), Ely (2003) qual(s) item(s) são apontados como possibilidades de intervenção interdisciplinar no serviço social?</br>
+                                    </br>
+
+                                    A)  I, III e IV, apenas.</br>
+
+                                    B)  II, IV e V , apenas.</br>
+
+                                    C)  III e IV, apenas.</br>
+
+                                    D)  I, II, III, IV e V.</br>
+
+                                    E)  II, III e V, apenas.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> O surgimento da primeira escola de serviço social ocorreu em qual cidade e ano?</br>
+                                    </br>
+                                    
+                                    A)  Escola do Rio de Janeiro, em 1936.</br>
+
+                                    B)  Escola de Recife, em 1935.</br>
+
+                                    C)  Escola de São Paulo, em 1936.</br>
+
+                                    D)  Escola de São Paulo, em 1937.</br>
+
+                                    E)  Escola do Rio de Janeiro, em 1937.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> O serviço social do início do século XX desenvolvia ação de grupos e que deveria ser um meio de levar o homem a:</br>
+                                    </br>
+
+                                    A)  Obter a realização no reino de Deus.</br>
+
+                                    B)  Obter trabalho.</br>
+
+                                    C)  Obter lucro.</br>
+
+                                    D)  Obter capital.</br>
+
+                                    E)  Obter autonomia.</br>
+
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> O conhecimento é fundado na/o:</br>
+                                    </br>
+
+                                    A) Pluralidade.</br>
+
+                                    B) Realidade.</br>
+
+                                    C) Legalidade.</br>
+
+                                    D) Escola.</br>
+
+                                    E) Aceitação.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> A competência para Iamamoto (2001) é:</br>
+                                    </br>
+
+                                    A)  A possibilidade que o profissional adquire para decifrar a realidade e construir propostas de trabalho criativas e inovadoras.</br>
+
+                                    B)  A possibilidade que o profissional adquire para decifrar a realidade e construir propostas de trabalho engessadas.</br>
+
+                                    C)  A possibilidade que o profissional adquire para decifrar a realidade e construir propostas de trabalho que subalternizem o sujeito de direito.</br>
+
+                                    D)  A possibilidade que o profissional adquire para decifrar a realidade e construir propostas de trabalho estagnadas.</br>
+
+                                    E)  A possibilidade que o profissional adquire para decifrar o território ideal e construir propostas de trabalho generalistas.</br>
+                                    
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> Qual número da  Lei que Regulamenta a Profissão de assistente social?</br>
+                                    </br>
+
+                                    A)  Lei n° 8.672/93.</br>
+
+                                    B)  Lei n° 8.662/96.</br>
+
+                                    C)  Lei n° 8.672/96.</br>
+
+                                    D)  Lei n° 8.772/94.</br>
+
+                                    E)  Lei n° 8.662/93.</br>
+
+                                    
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
-
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>

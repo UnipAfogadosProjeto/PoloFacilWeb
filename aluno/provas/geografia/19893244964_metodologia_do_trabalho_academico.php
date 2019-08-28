@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Geografia / METODOLOGIA DO TRABALHO ACADÊMICO';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Geografia | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1023,44 +1041,263 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Disciplina</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="custom-pagination">
-                                <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
-                                </ul>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
                             </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP EAD </span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 19893244964</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> GEOGRAFIA</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 1º Bimestre - 5º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 02/04/2019 12:27:38</span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 538740 - METODOLOGIA DO TRABALHO ACADÊMICO</p>
+
+                                    <p><strong>Questão 1:</strong> Na Idade Contemporânea é requerido que a ciência dê respostas definitivas às novas perguntas da humanidade, de modo a ampliar cada vez mais o conhecimento humano. Assim, a ciência acaba por conquistar mais adeptos, tornando-se objeto de uma confiança ilimitada. Com base nisso, observe o que se afirma:</br>
+                                    </br>
+
+                                    I -No Brasil, o processo de conhecer, específico do ser humano, está profundamente vinculado à escola.</br> 
+
+                                    II -A finalidade das pesquisas, no nível de ensino de graduação, é levar o estudante a refazer oscaminhos já percorridos por outros pesquisadores, e, dessa forma, auxiliá-lo a repensar o mundo. </br>
+
+                                    III -A universidade, de forma geral, é o espaço onde as pessoas se unem para conhecer, criar e produzir conhecimento.</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) I e II.</br>
+
+                                    B) I e III.</br>
+
+                                    C) II e III.</br>
+
+                                    D) I.  </br>
+
+                                    E) Todas as afirmativas são corretas</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> Quanto à escrita e produção de textos, avalie as afirmativas a seguir:</br>
+                                    </br>
+
+                                    I -Ter boa letra, quando da escrita à mão, ajuda na comunicação e envolve o escritor-leitor.</br>
+
+                                    II -Mesmo com a informatização da escrita, a escolha da fonte correta para cada caso obedece à metodologia.</br>
+
+                                    III -Produzir texto é algo que se conquista com exercício de leitura e escrita.</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) I.</br>
+
+                                    B) II.</br>
+
+                                    C) III.</br>
+
+                                    D) II e III.</br>
+
+                                    E) Todas as afirmativas são corretas.</br>
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Avalie as seguintes afirmativas acerca do método e metodologia.</br>
+                                    </br>
+
+                                    I -A metodologia estuda o modo como as ciências se desenvolvem.</br>
+
+                                    II -A curiosidade representa papel significativo para o desenvolvimento da ciência.</br>
+
+                                    III -A ciência se apresenta como uma forma uniforme de achar alguma razão na observação dos fatos.</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) I e III.</br>
+
+                                    B) I e II.</br>
+
+                                    C) II.</br>
+
+                                    D) Todas as afirmativas são corretas.</br>
+
+                                    E) II e III.</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> Leia as seguintes afirmativas:</br>
+                                    </br>
+
+                                    I -O desenvolvimento de um texto acadêmico é apresentado na forma de capítulos ou quebrado em seções, itens ou subitens.</br>
+
+                                    II -Introdução e conclusão, ou considerações finais, são normalmente as últimas partes a serem escritas.</br>
+
+                                    III -O resumo é a paráfrase por excelência, em que o texto é de total pensamento do autor-escritor.</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) I.</br>
+
+                                    B) II.</br>
+
+                                    C) III.</br>
+
+                                    D) II e III.</br>
+
+                                    E) Todas as afirmativas são corretas</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> Qual das características a seguir pode ser atribuída ao conhecimento científico?</br>
+                                    </br>
+
+                                    A) Linguagem obscura, de difícil entendimento e na qual haja predominância de dubiedade.</br>
+
+                                    B) Subjetividade, pois a ciência não tem como dar respostas necessariamente afirmativas.</br>
+
+                                    C) Sistematicidade, com ponto de partida definido e caminho delineado.</br>
+
+                                    D) Misticismo, pelo conhecimento e crença no imaginário.</br>
+
+                                    E) Religiosidade, pela originalidade das leis de Deus</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> Quanto aos métodos científicos, assinale a alternativa incorreta. </br>
+                                    </br>
+
+                                    A) O método científico implica a seleção de técnicas e na forma de avaliar alternativas para a ação científica.</br>
+
+                                    B) O método refere-se à ordem que se deve impor aos diferentes processos necessários para atingir um fim dado ou resultado desejado.</br>
+
+                                    C) Na ciência, o método constitui os instrumentos básicos que ordenam, de início, o pensamento em sistemas, bem como traçam de forma ordenada o procedimento do cientista ao longo de um percurso para alcançar um objetivo.</br>
+
+                                    D) O método, como um procedimento ordenado, deve ser sempre prefixado, independentemente da natureza do fenômeno observado. </br>
+
+                                    E) O método científico permite colocar à prova as hipóteses científicas.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> Suponhamos a seguinte situação: você é um pesquisador responsável por conhecer a qualidade dos serviços prestados pela rede pública de saúde no Brasil. Para isso, precisa de uma metodologia específica. Para atingir seu objetivo, faria uso:</br>
+                                    </br>
+
+                                    A) Da pesquisa exploratória, consultando jornais e revistas.</br>
+
+                                    B) De um estudo de caso, pois todos os hospitais são iguais.</br>
+
+                                    C) De um estudo bibliográfico, já que livros são fontes seguras de informação.</br>
+
+                                    D) De questionários e da observação sistemática, instrumentos oferecidos pela pesquisa qualitativa.</br>
+
+                                    E) De consultas às autoridades locais.</br>
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> Assinale a alternativa que melhor define o “senso comum”.</br>
+                                    </br>
+
+                                    A) Pessoas intelectualmente inferiores.</br>
+
+                                    B) Pessoas que exigem comprovação e prova da verdade.</br>
+
+                                    C) Pessoas que inventam novas soluções e construção progressiva da ciência.</br>
+
+                                    D) Pessoas que se adaptam às mudanças da vida para aprender e sobreviver.</br>
+
+                                    E) Pessoas que exigem a demonstração clara do que foi afirmado.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> Leia atentamente o trecho a seguir:</br>
+                                    </br>
+
+                                    “Muito cedo, o ser humano sentiu a fragilidade do saber fundamentado na intuição, no senso comum ou na tradição; rapidamente desenvolveu o desejo de saber mais e de dispor de conhecimentos metodicamente elaborados, portanto mais confiáveis. Mas a trajetória foi longa entre esses primeiros desejos e a concepção do saber racional que acabou se estabelecendo, no Ocidente, há apenas um século, com uma forma dita científica” (LAVILLE, C; DIONNE, J. A construção do saber: manual de pesquisa científica em ciências humanas. Porto Alegre: Artes Médicas: Belo Horizonte, UFMG, 1999. p. 22).</br>
+                                    </br>
+
+                                    Acerca das trajetórias da história do conhecimento e da ciência, avalie as seguintes afirmativas:</br></br>
+
+                                    I -Na Idade Média, surge a desconfiança em relação às explicações do Universo baseadas nos deuses, na magia ou na superstição.</br>
+
+                                    II -Com a Idade Moderna, reencontramos a reflexão filosófica, mas, dessa vez, dominada pela religião.</br>
+
+                                    III -Na Grécia Antiga, observamos que o conhecimento científico começa a se objetivar e a se separar da superstição.</br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) II e III.</br>
+
+                                    B) Todas as afirmativas são incorretas.</br>
+
+                                    C) I.</br>
+
+                                    D) I e III.</br>
+
+                                    E) Todas as afirmativas são corretas.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> O texto de um relatório de pesquisa deve:</br>
+                                    </br>
+
+                                    A) Ser informativo e prolixo.</br>
+
+                                    B) Ter grande detalhamento, mas não deve conter tabelas.</br>
+
+                                    C) Ser conciso e informativo.</br>
+
+                                    D) Conter metáforas e figuras de linguagem para auxiliar a compreensão.</br>
+
+                                    E) Primar pela beleza do texto e pela quantidade de ilustrações.</br>
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
-
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>

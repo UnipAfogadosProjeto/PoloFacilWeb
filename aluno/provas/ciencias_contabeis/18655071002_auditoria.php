@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Ciências Contábeis / Auditoria';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Ciências Contábeis - Auditoria | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1023,44 +1041,232 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Disciplina</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="custom-pagination">
-                                <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
-                                </ul>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
                             </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP INTERATIVA</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 18655071002</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> CIÊNCIAS CONTÁBEIS</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 2º Bimestre - 7º SemestreTipo: Bimestral</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 05/06/2018 16:04:45</span></strong>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina:  654060 - Auditoria</p>
+
+                                    <p><strong>Questão 1:</strong> Os trabalhos de auditoria são consubstanciados por várias etapas ao longo de seu processo e na aplicação de vários procedimentos dentro de cada uma das etapas. O relatório de auditoria, tanto na área pública como na área privada, é a fase final do processo de auditoria e consiste na narração ou descrição, ordenada e minuciosa, dos fatos investigados e constatados. Denominado como produto final do trabalho de auditoria, é a fase mais esperada por todos.</br>
+
+                                    Nesse contexto, qual é a base utilizada pelos auditores para a elaboração do relatório de auditoria?</br>
+                                    </br>
+
+                                    A) Nas demonstrações contábeis.</br>
+
+                                    B) Nos relatórios financeiros da empresa.</br>
+
+                                    C) Nas evidências obtidas no curso dos exames de auditoria.</br>
+
+                                    D) Nas evidências encontradas nos testes de observância.</br>
+
+                                    E) Nas ocorrências encontradas no curso dos exames de auditoria.</br>
+                                    </br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> Entre as alternativas abaixo, assinale uma situação (ou risco) que poderá ocorrer/surgir se os auditores decidirem não realizar testes de observância: :</br>
+                                    </br>
+
+                                    A) A empresa deixar de pagar os impostos por recomendação da auditoria </br>
+
+                                    B) Descobrir-se posteriormente que a contabilidade da empresa adota regime de tributação por estimativa ou simples onde não tem que pagar impostos, quando o correto seria um regime de apuração real, ou “lucro real” onde teria que pagar metade dos impostos.</br> 
+
+                                    C) Os funcionários da empresa passarem a receber seus salários com cálculos trabalhistas incorretos.
+
+                                    D) A empresa começar a atrasar o pagamento aos fornecedores.</br>
+
+                                    E) A empresa ter registrado nos livros contábeis indevidamente despesas de depreciação sobre ativos que foram desativados e vendidos, porque a contabilidade não recebeu essa informação.</br> 
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> O Instituto de Auditores Internos conceitua da seguinte maneira a auditoria interna: funções com independência de atuação criadas dentro da organização para examinar e avaliar suas atividades, com contribuição para a empresa. O objetivo da auditoria interna é assistir aos gestores da organização,compartilhando com suas responsabilidades e operando de acordo com as políticas estabelecidas pela gerência e junta de diretores.</br>
+                                    </br>
+
+                                    Assim, qual é a principal função da auditoria interna?</br>
+
+                                    A) Fornecer informações aos usuários internos das demonstrações contábeis.</br>
+
+                                    B) Examinar as demonstrações contábeis de uso interno.</br>
+
+                                    C) Examinar as demonstrações contábeis internas.</br>
+
+                                    D) Examinar os controles internos e a avaliação da eficiência e eficácia da gestão.</br>
+
+                                    E) Examinar os controles internos e a emissão do parecer sobre eles.</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> O auditor conclui, com base em evidência de auditoria obtida, que as demonstrações contábeis como um todo apresentam distorções relevantes. </br>
+                                    </br>
+
+                                    Pelo enunciado acima, que tipo de relatório o auditor deverá emitir? </br>
+
+                                    A) Relatório com opinião não modificada.</br>
+
+                                    B) Relatório com opinião não modificada e apenas com parágrafo de ênfase após a opinião.</br>
+
+                                    C) Relatório com opinião modificada com ressalva apenas.</br>
+
+                                    D) Relatório com opinião modificada na condição de adverso.</br>
+
+                                    E) Relatório com opinião modificada na condição de abstenção de opinião.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> É a opinião expressa pelo auditor quando ele conclui que as demonstrações contábeissão elaboradas, em todos os aspectos relevantes, de acordo com a estrutura de relatório financeiro aplicável (os itens 35 e 36 da NBC TA 700 -Resolução CFC 1231/09 tratam das frases usadas para expressar essa opinião no caso da estrutura de apresentação adequada e da estrutura de conformidade, respectivamente).</br>
+                                    </br>
+
+                                    Pelo enunciado acima, que tipo de relatório o auditor deverá emitir?</br>
+                                    </br> 
+
+                                    A) Relatório com opinião não modificada.</br>
+
+                                    B) Relatório com opinião não modificada e apenas com parágrafo de ênfase após a opinião.</br>
+
+                                    C) Relatório com opinião modificada com ressalva apenas.</br>
+
+                                    D) Relatório com opinião modificada na condição de adverso.</br>
+
+                                    E) Relatório com opinião modificada na condição de abstenção de opinião.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> O CFC, em sua interpretação técnica NBC TA 300, aprovada pela Resolução n 1.211/2009, conceitua “planejamento de auditoria” como a etapa do trabalho na qual o auditor independente estabelece a estratégia global para os trabalhos a executar na empresa a ser auditada e o desenvolvimento de um plano de auditoria,que é mais detalhado que a estratégia global de auditoria, pois nele são levadas em consideração a natureza, a época e a extensão dos procedimentos de auditoria a serem aplicados pela equipe.</br>
+                                    </br>
+
+                                    Assim, como podemos então melhor definir o que é planejamento de auditoria?</br>
+                                    </br>
+
+                                    A) É uma etapa do processo de auditoria durante o processo de contratação de uma nova equipe de auditoria.</br>
+
+                                    B) É uma etapa do processo de auditoria que auxilia o auditor durante o trabalho de execução das tarefas que exigem transformação de matérias-primas em produtos acabados.</br> 
+
+                                    C) Define-se planejamento como sendo “o ato de pensar hoje as implicações a decidir ou não no futuro”, ou seja, um ato antes da ação que é fundamental a todo o processo de trabalho. </br>
+
+                                    D) É uma etapa isolada no processo de auditoria, que, quando bem elaborada, ajuda o auditor notrabalho de interpretação das contas contábeis.</br>
+
+                                    E) É uma etapa do processo de auditoria em que o auditor decide se irá solicitar documentos para análise e teste (auditoria completa ou plena -Full Auditing) ou se não irá realizar testes com documentos (auditoria expressa ou rápida -Soft Auditing).</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> A auditoria consiste em controlar áreas-chave nas empresas, por meio de testes reguladores nos controles internos específicos de cada organização, a fim de se evitarem situações que propiciem fraudes, desfalques e subornos. A auditoria nas empresas privadas pode ser classificada em alguns tipos.</br>
+                                    </br>
+
+                                    Como pode ser classificada a auditoria nas empresas privadas?</br>
+                                    </br>
+
+                                    A) Auditoria de pequenas, médias, grandes empresas e multinacionais.</br>
+
+                                    B) Auditoria contábil, auditoria governamental, auditoria de compliance e auditoria especial.</br>
+
+                                    C) Auditoria das demonstrações contábeis, auditoria de compliance e auditoria operacional.</br>
+
+                                    D) Auditoria das demonstrações contábeis, auditoria de compliance e auditoria de avaliação de gestão.</br>
+
+                                    E) Auditoria nacional, auditoria internacional, auditoria regional, auditoria baseada em clientes. </br>
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> Sabe-se que os papéis de trabalho devem constituir prova da execução do trabalho pelo auditor, bem como servir para o registro de notas e observações, opiniões e recomendações que foram passadas para a empresa auditada. Além disso, os papéis de trabalho também evidenciam as conclusões dos auditores, integram os seus pareceres, sendo ainda usados em consultas por auditores que dão sequência aos trabalhos de auditoria no ano seguinte.</br>
+                                    </br>
+
+                                    Mas, o que são mesmo “papéis de trabalho” no jargão (palavras e conceitos utilizados por um conjunto de profissionais) de auditoria? </br>
+                                    </br>
+
+                                    A) Todos os controles internos verificados pelo auditor.</br>
+
+                                    B) Somente os documentos entregues pela alta administração de qualquer empresa.</br>
+
+                                    C) Todos os rascunhos elaborados pelo auditor até a finalização do parecer.</br>
+
+                                    D) Somente os documentos entregues ao auditor pelo departamento de contabilidade.</br>
+
+                                    E) Toda a documentação preparada pelo auditor ou fornecida a este na execução da auditoria.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> Diferentemente da auditoria das empresas privadas, a auditoria pública ou governamental liga-se diretamente à administração pública, com o acompanhamento de todas as ações nas três esferas do governo (municipal, estadual e federal). A auditoria governamental consiste no exame objetivo, isento, sistêmico e independente da emissão de juízos pessoais imotivados sobre as operações orçamentárias, financeiras,administrativas e de qualquer outra natureza, com o fim de verificar os resultados dos respectivos programas, sob os critérios de legalidade, legitimidade, economicidade e razoabilidade, tendo em vista a eficiência e eficácia (Art. 8 da Lei Complementar Estadual nº 005, de 04/12/91). </br>
+                                    </br>
+
+                                    Assim, com relação à auditoria nas empresas públicas ou governamentais, é correto afirmar que:</br>
+                                    </br>
+
+                                    A) Pode ser executada por qualquer profissional, desde que possua conhecimento em contabilidade pública.</br>
+
+                                    B) Geralmente, é realizada por entidades superiores de fiscalização sob a forma de Tribunal deContas, conforme estabelecido pelo art. 71 da Constituição Federal do Brasil.</br>
+
+                                    C) Pode ser executada por qualquer profissional, desde que seja concursado e possua conhecimento em contabilidade pública.</br>
+
+                                    D) Geralmente, é executada por um auditor da Receita Federal especialista em administração pública.</br>
+
+                                    E) Pode ser exercida apenas por contadores especialistas em administração pública e credenciados pela CVM.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> Qual das situações descritas a seguir poderá impedir o auditor de emitir um relatório sem ressalva sobre as demonstrações contábeis?</br>
+                                    </br>
+
+                                    A) A empresa apresenta capacidade produtiva e financeira.</br>
+
+                                    B) A empresa acata as recomendações da equipe de auditoria.</br>
+
+                                    C) A empresa apresenta um giro de recebimento maior que o giro de pagamento.</br>
+
+                                    D) A não realização de um ativo financeiro.</br>
+
+                                    E) Uma limitação relevante no curso dos trabalhos de auditoria.</br>
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
-
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>

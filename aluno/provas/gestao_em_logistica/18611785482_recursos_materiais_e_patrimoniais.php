@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Gestão Em Logística / Recursos Materiais e Patrimoniais';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Gestão Em Logística | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1023,44 +1041,251 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Disciplina</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="custom-pagination">
-                                <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
-                                </ul>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
                             </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP INTERATIVA</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 18611785482</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> Gestão Em Logística</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 2º Bimestre - 1º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 04/06/2018 17:48:33</span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 464860 - Recursos Materiais e Patrimoniais</p>
+
+                                    <p><strong>Questão 1:</strong> Para alguns autores, a decisão entre produzir ou terceirizar deve levar em consideração:</br>
+
+                                    I -Demanda média: manter a produção interna é melhor se a demanda tiver escala que a justifique ese for uma estratégia. </br>
+
+                                    II -Pico de demanda: se há muita flutuação, pode ser complicado ou impossível à produção interna atendê-la. </br>
+
+                                    III -Nível de estoque: será função da confiabilidade do atendimento. </br>
+
+                                    IV -Área necessária: tanto para produção interna quanto para estocagem da quantidade enviada pelofornecedor. </br>
+                                    </br>
+
+                                    Analisando as afirmativas, podemos dizer que:</br>
+                                    </br>
+
+                                    A) Somente a afirmativa I está correta.</br>
+
+                                    B) Somente a afirmativa II está correta.</br>
+
+                                    C) Somente a afirmativa III está correta.</br>
+
+                                    D) Somente a afirmativa IV está errada.</br>
+
+                                    E) Todas as afirmativas anteriores estão corretas.</br>
+                                    </br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> Em relação à produção, analise as seguintes afirmativas:</br>
+                                    </br>
+
+                                    I -O planejamento da produção deve estar alinhado com a gestão de compras e de estoque.</br>
+
+                                    II -Um mau planejamento de estoque não interfere na programação da produção desde que a produção seja eficiente.</br>
+
+                                    III -As informações de vendas são cruciais para planejar compras, políticas de estoque e a produção.Assim podemos dizer que:</br>
+                                    </br>
+
+                                    A) Somente a afirmativa I está correta.</br>
+
+                                    B) Somente a afirmativa II está correta.</br>
+
+                                    C) Somente a afirmativa III está correta.</br>
+
+                                    D) Somente a afirmativa II está incorreta.</br>
+
+                                    E) As afirmativas I e III estão incorretas.</br>
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Há um conceito que prevê o suprimento de produtos apenas quando são necessários. Desse modo, trabalha-se praticamente sem estoque, diminuindo os custos de produção ou venda. Esse conceitoé:</br>
+                                    </br>
+
+                                    A) PCP -planejamento e controle da produção.</br>
+
+                                    B) JIT -Just -in -time.</br>
+
+                                    C) Classificação ABC.</br>
+
+                                    D) Lote econômico.</br>
+
+                                    E) Nenhuma das alternativas anteriores.</br>
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> O setor calçadista estava em pleno crescimento, houve uma análise de mercado e a previsão de demanda apontava para um crescimento de 40% nos próximos seis meses. As empresas do ramo fizeram então seu planejamento de produção com base nessa previsão. Nos primeiros meses do semestre começaram os problemas, matérias-primas não eram entregues nos prazos combinados e, ao serem cobrados, os fornecedores alegavam que a demanda subiu muito, diziam não ter capacidade para atenderprontamente à atual demanda nacional e que deveriam buscar fornecedor de maior porte. Nesse cenário, podemos dizer que predominantemente:</br>
+                                    </br>
+
+                                    A) Houve erro na previsão de demanda.</br>
+
+                                    B) Houve erro na movimentação de materiais.</br>
+
+                                    C) Houve erro na avaliação do fornecedor.</br>
+
+                                    D) Houve falha nos pedidos feitos.</br>
+
+                                    E) Não houve falha.</br></br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> A empresa JCC Ltda. decidiu controlar melhor os recursos patrimoniais, acompanhando, por exemplo, o tempo de vida útil, programando manutenção periódica, avaliando a produtividade. Dos itens a seguir, qual é um recurso patrimonial?</br>
+                                    </br>
+
+                                    A) Dinheiro.</br>
+
+                                    B) Materiais de estoque.</br>
+
+                                    C) Maquinários.</br>
+
+                                    D) Material de escritório.</br>
+
+                                    E) Matéria-prima. </br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> Uma empresa comercializa um produto cuja demanda é de 40.000 unidades/ano. O produto é comprado por R$ 2,00 a unidade. Numa taxa de juros corrente no mercado de 24% ao ano, os custos anuais de armazenagem são de R$ 0,80 por unidade, e os custos fixos anuais para esse item de estoque são estimados em R$ 150,00. O custo de obtenção é de R$ 25,00 por pedido. Se a empresa fizer compras em lotes de 1.000 unidades, 1.200 unidades e 1.400 unidades, quantos pedidos respectivamente seriam feitos em cada uma das situações?</br>
+                                    </br>
+                                    
+                                    Fórmula: D/Q</br>
+                                    D= demanda </br>
+                                    Q= Lote</br>
+                                    </br>
+
+                                    A) 28,57 pedidos -33,33 pedidos -40 pedidos</br>
+
+                                    B) 40 pedidos -33,33 pedidos -28,57  pedidos.</br>
+
+                                    C) 33,33 pedidos -40 pedidos -28,57 pedidos.</br>
+
+                                    D) 40 pedidos -28,57 pedidos -33,33 pedidos.</br>
+
+                                    E) 33,33 pedidos -28,57 pedidos -40 pedidos.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> Uma empresa que atue com um modelo de produção puxado, ou seja, vende primeiro e produz depois, quando produz o item vai direto para o cliente. Assim a necessidade de produção é conhecida,possibilitando programar entregas com fornecedores próximos dos horários de utilização na produção. Em um cenário desse, é possível:</br>
+                                    </br>
+
+                                    I -Atuar com a filosofia JIT, pois há a certeza da necessidade de cada item.</br>
+
+                                    II -Não é possível atuar com a filosofia JIT, pois o tempo de entrega é incerto.</br>
+
+                                    III -Atuar com entrega programada, alinhada ao planejamento produtivo.</br>
+                                    </br>
+
+                                    Dessas afirmações, podemos dizer que:</br>
+                                    </br>
+
+                                    A) Somente a afirmativa I está errada.</br>
+
+                                    B) Somente a afirmativa II está errada.</br>
+
+                                    C) Somente a afirmativa III está correta.</br>
+
+                                    D) As afirmativas I e II estão corretas.</br>
+
+                                    E) As afirmativas I e III estão erradas.</br>
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> estão desses recursos escassos tem sido a preocupação dos gestores ligados direta ou indiretamente às atividades produtivas, tanto na produção de bens tangíveis quanto na prestação de serviços. O recurso mais perceptível é: </br>
+                                    </br>
+
+                                    A) O capital (dinheiro).</br>
+
+                                    B) Um edifício que abriga as instalações de uma empresa.</br>
+
+                                    C) Um item de estoque.</br>
+
+                                    D) As máquinas e equipamentos.</br>
+
+                                    E) Todas as alternativas anteriores.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> Observe a tabela a seguir:</br>
+                                    </br>
+
+                                    </br><img src="./img/18611785482_recursos_materiais_e_patrimoniais_img1.jpg"></br>
+                                    </br>
+
+                                    Nesse cenário, o giro de estoque é:</br>
+
+                                    </br><img src="./img/18611785482_recursos_materiais_e_patrimoniais_img2.jpg"></br>
+                                    </br>
+
+
+                                    A) 1,4 vezes.</br>
+
+                                    B) 4,22 vezes.</br>
+
+                                    C) 1,9 vezes.</br>
+
+                                    D) 3,3 vezes.</br>
+
+                                    E) 5,1 vezes.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> A empresa JCC Ltda, fez em seu último balanço, uma relação dos itens que foram conferidos. No ano de 2005, foram conferidos 4.000 itens e em 40 itens os valores levantados na conferência não eram os valores esperados. No ano de 2004, com a mesma quantidade de itens conferidos, as divergências foram em 100 dos itens conferidos. Já no ano de 2003, as divergências foram em 120 itens, com a mesma quantidade de itens conferidos. Assim podemos dizer que essa empresa melhorou em qual índice?</br>
+                                    </br>
+</br>
+                                    A) Giro de estoque.</br>
+
+                                    B) Nível de serviços.</br>
+
+                                    C) Acuracidade.</br>
+
+                                    D) Tempo de entrega.</br>
+
+                                    E) Tempo de cobertura.</br>
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
-
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>

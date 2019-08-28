@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Serviço Social / METODOLOGIA DO TRABALHO ACADÊMICO';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Serviço Social | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1023,44 +1041,255 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Disciplina</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="custom-pagination">
-                                <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
-                                </ul>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
                             </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP EAD</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 19660312306</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> SERVIÇO SOCIAL</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 1º Bimestre - 5º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 01/04/2019 09:22:41</span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 538730 - METODOLOGIA DO TRABALHO ACADÊMICO</p>
+
+                                    <p><strong>Questão 1:</strong> Leia atentamente o trecho a seguir:</br>
+                                    </br>
+
+                                    “Muito cedo, o ser humano sentiu a fragilidade do saber fundamentado na intuição, no senso comum ou na tradição; rapidamente desenvolveu o desejo de saber mais e de dispor de conhecimentos metodicamente elaborados, portanto mais confiáveis. Mas a trajetória foi longa entre esses primeiros desejos e a concepção do saber racional que acabou se estabelecendo, no Ocidente, há apenas um século, com uma forma dita científica” (LAVILLE, C; DIONNE, J. A construção do saber: manual de pesquisa científica em ciências humanas. Porto Alegre: Artes Médicas: Belo Horizonte, UFMG, 1999. p. 22).</br>
+                                    </br>
+
+                                    Acerca das trajetórias da história do conhecimento e da ciência, avalie as seguintes afirmativas:</br>
+                                    </br>
+
+                                    I -Na Idade Média, surge a desconfiança em relação às explicações do Universo baseadas nos deuses, na magia ou na superstição.</br>
+
+                                    II -Com a Idade Moderna, reencontramos a reflexão filosófica, mas, dessa vez, dominada pela religião.</br>
+
+                                    III -Na Grécia Antiga, observamos que o conhecimento científico começa a se objetivar e a se separar da superstição.</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) II e III.</br>
+
+                                    B) Todas as afirmativas são incorretas.</br>
+
+                                    C) I.</br>
+
+                                    D) I e III.</br>
+
+                                    E) Todas as afirmativas são corretas.</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> Assinale a alternativa que melhor define o “senso comum”.</br>
+                                    </br>
+
+                                    A) Pessoas intelectualmente inferiores.</br>
+
+                                    B) Pessoas que exigem comprovação e prova da verdade.</br>
+
+                                    C) Pessoas que inventam novas soluções e construção progressiva da ciência.</br>
+
+                                    D) Pessoas que se adaptam às mudanças da vida para aprender e sobreviver.</br>
+
+                                    E) Pessoas que exigem a demonstração clara do que foi afirmado.</br>
+                                    
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Leia o seguinte fragmento:</br>
+                                    </br>
+
+                                    "Para Sócrates, assim como para muitos de nós, existe uma sensível diferença entre expressões da forma ´Eu acho que´ e ´Eu sei que`." (MATALLO JÚNIOR, H. A problemática do conhecimento. 2000). </br>
+                                    </br>
+
+                                    Sobre o assunto, assinale a alternativa incorreta.</br>
+                                    </br>
+
+                                    A) A expressão `Eu acho que` exprime opinião sem haver necessidade de argumentação sólida que a comprove.</br>
+
+                                    B) A expressão `Eu acho que` exprime opinião e sua justificativa só é permitida com outra opinião,conquistada a partir de um processo de investigação científica -positivismo.</br>
+
+                                    C) O emitir de opiniões, da forma como denota a expressão `Eu acho que`, representa um processo espontâneo do ser humano, conquistado a partir da experiência pessoal acumulada.</br>
+
+                                    D) A expressão `Eu acho que` refere-se ao senso comum, valorada por crenças, ações e comportamentos cotidianos.</br>
+
+                                    E) Mesmo que a expressão `Eu acho que` remeta ao senso comum, portanto a uma questão ideológica, esse tipo de conhecimento pode ser considerado na construção de teorias científicas. Afinal, uma pesquisa científica pode surgir de uma dúvida, mesmo que inicialmente não fundamentada.</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> Quanto à escrita e produção de textos, avalie as afirmativas a seguir:</br>
+                                    </br>
+
+                                    I -Ter boa letra, quando da escrita à mão, ajuda na comunicação e envolve o escritor-leitor.</br>
+
+                                    II -Mesmo com a informatização da escrita, a escolha da fonte correta para cada caso obedece à metodologia.</br>
+
+                                    III -Produzir texto é algo que se conquista com exercício de leitura e escrita.</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) I.</br>
+
+                                    B) II.</br>
+
+                                    C) III.</br>
+
+                                    D) II e III.</br>
+
+                                    E) Todas as afirmativas são corretas.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> Sobre os tipos de conhecimento, notadamente o filosófico e o teológico, assinale a alternativa correta.</br>
+                                    </br>
+
+                                    A) O conhecimento filosófico é resultado da existência de forças sobrenaturais.</br>
+
+                                    B) O conhecimento filosófico é necessariamente verificável.</br>
+
+                                    C) O conhecimento religioso é impregnado de inspiração.</br>
+
+                                    D) O conhecimento religioso é verificável pela expressão da fé.</br>
+
+                                    E) Tanto o conhecimento filosófico quanto o religioso não podem ser sistemáticos.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> Quando um pesquisador quer abordar um assunto e apenas levantar os vários autores que escreveram sobre essa questão, sua pesquisa é predominantemente:</br>
+                                    </br>
+                                    
+                                    A) Bibliográfica.</br>
+
+                                    B) Exploratória.</br>
+
+                                    C) Operacional.</br>
+
+                                    D) Descritiva.</br>
+
+                                    E) De ação.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> Um problema deixa de ser científico:</br>
+                                    </br>
+
+                                    A) Quando se transforma em resposta satisfatória ao cientista.</br>
+
+                                    B) Quando valoriza a metodologia.</br>
+
+                                    C) Quando é julgada insatisfatório após debates.</br>
+
+                                    D) Na hipótese de sempre continuar a buscar respostas.</br>
+
+                                    E) Em razão do surgimento de dúvidas sobre os resultados e mesmo quanto à adequação do método.</br>
+
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> Qual das características a seguir pode ser atribuída ao conhecimento científico?</br>
+                                    </br>
+
+                                    A) Linguagem obscura, de difícil entendimento e na qual haja predominância de dubiedade.</br>
+
+                                    B) Subjetividade, pois a ciência não tem como dar respostas necessariamente afirmativas.</br>
+
+                                    C) Sistematicidade, com ponto de partida definido e caminho delineado.</br>
+
+                                    D) Misticismo, pelo conhecimento e crença no imaginário.</br>
+
+                                    E) Religiosidade, pela originalidade das leis de Deus.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> Anteriormente ao conhecimento científico, o mundo e suas mudanças eram explicados por outras formas de conhecimento, a exemplo do mítico e do religioso, primeiras fontes do saber. A importância do conhecimento mítico e do religioso reside em:</br>
+                                    </br>
+
+                                    A) Dar importância central aos seres humanos na ordem das coisas.</br>
+
+                                    B) Determinar códigos de conduta baseados na ordem cósmica.</br>
+
+                                    C) Oferecer explicações de alguns fenômenos naturais.</br>
+
+                                    D) Determinar a hierarquia dos componentes da natureza.</br>
+
+                                    E) Permitir a experimentação e a verificação.</br>
+                                    
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> Quanto aos recursos audiovisuais, avalie as seguintes afirmativas: </br>
+                                    </br>
+
+                                    I -Com o advento da informática, o uso de recursos audiovisuais por parte do aluno o auxilia na apresentação pela possibilidade de demonstrar ter domínio sobre os recursos tecnológicos.</br>
+
+                                    II -O uso de tabelas e gráficos facilita o escritor, pois, através de imagem e números, transmitea mesma mensagem que o texto escrito.</br>
+
+                                    III -Tabelas e gráficos, quando apresentados no corpo de um texto, falam por si só.</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) I.</br>
+
+                                    B) II.</br>
+
+                                    C) I e II.</br>
+
+                                    D) III.</br>
+
+                                    E) Todas as afirmativas são incorretas.</br>
+                                    
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
-
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>

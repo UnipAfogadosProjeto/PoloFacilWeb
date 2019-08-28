@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Ciênias Contabeis';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -35,7 +35,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Ciênias Contabeis | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1035,17 +1035,12 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
+                                            <a href="18655071002_auditoria.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Auditoria</a>
                                         </td>
                                     </tr> 
                                     <tr>
                                         <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
+                                            <a href="18805628011_controladoria_e_orcamento.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Controladoria e Orçamento</a>
                                         </td>
                                     </tr>
                                 </table>
@@ -1059,7 +1054,7 @@
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
+                                    <li class="page-item"><a class="page-link" href="../3.php">Voltar</a></li>
 
                                 </ul>
                             </div>

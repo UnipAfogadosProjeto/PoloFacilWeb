@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Educação Física / VOLEIBOL: ASPECTOS PEDAGÓGICOS E APROFUNDAMENTOS ';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Educação Física | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1023,44 +1041,193 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Disciplina</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="custom-pagination">
-                                <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
-                                </ul>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
                             </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP EAD</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 19136322107</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> EDUCAÇÃO FÍSICA (GRADUAÇÃO PLENA)</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 1º Bimestre - 5º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  5,00 pontos </span></strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">II -Questões discursivas –valendo  5,00 pontos Gerada em: 02/04/2019 09:42:05</span></strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 707360 - VOLEIBOL: ASPECTOS PEDAGÓGICOS E APROFUNDAMENTOS</p>
+
+                                    <p><strong>Questão 1:</strong> Os sistemas de jogo são táticas que definem a forma de jogar da equipe em função do número de atacantes e levantadores. Com relação aos sistemas de jogo, qual a alternativa correta?</br>
+                                    </br>
+
+                                    A)  O sistema 6x0 é muito utilizado por equipes experientes.</br>
+
+                                    B)  O sistema 3x3 é o mais utilizado hoje em dia.</br>
+
+                                    C)  No sistema 4x2 jogam 4 levantadores e 2 atacantes.</br>
+
+                                    D)  No sistema 5x1, 5 jogadores são atacantes: 2 centrais, 2 ponteiros e 1 oposto.</br>
+
+                                    E)  No sistema 6x2 jogam 8 jogadores na quadra.</br>
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> No ensino do voleibol, com relação à posição de expectativa é correto afirmar que:</br>
+                                    </br>
+
+                                    A)  Não se deve dar muita importância ao ensino pois o aluno aprenderá naturalmente.</br>
+
+                                    B)  Não se deve dar muita importância ao ensino pois não tem relevância no jogo.</br>
+
+                                    C)  Pode ser ensinada conjuntamente com os deslocamentos, pois estão muito relacionados.</br>
+
+                                    D)  Os joelhos devem estar flexionados e as mãos apoiadas nos joelhos.</br>
+
+                                    E)  Os joelhos deverão estar semiflexionados e os braços estendidos para baixo.</br>
+                                    </br>
+                                    
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Para montar a formação ofensiva da sua equipe, o professor deverá considerar:</br>
+                                    </br>
+
+                                    A)  Qual a capacidade de ataque e de recepção dos seus jogadores.</br>
+
+                                    B)  Qual a formação defensiva da equipe.</br>
+
+                                    C)  Qual a capacidade de bloqueio da equipe.</br>
+
+                                    D)  Quais tipos de saque a equipe executa.</br>
+
+                                    E)  Qual a formação defensiva do adversário. </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> No ensino do voleibol qual deve ser a atitude do professor de Educação Física com relação ao ensinodas formações táticas?</br>
+                                    </br>
+
+                                    A)  O ensino da tática deve ser ensinado apenas para equipes de competição.</br>
+
+                                    B)  É preciso ensinar todas as táticas para que o aluno possa aprender corretamente.</br>
+
+                                    C)  As formações táticas devem ser ensinadas desde o início da aprendizagem do voleibol, não importando a idade dos alunos.</br>
+
+                                    D)  As formações táticas devem ser ensinadas apenas nas turmas de treinamento no contraturno escolar.</br>
+
+                                    E)  As formações táticas devem ser ensinadas de acordo com nível de aprendizagem dos alunos.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> Qual deve ser a atitude do profissional de educação física que trabalha com a iniciação do voleibol em uma turma de crianças e adolescentes num clube esportivo?</br>
+                                    </br>
+
+                                    A)  Fazer uma avaliação do desenvolvimento motor e maturacional dos alunos e adequar o seu trabalho ao grupo.</br>
+
+                                    B)  Trabalhar apenas com crianças acima de 10 anos, pois estão em uma idade mais adequada à prática do voleibol.</br>
+
+                                    C)  Introduzir o ensino das técnicas do voleibol não importa em que idade, pois quanto mais cedo acriança tiver contato com o universo da modalidade, mais chance ela tem de se tornar um profissional no futuro.</br>
+
+                                    D)  Não é necessário o uso de nenhum método específico, apenas deixar que os alunos joguem, e dessa forma aprenderão.</br>
+
+                                    E)  Intensificar os treinamentos e formar categorias de base para representar o clube em competições.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> Logo após realizada a recepção, duas formações táticas serão realizadas, a saber, na seguinte ordem:</br>
+                                    </br>
+
+                                    A)  formação para recepção de saques e formação defensiva.</br>
+
+                                    B)  formação defensiva e ofensiva.</br>
+
+                                    C)  formação ofensiva e formação para proteção ao ataque. </br>
+
+                                    D)  formação para proteção ao ataque e formação defensiva.</br> 
+
+                                    E)  formação ofensiva e formação defensiva. </br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong>  De acordo com o método Bojikian, a etapa chamada fase de apresentação do fundamento é caracterizada por: </br>
+                                    </br>
+
+                                    A)  Essa fase é importante para a aprendizagem da parte tática.</br>
+
+                                    B)  É uma etapa onde é criada uma representação mental do fundamento, onde o aluno vai formar a ideia geral do movimento a ser aprendido antes de executá-lo.</br>
+
+                                    C)  Nessa fase o aluno irá aplicar a técnica no jogo.</br>
+
+                                    D)  Repetições do fundamento.</br>
+
+                                    E)  Fazer com que o aluno execute o fundamento em partes.</br>
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> O professor ao montar uma equipe principiante deverá:</br>
+                                    </br>
+
+                                    A)  Usar o sistema de jogo mais avançado possível.</br>
+
+                                    B)  Fazer com que todos os jogadores bloqueiem, ainda que não tenham estatura suficiente para ultrapassar a rede com as mãos.</br>
+
+                                    C)  Receber o saque com o maior número de jogadores possível (5).</br>
+
+                                    D)  Fazer uma proteção ao ataque com 1 jogador atrás do atacante.</br>
+
+                                    E)  Treinar muito bem apenas 6 jogadores para não ter que fazer substituições.</br>
+                                    
+                                    </br>
+
+                                    </p>
+
+                                    <h4>Questões discursivas<h4>
+
+                                    <p><strong>Questão 1:</strong>  Qual a formação para recepção de saques mais indicada para equipes principiantes epor que?</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> O Voleibol brasileiro é considerado hoje um dos melhores do mundo, tendo alcançadoresultados importantes tanto no masculino quanto no feminino. Indique e explique três fatores que contribuíram para esse sucesso.</br>
+                                    
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
-
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>

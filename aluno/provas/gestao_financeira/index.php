@@ -1038,6 +1038,12 @@
                                             <a href="18442026646_etica_e_legislacao_trabalhista_e_empresarial.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Ética e Legislação: Trabalhista e Empresarial</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="18872088657_credito_e_cobranca.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Crédito e Cobrança</a>
+                                        </td>
+                                    </tr>
+                                    
                                 </table>
                                 <div class="custom-pagination">
                                 <ul class="pagination">

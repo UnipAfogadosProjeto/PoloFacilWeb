@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / Redes de Computadores';
+    $bread = '/ Provas / Serviço Social / SERVIÇO SOCIAL E REALIDADE REGIONAL';
     $active = ['', '', ''];
 
     include("../../GetListaAvisos.php");
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas - Redes de Computadores | Polo Fácil</title>
+    <title>Provas - Serviço Social | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -1023,44 +1041,196 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Disciplina</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="306360_principios_de_istemas_de_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Princípios de Sistemas de Informação</a>
-                                        </td>
-                                    </tr> 
-                                    <tr>
-                                        <td>
-                                            <a href="18742953588_comunicacao_aplicada.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Comunicação Aplicada</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="18359338005_organizacao_de_computadores.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Organização de Computadores</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <div class="custom-pagination">
-                                <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./index.php">1</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
-                                </ul>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
                             </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP EAD</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 19816726160</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> SERVIÇO SOCIAL</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 1º Bimestre - 5º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  5,00 pontos </span></strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">II -Questões discursivas –valendo  5,00 pontos Gerada em: 01/04/2019 09:23:09</span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 556930 - SERVIÇO SOCIAL E REALIDADE REGIONAL</p>
+
+                                    <p><strong>Questão 1:</strong> Suponhamos a seguinte situação: você é um pesquisador responsável por conhecer a qualidade dos serviços prestados pela rede pública de saúde no Brasil. Para isso, precisa de uma metodologia específica. Para atingir seu objetivo, faria uso:</br>
+                                    </br>
+
+                                    A) Greenpeace e Fórum Social Mundial.</br>
+
+                                    B) UNE e DCE.</br>
+
+                                    C) Alca e Mercosul.</br>
+
+                                    D) ONU e Unesco.</br>
+
+                                    E) FMI e BIRD.</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> O livro-texto classifica alguns elementos básicos de uma região. Assinale a alternativaque contenha um dos elementos elencados no livro-texto:</br>
+                                    </br>
+
+                                    A) Poço artesiano.</br>
+
+                                    B) Fossa.</br>
+
+                                    C) Asfalto.</br>
+
+                                    D) Rede de esgoto.</br>
+
+                                    E) As alternativas C e D estão corretas.</br>
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> O que fundamentalmente distingue as organizações públicas das privadas?</br>
+                                    </br>
+
+                                    A) O público-alvo e o investimento.</br>
+
+                                    B) O público-alvo e a lucratividade.</br>
+
+                                    C) Sua constituição e histórico.</br>
+
+                                    D) As pessoas nelas envolvidas.</br>
+
+                                    E) O resultado que produzem e sua constituição.</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> A campanha Natal sem Fome, idealizada pelo sociólogo Hebert de Souza -o Betinho, é um exemplo de:</br>
+                                    </br>
+
+                                    A) Organização global.</br>
+
+                                    B) Organização social.</br>
+
+                                    C) Organização nacional social.</br>
+
+                                    D) Organização local.</br>
+
+                                    E) Organização pública.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong>  Um projeto social pode ser idealizado e implementado em três esferas governamentais e tem por objetivo melhorar aspectos sociais de uma população. Assinale quais são essas esferas.</br>
+                                    </br>
+
+                                    A) Global, mundial e nacional.</br>
+
+                                    B) Federal, estadual e municipal .</br>
+
+                                    C) Estadual, municipal e local.</br>
+
+                                    D) Todas as alternativas anteriores estão corretas.</br>
+
+                                    E) Nenhuma das alternativas anteriores está correta.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> As organizações não governamentais sociais ou organizações da sociedade civil fazem parte de que segmento econômico?</br>
+                                    </br>
+
+                                    A) Primeiro setor.</br>
+
+                                    B) Segundo setor.</br>
+
+                                    C) Terceiro quartil.</br>
+
+                                    D) Terceiro setor.</br>
+
+                                    E) Quarto setor.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> Segundo o livro-texto, a organização burocrática se rege por um conjunto de dimensões que a caracterizam como de:</br>
+                                    </br>
+
+                                    A) Natureza informal.</br>
+
+                                    B) Natureza formal.</br>
+
+                                    C) Natureza lucrativa.</br>
+
+                                    D) Natureza paternalista.</br>
+
+                                    E) Natureza desenvolvimentista.</br>
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> Conhecer a comunidade envolve:</br>
+                                    </br>
+
+                                    A) Visitar os domicílios de todos os moradores.</br>
+
+                                    B) Conhecer os conflitos locais e entre vizinhos.</br>
+
+                                    C) Compreender aspectos históricos, além dos seus processos de desenvolvimento até a situação atual. </br>
+
+                                    D) Todas as alternativas anteriores estão corretas.</br>
+
+                                    E) Nenhuma das alternativas anteriores está correta.</br>
+                                    </br>
+
+                                    </p>
+
+                                    <h4>Questões discursivas<h4>
+
+                                    <p><strong>Questão 1:</strong> Explique objetivamente a seguinte frase: </br>
+                                    </br>
+
+                                    “A realidade pode ser mudada e transformada”.
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> O governo de Fernando Henrique Cardoso caracterizou-se pela adesão ao neoliberalismo, eisso alterou a distribuição dos gastos sociais do País. Comente qual era esse posicionamento e como ele interferiu nas desigualdades sociais.</br>
+                                    
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="../2.php">Voltar</a></li>
-
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>
