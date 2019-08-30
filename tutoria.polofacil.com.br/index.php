@@ -1,6 +1,45 @@
-<?php
+<?php session_start();
 
-    echo"oi";
+    $ch = curl_init();
+
+    // Passamos nosso caminho para web services. Exemplo: https://polofacil.com/api/login
+    // Note que, vamos passar as variares $ra_user e $pw_user para nosso web services.
+    curl_setopt($ch, CURLOPT_URL, "http://186.233.148.102:8080/GetDashboard/2");
+
+    // Se true, esperamos pelo retorno 
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+    // Agora, executamos nosso cURL e armazenamos a resposta na variavel $res
+    $res = curl_exec($ch);
+
+    // É muito importando fecharmos nossa conexão após a execução.
+    curl_close($ch);
+
+    // Agora, vamos decodificar nosso Json
+    $datas = utf8_encode($res);
+    $data = json_decode($datas);
+
+    if($data ==null){
+            echo '<script type="text/javascript"> alert("RA ou Senha incoreta, tente novamente!")</script>';
+    }else{
+        
+            // Criar os campos na _SESSION e insere os falores recebidos no Json
+            $_SESSION['ReceitaTotal'] = $data->ReceitaTotal;
+            $_SESSION['DespesaTotal'] = $data->DespesaTotal;
+            $_SESSION['Alunos'] = $data->Alunos;
+            $_SESSION['RMA'] = $data->RMA;
+            $_SESSION['CMA'] = $data->CMA;
+            $_SESSION['IndiceMC'] = $data->IndiceMC;
+            $_SESSION['PontoEquilibrio'] = $data->PontoEquilibrio;
+            $_SESSION['ValorPago'] = $data->ValorPago;
+            $_SESSION['ValorAPagar'] = $data->ValorAPagar;
+            $_SESSION['Despesa'] = $data->Despesa;
+            $_SESSION['Custo'] = $data->Custo;
+            $_SESSION['Mensal'] = $data->Mensal;
+            $_SESSION['Eventual'] = $data->Eventual;
+            $_SESSION['Fixo'] = $data->Fixo;
+            $_SESSION['Variavel'] = $data->Variavel;
+        }
 
 ?>
 
@@ -1082,7 +1121,7 @@
                         <div class="analytics-sparkle-line reso-mg-b-30">
                             <div class="analytics-content">
                                 <h5>Alunos Matriculados</h5>
-                                <h2><span> 850,50</span> <span class="tuition-fees"></span></h2>
+                                <h2><span><?php echo $_SESSION['Alunos'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -1094,7 +1133,7 @@
                         <div class="analytics-sparkle-line reso-mg-b-30">
                             <div class="analytics-content">
                                <h5>Custo Mensal por Aluno</h5>
-                                <h2><span> 5</span> <span class="tuition-fees"></span></h2>
+                                <h2><span><?php echo $_SESSION['6000'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -1106,7 +1145,7 @@
                         <div class="analytics-sparkle-line reso-mg-b-30 table-mg-t-pro dk-res-t-pro-30">
                             <div class="analytics-content">
                                 <h5>Receita Média por Aluno</h5>
-                                <h2>R$ <span>500,50</span> <span class="tuition-fees"></span></h2>
+                                <h2>R$ <span><?php echo $_SESSION['RMA'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -1118,7 +1157,7 @@
                         <div class="analytics-sparkle-line table-mg-t-pro dk-res-t-pro-30">
                             <div class="analytics-content">
                                 <h5>Receita do mês</h5>
-                                <h2>R$<span> 20000,00</span> <span class="tuition-fees"></span></h2>
+                                <h2>R$<span><?php echo $_SESSION['6000'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -1136,7 +1175,7 @@
                         <div class="analytics-sparkle-line reso-mg-b-30">
                             <div class="analytics-content">
                                 <h5>Margem de Contribuição</h5>
-                                <h2><span> 5,50</span> <span class="tuition-fees"></span></h2>
+                                <h2><span><?php echo $_SESSION['ReceitaTotal'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -1148,7 +1187,7 @@
                         <div class="analytics-sparkle-line reso-mg-b-30">
                             <div class="analytics-content">
                                <h5>Ponto de Equilibro</h5>
-                                <h2><span> 256,50</span> <span class="tuition-fees"></span></h2>
+                                <h2><span><?php echo $_SESSION['ReceitaTotal'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -1160,7 +1199,7 @@
                         <div class="analytics-sparkle-line reso-mg-b-30 table-mg-t-pro dk-res-t-pro-30">
                             <div class="analytics-content">
                                 <h5>Custo/Despesa do Mês</h5>
-                                <h2>R$ <span>500,50</span> <span class="tuition-fees"></span></h2>
+                                <h2>R$ <span><?php echo $_SESSION['ReceitaTotal'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -1172,7 +1211,7 @@
                         <div class="analytics-sparkle-line table-mg-t-pro dk-res-t-pro-30">
                             <div class="analytics-content">
                                 <h5>Despesa mensals</h5>
-                                <h2>R$<span> 19000,00</span> <span class="tuition-fees"></span></h2>
+                                <h2>R$<span><?php echo $_SESSION['ReceitaTotal'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
