@@ -1078,6 +1078,11 @@
                                             <a href="19893244964_metodologia_do_trabalho_academico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> METODOLOGIA DO TRABALHO ACADÊMICO</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="19725224923_historia_moderna_e_contemporania.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> HISTÓRIA MODERNA E CONTEMPORÂNEA</a>
+                                        </td>
+                                    </tr>
                                 </table>
                                 <div class="custom-pagination">
                                 <ul class="pagination">

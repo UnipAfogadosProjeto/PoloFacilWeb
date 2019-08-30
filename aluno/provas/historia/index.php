@@ -1043,6 +1043,21 @@
                                             <a href="18901024100_historia_da_america_colonial.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> História da América Colonial</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="19285314884_historia_do_brasil_imperio.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> HISTÓRIA DO BRASIL IMPÉRIO</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="19479417000_estrutura_e_funcionamento_da_educacao_basica.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ESTRUTURA E FUNCIONAMENTO DA EDUCAÇÃO BÁSICA</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="19596683806_historia_moderna_e_contemporania.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> HISTÓRIA MODERNA E CONTEMPORÂNEA</a>
+                                        </td>
+                                    </tr>
                                 </table>
                                 <div class="custom-pagination">
                                 <ul class="pagination">

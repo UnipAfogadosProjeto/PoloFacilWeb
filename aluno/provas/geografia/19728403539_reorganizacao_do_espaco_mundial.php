@@ -1,9 +1,9 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / 1';
+    $bread = '/ Provas / Geografia / REGIONALIZAÇÃO DO ESPAÇO MUNDIAL: EUROPA/ÀFRICA/ ÁSIA';
     $active = ['', '', ''];
 
-    include("../GetListaAvisos.php");
+    include("../../GetListaAvisos.php");
     if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
         $ra = $_SESSION['RA'];
         $temAviso = false;
@@ -15,7 +15,7 @@
         }
 
     }else{
-        header('Location: ../login.php');
+        header('Location: login.php');
         exit();
     }
 
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas UNIP | Página 1 | Polo Fácil</title>
+    <title>Provas - Geografia - REGIONALIZAÇÃO DO ESPAÇO MUNDIAL: EUROPA/ÀFRICA/ ÁSIA | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -45,56 +63,56 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
     <!-- owl.carousel CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/owl.carousel.css">
-    <link rel="stylesheet" href="../css/owl.theme.css">
-    <link rel="stylesheet" href="../css/owl.transitions.css">
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <link rel="stylesheet" href="../../css/owl.transitions.css">
     <!-- animate CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../../css/animate.css">
     <!-- normalize CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
     <!-- meanmenu icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/meanmenu.min.css">
+    <link rel="stylesheet" href="../../css/meanmenu.min.css">
     <!-- main CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
     <!-- educate icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/educate-custon-icon.css">
+    <link rel="stylesheet" href="../../css/educate-custon-icon.css">
     <!-- morrisjs CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/morrisjs/morris.css">
+    <link rel="stylesheet" href="../../css/morrisjs/morris.css">
     <!-- mCustomScrollbar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../../css/scrollbar/jquery.mCustomScrollbar.min.css">
     <!-- metisMenu CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu.min.css">
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu-vertical.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu-vertical.css">
     <!-- calendar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.min.css">
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.print.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.print.min.css">
     <!-- modals CSS
     ============================================ -->
-    <link rel="stylesheet" href="../css/modals.css">
+    <link rel="stylesheet" href="../../css/modals.css">
     <!-- style CSS
         ============================================ -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../style.css">
     <!-- responsive CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
     <!-- modernizr JS
         ============================================ -->
-    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -105,8 +123,8 @@
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
-                <strong><a href="../painel.php"><img src="../img/logo/pf_logosn.png" alt="" /></a></strong>
+                <a href="../../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
+                <strong><a href="../../painel.php"><img src="../../img/logo/pf_logosn.png" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
@@ -127,8 +145,8 @@
                         <li <?php echo 'class="'.$active[0].'"'; if($active[0] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="index.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
                             <ul class="submenu-angle" aria-expanded="true">
-                                <li><a title="Provas" href="../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
-                                <li><a title="Meus Agendamentos" href="../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
+                                <li><a title="Provas" href="../../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
+                                <li><a title="Meus Agendamentos" href="../../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
                             </ul>
                         </li >
                         <!--<li>
@@ -143,7 +161,7 @@
                         <li <?php echo 'class="'.$active[1].'"'; if($active[1] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Students Profile" href="../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
+                                <li><a title="Students Profile" href="../../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
                             </ul>
                         </li>
                         <!--<li>
@@ -159,8 +177,8 @@
                         <li <?php echo 'class="'.$active[2].'"'; if($active[2] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Minhas Apostilas</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Library" href="../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
-                                <li><a title="Add Library" href="../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
+                                <li><a title="All Library" href="../../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
+                                <li><a title="Add Library" href="../../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
                             </ul>
                         </li>
                         <li>
@@ -205,7 +223,7 @@
                             </ul>
                         </li>-->
                         <li>
-                            <a  aria-expanded="false" href="../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
+                            <a  aria-expanded="false" href="../../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
                             
                         </li>
 
@@ -232,7 +250,7 @@
                             </ul>
                         </li>-->
                         <li id="removable">
-                            <a href="../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
+                            <a href="../../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -264,7 +282,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="logo-pro">
-                            <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
+                            <a href="../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -325,7 +343,7 @@
                                                                         <li>
                                                                             <a href="#" data-toggle="modal" data-target="<?php echo 'Modal'.$item->idAviso;?>">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     
@@ -345,7 +363,7 @@
                                                                         <li>
                                                                             <a href="#">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     <p>Você não tem mensagens no momento.</p>
@@ -496,10 +514,10 @@
                                                                 <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
                                                             </a>
                                                         <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                            <li><a href="./dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
+                                                            <li><a href="../../dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
                                                             </li>
                                                             </li>
-                                                            <li><a href="../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
+                                                            <li><a href="../../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -960,26 +978,26 @@
                                         <ul class="mobile-menu-nav">
                                             <li><a data-toggle="collapse" data-target="#Charts" href="#">Agendamento <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul class="collapse dropdown-header-top">
-                                                    <li><a href="../agendar_provas.php">Agendar Provas</a></li>
-                                                    <li><a href="../meusAgendamentos.php">Meus Agendamentos</a></li>
+                                                    <li><a href="../../agendar_provas.php">Agendar Provas</a></li>
+                                                    <li><a href="../../meusAgendamentos.php">Meus Agendamentos</a></li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demopro" href="#">Meus Dados <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demopro" class="collapse dropdown-header-top">
-                                                    <li><a href="../dadosdoAluno.php">Perfil do Aluno</a>
+                                                    <li><a href="../../dadosdoAluno.php">Perfil do Aluno</a>
                                                     </li>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demolibra" href="#">Minhas Apostilas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demolibra" class="collapse dropdown-header-top">
-                                                    <li><a href="../apostilaEntregue.php">Apostilas Entregues</a>
+                                                    <li><a href="../../apostilaEntregue.php">Apostilas Entregues</a>
                                                     </li>
-                                                    <li><a href="../apostilaDisponivel.php">Novas Apostilas</a>
+                                                    <li><a href="../../apostilaDisponivel.php">Novas Apostilas</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <li><a href="../../provas/1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -1005,7 +1023,7 @@
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                             <ul class="breadcome-menu">
-                                                <li><a href="../painel.php">Início</a>
+                                                <li><a href="../../painel.php">Início</a>
                                                 </li>
                                                 <li><span class="bread-blod"><?php echo $bread ?></span>
                                                 </li>
@@ -1023,97 +1041,243 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Curso</th>
-                                        <th>Tipo</th>
-                                        <th>Quantidade</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./administracao/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ADMINISTRAÇÃO</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>25</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./ciencias_economicas/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> CIÊNCIAS ECONÔMICAS</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./ciencias_contabeis/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> CIÊNCIAS CONTÁBEIS</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./educacao_fisica/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> EDUCAÇÃO FÍSICA</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gastronomia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GASTRONOMIA</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./geografia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GEOGRAFIA</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>20</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gestao_ambiental/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO AMBIENTAL</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>5</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gesta_comercial/index.php" class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO COMERCIAL</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>6</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gestao_de_ads/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ANÁLISE DE SISTEMA</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>7</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gestao_de_ti/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> TECLONOCIA DA INFORMAÇÃO</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>6</td>
-                                    </tr>
-                                </table>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
+                            </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP EAD</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 19728403539</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> GEOGRAFIA</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 1º Bimestre - 5º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  5,00 pontos </span></strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">II -Questões discursivas –valendo  5,00 pontos Gerada em: 02/04/2019 10:06:35</span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 679360 - REGIONALIZAÇÃO DO ESPAÇO MUNDIAL: EUROPA/ÀFRICA/ ÁSIA</p>
+
+                                    <p><strong>Questão 1:</strong> Nelson Mandela deixou a prisão há 24 anos, no dia 11 de fevereiro de 1990. A liberdade do líder foi o mais forte sinal do fim do regime de .......................... na ............................, o apartheid. Colonizada a partir de 1652 por holandeses e tendo recebido imigrantes de outras partes da Europa e da Ásia, esse país se tornou, em 1910, uma possessão britânica. Desde a chegada dos primeiros europeus, há mais de três séculos, a história do país africano, sede da Copa do Mundo em 2010, foi marcada pela discriminação racial, imposta pela minoria ............................ .</br>
+                                    </br>
+
+                                    Assinale a alternativa que completa, corretamente, o texto proposto.</br>
+                                    </br>
+
+                                    A)  segregação social / República Democrática do Congo / negra.</br>
+
+                                    B)  segregação racial / Etiópia / negra.</br>
+
+                                    C)  segregação racial / África do Sul / negra.</br>
+
+                                    D)  segregação racial / África do Sul / branca.</br>
+
+                                    E)  segregação social / Etiópia / branca.</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong>  Analise o texto a seguir.</br>
+                                    </br>
+
+                                    (...) Por conseguinte, temos que agir em conjunto, como um povo unido, pela reconciliação nacional, pela construção da nação, pelo nascimento de um novo mundo.Que haja justiça para todos.Que haja paz para todos.Que haja trabalho, pão, água e sal para todos.Que cada um de nós saiba que o seu corpo, a sua mente e a sua alma foram libertados para se realizarem.Nunca, nunca e nunca mais voltará esta maravilhosa terra a experimentar a opressão de uns sobre osoutros, nem a sofrer a humilhação de ser a escória do mundo.Que reine a liberdade.O sol nunca se porá sobre um tão glorioso feito humano.Que Deus abençoe a África!</br>
+                                    </br>
+
+                                    Discurso de posse de Nelson Mandela, Pretória, 10 de maio de 1994. "Chegou o momento de construir".</br>
+                                    </br>
+
+                                    O trecho anterior foi extraído do discurso de posse de Nelson Mandela como presidente de um país africano, proferido em 1994. Esse evento histórico pôs fim a um regime segregacionista e racial que perdurou por mais de 40 anos (1948-1994).</br>
+                                    </br>
+
+                                    Assinale a alternativa que apresenta, corretamente, o país onde se desenvolveu esse regime, sua denominação e o tipo de segregação que lhe sustentava.</br>
+                                    </br>
+
+                                    A) África do Sul; antissemitismo; uma minoria branca impunha normas de convívio à população majoritariamente negra, excluindo-a das decisões políticas e econômicas.</br>
+
+                                    B) República Democrática do Congo; apartheid; uma minoria branca impunha normas de convívio à população majoritariamente negra, excluindo-a das decisões políticas e econômicas.</br>
+
+                                    C) África do Sul; apartheid; uma minoria branca impunha normas extremamente discriminatórias à população majoritariamente negra, excluindo-a das decisões políticas e econômicas.</br>
+
+                                    D) República Democrática do Congo; antissemitismo; uma minoria branca impunha normas de convívio àpopulação majoritariamente negra, excluindo-a das decisões políticas e econômicas.</br>
+
+                                    E) África do Sul; apartheid; uma maioria branca impunha normas de convívio à população minoritariamente negra, excluindo-a das decisões políticas e econômicas.</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Considere o mapa a seguir.</br>
+                                    
+                                    </br><img src="./img/19728403539_reorganizacao_do_espaco_mundial_img1.jpg"></br>
+                                    </br>
+
+                                    Analistas afirmam que a deposição de islamistas no Egito contribuiu para o diálogo recentemente estabelecido entre Israel e a Palestina. Dessa vez, novos fatores, decorrentes dos desdobramentos daPrimavera Árabe em países vizinhos e outros, favoreceram o diálogo, em Washington, entre Israel e representantes da Autoridade Palestina (AP).</br>
+                                    </br>
+
+                                    Com base no mapa e no texto, podemos afirmar que:</br>
+                                    </br>
+
+                                    A) A Faixa de Gaza e as Colinas de Golã seriam devolvidas ao Egito.</br>
+
+                                    B) Israel tem o controle do Canal Interoceânico de Suez, ocupado desde a Guerra dos Seis Dias.</br>
+
+                                    C) A Síria exija de Israel a devolução das Colinas de Golã, nascente dos rios Tigre e Eufrates, atualmente ocupada por Israel.</br>
+
+                                    D) Os EUA fazem a mediação de um acordo de paz no Oriente Médio, trata-se de uma questão moral, pois apoiaram a criação do Estado de Israel e há preocupação com o fornecimento de petróleo, sendo esse a base da economia israelense.</br>
+
+                                    E) A expectativa é que as principais questões que os opõem sejam resolvidas. Entre elas, a divisãode Jerusalém, o direito de retorno dos palestinos e o respeito às fronteiras anteriores à Guerra dos Seis Dias (1967).</br>
+                                    
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> As temperaturas elevadas que o continente africano apresenta ao longo de todo o ano devem-se, fundamentalmente à: </br>
+                                    </br>
+
+                                    A) Localização de parte de seu território em áreas de baixas latitudes.</br>
+
+                                    B) Ação de ventos quentes vindos do Equador.</br>
+
+                                    C) Baixa altitude, que a África apresenta por todo o seu território.</br>
+
+                                    D) Os baixos índices de umidade e precipitação.</br>
+
+                                    E) Ação de correntes marítimas quentes.</br>
+                                    
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> Sobre as características da África Branca, da África Negra e do Sahel, assinale a alternativa incorreta.</br>
+                                    </br>
+
+                                    A) A África Branca é marcada pelo predomínio da população de origem não negra, de cultura árabe e religião islâmica, que chegou ao norte do continente durante o processo de expansão do Islamismo.</br>
+
+                                    B) A região do Sahel -faixa alongada que se estende do Senegal ao Sudão -se encontra em uma áreade transição entre as duas Áfricas, o que faz com que presenciemos inúmeros conflitos étnicos e religiosos; além disso, a semiaridez e a expansão do deserto ajudam a completar o quadro de extrema pobreza que a caracteriza.</br>
+
+                                    C) O processo de independência dos países da África Negra em relação às potências europeias foi dificultado pelas minorias brancas, que dominavam a vida política e econômica da região.</br>
+
+                                    D) Na África Negra, predominam as populações de origem semita e sua economia distingue-se pela importância das exportações de minerais e produtos agrícolas.</br>
+
+                                    E) Os recentes levantes no Mundo Árabe -denominados Primavera Árabe -também se fizeram sentir empaíses muçulmanos do norte da África, como a Líbia, o Egito e a Tunísia, e culminaram na queda de seus ditadores.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> O mapa a seguir apresenta três importantes rios da Europa.</br>
+                                    
+
+                                    </br><img src="./img/19728403539_reorganizacao_do_espaco_mundial_img2.jpg"></br>
+                                    </br>
+
+                                    O mapa da hidrografia do Continente europeu, foi extraído do livro texto, com alguns dos principais rios. A respeito dos rios assinalados, é correto afirmar que:</br>
+                                    </br>
+
+                                    A) Letra A representa o rio Tejo, que se destaca pela grande extensão.</br>
+
+                                    B) Letra B representa o rio Danúbio, que se destaca como importante rio de integração, cortando diversos países.</br>
+
+                                    C) Letra C representa o rio Ródano, que se destaca pela importância estratégica em relação à importação de petróleo.</br>
+
+                                    D) Letra A representa o rio Volga, que se destaca por dividir importantes países do Leste Europeu.</br>
+
+                                    E) Letra B representa o rio Loire, que se destaca pelo escoamento da produção da França.</br>
+                                    
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> É o mais recente país africano, surgido em 2005, a partir de um acordo de paz firmado entre o governo central de Cartum, predominantemente muçulmano, e forças separatistas, majoritariamente cristãs e animistas. Esse país é:</br>
+                                    </br>
+
+                                    A) Eritreia.</br>
+
+                                    B) República Centro-Africana.</br>
+
+                                    C) Namíbia.</br>
+
+                                    D) Sudão do Sul.</br>
+
+                                    E) Libéria.</br>
+                                    
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> Sobre a África Subsaariana, considere as afirmações a seguir.</br>
+                                    </br>
+
+                                    I -No Sahel, é possível a prática agrícola sem irrigação, pois as chuvas propiciam o desenvolvimento de uma vasta vegetação arbustiva.</br>
+
+                                    II -O petróleo sustenta a economia de várias nações, sendo a Nigéria, no Golfo da Guiné, o maior produtor do continente.</br>
+
+                                    III -A pobreza está disseminada em toda a África, porém, os extremos de miséria -que se manifestam, periodicamente, em devastadoras crises de fome -concentram-se no Sahel e na África Oriental.</br>
+
+                                    IV -A África Austral distingue-se pela importância das exportações minerais, com destaque para a África do Sul.</br>
+                                    </br>
+
+                                    Está correto o que se afirma em:</br>
+                                    </br>
+
+                                    A)  I e II, apenas.</br>
+
+                                    B)  I e III, apenas.</br>
+
+                                    C)  II, III e IV, apenas.</br>
+
+                                    D)  II e IV, apenas.</br>
+
+                                    E)  I, II, III e IV.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <h4>Questões discursivas<h4>
+
+                                    <p><strong>Questão 1:</strong> Faça um resumo dos principais aspectos que levaram à unificação europeia. Considerando a construção da unificação europeia, faça um resumo relativo aos principais aspectos que levaram a esse processo. </br>
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> Devido ao padrão de migrantes em direção à Europa, é esse continente que tem apresentado a maior parte dos casos extremos de xenofobia. Como exemplo, só nessa década, tem-se o incêndio criminoso deum edifício onde moravam migrantes turcos, na Alemanha; o caso recente do norueguês que explodiu uma bomba no centro de Olso (capital da Noruega) e fuzilou estudantes de um partido de esquerda (que eram contra o discurso de expulsão de migrantes), totalizando aproximadamente 80 mortos. Além disso, foram observadas manifestações e passeatas contra migrantes na França, em Portugal, na Espanha e na Inglaterra. O alvo da xenofobia são, principalmente, os latinos, os asiáticos e os africanos.(PAULA, Fernanda Cristina de. “Xenofobia na Europa”. Revista Geografia-Editora Escala.)</br>
+                                    </br>
+
+                                    A partir do que foi apresentado responda, o que é xenofobia?</br>
+
+                                    
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./1.php">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="./3.php">3</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1137,7 +1301,7 @@
         function marcarComoLida(id_aviso){
          
             var request = $.ajax({
-                url: '../PutAviso.php?idAviso='+id_aviso,
+                url: '../../PutAviso.php?idAviso='+id_aviso,
                 type: 'get',
                 dataType: 'html'
             });
@@ -1175,62 +1339,62 @@
     </script>
     <!-- jquery
         ============================================ -->
-    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../../js/vendor/jquery-1.12.4.min.js"></script>
     <!-- bootstrap JS
         ============================================ -->
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
     <!-- wow JS
         ============================================ -->
-    <script src="../js/wow.min.js"></script>
+    <script src="../../js/wow.min.js"></script>
     <!-- price-slider JS
         ============================================ -->
-    <script src="../js/jquery-price-slider.js"></script>
+    <script src="../../js/jquery-price-slider.js"></script>
     <!-- meanmenu JS
         ============================================ -->
-    <script src="../js/jquery.meanmenu.js"></script>
+    <script src="../../js/jquery.meanmenu.js"></script>
     <!-- owl.carousel JS
         ============================================ -->
-    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../../js/owl.carousel.min.js"></script>
     <!-- sticky JS
         ============================================ -->
-    <script src="../js/jquery.sticky.js"></script>
+    <script src="../../js/jquery.sticky.js"></script>
     <!-- scrollUp JS
         ============================================ -->
-    <script src="../js/jquery.scrollUp.min.js"></script>
+    <script src="../../js/jquery.scrollUp.min.js"></script>
     <!-- counterup JS
         ============================================ -->
-    <script src="../js/counterup/jquery.counterup.min.js"></script>
-    <script src="../js/counterup/waypoints.min.js"></script>
-    <script src="../js/counterup/counterup-active.js"></script>
+    <script src="../../js/counterup/jquery.counterup.min.js"></script>
+    <script src="../../js/counterup/waypoints.min.js"></script>
+    <script src="../../js/counterup/counterup-active.js"></script>
     <!-- mCustomScrollbar JS
         ============================================ -->
-    <script src="../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="../js/scrollbar/mCustomScrollbar-active.js"></script>
+    <script src="../../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../../js/scrollbar/mCustomScrollbar-active.js"></script>
     <!-- metisMenu JS
         ============================================ -->
-    <script src="../js/metisMenu/metisMenu.min.js"></script>
-    <script src="../js/metisMenu/metisMenu-active.js"></script>
+    <script src="../../js/metisMenu/metisMenu.min.js"></script>
+    <script src="../../js/metisMenu/metisMenu-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/morrisjs/raphael-min.js"></script>
-    <script src="../js/morrisjs/morris.js"></script>
-    <script src="../js/morrisjs/morris-active.js"></script>
+    <script src="../../js/morrisjs/raphael-min.js"></script>
+    <script src="../../js/morrisjs/morris.js"></script>
+    <script src="../../js/morrisjs/morris-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/sparkline/jquery.sparkline.min.js"></script>
-    <script src="../js/sparkline/jquery.charts-sparkline.js"></script>
-    <script src="../js/sparkline/sparkline-active.js"></script>
+    <script src="../../js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../../js/sparkline/jquery.charts-sparkline.js"></script>
+    <script src="../../js/sparkline/sparkline-active.js"></script>
     <!-- calendar JS
         ============================================ -->
-    <script src="../js/calendar/moment.min.js"></script>
-    <script src="../js/calendar/fullcalendar.min.js"></script>
-    <script src="../js/calendar/fullcalendar-active.js"></script>
+    <script src="../../js/calendar/moment.min.js"></script>
+    <script src="../../js/calendar/fullcalendar.min.js"></script>
+    <script src="../../js/calendar/fullcalendar-active.js"></script>
     <!-- plugins JS
         ============================================ -->
-    <script src="../js/plugins.js"></script>
+    <script src="../../js/plugins.js"></script>
     <!-- main JS
         ============================================ -->
-    <script src="../js/main.js"></script>
+    <script src="../../js/main.js"></script>
 </body>
 
 </html>

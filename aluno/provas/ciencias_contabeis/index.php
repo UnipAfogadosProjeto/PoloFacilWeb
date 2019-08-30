@@ -1043,6 +1043,11 @@
                                             <a href="18805628011_controladoria_e_orcamento.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Controladoria e Orçamento</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="19374365624_tecnologias_da_informacao.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> TECNOLOGIAS DA INFORMAÇÃO</a>
+                                        </td>
+                                    </tr>
                                 </table>
                                 <div class="custom-pagination">
                                 <ul class="pagination">

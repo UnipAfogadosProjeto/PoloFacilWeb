@@ -1,9 +1,9 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / 1';
+    $bread = '/ Provas / Administração';
     $active = ['', '', ''];
 
-    include("../GetListaAvisos.php");
+    include("../../GetListaAvisos.php");
     if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
         $ra = $_SESSION['RA'];
         $temAviso = false;
@@ -15,7 +15,7 @@
         }
 
     }else{
-        header('Location: ../login.php');
+        header('Location: login.php');
         exit();
     }
 
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas UNIP | Página 1 | Polo Fácil</title>
+    <title>Provas - Serviço Social | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -45,56 +63,56 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
     <!-- owl.carousel CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/owl.carousel.css">
-    <link rel="stylesheet" href="../css/owl.theme.css">
-    <link rel="stylesheet" href="../css/owl.transitions.css">
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <link rel="stylesheet" href="../../css/owl.transitions.css">
     <!-- animate CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../../css/animate.css">
     <!-- normalize CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
     <!-- meanmenu icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/meanmenu.min.css">
+    <link rel="stylesheet" href="../../css/meanmenu.min.css">
     <!-- main CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
     <!-- educate icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/educate-custon-icon.css">
+    <link rel="stylesheet" href="../../css/educate-custon-icon.css">
     <!-- morrisjs CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/morrisjs/morris.css">
+    <link rel="stylesheet" href="../../css/morrisjs/morris.css">
     <!-- mCustomScrollbar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../../css/scrollbar/jquery.mCustomScrollbar.min.css">
     <!-- metisMenu CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu.min.css">
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu-vertical.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu-vertical.css">
     <!-- calendar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.min.css">
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.print.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.print.min.css">
     <!-- modals CSS
     ============================================ -->
-    <link rel="stylesheet" href="../css/modals.css">
+    <link rel="stylesheet" href="../../css/modals.css">
     <!-- style CSS
         ============================================ -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../style.css">
     <!-- responsive CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
     <!-- modernizr JS
         ============================================ -->
-    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -105,8 +123,8 @@
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
-                <strong><a href="../painel.php"><img src="../img/logo/pf_logosn.png" alt="" /></a></strong>
+                <a href="../../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
+                <strong><a href="../../painel.php"><img src="../../img/logo/pf_logosn.png" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
@@ -127,8 +145,8 @@
                         <li <?php echo 'class="'.$active[0].'"'; if($active[0] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="index.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
                             <ul class="submenu-angle" aria-expanded="true">
-                                <li><a title="Provas" href="../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
-                                <li><a title="Meus Agendamentos" href="../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
+                                <li><a title="Provas" href="../../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
+                                <li><a title="Meus Agendamentos" href="../../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
                             </ul>
                         </li >
                         <!--<li>
@@ -143,7 +161,7 @@
                         <li <?php echo 'class="'.$active[1].'"'; if($active[1] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Students Profile" href="../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
+                                <li><a title="Students Profile" href="../../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
                             </ul>
                         </li>
                         <!--<li>
@@ -159,8 +177,8 @@
                         <li <?php echo 'class="'.$active[2].'"'; if($active[2] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Minhas Apostilas</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Library" href="../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
-                                <li><a title="Add Library" href="../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
+                                <li><a title="All Library" href="../../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
+                                <li><a title="Add Library" href="../../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
                             </ul>
                         </li>
                         <li>
@@ -205,7 +223,7 @@
                             </ul>
                         </li>-->
                         <li>
-                            <a  aria-expanded="false" href="../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
+                            <a  aria-expanded="false" href="../../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
                             
                         </li>
 
@@ -232,7 +250,7 @@
                             </ul>
                         </li>-->
                         <li id="removable">
-                            <a href="../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
+                            <a href="../../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -264,7 +282,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="logo-pro">
-                            <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
+                            <a href="../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -325,7 +343,7 @@
                                                                         <li>
                                                                             <a href="#" data-toggle="modal" data-target="<?php echo 'Modal'.$item->idAviso;?>">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     
@@ -345,7 +363,7 @@
                                                                         <li>
                                                                             <a href="#">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     <p>Você não tem mensagens no momento.</p>
@@ -496,10 +514,10 @@
                                                                 <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
                                                             </a>
                                                         <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                            <li><a href="./dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
+                                                            <li><a href="../../dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
                                                             </li>
                                                             </li>
-                                                            <li><a href="../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
+                                                            <li><a href="../../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -960,26 +978,26 @@
                                         <ul class="mobile-menu-nav">
                                             <li><a data-toggle="collapse" data-target="#Charts" href="#">Agendamento <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul class="collapse dropdown-header-top">
-                                                    <li><a href="../agendar_provas.php">Agendar Provas</a></li>
-                                                    <li><a href="../meusAgendamentos.php">Meus Agendamentos</a></li>
+                                                    <li><a href="../../agendar_provas.php">Agendar Provas</a></li>
+                                                    <li><a href="../../meusAgendamentos.php">Meus Agendamentos</a></li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demopro" href="#">Meus Dados <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demopro" class="collapse dropdown-header-top">
-                                                    <li><a href="../dadosdoAluno.php">Perfil do Aluno</a>
+                                                    <li><a href="../../dadosdoAluno.php">Perfil do Aluno</a>
                                                     </li>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demolibra" href="#">Minhas Apostilas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demolibra" class="collapse dropdown-header-top">
-                                                    <li><a href="../apostilaEntregue.php">Apostilas Entregues</a>
+                                                    <li><a href="../../apostilaEntregue.php">Apostilas Entregues</a>
                                                     </li>
-                                                    <li><a href="../apostilaDisponivel.php">Novas Apostilas</a>
+                                                    <li><a href="../../apostilaDisponivel.php">Novas Apostilas</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <li><a href="../../provas/1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -1005,7 +1023,7 @@
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                             <ul class="breadcome-menu">
-                                                <li><a href="../painel.php">Início</a>
+                                                <li><a href="../../painel.php">Início</a>
                                                 </li>
                                                 <li><span class="bread-blod"><?php echo $bread ?></span>
                                                 </li>
@@ -1023,97 +1041,289 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Curso</th>
-                                        <th>Tipo</th>
-                                        <th>Quantidade</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./administracao/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ADMINISTRAÇÃO</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>25</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./ciencias_economicas/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> CIÊNCIAS ECONÔMICAS</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./ciencias_contabeis/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> CIÊNCIAS CONTÁBEIS</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./educacao_fisica/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> EDUCAÇÃO FÍSICA</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gastronomia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GASTRONOMIA</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./geografia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GEOGRAFIA</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>20</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gestao_ambiental/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO AMBIENTAL</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>5</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gesta_comercial/index.php" class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO COMERCIAL</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>6</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gestao_de_ads/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ANÁLISE DE SISTEMA</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>7</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gestao_de_ti/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> TECLONOCIA DA INFORMAÇÃO</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>6</td>
-                                    </tr>
-                                </table>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
+                            </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP EAD</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 19217567518</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> SERVIÇO SOCIAL</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 1º Bimestre - 5º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 02/04/2019 08:52:11</span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 538730 - METODOLOGIA DO TRABALHO ACADÊMICO</p>
+
+                                    <p><strong>Questão 1:</strong> Conforme João Ildebrando Bocchi (2004),</br>
+                                    </br>
+
+                                    "método designa um caminho pelo qual se obtém um certo resultado. Pode designar também um conjuntode procedimentos e de regras utilizadas para atingir um objetivo desejado". </br>
+                                    </br>
+
+                                    Se o objetivo for redigir um texto:</br>
+                                    </br>
+
+                                    A) É necessário expressar-se necessariamente de forma racional e lógica.</br>
+
+                                    B) É imprescindível a realização de um rascunho prévio à redação final.</br>
+
+                                    C) Não há necessidade de se preocupar com o tipo de letra a ser utilizada, mesmo com o advento da informática e da digitação.</br>
+
+                                    D) Na falta de palavras para expressar a lógica da comunicação, o melhor recurso a ser utilizado são as ilustrações como substituição ao texto.</br>
+
+                                    E) Sua clareza deve aparecer por naturalidade, independentemente da apresentação inicial dos objetivos que o texto pretende atingir.</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> Sobre as formas de conhecimento, leia as afirmativas a seguir:</br>
+                                    </br>
+
+                                    I -A Filosofia -como qualquer outra forma de compreensão -tem por finalidade geral estabelecer uma forma de transformação da realidade.</br>
+
+                                    II -Filosofia e Ciência são duas formas de conhecimento que procuram, com rigor, valendo-se de uminstrumental metodológico, buscar um entendimento do mundo que auxilie o ser humano a viver melhor e mais adequadamente, já que ambas tornam o mundo mais compreensível.</br>
+
+                                    III -O conhecimento científico não se ocupa dos fenômenos da natureza (físicos, biológicos, químicos etc.), dos objetos ideais (lógicos e matemáticos) e dos fenômenos culturais (relações sociais, processos históricos, produção cultural etc.).</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) I e II.</br>
+
+                                    B) II.</br>
+
+                                    C) II e III.</br>
+
+                                    D) III.</br>
+
+                                    E) I.</br>
+                                    
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> Qual das alternativas a seguir melhor descreve o funcionamento da ciência?</br>
+                                    </br>
+
+                                    A) A ciência dita os fatos.</br>
+
+                                    B) A ciência é um processo democrático no qual os cientistas de cada área se encontram e discutem várias explicações para um fenômeno. No fim, uma votação elege a explicação correta.</br>
+
+                                    C) A ciência utiliza métodos bem definidos para formular a explicação dos fatos.</br>
+
+                                    D) A ciência é regida por políticas públicas que determinam o que é correto.</br>
+
+                                    E) A ciência depende de dogmas.</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> Sobre os trabalhos científicos, considere as seguintes afirmativas:</br>
+                                    </br>
+
+                                    I -Os trabalhos científicos devem permitir a outro pesquisador reproduzir as experiências e obterresultados descritos, com a mesma precisão e sem ultrapassar a margem de erro indicada pelo autor.</br>
+
+                                    II -Os trabalhos científicos devem permitir a outro pesquisador repetir observações e julgar as conclusões do autor.</br>
+
+                                    III -Os trabalhos científicos devem permitir a outro pesquisador verificar a exatidão das análises e deduções que possibilitem ao autor chegar às conclusões.</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) Todas as afirmativas são corretas.</br>
+
+                                    B) I e II.</br>
+
+                                    C) I e III.</br>
+
+                                    D) II e III.</br>
+
+                                    E) Todas as afirmativas são incorretas</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> Conforme afirma Heitor Matallo Jr em A problemática do conhecimento(2000), "Platão foi o primeiro filósofo a desenvolver uma teoria sobre o mundo utilizando a intuição como forma de pensamento superior. Para Platão, o mundo sensível está em constante mudança e, neste caso, se tornaimpossível conhecê-lo por razões óbvias: não se pode conhecer uma coisa que deixa de ser ela mesma na sucessão do tempo".</br>
+                                    </br>
+
+                                    Com base no trecho proposto e de seus conhecimentos da disciplina, avalie seguintes afirmativas: </br>
+                                    </br>
+
+                                    I -A preocupação científica procura fundamentações verdadeiras para explicar a ocorrência dos fenômenos. </br>
+
+                                    II -Quando, no texto em questão, apresenta-se a expressão "intuição como forma de pensamento superior”, Platão dirige-se ao conhecimento vulgar que tem essa característica.</br>
+
+                                    III -No excerto, pode-se perceber referência ao senso comum na passagem "não se pode conhecer umacoisa que deixa de ser ela mesma na sucessão do tempo".</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) I e II.</br>
+
+                                    B) II e III.</br>
+
+                                    C) I e III.</br>
+
+                                    D) III.</br>
+
+                                    E) Todas as afirmativas são corretas.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> Leia o seguinte fragmento:</br>
+                                    </br>
+
+                                    "Para Sócrates, assim como para muitos de nós, existe uma sensível diferença entre expressões da forma ´Eu acho que´ e ´Eu sei que`." (MATALLO JÚNIOR, H. A problemática do conhecimento. 2000).</br>
+                                    </br> 
+
+                                    Sobre o assunto, assinale a alternativa incorreta.</br>
+                                    </br>
+
+                                    A) A expressão `Eu acho que` exprime opinião sem haver necessidade de argumentação sólida que a comprove.</br>
+
+                                    B) A expressão `Eu acho que` exprime opinião e sua justificativa só é permitida com outra opinião,conquistada a partir de um processo de investigação científica -positivismo.</br>
+
+                                    C) O emitir de opiniões, da forma como denota a expressão `Eu acho que`, representa um processo espontâneo do ser humano, conquistado a partir da experiência pessoal acumulada.</br>
+
+                                    D) A expressão `Eu acho que` refere-se ao senso comum, valorada por crenças, ações e comportamentos cotidianos.</br>
+
+                                    E) Mesmo que a expressão `Eu acho que` remeta ao senso comum, portanto a uma questão ideológica, esse tipo de conhecimento pode ser considerado na construção de teorias científicas. Afinal, uma pesquisa científica pode surgir de uma dúvida, mesmo que inicialmente não fundamentada.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong>  Quanto à escrita e produção de textos, avalie as afirmativas a seguir:</br>
+                                    </br>
+
+                                    I -Ter boa letra, quando da escrita à mão, ajuda na comunicação e envolve o escritor-leitor.</br>
+
+                                    II -Mesmo com a informatização da escrita, a escolha da fonte correta para cada caso obedece à metodologia.</br>
+
+                                    III -Produzir texto é algo que se conquista com exercício de leitura e escrita.</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) I.</br>
+
+                                    B) II.</br>
+
+                                    C) III.</br>
+
+                                    D) II e III.</br>
+
+                                    E) Todas as afirmativas são corretas.</br>
+
+                                    
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> Leia atentamente o trecho a seguir:</br>
+                                    </br>
+
+                                    “Muito cedo, o ser humano sentiu a fragilidade do saber fundamentado na intuição, no senso comum ou na tradição; rapidamente desenvolveu o desejo de saber mais e de dispor de conhecimentos metodicamente elaborados, portanto mais confiáveis. Mas a trajetória foi longa entre esses primeiros desejos e a concepção do saber racional que acabou se estabelecendo, no Ocidente, há apenas um século, com uma forma dita científica” (LAVILLE, C; DIONNE, J. A construção do saber: manual de pesquisa científica em ciências humanas. Porto Alegre: Artes Médicas: Belo Horizonte, UFMG, 1999. p. 22).</br>
+                                    </br>
+
+                                    Acerca das trajetórias da história do conhecimento e da ciência, avalie as seguintes afirmativas:</br>
+                                    </br>
+
+                                    I -Na Idade Média, surge a desconfiança em relação às explicações do Universo baseadas nos deuses, na magia ou na superstição.</br>
+
+                                    II -Com a Idade Moderna, reencontramos a reflexão filosófica, mas, dessa vez, dominada pela religião.</br>
+
+                                    III -Na Grécia Antiga, observamos que o conhecimento científico começa a se objetivar e a se separar da superstição.</br>
+                                    </br>
+
+                                    É correto apenas o que se destaca na(s) afirmativa(s):</br>
+                                    </br>
+
+                                    A) II e III.</br>
+
+                                    B) Todas as afirmativas são incorretas.</br>
+
+                                    C) I.</br>
+
+                                    D) I e III.</br>
+
+                                    E) Todas as afirmativas são corretas.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> Sobre os tipos de conhecimento, notadamente o filosófico e o teológico, assinale a alternativa correta.</br>
+                                    </br>
+
+                                    A) O conhecimento filosófico é resultado da existência de forças sobrenaturais.</br>
+
+                                    B) O conhecimento filosófico é necessariamente verificável.</br>
+
+                                    C) O conhecimento religioso é impregnado de inspiração.</br>
+
+                                    D) O conhecimento religioso é verificável pela expressão da fé.</br>
+
+                                    E) Tanto o conhecimento filosófico quanto o religioso não podem ser sistemáticos.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> Suponhamos a seguinte situação: você é um pesquisador responsável por conhecer a qualidade dos serviços prestados pela rede pública de saúde no Brasil. Para isso, precisa de uma metodologia específica. Para atingir seu objetivo, faria uso:</br>
+                                    </br>
+
+                                    A) Da pesquisa exploratória, consultando jornais e revistas.</br>
+
+                                    B) De um estudo de caso, pois todos os hospitais são iguais.</br>
+
+                                    C) De um estudo bibliográfico, já que livros são fontes seguras de informação.</br>
+
+                                    D) De questionários e da observação sistemática, instrumentos oferecidos pela pesquisa qualitativa.</br>
+
+                                    E) De consultas às autoridades locais.</br>
+
+                                    
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./1.php">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="./3.php">3</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1137,7 +1347,7 @@
         function marcarComoLida(id_aviso){
          
             var request = $.ajax({
-                url: '../PutAviso.php?idAviso='+id_aviso,
+                url: '../../PutAviso.php?idAviso='+id_aviso,
                 type: 'get',
                 dataType: 'html'
             });
@@ -1175,62 +1385,62 @@
     </script>
     <!-- jquery
         ============================================ -->
-    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../../js/vendor/jquery-1.12.4.min.js"></script>
     <!-- bootstrap JS
         ============================================ -->
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
     <!-- wow JS
         ============================================ -->
-    <script src="../js/wow.min.js"></script>
+    <script src="../../js/wow.min.js"></script>
     <!-- price-slider JS
         ============================================ -->
-    <script src="../js/jquery-price-slider.js"></script>
+    <script src="../../js/jquery-price-slider.js"></script>
     <!-- meanmenu JS
         ============================================ -->
-    <script src="../js/jquery.meanmenu.js"></script>
+    <script src="../../js/jquery.meanmenu.js"></script>
     <!-- owl.carousel JS
         ============================================ -->
-    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../../js/owl.carousel.min.js"></script>
     <!-- sticky JS
         ============================================ -->
-    <script src="../js/jquery.sticky.js"></script>
+    <script src="../../js/jquery.sticky.js"></script>
     <!-- scrollUp JS
         ============================================ -->
-    <script src="../js/jquery.scrollUp.min.js"></script>
+    <script src="../../js/jquery.scrollUp.min.js"></script>
     <!-- counterup JS
         ============================================ -->
-    <script src="../js/counterup/jquery.counterup.min.js"></script>
-    <script src="../js/counterup/waypoints.min.js"></script>
-    <script src="../js/counterup/counterup-active.js"></script>
+    <script src="../../js/counterup/jquery.counterup.min.js"></script>
+    <script src="../../js/counterup/waypoints.min.js"></script>
+    <script src="../../js/counterup/counterup-active.js"></script>
     <!-- mCustomScrollbar JS
         ============================================ -->
-    <script src="../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="../js/scrollbar/mCustomScrollbar-active.js"></script>
+    <script src="../../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../../js/scrollbar/mCustomScrollbar-active.js"></script>
     <!-- metisMenu JS
         ============================================ -->
-    <script src="../js/metisMenu/metisMenu.min.js"></script>
-    <script src="../js/metisMenu/metisMenu-active.js"></script>
+    <script src="../../js/metisMenu/metisMenu.min.js"></script>
+    <script src="../../js/metisMenu/metisMenu-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/morrisjs/raphael-min.js"></script>
-    <script src="../js/morrisjs/morris.js"></script>
-    <script src="../js/morrisjs/morris-active.js"></script>
+    <script src="../../js/morrisjs/raphael-min.js"></script>
+    <script src="../../js/morrisjs/morris.js"></script>
+    <script src="../../js/morrisjs/morris-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/sparkline/jquery.sparkline.min.js"></script>
-    <script src="../js/sparkline/jquery.charts-sparkline.js"></script>
-    <script src="../js/sparkline/sparkline-active.js"></script>
+    <script src="../../js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../../js/sparkline/jquery.charts-sparkline.js"></script>
+    <script src="../../js/sparkline/sparkline-active.js"></script>
     <!-- calendar JS
         ============================================ -->
-    <script src="../js/calendar/moment.min.js"></script>
-    <script src="../js/calendar/fullcalendar.min.js"></script>
-    <script src="../js/calendar/fullcalendar-active.js"></script>
+    <script src="../../js/calendar/moment.min.js"></script>
+    <script src="../../js/calendar/fullcalendar.min.js"></script>
+    <script src="../../js/calendar/fullcalendar-active.js"></script>
     <!-- plugins JS
         ============================================ -->
-    <script src="../js/plugins.js"></script>
+    <script src="../../js/plugins.js"></script>
     <!-- main JS
         ============================================ -->
-    <script src="../js/main.js"></script>
+    <script src="../../js/main.js"></script>
 </body>
 
 </html>

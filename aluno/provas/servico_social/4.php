@@ -1070,6 +1070,22 @@
                                             <a href="19816726160_servico_social_e_realidade_regional.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> SERVIÇO SOCIAL E REALIDADE REGIONAL</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="19115429877_historia_do_pensamento_filosofico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> HISTÓRIA DO PENSAMENTO FILOSÓFICO</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <a href="19127699190_fund_hist_teoricos_e_metodos_do_servico_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> FUND. HIST. TEÓRICOS E METOD DO SERV. SOCIAL</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="19267418621_planejamento_e_gestao_social.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> PLANEJAMENTO E GESTÃO SOCIAL</a>
+                                        </td>
+                                    </tr>
                                     
                                 </table>
                                 <div class="custom-pagination">
@@ -1079,6 +1095,7 @@
                                     <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
                                     <li class="page-item"><a class="page-link" href="./3.php">3</a></li>
                                     <li class="page-item"><a class="page-link" href="./4.php">4</a></li>
+                                    <li class="page-item"><a class="page-link" href="./4.php">5</a></li>
                                      <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
                                 </ul>
                             </div>

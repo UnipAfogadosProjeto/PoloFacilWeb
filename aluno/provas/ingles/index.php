@@ -1053,7 +1053,11 @@
                                             <a href="610840_educacao_ambiental.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> Educação Ambiental</a>
                                         </td>
                                     </tr>
-                                    
+                                    <tr>
+                                        <td>
+                                            <a href="19194056289_homem_e_sociedade.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> HOMEM E SOCIEDADE</a>
+                                        </td>
+                                    </tr>
                                 </table>
                                 <div class="custom-pagination">
                                 <ul class="pagination">

@@ -1040,7 +1040,7 @@
                                             <a href="./ingles/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> INGLÊS</a>
                                         </td>
                                         <td>Bimestral</td>
-                                        <td>4</td>
+                                        <td>5</td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -1061,7 +1061,7 @@
                                             <a href="./servico_social/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> SERVIÇO SOCIAL</a>
                                         </td>
                                         <td>Bimestral</td>
-                                        <td>34</td>
+                                        <td>45</td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -1103,7 +1103,7 @@
                                             <a href="./historia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> HISTÓRIA</a>
                                         </td>
                                         <td>Bimestral</td>
-                                        <td>2</td>
+                                        <td>5</td>
                                     </tr>
                                 </table>
                                 </table>

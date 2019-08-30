@@ -1,9 +1,9 @@
 <?php session_start(); 
 
-    $bread = '/ Provas / 1';
+    $bread = '/ Provas / Serviço Social / COMUNICAÇÃO E EXPRESSÃO';
     $active = ['', '', ''];
 
-    include("../GetListaAvisos.php");
+    include("../../GetListaAvisos.php");
     if($_SESSION['Nome'] != null & empty($_SESSION['Nome']) == false){
         $ra = $_SESSION['RA'];
         $temAviso = false;
@@ -15,7 +15,7 @@
         }
 
     }else{
-        header('Location: ../login.php');
+        header('Location: login.php');
         exit();
     }
 
@@ -25,6 +25,24 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -35,7 +53,7 @@
     <meta name="author" content="vse tecnologia">
     <meta name="keywords" content="gerenciamente de polos ead">
 
-    <title>Provas UNIP | Página 1 | Polo Fácil</title>
+    <title>Provas - Serviço Social - COMUNICAÇÃO E EXPRESSÃO | Polo Fácil</title>
 
     <!-- favicon
         ============================================ -->
@@ -45,56 +63,56 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
     <!-- owl.carousel CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/owl.carousel.css">
-    <link rel="stylesheet" href="../css/owl.theme.css">
-    <link rel="stylesheet" href="../css/owl.transitions.css">
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <link rel="stylesheet" href="../../css/owl.transitions.css">
     <!-- animate CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../../css/animate.css">
     <!-- normalize CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
     <!-- meanmenu icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/meanmenu.min.css">
+    <link rel="stylesheet" href="../../css/meanmenu.min.css">
     <!-- main CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
     <!-- educate icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/educate-custon-icon.css">
+    <link rel="stylesheet" href="../../css/educate-custon-icon.css">
     <!-- morrisjs CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/morrisjs/morris.css">
+    <link rel="stylesheet" href="../../css/morrisjs/morris.css">
     <!-- mCustomScrollbar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../../css/scrollbar/jquery.mCustomScrollbar.min.css">
     <!-- metisMenu CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu.min.css">
-    <link rel="stylesheet" href="../css/metisMenu/metisMenu-vertical.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="../../css/metisMenu/metisMenu-vertical.css">
     <!-- calendar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.min.css">
-    <link rel="stylesheet" href="../css/calendar/fullcalendar.print.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="../../css/calendar/fullcalendar.print.min.css">
     <!-- modals CSS
     ============================================ -->
-    <link rel="stylesheet" href="../css/modals.css">
+    <link rel="stylesheet" href="../../css/modals.css">
     <!-- style CSS
         ============================================ -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../style.css">
     <!-- responsive CSS
         ============================================ -->
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
     <!-- modernizr JS
         ============================================ -->
-    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -105,8 +123,8 @@
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
-                <strong><a href="../painel.php"><img src="../img/logo/pf_logosn.png" alt="" /></a></strong>
+                <a href="../../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
+                <strong><a href="../../painel.php"><img src="../../img/logo/pf_logosn.png" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
@@ -127,8 +145,8 @@
                         <li <?php echo 'class="'.$active[0].'"'; if($active[0] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="index.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Agendamento</span></a>
                             <ul class="submenu-angle" aria-expanded="true">
-                                <li><a title="Provas" href="../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
-                                <li><a title="Meus Agendamentos" href="../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
+                                <li><a title="Provas" href="../../agendar_provas.php"><span class="mini-sub-pro">Agendar Provas</span></a></li>
+                                <li><a title="Meus Agendamentos" href="../../meusAgendamentos.php"><span class="mini-sub-pro">Meus Agendamentos</span></a></li>
                             </ul>
                         </li >
                         <!--<li>
@@ -143,7 +161,7 @@
                         <li <?php echo 'class="'.$active[1].'"'; if($active[1] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-students.html" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Meus Dados</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Students Profile" href="../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
+                                <li><a title="Students Profile" href="../../dadosdoAluno.php"><span class="mini-sub-pro">Perfil do Aluno</span></a></li>
                             </ul>
                         </li>
                         <!--<li>
@@ -159,8 +177,8 @@
                         <li <?php echo 'class="'.$active[2].'"'; if($active[2] == 'active'){ echo 'style="background-color: #F6F6F6;"';}?>>
                             <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Minhas Apostilas</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Library" href="../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
-                                <li><a title="Add Library" href="../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
+                                <li><a title="All Library" href="../../apostilaEntregue.php"><span class="mini-sub-pro">Apostilas Entregues</span></a></li>
+                                <li><a title="Add Library" href="../../apostilaDisponivel.php"><span class="mini-sub-pro">Novas Apostilas</span></a></li>
                             </ul>
                         </li>
                         <li>
@@ -205,7 +223,7 @@
                             </ul>
                         </li>-->
                         <li>
-                            <a  aria-expanded="false" href="../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
+                            <a  aria-expanded="false" href="../../provas/1.php"><span class="educate-icon educate-data-table icon-wrap"></span> <span class="mini-click-non"> Provas</span></a>
                             
                         </li>
 
@@ -232,7 +250,7 @@
                             </ul>
                         </li>-->
                         <li id="removable">
-                            <a href="../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
+                            <a href="../../logout.php" aria-expanded="false"><span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Sair</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -264,7 +282,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="logo-pro">
-                            <a href="../painel.php"><img class="main-logo" src="../img/logo/pf_logo.png" alt="" /></a>
+                            <a href="../painel.php"><img class="main-logo" src="../../img/logo/pf_logo.png" alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -325,7 +343,7 @@
                                                                         <li>
                                                                             <a href="#" data-toggle="modal" data-target="<?php echo 'Modal'.$item->idAviso;?>">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     
@@ -345,7 +363,7 @@
                                                                         <li>
                                                                             <a href="#">
                                                                                 <div class="message-img">
-                                                                                    <img src="../img/logo/logosn.png" alt="">
+                                                                                    <img src="../../img/logo/logosn.png" alt="">
                                                                                 </div>
                                                                                 <div class="message-content">
                                                                                     <p>Você não tem mensagens no momento.</p>
@@ -496,10 +514,10 @@
                                                                 <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
                                                             </a>
                                                         <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                            <li><a href="./dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
+                                                            <li><a href="../../dadosdoAluno.php"><span class="edu-icon edu-home-admin author-log-ic"></span>Meus Dados</a>
                                                             </li>
                                                             </li>
-                                                            <li><a href="../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
+                                                            <li><a href="../../logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -960,26 +978,26 @@
                                         <ul class="mobile-menu-nav">
                                             <li><a data-toggle="collapse" data-target="#Charts" href="#">Agendamento <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul class="collapse dropdown-header-top">
-                                                    <li><a href="../agendar_provas.php">Agendar Provas</a></li>
-                                                    <li><a href="../meusAgendamentos.php">Meus Agendamentos</a></li>
+                                                    <li><a href="../../agendar_provas.php">Agendar Provas</a></li>
+                                                    <li><a href="../../meusAgendamentos.php">Meus Agendamentos</a></li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demopro" href="#">Meus Dados <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demopro" class="collapse dropdown-header-top">
-                                                    <li><a href="../dadosdoAluno.php">Perfil do Aluno</a>
+                                                    <li><a href="../../dadosdoAluno.php">Perfil do Aluno</a>
                                                     </li>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li><a data-toggle="collapse" data-target="#demolibra" href="#">Minhas Apostilas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                                 <ul id="demolibra" class="collapse dropdown-header-top">
-                                                    <li><a href="../apostilaEntregue.php">Apostilas Entregues</a>
+                                                    <li><a href="../../apostilaEntregue.php">Apostilas Entregues</a>
                                                     </li>
-                                                    <li><a href="../apostilaDisponivel.php">Novas Apostilas</a>
+                                                    <li><a href="../../apostilaDisponivel.php">Novas Apostilas</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <li><a href="../../provas/1.php">Provas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -1005,7 +1023,7 @@
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                             <ul class="breadcome-menu">
-                                                <li><a href="../painel.php">Início</a>
+                                                <li><a href="../../painel.php">Início</a>
                                                 </li>
                                                 <li><span class="bread-blod"><?php echo $bread ?></span>
                                                 </li>
@@ -1023,97 +1041,352 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-status-wrap">
-                            <h4>Lista de Provas</h4>
-                            <!--<div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>-->
-                            <div class="asset-inner">
-                                <table>
-                                    <tr>
-                                        <th>Curso</th>
-                                        <th>Tipo</th>
-                                        <th>Quantidade</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./administracao/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ADMINISTRAÇÃO</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>25</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./ciencias_economicas/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> CIÊNCIAS ECONÔMICAS</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>2</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./ciencias_contabeis/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> CIÊNCIAS CONTÁBEIS</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./educacao_fisica/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> EDUCAÇÃO FÍSICA</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gastronomia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GASTRONOMIA</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>3</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./geografia/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GEOGRAFIA</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>20</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gestao_ambiental/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO AMBIENTAL</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>5</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gesta_comercial/index.php" class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> GESTÃO COMERCIAL</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>6</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gestao_de_ads/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> ANÁLISE DE SISTEMA</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>7</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="./gestao_de_ti/index.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> TECLONOCIA DA INFORMAÇÃO</a>
-                                        </td>
-                                        <td>Bimestral</td>
-                                        <td>6</td>
-                                    </tr>
-                                </table>
+                        <div class="custom-pagination">
+                            <ul class="pagination">
+                                <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
+                            </ul>
+                        </div>
+                        <div class="hpanel email-compose mailbox-view">
+                            <div class="panel-heading hbuilt">
+                                <div class="p-xs h4">
+
+                                    <small class="pull-right view-hd-ml">
+                                            última atualização (04/08/2019)
+                                        </small> Visualizador de provas
+
+                                </div>
+                            </div>
+
+                            <div class="border-top border-left border-right bg-light">
+                                <div class="p-m custom-address-mailbox">
+
+                                    <div>
+                                        <strong><span class="font-extra-bold">UNIP EAD</span></strong>
+                                    </div>
+                                    <div>
+                                       <strong><span class="font-extra-bold">Código da Prova: </span> 19820392095</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Curso: </span> SERVIÇO SOCIAL</strong>
+                                    </div>
+                                    <div>
+                                        <strong><span class="font-extra-bold">Série ou Período: </span> 1º Bimestre - 3º Semestre</strong>
+                                    </div>
+                                     <div>
+                                        <strong><span class="font-extra-bold">I -Questões objetivas –valendo  10,00 pontos Gerada em: 02/04/2019 10:21:29</span></strong>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="panel-body panel-csm">
+                                <div>
+                                    <h4>Questões de múltipla escolha </h4>
+
+                                    <p>Disciplina: 536930 - COMUNICAÇÃO E EXPRESSÃO</p>
+
+                                    <p><strong>Questão 1:</strong> Apesar de a oralidade e a escrita permitirem a construção de textos coesos e coerentes, são duas modalidades da língua com características próprias. Leia a seguir o fragmento do texto “A vaguidão específica”, de Millôr Fernandes, e assinale a alternativa INCORRETA.</br>
+                                    </br>
+
+                                    “-Maria, ponha isso lá fora em qualquer parte.-Junto com as outras?-Não ponha junto com as outras, não. Senão pode vir alguém e querer fazer coisas com elas. Ponha no lugar do outro dia.”</br>
+                                    </br>
+
+                                    A) Trata-se de um texto escrito cujos referentes -“isso”, “lá fora”, “qualquer parte”, “as outras” etc. -não são possíveis de serem recuperados pelo leitor.</br>
+
+                                    B) O texto de Millôr Fernandes é um ótimo exemplo de características da oralidade na produção escrita.</br>
+
+                                    C) Se fosse um texto oral, os referentes seriam recuperáveis na própria situação discursiva, bastando, por exemplo, apontar para eles.</br>
+
+                                    D) O texto de Millôr Fernandes não tem coerência, pois o leitor não pode saber se ele é de ficção ou não; se tem humor ou não, fatores (ficção e humor) que dariam coerência a ele.</br>
+
+                                    E) Apesar de as referências de “isso”, “lá fora”, “qualquer parte”, “as outras” etc. não serem recuperadas pelo leitor, o texto é coerente devido ao humor com que foi construído.</br>
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 2:</strong> No último verso da primeira estrofe (“Que não é bem o mal de toda gente, “), do poema aseguir, a palavra “bem” pode ser substituída, sem prejuízo do sentido, por qual palavra?</br>
+                                    </br>
+
+                                    Eu nada entendo -Mário QuintanaEu nada entendo da questão social. </br>
+                                    </br>
+
+                                    Eu faço parte dela, simplesmente... </br>
+                                    E sei apenas do meu próprio mal, </br>
+                                    Que não é bemo mal de toda gente, </br>
+                                    </br>
+
+                                    Nem é deste Planeta... </br>
+                                    Por sinal Que o mundo se lhe mostra indiferente! </br>
+                                    E o meu Anjo da Guarda, ele somente,</br>
+                                    É quem lê os meus versos afinal... </br>
+                                    </br>
+
+                                    Entre os Loucos, os Mortos e as Crianças,</br> 
+                                    É lá que eu canto, numa eterna ronda, </br>
+                                    Nossos comuns desejos e esperanças! </br>
+                                    </br>
+
+                                    A) proveitoso.</br>
+
+                                    B) exatamente.</br>
+
+                                    C) correto.</br>
+
+                                    D) suficiente.</br> 
+
+                                    E) sofrível.</br> 
+
+                                    </br>
+                                    </p>
+
+                                    <p><strong>Questão 3:</strong> O anúncio publicitário a seguir foi publicado na Folha de São Paulo em 5 de setembro de 2005, e é sobre uma famosa marca de cerveja. Leia-o e assinale a alternativa que explica como o leitor entende o enunciado “Seis, de preferência”.</br>
+                                    </br>
+
+                                    “Olé é deixar nossosAdversários vendo estrelas.Seis, de preferência. Brahma, patrocinadora oficial da seleção, parabeniza o Brasil pela classificação.</br>
+                                    </br>
+
+                                    A)  Uma vez que o anúncio foi feito para brasileiros, é preciso apenas conhecer a língua portuguesa.</br>
+
+                                    B)  O leitor entende que a linguagem empregada está bem explícita, com apenas um sentido.</br>
+
+                                    C) O leitor relaciona o número seis com a quantidade de estrelas a serem vistas pelos adversários dos jogadores brasileiros.</br>
+
+                                    D)  O leitor relaciona o enunciado com o conhecimento que tem sobre a Copa do Mundo de Futebol e achance de o Brasil obter o sexto título de campeão.</br>
+
+                                    E) Devido à relação sempre recorrente entre cerveja e futebol, o leitor entende que os fabricantesusualmente patrocinam o esporte.</br>
+
+                                    </p>
+
+                                    <p><strong>Questão 4:</strong> O trecho a seguir foi retirado do texto “A ética ajuda a ser mais competitivo”. Leia-oe assinale a alternativa que apresenta um substituto para o termo argumentativo “portanto” sem perda de sentido.</br>
+                                    </br>
+
+                                    “O capitalismo tem o seu próprio sistema de valores: inclui a honestidade, a veracidade, a disposição de honrar compromissos, de cumprir contratos. Quanto mais ele se desenvolve, mais esses valores se pronunciam.No caso do brasileiro, portanto, a evolução do ambiente de negócios tende a favorecer as corporaçõesmais íntegras”.</br>
+                                    </br>
+
+                                    A) ou seja.</br>
+
+                                    B) então.</br>
+
+                                    C) em conformidade.</br>
+
+                                    D) por conseguinte.</br>
+
+                                    E) do que.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 5:</strong> Leia o texto a seguir: </br>
+                                    </br>
+
+                                    Conversinha MineiraFernando Sabino</br>
+                                    </br>
+
+                                    _ É bom mesmo o cafezinho daqui, meu amigo? </br>
+                                    _ Sei dizer não senhor: não tomo café. </br>
+                                    _ Você é dono do café, não sabe dizer? </br>
+                                    _ Ninguém tem reclamado dele não senhor.</br> 
+                                    _ Então me dá café com leite, pão e manteiga. </br>
+                                    _ Café com leite só se for sem leite. </br>
+                                    _ Não tem leite? </br>
+                                    _ Hoje, não senhor.</br> 
+                                    _ Por que hoje não? </br>
+                                    _ Porque hoje o leiteiro não veio. </br>
+                                    _ Ontem ele veio?</br> 
+                                    _ Ontem não.</br> 
+                                    _ Quando é que ele vem? </br>
+                                    _ Tem dia certo não senhor. Às vezes vem, às vezes, não vem. Só que no dia que devia vir em geral não vem. </br>
+                                    _ Mas ali fora está escrito "Leiteria"! </br>
+                                    _ Ah, isso está, sim senhor.</br>
+                                    </br>
+
+                                    (...) </br>
+                                    </br>
+
+                                    _ Escuta uma coisa: como é que vai indo a política aqui na sua cidade? </br>
+                                    _ Sei dizer não senhor: eu não sou daqui.</br>
+                                    _ E há quanto tempo o senhor mora aqui? </br>
+                                    _ Vai para uns quinze anos. Isto é, não posso agarantir com certeza: um pouco mais, um pouco menos. </br>
+                                    _ Já dava para saber como vai indo a situação, não acha? </br>
+                                    _ Ah, o senhor fala da situação? Dizem que vai bem. </br>
+                                    _ Para que Partido? </br>
+                                    _ Para todos os Partidos, parece.</br> 
+                                    _ Eu gostaria de saber quem é que vai ganhar a eleição aqui.</br> 
+                                    _ Eu também gostaria. Uns falam que é um, outros falam que outro. Nessa mexida... </br>
+                                    _ E o Prefeito? </br>
+                                    _ Que é que tem o Prefeito? </br>
+                                    _ Que tal o Prefeito daqui? </br>
+                                    _ O Prefeito? É tal e qual eles falam dele.</br> 
+                                    _ Que é que falam dele? </br>
+                                    _ Dele? Uai, esse trem todo que falam de tudo quanto é Prefeito. </br>
+                                    _ Você, certamente, já tem candidato.</br>
+                                    _ Quem, eu? Estou esperando as plataformas.</br>
+                                    _ Mas tem ali o retrato de um candidato dependurado na parede, que história é essa? </br>
+                                    _ Aonde, ali? Uê, gente: penduraram isso aí...  </br>
+                                    </br>
+
+                                    A caracterização de um personagem, muitas vezes, não é feita explicitamente pelo autor. Cabe ao leitor fazer inferência, perceber os implícitos. Tal ocorrência é encontrada na crônica acima, do respeitado cronista Fernando Sabino. Pode-se afirmar, com base no texto, que o autor traça um perfil do mineiro. Assinale a alternativa que determina qual seria esse perfil. </br>
+                                    </br>
+
+                                    A) Um sujeito astucioso, pois prefere não dizer algo que o comprometa ou que possa ser interpretado como uma tomada de posição.</br>
+
+                                    B) Um cara folgado, indolente, evitando a todo custo tomar uma posição, pois isso pode lhe dar trabalho e vir a interromper o seu sossego. </br>
+
+                                    C) Um homem ingênuo, de boa-fé, facilmente enganado pelos fregueses espertalhões e políticos ladinos, pois fala muito e adora uma fofoca.</br>
+
+                                    D) Um cara pacato, pacífico, que desencoraja qualquer intenção de briga ou discussão, pois não permite que lhe façam qualquer pergunta.</br>
+
+                                    E) Um homem tranquilo, voltado ao bom atendimento dos fregueses, indiferente às fofocas feitas pelos fregueses.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 6:</strong> No breve diálogo entre colegas do curso de Letras, qual é a informação implícita contida na conversa? </br>
+                                    </br>
+
+                                    -A faculdade comprará Patativa do Assaré?</br>
+                                    -Está no provão.</br>
+                                    </br>
+
+                                    A) A compra de uma ou mais obras do cordelista Patativa do Assaré.</br>
+
+                                    B) Há provão instituído na faculdade.</br>
+
+                                    C) O livro de Assaré será comprado, pois consta na bibliografia do provão.</br>
+
+                                    D) A faculdade compra livros.</br>
+
+                                    E) Uma pergunta foi feita.</br>
+                                    
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 7:</strong> Leia o texto abaixo e assinale a alternativa correta:</br>
+                                    </br>
+
+                                    A massa é bem violeta, mas depois de assada, ela fica marrom, só a parte de cima continua um poucocolorida, lá no fundo, bem lá no fundo, ainda há um pouco de gosto de beterraba, mas dificilmente alguém adivinhará qual o ingrediente secreto do bolo... O máximo que pode ser dito é que há algo diferente, pois o chocolate também não aparece muito. Preferi usar formas de muffinsporque fica mais fácil congelar e guardar o bolo, só polvilhei um poucode açúcar de confeiteiro para esconder um pouco o tom pink, mas a Ana Beatris faz sugestões interessantes de cobertura. A beterraba pode ser substituída pela cenoura sem problemas, a textura da massa é muito boa. (Já ia me esquecendo, usei farinha de trigo integral). [blog] Disponível em:  http://kafkanapraia.blogspot.com/2006/01/bolo-de-beterraba-e-chocolate.html.</br>
+                                    </br>
+
+                                    A) As referências “massa é bem violeta”, “ela fica marrom” e “a textura da massa é muito boa” não são expressões linguísticas para o referente bolo de beterraba. </br>
+
+                                    B) Por tratar-se de uma receita culinária, não existe no texto um julgamento de valor. </br>
+
+                                    C) A oração “só a parte de cima continua um pouco colorida” não poderia acarretar a oração “só polvilhei um pouco de açúcar de confeiteiro para esconder um pouco o tom pink”.</br> 
+
+                                    D) Devido à oração “A beterraba pode ser substituída pela cenoura sem problemas”, um aluno de graduação não pode deduzir que as palavras beterraba e cenoura são sinônimas.</br>
+
+                                    E) A expressão “Preferi usar formas de muffins” leva-nos a deduzir que a forma recomendadana receita não é a de muffins.</br>
+
+                                    </br>
+
+                                    <p>
+
+                                    <p><strong>Questão 8:</strong> Em resenha crítica, constatamos que elementos essenciais formam o texto, EXCETO em:</br>
+                                    </br>
+
+                                    A) Apresentação da obra a ser criticada, com referências essenciais: autor, título, editora, data da publicação etc.</br>
+
+                                    B) Apresentação da obra lida, detalhando seu conteúdo.</br>
+
+                                    C) Análise crítica da obra, fundamentada em pressuposto teórico claro e pertinente.</br>
+
+                                    D) Relação do tema com um contexto teórico ou prático.</br>
+
+                                    E) Assinatura e identificação do resenhista.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 9:</strong> O operador de coesão grifado no texto abaixo pode ser substituído por qual outro do mesmo sentido?</br>
+                                    </br>
+
+                                    Em algum lugar do Oriente, onde o clima é ameno enão são necessárias muitas roupas, haviaum homem que resolveu desistir de todas as questões materiais eretirou-se para a floresta, onde construiu uma choça para morar.</br>
+                                    </br>
+
+                                    A) mas.</br>
+
+                                    B) para.</br>
+
+                                    C) como também.</br>
+
+                                    D) que.</br>
+
+                                    E) até mesmo.</br>
+
+                                    </br>
+
+                                    </p>
+
+                                    <p><strong>Questão 10:</strong> Leia o texto a seguir: </br>
+                                    </br>
+
+                                    Conversinha Mineira</br>
+                                    </br>
+
+                                    _ É bom mesmo o cafezinho daqui, meu amigo? </br>
+                                    _ Sei dizer não senhor: não tomo café.</br> 
+                                    _ Você é dono do café, não sabe dizer? </br>
+                                    _ Ninguém tem reclamado dele não senhor. </br>
+                                    _ Então me dá café com leite, pão e manteiga. </br>
+                                    _ Café com leite só se for sem leite.</br> 
+                                    _ Não tem leite? </br>
+                                    _ Hoje, não senhor. </br>
+                                    _ Por que hoje não? </br>
+                                    _ Porque hoje o leiteiro não veio</br> 
+                                    _ Ontem ele veio? 
+                                    _ Ontem não. </br>
+                                    _ Quando é que ele vem?</br> 
+                                    _ Tem dia certo não senhor. Às vezes vem, às vezes, não vem. Só que no dia que devia vir em geral não vem. </br>
+                                    _ Mas ali fora está escrito "Leiteria"! </br>
+                                    _ Ah, isso está, sim senhor.</br>
+                                    </br>
+
+                                    (...) </br>
+                                    </br></br>
+
+                                    _ Escuta uma coisa: como é que vai indo a política aqui na sua cidade? </br>
+                                    _ Sei dizer não senhor: eu não sou daqui.</br>
+                                    _ E há quanto tempo o senhor mora aqui?</br> 
+                                    _ Vai para uns quinze anos. Isto é, não posso agarantir com certeza: um pouco mais, um pouco menos.</br> 
+                                    _ Já dava para saber como vai indo a situação, não acha? </br>
+                                    _ Ah, o senhor fala da situação? Dizem que vai bem. </br>
+                                    _ Para que Partido?</br> 
+                                    _ Para todos os Partidos, parece.</br> 
+                                    _ Eu gostaria de saber quem é que vai ganhar a eleição aqui.</br> 
+                                    _ Eu também gostaria. Uns falam que é um, outros falam que outro. Nessa mexida... </br>
+                                    _ E o Prefeito? </br>
+                                    _ Que é que tem o Prefeito?</br> 
+                                    _ Que tal o Prefeito daqui? </br>
+                                    _ O Prefeito? É tal e qual eles falam dele.</br> 
+                                    _ Que é que falam dele? </br>
+                                    _ Dele? Uai, esse trem todo que falam de tudo quanto é Prefeito.</br> 
+                                    _ Você, certamente, já tem candidato.</br>
+                                    _ Quem, eu? Estou esperando as plataformas.</br> 
+                                    _ Mas tem ali o retrato de um candidato dependurado na parede, que história é essa? </br>
+                                    _ Aonde, ali? Uê, gente: penduraram isso aí...</br>
+                                    </br>
+
+                                    Pode-se afirmar, com base no texto “Conversinha Mineira”, de Fernando Sabino, que o dono da leiteria se encaixa perfeitamente na expressão “como bom mineiro que é...”, pois respondeu a quase todas as perguntas de modo:</br>
+                                    </br>
+
+                                    A) Provocante.</br> 
+
+                                    B) Desonesto.</br>
+
+                                    C) Objetivo.</br>
+
+                                    D) Evasivo.</br>
+
+                                    E) Ofensivo.</br>
+                                    
+                                </div>
                             </div>
                             <div class="custom-pagination">
                                 <ul class="pagination">
-                                    <!--<li class="page-item"><a class="page-link" href="#">Voltar</a></li>-->
-                                    <li class="page-item"><a class="page-link" href="./1.php">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="./2.php">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="./3.php">3</a></li>
-                                     <!--<li class="page-item"><a class="page-link" href="#">Próximo</a></li>-->
+                                    <li class="pd-setting"><a class="page-link" href="index.php">Voltar</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1137,7 +1410,7 @@
         function marcarComoLida(id_aviso){
          
             var request = $.ajax({
-                url: '../PutAviso.php?idAviso='+id_aviso,
+                url: '../../PutAviso.php?idAviso='+id_aviso,
                 type: 'get',
                 dataType: 'html'
             });
@@ -1175,62 +1448,62 @@
     </script>
     <!-- jquery
         ============================================ -->
-    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../../js/vendor/jquery-1.12.4.min.js"></script>
     <!-- bootstrap JS
         ============================================ -->
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
     <!-- wow JS
         ============================================ -->
-    <script src="../js/wow.min.js"></script>
+    <script src="../../js/wow.min.js"></script>
     <!-- price-slider JS
         ============================================ -->
-    <script src="../js/jquery-price-slider.js"></script>
+    <script src="../../js/jquery-price-slider.js"></script>
     <!-- meanmenu JS
         ============================================ -->
-    <script src="../js/jquery.meanmenu.js"></script>
+    <script src="../../js/jquery.meanmenu.js"></script>
     <!-- owl.carousel JS
         ============================================ -->
-    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../../js/owl.carousel.min.js"></script>
     <!-- sticky JS
         ============================================ -->
-    <script src="../js/jquery.sticky.js"></script>
+    <script src="../../js/jquery.sticky.js"></script>
     <!-- scrollUp JS
         ============================================ -->
-    <script src="../js/jquery.scrollUp.min.js"></script>
+    <script src="../../js/jquery.scrollUp.min.js"></script>
     <!-- counterup JS
         ============================================ -->
-    <script src="../js/counterup/jquery.counterup.min.js"></script>
-    <script src="../js/counterup/waypoints.min.js"></script>
-    <script src="../js/counterup/counterup-active.js"></script>
+    <script src="../../js/counterup/jquery.counterup.min.js"></script>
+    <script src="../../js/counterup/waypoints.min.js"></script>
+    <script src="../../js/counterup/counterup-active.js"></script>
     <!-- mCustomScrollbar JS
         ============================================ -->
-    <script src="../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="../js/scrollbar/mCustomScrollbar-active.js"></script>
+    <script src="../../js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../../js/scrollbar/mCustomScrollbar-active.js"></script>
     <!-- metisMenu JS
         ============================================ -->
-    <script src="../js/metisMenu/metisMenu.min.js"></script>
-    <script src="../js/metisMenu/metisMenu-active.js"></script>
+    <script src="../../js/metisMenu/metisMenu.min.js"></script>
+    <script src="../../js/metisMenu/metisMenu-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/morrisjs/raphael-min.js"></script>
-    <script src="../js/morrisjs/morris.js"></script>
-    <script src="../js/morrisjs/morris-active.js"></script>
+    <script src="../../js/morrisjs/raphael-min.js"></script>
+    <script src="../../js/morrisjs/morris.js"></script>
+    <script src="../../js/morrisjs/morris-active.js"></script>
     <!-- morrisjs JS
         ============================================ -->
-    <script src="../js/sparkline/jquery.sparkline.min.js"></script>
-    <script src="../js/sparkline/jquery.charts-sparkline.js"></script>
-    <script src="../js/sparkline/sparkline-active.js"></script>
+    <script src="../../js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../../js/sparkline/jquery.charts-sparkline.js"></script>
+    <script src="../../js/sparkline/sparkline-active.js"></script>
     <!-- calendar JS
         ============================================ -->
-    <script src="../js/calendar/moment.min.js"></script>
-    <script src="../js/calendar/fullcalendar.min.js"></script>
-    <script src="../js/calendar/fullcalendar-active.js"></script>
+    <script src="../../js/calendar/moment.min.js"></script>
+    <script src="../../js/calendar/fullcalendar.min.js"></script>
+    <script src="../../js/calendar/fullcalendar-active.js"></script>
     <!-- plugins JS
         ============================================ -->
-    <script src="../js/plugins.js"></script>
+    <script src="../../js/plugins.js"></script>
     <!-- main JS
         ============================================ -->
-    <script src="../js/main.js"></script>
+    <script src="../../js/main.js"></script>
 </body>
 
 </html>

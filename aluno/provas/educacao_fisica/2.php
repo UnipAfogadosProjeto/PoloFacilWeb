@@ -1044,6 +1044,18 @@
                                             
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="19217567518_metodologia_do_trabalho_academico.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> METODOLOGIA DO TRABALHO ACADÊMICO - Prova 2</a>
+                                            
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="19879452408_voleibol_aspectos_pedagogicos_e_aprofundamentos.php"class="pd-setting"><i class="fa fa-book" aria-hidden="true"></i> VOLEIBOL: ASPECTOS PEDAGÓGICOS E APROFUNDAMENTOS</a>
+                                            
+                                        </td>
+                                    </tr>
                                 </table>
                                 <div class="custom-pagination">
                                 <ul class="pagination">
