@@ -1,45 +1,57 @@
 <?php session_start();
 
-    $ch = curl_init();
+    if($_SESSION['nome'] != null & empty($_SESSION['nome']) == false){
 
-    // Passamos nosso caminho para web services. Exemplo: https://polofacil.com/api/login
-    // Note que, vamos passar as variares $ra_user e $pw_user para nosso web services.
-    curl_setopt($ch, CURLOPT_URL, "http://186.233.148.102:8080/GetDashboard/2");
+        $ip_polo = $_SESSION['id_polo'];
 
-    // Se true, esperamos pelo retorno 
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $ch = curl_init();
 
-    // Agora, executamos nosso cURL e armazenamos a resposta na variavel $res
-    $res = curl_exec($ch);
+        // Passamos nosso caminho para web services. Exemplo: https://polofacil.com/api/login
+        // Note que, vamos passar as variares $ra_user e $pw_user para nosso web services.
+        curl_setopt($ch, CURLOPT_URL, "http://186.233.148.102:8080/GetDashboard/$ip_polo");
 
-    // É muito importando fecharmos nossa conexão após a execução.
-    curl_close($ch);
+        // Se true, esperamos pelo retorno 
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-    // Agora, vamos decodificar nosso Json
-    $datas = utf8_encode($res);
-    $data = json_decode($datas);
+        // Agora, executamos nosso cURL e armazenamos a resposta na variavel $res
+        $res = curl_exec($ch);
 
-    if($data ==null){
-            echo '<script type="text/javascript"> alert("RA ou Senha incoreta, tente novamente!")</script>';
-    }else{
-        
-            // Criar os campos na _SESSION e insere os falores recebidos no Json
-            $_SESSION['ReceitaTotal'] = $data->ReceitaTotal;
-            $_SESSION['DespesaTotal'] = $data->DespesaTotal;
-            $_SESSION['Alunos'] = $data->Alunos;
-            $_SESSION['RMA'] = $data->RMA;
-            $_SESSION['CMA'] = $data->CMA;
-            $_SESSION['IndiceMC'] = $data->IndiceMC;
-            $_SESSION['PontoEquilibrio'] = $data->PontoEquilibrio;
-            $_SESSION['ValorPago'] = $data->ValorPago;
-            $_SESSION['ValorAPagar'] = $data->ValorAPagar;
-            $_SESSION['Despesa'] = $data->Despesa;
-            $_SESSION['Custo'] = $data->Custo;
-            $_SESSION['Mensal'] = $data->Mensal;
-            $_SESSION['Eventual'] = $data->Eventual;
-            $_SESSION['Fixo'] = $data->Fixo;
-            $_SESSION['Variavel'] = $data->Variavel;
+        // É muito importando fecharmos nossa conexão após a execução.
+        curl_close($ch);
+
+        // Agora, vamos decodificar nosso Json
+        $datas = utf8_encode($res);
+        $data = json_decode($datas);
+
+        if($data ==null){
+                echo '<script type="text/javascript"> alert("RA ou Senha incoreta, tente novamente!")</script>';
+        }else{
+            
+                // Criar os campos na _SESSION e insere os falores recebidos no Json
+                $_SESSION['ReceitaTotal'] = $data->ReceitaTotal;
+                $_SESSION['DespesaTotal'] = $data->DespesaTotal;
+                $_SESSION['Alunos'] = $data->Alunos;
+                $_SESSION['RMA'] = $data->RMA;
+                $_SESSION['CMA'] = $data->CMA;
+                $_SESSION['IndiceMC'] = $data->IndiceMC;
+                $_SESSION['PontoEquilibrio'] = $data->PontoEquilibrio;
+                $_SESSION['ValorPago'] = $data->ValorPago;
+                $_SESSION['ValorAPagar'] = $data->ValorAPagar;
+                $_SESSION['Despesa'] = $data->Despesa;
+                $_SESSION['Custo'] = $data->Custo;
+                $_SESSION['Mensal'] = $data->Mensal;
+                $_SESSION['Eventual'] = $data->Eventual;
+                $_SESSION['Fixo'] = $data->Fixo;
+                $_SESSION['Variavel'] = $data->Variavel;
         }
+
+    }else{
+        header('Location: login.php');
+        exit();
+    }
+
+
+    
 
 ?>
 
@@ -47,11 +59,25 @@
 <html class="no-js" lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+
     <title>Dashboard  | PoloFácil Web</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Agende provas, confira apostilas disponiveis, tenha acesso a centenas de provas simuladas para estudar e muito mais. Tudo de forma rápida, simples e segura. PoloFácil Web">
+    <meta name="author" content="vse tecnologia">
+    <meta name="keywords" content="gerenciamento de polos ead, provas unip, polofacil, calcular media">
+
     <!-- favicon
 		============================================ -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
@@ -117,14 +143,14 @@
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="index.html"><img class="main-logo" src="img/logo/pf_logo.png" alt="" /></a>
-                <strong><a href="index.html"><img src="img/logo/pf_logosn.png" alt="" /></a></strong>
+                <a href="index.php"><img class="main-logo" src="img/logo/pf_logo.png" alt="" /></a>
+                <strong><a href="index.php"><img src="img/logo/pf_logosn.png" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
                     <ul class="metismenu" id="menu1">
                         <li>
-                            <a title="Landing Page" href="events.html" aria-expanded="false"><span class="educate-icon educate-home icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Dashboard</span></a>
+                            <a title="Landing Page" href="index.php" aria-expanded="false"><span class="educate-icon educate-home icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Dashboard</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -138,7 +164,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="logo-pro">
-                        <a href="index.html"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
+                        <a href="index.php"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
                     </div>
                 </div>
             </div>
@@ -160,20 +186,20 @@
                                     <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
                                         <div class="header-top-menu tabl-d-n">
                                             <ul class="nav navbar-nav mai-top-nav">
-                                                <li class="nav-item"><a href="#" class="nav-link">Início</a>
+                                                <li class="nav-item"><a href="index.php" class="nav-link">Início</a>
                                                 </li>
-                                                <li class="nav-item"><a href="#" class="nav-link">Sobre</a>
+                                                <li class="nav-item"><a href="https://www.vsetecnologia.com.br/quem-somos" class="nav-link">Sobre</a>
                                                 </li>
-                                                <li class="nav-item"><a href="#" class="nav-link">Serviços</a>
+                                                <li class="nav-item"><a href="https://www.vsetecnologia.com.br/produtos" class="nav-link">Serviços</a>
                                                 </li>
                                                 <li class="nav-item dropdown res-dis-nn">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">Portais <span class="angle-down-topmenu"><i class="fa fa-angle-down"></i></span></a>
                                                     <div role="menu" class="dropdown-menu animated zoomIn">
-                                                        <a href="#" class="dropdown-item">Aluno</a>
-                                                        <a href="#" class="dropdown-item">Tutoria</a>
+                                                        <a href="http://aluno.polofacil.com.br/login.php" class="dropdown-item">Aluno</a>
+                                                        <a href="http://tutoria.polofacil.com.br/login.html" class="dropdown-item">Tutoria</a>
                                                     </div>
                                                 </li>
-                                                <li class="nav-item"><a href="#" class="nav-link">Suporte</a>
+                                                <li class="nav-item"><a href="https://www.vsetecnologia.com.br/fale-conosco" class="nav-link">Suporte</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -184,19 +210,12 @@
                                                 <li class="nav-item">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
 															
-															<span class="admin-name">Deuzinho Silva</span>
+															<span class="admin-name"><?php echo $_SESSION["nome"]; ?></span>
 															<i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
 														</a>
                                                     <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                        <li><a href="#"><span class="edu-icon edu-home-admin author-log-ic"></span>My Account</a>
-                                                        </li>
-                                                        <li><a href="#"><span class="edu-icon edu-user-rounded author-log-ic"></span>My Profile</a>
-                                                        </li>
-                                                        <li><a href="#"><span class="edu-icon edu-money author-log-ic"></span>User Billing</a>
-                                                        </li>
-                                                        <li><a href="#"><span class="edu-icon edu-settings author-log-ic"></span>Settings</a>
-                                                        </li>
-                                                        <li><a href="#"><span class="edu-icon edu-locked author-log-ic"></span>Log Out</a>
+                                                        <li><a href="#"><span class="edu-icon edu-home-admin author-log-ic"></span>Minha Conta</a>
+                                                        <li><a href="logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -217,7 +236,7 @@
                             <div class="mobile-menu">
                                 <nav id="dropdown">
                                     <ul class="mobile-menu-nav">
-                                        <li><a href="events.html">Dashboard</a></li>
+                                        <li><a href="index.php">Dashboard</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -235,7 +254,7 @@
                                     
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <ul class="breadcome-menu">
-                                            <li><a href="#">Início </a> <span class="bread-slash">/</span>
+                                            <li><a href="index.php">Início </a> <span class="bread-slash">/</span>
                                             </li>
                                             <li><span class="bread-blod"> Dashboard</span>
                                             </li>
@@ -420,6 +439,8 @@
         <!-- Charts End-->
     </div>
 
+    
+
     <!-- jquery
 		============================================ -->
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
@@ -470,16 +491,152 @@
     <!-- Charts JS
         ============================================ -->
     <script src="js/charts/Chart.js"></script>
-    <script src="js/charts/bar-value.js"></script>
-    <!-- plugins JS
+    <!--<script src="js/charts/bar-value.js"></script>
+     plugins JS
 		============================================ -->
     <script src="js/plugins.js"></script>
     <!-- main JS
 		============================================ -->
     <script src="js/main.js"></script>
-    <!-- tawk chat JS
-		============================================ -->
-    <script src="js/tawk-chat.js"></script>
+
+    <script>
+        (function ($) {
+        "use strict";
+        /*----------------------------------------*/
+        /*  1.  Bar Chart
+        /*----------------------------------------*/
+
+        var ctx = document.getElementById("barchart1");
+        var barchart1 = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["Custo", "Despesa"],
+                datasets: [{
+                    label: 'Custo / Despesa',
+                    data: [500, 386],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255,99,132,1)',
+                        'rgba(54, 162, 235, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            autoSkip: false,
+                            maxRotation: 0
+                        },
+                        ticks: {
+                          fontColor: "#fff", // this here
+                        }
+                    }],
+                    yAxes: [{
+                        ticks: {
+                            autoSkip: false,
+                            maxRotation: 0
+                        },
+                        ticks: {
+                          fontColor: "#fff", // this here
+                        }
+                    }]
+                }
+            }
+        });
+
+        var ctx = document.getElementById("barchart2");
+        var barchart1 = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["Fixo", "Variável"],
+                datasets: [{
+                    label: 'Fixo / Variável',
+                    data: [125, 150],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255,99,132,1)',
+                        'rgba(54, 162, 235, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            autoSkip: false,
+                            maxRotation: 0
+                        },
+                        ticks: {
+                          fontColor: "#fff", // this here
+                        }
+                    }],
+                    yAxes: [{
+                        ticks: {
+                            autoSkip: false,
+                            maxRotation: 0
+                        },
+                        ticks: {
+                          fontColor: "#fff", // this here
+                        }
+                    }]
+                }
+            }
+        });
+
+        var ctx = document.getElementById("barchart3");
+        var barchart1 = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["Mensal", "Eventual"],
+                datasets: [{
+                    label: 'Mensal / Eventual',
+                    data: [400, 350],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255,99,132,1)',
+                        'rgba(54, 162, 235, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            autoSkip: false,
+                            maxRotation: 0
+                        },
+                        ticks: {
+                          fontColor: "#fff", // this here
+                        }
+                    }],
+                    yAxes: [{
+                        ticks: {
+                            autoSkip: false,
+                            maxRotation: 0
+                        },
+                        ticks: {
+                          fontColor: "#fff", // this here
+                        }
+                    }]
+                }
+            }
+        }); 
+            
+    })(jQuery);
+    </script>
 </body>
 
 </html>

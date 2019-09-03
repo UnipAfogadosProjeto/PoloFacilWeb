@@ -1,3 +1,58 @@
+<?php session_start(); // Inicia a _SESSION. Sempre colocar na primeira linha depois no <?php!
+    $msg = 0;
+    if(isset($_SESSION['nome']) && empty($_SESSION['nome']) == false) {
+        header('Location: index.php');
+        exit();
+    }else{
+
+        // Verifica, atraves do method="POST", se existe um campo ra_user e verifica se não esta vario. 
+        if(isset($_POST['username']) && empty($_POST['username']) == false){
+
+        // Cria duas variaveis para  ra e senha e adiciona os valores passos atraves do method="POST".
+        $username = addslashes($_POST['username']);
+        $password = addslashes($_POST['password']);
+
+        // Podemos fazer uma requisição ao web servises atrses no cURL.
+        // Inicia a biblioteca cURL.
+        $ch = curl_init();
+
+        // Passamos nosso caminho para web services. Exemplo: https://polofacil.com/api/login
+        // Note que, vamos passar as variares $ra_user e $pw_user para nosso web services.
+        curl_setopt($ch, CURLOPT_URL, "http://186.233.148.102:8080/GetLoginPolo/$username/$password");
+
+        // Se true, esperamos pelo retorno 
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+        // Agora, executamos nosso cURL e armazenamos a resposta na variavel $res
+        $res = curl_exec($ch);
+
+        // É muito importando fecharmos nossa conexão após a execução.
+        curl_close($ch);
+
+        // Agora, vamos decodificar nosso Json
+        $datas = utf8_encode($res);
+        $data = json_decode($datas);
+
+        //print_r($data);
+        // Vamos verificar se $data não é null para podermos adicionar em nossa _SESSION, o servidor retornara null para ra_user ou pw_user incorreto.
+
+            if($data->Situacao == "Erro Login"){
+                echo '<script type="text/javascript"> alert("Usuário ou senha incoreta, tente novamente!")</script>';
+            }else{
+                
+                    // Criar os campos na _SESSION e insere os falores recebidos no Json
+                    $_SESSION['id_polo'] = $data->IdPolo;
+                    $_SESSION['nome'] = $data->nome;
+
+                    // Muda o cabeçalho no navegador e redireciona para index.php
+                    header('Location: index.php');
+                    exit();
+                }
+        }
+    }
+    
+?>
+
 <!doctype html>
 <html class="no-js" lang="pt-br">
 
@@ -68,37 +123,37 @@
 	<div class="error-pagewrap">
 		<div class="error-page-int">
 			<div class="text-center m-b-md custom-login">
-				<h3>PLEASE LOGIN TO APP</h3>
-				<p>This is the best app ever!</p>
+				<h3>DASHBOARD LOGIN</h3>
+                <p>Polo Fácil Web, o melhor app!</p>
 			</div>
 			<div class="content-error">
 				<div class="hpanel">
                     <div class="panel-body">
-                        <form action="#" id="loginForm">
+                        <form action="login.php" method="POST" id="loginForm">
                             <div class="form-group">
-                                <label class="control-label" for="username">Username</label>
-                                <input type="text" placeholder="example@gmail.com" title="Please enter you username" required="" value="" name="username" id="username" class="form-control">
-                                <span class="help-block small">Your unique username to app</span>
+                                <label class="control-label control-label2" for="username">Usuário</label>
+                                <input type="text" placeholder="example" title="Digite seu nome de usuário" required="" value="" name="username" id="username" class="form-control">
+                                <span class="help-block small">Seu nome de usuário exclusivo para o aplicativo</span>
                             </div>
                             <div class="form-group">
-                                <label class="control-label" for="password">Password</label>
-                                <input type="password" title="Please enter your password" placeholder="******" required="" value="" name="password" id="password" class="form-control">
-                                <span class="help-block small">Yur strong password</span>
+                                <label class="control-label control-label2" for="password">Senha</label>
+                                <input type="password" title="Por favor, insira sua senha" placeholder="******" required="" value="" name="password" id="password" class="form-control">
+                                <span class="help-block small">Sua senha forte</span>
                             </div>
-                            <div class="checkbox login-checkbox">
-                                <label>
-										<input type="checkbox" class="i-checks"> Remember me </label>
-                                <p class="help-block small">(if this is a private computer)</p>
-                            </div>
-                            <button class="btn btn-success btn-block loginbtn">Login</button>
-                            <a class="btn btn-default btn-block" href="#">Register</a>
+                            <button type="submit" form="loginForm" class="btn btn-success btn-block loginbtn">Login</button>
+                            <a class="btn btn-default btn-block" href="#">Registre-se agora</a>
                         </form>
                     </div>
                 </div>
 			</div>
 			<div class="text-center login-footer">
-				<p>Copyright © 2018. All rights reserved. Template by <a href="https://colorlib.com/wp/templates/">Colorlib</a></p>
-			</div>
+                <br/>
+                Copyright © 2019. Polo Fácil<br/>
+                Todos os direitos reservados<br/><br/>
+
+                Dúvidas?<br/>
+                ouvidoria@vsetecnologia.com.br
+            </div>
 		</div>   
     </div>
     <!-- jquery
@@ -146,9 +201,6 @@
     <!-- main JS
 		============================================ -->
     <script src="js/main.js"></script>
-    <!-- tawk chat JS
-		============================================ -->
-    <script src="js/tawk-chat.js"></script>
 </body>
 
 </html>
