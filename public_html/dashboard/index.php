@@ -1,5 +1,6 @@
 <?php session_start();
 
+
     if($_SESSION['nome'] != null & empty($_SESSION['nome']) == false){
 
         $ip_polo = $_SESSION['id_polo'];
@@ -26,23 +27,24 @@
         if($data ==null){
                 echo '<script type="text/javascript"> alert("RA ou Senha incoreta, tente novamente!")</script>';
         }else{
+
             
-                // Criar os campos na _SESSION e insere os falores recebidos no Json
-                $_SESSION['ReceitaTotal'] = $data->ReceitaTotal;
-                $_SESSION['DespesaTotal'] = $data->DespesaTotal;
-                $_SESSION['Alunos'] = $data->Alunos;
-                $_SESSION['RMA'] = $data->RMA;
-                $_SESSION['CMA'] = $data->CMA;
-                $_SESSION['IndiceMC'] = $data->IndiceMC;
-                $_SESSION['PontoEquilibrio'] = $data->PontoEquilibrio;
-                $_SESSION['ValorPago'] = $data->ValorPago;
-                $_SESSION['ValorAPagar'] = $data->ValorAPagar;
-                $_SESSION['Despesa'] = $data->Despesa;
-                $_SESSION['Custo'] = $data->Custo;
-                $_SESSION['Mensal'] = $data->Mensal;
-                $_SESSION['Eventual'] = $data->Eventual;
-                $_SESSION['Fixo'] = $data->Fixo;
-                $_SESSION['Variavel'] = $data->Variavel;
+            
+            $_SESSION['ReceitaTotal'] = (double)str_replace(",", ".", $data->ReceitaTotal);
+            $_SESSION['DespesaTotal'] = (double)str_replace(",", ".", $data->DespesaTotal);
+            $_SESSION['Alunos'] = (double)str_replace(",", ".", $data->Alunos);
+            $_SESSION['RMA'] = (double)str_replace(",", ".", $data->RMA);
+            $_SESSION['CMA'] = (double)str_replace(",", ".", $data->CMA);
+            $_SESSION['IndiceMC'] = (double)str_replace(",", ".", $data->IndiceMC);
+            $_SESSION['PontoEquilibrio'] = (double)str_replace(",", ".", $data->PontoEquilibrio);
+            $_SESSION['ValorPago'] = (double)str_replace(",", ".", $data->ValorPago);
+            $_SESSION['ValorAPagar'] = (double)str_replace(",", ".", $data->ValorAPagar);
+            $_SESSION['Despesa'] = (double)str_replace(",", ".", $data->Despesa);
+            $_SESSION['Custo'] = (double)str_replace(",", ".", $data->Custo);
+            $_SESSION['Mensal'] = (double)str_replace(",", ".", $data->Mensal);
+            $_SESSION['Eventual'] =  (double)str_replace(",", ".", $data->Eventual);
+            $_SESSION['Fixo'] = (double)str_replace(",", ".", $data->Fixo);
+            $_SESSION['Variavel'] = (double)str_replace(",", ".", $data->Variavel);
         }
 
     }else{
@@ -69,7 +71,7 @@
       gtag('config', 'UA-106127269-2');
     </script>
 
-    <title>Dashboard  | PoloFácil Web</title>
+    <title>Dashboard Polo  | PoloFácil Web</title>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -501,19 +503,29 @@
 
     <script>
         (function ($) {
-        "use strict";
-        /*----------------------------------------*/
+       "use strict";
+         /*----------------------------------------*/
         /*  1.  Bar Chart
         /*----------------------------------------*/
 
         var ctx = document.getElementById("barchart1");
+
+        var custo = "<?php echo $_SESSION["Custo"];?>";
+        var despesa = "<?php echo $_SESSION["Despesa"];?>";
+
+        var fixo = "<?php echo $_SESSION["Fixo"];?>";
+        var variavel = "<?php echo $_SESSION["Variavel"];?>";
+
+        var mensal = "<?php echo $_SESSION["Mensal"];?>";
+        var eventual = "<?php echo $_SESSION["Eventual"];?>";
+
         var barchart1 = new Chart(ctx, {
             type: 'bar',
             data: {
                 labels: ["Custo", "Despesa"],
                 datasets: [{
                     label: 'Custo / Despesa',
-                    data: [500, 386],
+                    data: [custo, despesa],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)'
@@ -556,7 +568,7 @@
                 labels: ["Fixo", "Variável"],
                 datasets: [{
                     label: 'Fixo / Variável',
-                    data: [125, 150],
+                    data: [fixo, variavel],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)'
@@ -599,7 +611,7 @@
                 labels: ["Mensal", "Eventual"],
                 datasets: [{
                     label: 'Mensal / Eventual',
-                    data: [400, 350],
+                    data: [mensal, eventual],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)'
@@ -635,7 +647,7 @@
             }
         }); 
             
-    })(jQuery);
+    })(jQuery); 
     </script>
 </body>
 

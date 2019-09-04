@@ -5,13 +5,23 @@
 	/*----------------------------------------*/
 
 	var ctx = document.getElementById("barchart1");
+
+	var custo = <?php $_SESSION["Custo"];?>;
+	var despesa = <?php $_SESSION["Despesa"];?>;
+
+	var fixo = <?php $_SESSION["Fixo"];?>;
+	var variavel = <?php $_SESSION["Variavel"];?>;
+
+	var mensal = <?php $_SESSION["Mensal"];?>;
+	var eventual = <?php $_SESSION["Eventual"];?>;
+
 	var barchart1 = new Chart(ctx, {
 		type: 'bar',
 		data: {
 			labels: ["Custo", "Despesa"],
 			datasets: [{
 				label: 'Custo / Despesa',
-				data: [500, 386],
+				data: [custo, despesa],
 				backgroundColor: [
 					'rgba(255, 99, 132, 0.2)',
 					'rgba(54, 162, 235, 0.2)'
@@ -54,7 +64,7 @@
 			labels: ["Fixo", "Variável"],
 			datasets: [{
 				label: 'Fixo / Variável',
-				data: [125, 150],
+				data: [fixo, variavel],
 				backgroundColor: [
 					'rgba(255, 99, 132, 0.2)',
 					'rgba(54, 162, 235, 0.2)'
@@ -97,7 +107,7 @@
 			labels: ["Mensal", "Eventual"],
 			datasets: [{
 				label: 'Mensal / Eventual',
-				data: [400, 350],
+				data: [mensal, eventual],
 				backgroundColor: [
 					'rgba(255, 99, 132, 0.2)',
 					'rgba(54, 162, 235, 0.2)'
