@@ -1,50 +1,83 @@
 <?php session_start();
-
+    
 
     if($_SESSION['nome'] != null & empty($_SESSION['nome']) == false){
 
         $ip_polo = $_SESSION['id_polo'];
 
-        $ch = curl_init();
+        if(isset($_POST['id_ano']) && empty($_POST['id_ano']) == false){
 
-        // Passamos nosso caminho para web services. Exemplo: https://polofacil.com/api/login
-        // Note que, vamos passar as variares $ra_user e $pw_user para nosso web services.
-        curl_setopt($ch, CURLOPT_URL, "http://186.233.148.102:8080/GetDashboard/$ip_polo");
+            $id_ano = $_POST['id_ano'];
 
-        // Se true, esperamos pelo retorno 
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            $ch = curl_init();
 
-        // Agora, executamos nosso cURL e armazenamos a resposta na variavel $res
-        $res = curl_exec($ch);
+            // Passamos nosso caminho para web services. Exemplo: https://polofacil.com/api/login
+            // Note que, vamos passar as variares $ra_user e $pw_user para nosso web services.
+            curl_setopt($ch, CURLOPT_URL, "http://186.233.148.102:8080/GetPainelMatricula/$ip_polo/$id_ano");
 
-        // É muito importando fecharmos nossa conexão após a execução.
-        curl_close($ch);
+            // Se true, esperamos pelo retorno 
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-        // Agora, vamos decodificar nosso Json
-        $datas = utf8_encode($res);
-        $data = json_decode($datas);
+            // Agora, executamos nosso cURL e armazenamos a resposta na variavel $res
+            $res = curl_exec($ch);
 
-        if($data ==null){
-                echo '<script type="text/javascript"> alert("RA ou Senha incoreta, tente novamente!")</script>';
+            // É muito importando fecharmos nossa conexão após a execução.
+            curl_close($ch);
+
+            // Agora, vamos decodificar nosso Json
+            $datas = utf8_encode($res);
+            $data = json_decode($datas);
+
+            if($data ==null){
+                    echo '<script type="text/javascript"> alert("RA ou Senha incoreta, tente novamente!")</script>';
+            }else{
+
+                    $_SESSION['Turma'] = $data->Turma;
+                    $_SESSION['Matriculados'] = $data->Matriculados;
+                    $_SESSION['Trancados'] = $data->Trancados;
+                    $_SESSION['Cancelados'] = $data->Cancelados;
+                    $_SESSION['Calouros'] = $data->Calouros;
+                    $_SESSION['Veteranos'] = $data->Veteranos;
+                    $_SESSION['Evasao'] = $data->Evasao;
+                    $_SESSION['Prouni'] = $data->Prouni;
+                    //$_SESSION['Turma'] = (double)str_replace(",", ".", $data->ReceitaTotal);
+            }
+
         }else{
 
-            
-            
-            $_SESSION['ReceitaTotal'] = (double)str_replace(",", ".", $data->ReceitaTotal);
-            $_SESSION['DespesaTotal'] = (double)str_replace(",", ".", $data->DespesaTotal);
-            $_SESSION['Alunos'] = (double)str_replace(",", ".", $data->Alunos);
-            $_SESSION['RMA'] = (double)str_replace(",", ".", $data->RMA);
-            $_SESSION['CMA'] = (double)str_replace(",", ".", $data->CMA);
-            $_SESSION['IndiceMC'] = (double)str_replace(",", ".", $data->IndiceMC);
-            $_SESSION['PontoEquilibrio'] = (double)str_replace(",", ".", $data->PontoEquilibrio);
-            $_SESSION['ValorPago'] = (double)str_replace(",", ".", $data->ValorPago);
-            $_SESSION['ValorAPagar'] = (double)str_replace(",", ".", $data->ValorAPagar);
-            $_SESSION['Despesa'] = (double)str_replace(",", ".", $data->Despesa);
-            $_SESSION['Custo'] = (double)str_replace(",", ".", $data->Custo);
-            $_SESSION['Mensal'] = (double)str_replace(",", ".", $data->Mensal);
-            $_SESSION['Eventual'] =  (double)str_replace(",", ".", $data->Eventual);
-            $_SESSION['Fixo'] = (double)str_replace(",", ".", $data->Fixo);
-            $_SESSION['Variavel'] = (double)str_replace(",", ".", $data->Variavel);
+            $ch = curl_init();
+
+            // Passamos nosso caminho para web services. Exemplo: https://polofacil.com/api/login
+            // Note que, vamos passar as variares $ra_user e $pw_user para nosso web services.
+            curl_setopt($ch, CURLOPT_URL, "http://186.233.148.102:8080/GetPainelMatricula/$ip_polo/2019-1");
+
+            // Se true, esperamos pelo retorno 
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+            // Agora, executamos nosso cURL e armazenamos a resposta na variavel $res
+            $res = curl_exec($ch);
+
+            // É muito importando fecharmos nossa conexão após a execução.
+            curl_close($ch);
+
+            // Agora, vamos decodificar nosso Json
+            $datas = utf8_encode($res);
+            $data = json_decode($datas);
+
+            if($data ==null){
+                    echo '<script type="text/javascript"> alert("RA ou Senha incoreta, tente novamente!")</script>';
+            }else{
+
+                $_SESSION['Turma'] = $data->Turma;
+                $_SESSION['Matriculados'] = $data->Matriculados;
+                $_SESSION['Trancados'] = $data->Trancados;
+                $_SESSION['Cancelados'] = $data->Cancelados;
+                $_SESSION['Calouros'] = $data->Calouros;
+                $_SESSION['Veteranos'] = $data->Veteranos;
+                $_SESSION['Evasao'] = $data->Evasao;
+                $_SESSION['Prouni'] = $data->Prouni;
+                //$_SESSION['Turma'] = (double)str_replace(",", ".", $data->ReceitaTotal);
+            }
         }
 
     }else{
@@ -71,7 +104,7 @@
       gtag('config', 'UA-106127269-2');
     </script>
 
-    <title>Dashboard Polo  | PoloFácil Web</title>
+    <title>Matriculas  | PoloFácil Web</title>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -84,56 +117,78 @@
 		============================================ -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <!-- Google Fonts
-		============================================ -->
+        ============================================ -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
-		============================================ -->
+        ============================================ -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Bootstrap CSS
-		============================================ -->
+        ============================================ -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- owl.carousel CSS
-		============================================ -->
+        ============================================ -->
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.css">
     <link rel="stylesheet" href="css/owl.transitions.css">
     <!-- animate CSS
-		============================================ -->
+        ============================================ -->
     <link rel="stylesheet" href="css/animate.css">
     <!-- normalize CSS
-		============================================ -->
+        ============================================ -->
     <link rel="stylesheet" href="css/normalize.css">
     <!-- meanmenu icon CSS
-		============================================ -->
+        ============================================ -->
     <link rel="stylesheet" href="css/meanmenu.min.css">
     <!-- main CSS
-		============================================ -->
+        ============================================ -->
     <link rel="stylesheet" href="css/main.css">
     <!-- educate icon CSS
-		============================================ -->
+        ============================================ -->
     <link rel="stylesheet" href="css/educate-custon-icon.css">
     <!-- morrisjs CSS
-		============================================ -->
+        ============================================ -->
     <link rel="stylesheet" href="css/morrisjs/morris.css">
     <!-- mCustomScrollbar CSS
-		============================================ -->
+        ============================================ -->
     <link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css">
     <!-- metisMenu CSS
-		============================================ -->
+        ============================================ -->
     <link rel="stylesheet" href="css/metisMenu/metisMenu.min.css">
     <link rel="stylesheet" href="css/metisMenu/metisMenu-vertical.css">
     <!-- calendar CSS
-		============================================ -->
+        ============================================ -->
     <link rel="stylesheet" href="css/calendar/fullcalendar.min.css">
     <link rel="stylesheet" href="css/calendar/fullcalendar.print.min.css">
+    <!-- touchspin CSS
+        ============================================ -->
+    <link rel="stylesheet" href="css/touchspin/jquery.bootstrap-touchspin.min.css">
+    <!-- datapicker CSS
+        ============================================ -->
+    <link rel="stylesheet" href="css/datapicker/datepicker3.css">
+    <!-- forms CSS
+        ============================================ -->
+    <link rel="stylesheet" href="css/form/themesaller-forms.css">
+    <!-- colorpicker CSS
+        ============================================ -->
+    <link rel="stylesheet" href="css/colorpicker/colorpicker.css">
+    <!-- select2 CSS
+        ============================================ -->
+    <link rel="stylesheet" href="css/select2/select2.min.css">
+    <!-- chosen CSS
+        ============================================ -->
+    <link rel="stylesheet" href="css/chosen/bootstrap-chosen.css">
+    <!-- ionRangeSlider CSS
+        ============================================ -->
+    <link rel="stylesheet" href="css/ionRangeSlider/ion.rangeSlider.css">
+    <link rel="stylesheet" href="css/ionRangeSlider/ion.rangeSlider.skinFlat.css">
     <!-- style CSS
-		============================================ -->
+        ============================================ -->
     <link rel="stylesheet" href="style.css">
     <!-- responsive CSS
-		============================================ -->
+        ============================================ -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- modernizr JS
-		============================================ -->
+        ============================================ -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
@@ -155,7 +210,7 @@
                             <a title="Landing Page" href="index.php" aria-expanded="false"><span class="educate-icon educate-home icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Dashboard</span></a>
                         </li>
                         <li>
-                            <a title="Landing Page" href="matriculas.php" aria-expanded="false"><span class="educate-icon educate-home icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Matriculas</span></a>
+                            <a title="Landing Page" href="matriculas.php" aria-expanded="false"><span class="educate-icon educate-student icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Matriculas</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -243,6 +298,9 @@
                                     <ul class="mobile-menu-nav">
                                         <li><a href="index.php">Dashboard</a></li>
                                     </ul>
+                                    <ul class="mobile-menu-nav">
+                                        <li><a href="matriculas.php">Matriculas</a></li>
+                                    </ul>
                                 </nav>
                             </div>
                         </div>
@@ -261,7 +319,7 @@
                                         <ul class="breadcome-menu">
                                             <li><a href="index.php">Início </a> <span class="bread-slash">/</span>
                                             </li>
-                                            <li><span class="bread-blod"> Dashboard</span>
+                                            <li><span class="bread-blod"> Matriculas</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -275,11 +333,45 @@
         <div class="analytics-sparkle-area">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="sparkline10-list mg-tb-30 responsive-mg-t-0 table-mg-t-pro-n dk-res-t-pro-0 nk-ds-n-pro-t-0">
+                            <div class="sparkline10-hd">
+                                <div class="main-sparkline10-hd">
+                                    <h1>Pesquisar ano</h1>
+                                </div>
+                            </div>
+                            <div class="sparkline10-graph">
+                                <div class="input-knob-dial-wrap">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="chosen-select-single mg-b-20">
+                                                <form action="matriculas.php" method="post" >
+                                                    <select data-placeholder="Pesquisar..." class="chosen-select" tabindex="-1" name="id_ano">
+                                                            <option value="">Selecionar...</option>
+                                                            <option value="2017-1">2017-1</option>
+                                                            <option value="2017-2">2017-2</option>
+                                                            <option value="2018-1">2018-1</option>
+                                                            <option value="2018-2">2018-2</option>
+                                                            <option value="2019-1">2019-1</option>
+                                                            <option value="2019-2">2019-2</option>
+                                                    </select>
+                                                    <button style="margin-top: 20px;"type="subimt" class="btn btn-custon-four btn-danger">
+                                                            <i class="fa fa-check edu-checked-pro" aria-hidden="true"></i> Carregar</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
                             <div class="analytics-content">
-                                <h5>Alunos Matriculados</h5>
-                                <h2><span><?php echo $_SESSION['Alunos'];?></span> <span class="tuition-fees"></span></h2>
+                                <h5>Alunos Ativos</h5>
+                                <h2><span><?php echo $_SESSION['Matriculados'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -287,11 +379,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
                             <div class="analytics-content">
-                               <h5>Custo Mensal por Aluno</h5>
-                                <h2>R$<span><?php echo $_SESSION['CMA'];?></span> <span class="tuition-fees"></span></h2>
+                               <h5>Veteranos</h5>
+                                <h2><span><?php echo $_SESSION['Veteranos'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -299,11 +391,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30 table-mg-t-pro dk-res-t-pro-30">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
                             <div class="analytics-content">
-                                <h5>Receita Média por Aluno</h5>
-                                <h2>R$ <span><?php echo $_SESSION['RMA'];?></span> <span class="tuition-fees"></span></h2>
+                                <h5>Calouros</h5>
+                                <h2><span><?php echo $_SESSION['Calouros'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -311,11 +403,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line table-mg-t-pro dk-res-t-pro-30">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
                             <div class="analytics-content">
-                                <h5>Receita do mês</h5>
-                                <h2>R$<span><?php echo $_SESSION['ReceitaTotal'];?></span> <span class="tuition-fees"></span></h2>
+                                <h5>Prouni</h5>
+                                <h2><span><?php echo $_SESSION['Prouni'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -323,17 +415,30 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
+                            <div class="analytics-content">
+                                <h5>Concluintes</h5>
+                                <h2><span>123</span> <span class="tuition-fees"></span></h2>
+                                <!--<span class="text-success">20%</span>
+                                <div class="progress m-b-0">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
         <div class="analytics-sparkle-area mg-tb-30">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #ffe8e8;">
                             <div class="analytics-content">
-                                <h5>Margem de Contribuição</h5>
-                                <h2><span><?php echo $_SESSION['ReceitaTotal'];?></span> <span class="tuition-fees"></span></h2>
+                                <h5>Trancados</h5>
+                                <h2><span><?php echo $_SESSION['Trancados'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -341,11 +446,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30">
-                            <div class="analytics-content">
-                               <h5>Ponto de Equilibro</h5>
-                                <h2><span><?php echo $_SESSION['ReceitaTotal'];?></span> <span class="tuition-fees"></span></h2>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #ffe8e8;">
+                            <div class="analytics-content" >
+                               <h5>Cancelados</h5>
+                                <h2><span><?php echo $_SESSION['Cancelados'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -353,11 +458,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30 table-mg-t-pro dk-res-t-pro-30">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #ffe8e8;">
                             <div class="analytics-content">
-                                <h5>Custo/Despesa do Mês</h5>
-                                <h2>R$ <span><?php echo $_SESSION['ReceitaTotal'];?></span> <span class="tuition-fees"></span></h2>
+                                <h5>% Evasão </h5>
+                                <h2><span><?php echo $_SESSION['Evasao'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -365,11 +470,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line table-mg-t-pro dk-res-t-pro-30">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #ffe8e8;">
                             <div class="analytics-content">
-                                <h5>Despesa mensals</h5>
-                                <h2>R$<span><?php echo $_SESSION['DespesaTotal'];?></span> <span class="tuition-fees"></span></h2>
+                                <h5>Inadiplentes</h5>
+                                <h2><span>15</span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -377,71 +482,22 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #ffe8e8;">
+                            <div class="analytics-content">
+                                <h5>Sem Acesso</h5>
+                                <h2><span>2</span> <span class="tuition-fees"></span></h2>
+                                <!--<span class="text-success">20%</span>
+                                <div class="progress m-b-0">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
-        <!-- Charts Start-->
-        <div class="charts-area mg-b-15">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="charts-single-pro responsive-mg-b-30">
-                            <div class="alert-title">
-                                <h2>Custo / Despesa</h2>
-                            </div>
-                            <div id="bar1-chart">
-                                <canvas id="barchart1"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="charts-single-pro responsive-mg-b-30">
-                            <div class="alert-title">
-                                <h2>Fixo / Variável</h2>
-                            </div>
-                            <div id="bar1-chart">
-                                <canvas id="barchart2"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="charts-single-pro responsive-mg-b-30">
-                            <div class="alert-title">
-                                <h2>Mensal / Eventual</h2>
-                            </div>
-                            <div id="bar1-chart">
-                                <canvas id="barchart3"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30 table-mg-t-pro dk-res-t-pro-30">
-                            <div class="analytics-content">
-                                <h5>Receita Média por Aluno</h5>
-                                <h2>R$ <span><?php echo $_SESSION['RMA'];?></span> <span class="tuition-fees"></span></h2>
-                                <!--<span class="text-success">20%</span>
-                                <div class="progress m-b-0">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 ">
-                        <div class="analytics-sparkle-line reso-mg-b-30 table-mg-t-pro dk-res-t-pro-30">
-                            <div class="analytics-content">
-                                <h5>Receita do mês</h5>
-                                <h2>R$<span><?php echo $_SESSION['ReceitaTotal'];?></span> <span class="tuition-fees"></span></h2>
-                                <!--<span class="text-success">20%</span>
-                                <div class="progress m-b-0">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Charts End-->
     </div>
 
     
@@ -503,6 +559,10 @@
     <!-- main JS
 		============================================ -->
     <script src="js/main.js"></script>
+    <!-- chosen JS
+        ============================================ -->
+    <script src="js/chosen/chosen.jquery.js"></script>
+    <script src="js/chosen/chosen-active.js"></script>
 
     <script>
         (function ($) {
