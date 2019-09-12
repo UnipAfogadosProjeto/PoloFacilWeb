@@ -1,13 +1,18 @@
 <?php session_start();
-    
+    include("GetTurma.php");
 
+    $ip_polo = $_SESSION['id_polo'];
+    $turmasDispo = TurmasDisponiveis($ip_polo);
+
+    global $lastTurma;
+    
     if($_SESSION['nome'] != null & empty($_SESSION['nome']) == false){
 
-        $ip_polo = $_SESSION['id_polo'];
-
+        
         if(isset($_POST['id_ano']) && empty($_POST['id_ano']) == false){
 
             $id_ano = $_POST['id_ano'];
+            $lastTurma = $id_ano;
 
             $ch = curl_init();
 
@@ -43,13 +48,19 @@
                     //$_SESSION['Turma'] = (double)str_replace(",", ".", $data->ReceitaTotal);
             }
 
+            
+            
+
         }else{
 
             $ch = curl_init();
 
+            $lastTurma = GetLastTurma($_SESSION['id_polo']);
+
+
             // Passamos nosso caminho para web services. Exemplo: https://polofacil.com/api/login
             // Note que, vamos passar as variares $ra_user e $pw_user para nosso web services.
-            curl_setopt($ch, CURLOPT_URL, "http://186.233.148.102:8080/GetPainelMatricula/$ip_polo/2019-1");
+            curl_setopt($ch, CURLOPT_URL, "http://186.233.148.102:8080/GetPainelMatricula/$ip_polo/$lastTurma");
 
             // Se true, esperamos pelo retorno 
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -65,7 +76,7 @@
             $data = json_decode($datas);
 
             if($data ==null){
-                    echo '<script type="text/javascript"> alert("RA ou Senha incoreta, tente novamente!")</script>';
+                    echo '<script type="text/javascript"> alert("Erro! Nenhuma turma encontrado.")</script>';
             }else{
 
                 $_SESSION['Turma'] = $data->Turma;
@@ -337,7 +348,7 @@
                         <div class="sparkline10-list mg-tb-30 responsive-mg-t-0 table-mg-t-pro-n dk-res-t-pro-0 nk-ds-n-pro-t-0">
                             <div class="sparkline10-hd">
                                 <div class="main-sparkline10-hd">
-                                    <h1>Pesquisar ano</h1>
+                                    <h1>Selecione uma turma</h1>
                                 </div>
                             </div>
                             <div class="sparkline10-graph">
@@ -346,17 +357,18 @@
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="chosen-select-single mg-b-20">
                                                 <form action="matriculas.php" method="post" >
-                                                    <select data-placeholder="Pesquisar..." class="chosen-select" tabindex="-1" name="id_ano">
-                                                            <option value="">Selecionar...</option>
-                                                            <option value="2017-1">2017-1</option>
-                                                            <option value="2017-2">2017-2</option>
-                                                            <option value="2018-1">2018-1</option>
-                                                            <option value="2018-2">2018-2</option>
-                                                            <option value="2019-1">2019-1</option>
-                                                            <option value="2019-2">2019-2</option>
+                                                    <select data-placeholder="Pesquisar..." class="chosen-select"  name="id_ano">
+                                                            <option value="">Pesquisar...</option>
+
+                                                            <?php 
+                                                                foreach ($turmasDispo->Turmas as $item) { ?>
+                                                                       
+                                                            <option value="<?php echo  $item->Turma;?>"><?php echo  $item->Turma;?></option>
+
+                                                        <?php } ?>
                                                     </select>
                                                     <button style="margin-top: 20px;"type="subimt" class="btn btn-custon-four btn-danger">
-                                                            <i class="fa fa-check edu-checked-pro" aria-hidden="true"></i> Carregar</button>
+                                                            <i class="fa fa-check edu-checked-pro" aria-hidden="true"></i> Carrega</button>
                                                 </form>
                                             </div>
                                         </div>
