@@ -1,15 +1,13 @@
 <?php session_start();
  $ra = $_SESSION['RA'];
- $consumo1 = curl_init();
-curl_setopt($consumo1, CURLOPT_URL, "http://186.233.148.102:8080/GetListaApostila/$ra/1");
-curl_setopt($consumo1, CURLOPT_RETURNTRANSFER, true);    
-$res = curl_exec($consumo1);
-curl_close($consumo1);
-$consumo = utf8_encode($res);
+ 
+
+
+$consumo = file_get_contents("http://186.233.148.102:8080/GetListaApostila/$ra/1");
+$consumo = utf8_encode($consumo);
 $consumo = json_decode($consumo);
 
-$bread = '/ Apostilas Entreges';
-$active = ['', '', 'active'];
+
  
  
 ?>
@@ -17,6 +15,24 @@ $active = ['', '', 'active'];
 <html class="no-js" lang="pt-BR">
 
 <head>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
     <meta charset="utf-8">
     
     <!-- Required meta tags-->

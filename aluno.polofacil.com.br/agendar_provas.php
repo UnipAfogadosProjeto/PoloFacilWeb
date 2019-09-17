@@ -40,6 +40,13 @@ $c = $_SESSION['RA'];
 $consumo = utf8_encode($consumo);
 $consumo = json_decode($consumo);
 
+$conexao = file_get_contents("http://186.233.148.102:8080/GetDisciplinas/$c");
+$conexao = utf8_encode($conexao);
+$conexao = json_decode($conexao);
+
+$disciplinasAll = file_get_contents("http://186.233.148.102:8080/GetDisciplinasAll/n");
+$disciplinasAll = utf8_encode($disciplinasAll);
+$disciplinasAll = json_decode($disciplinasAll);
 
 $bread = '/ Agendar Provas';
 $active = ['active', '', ''];
@@ -49,6 +56,23 @@ $active = ['active', '', ''];
 <html class="no-js" lang="pt-BR">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106127269-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-106127269-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9723470720814758",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
     <meta charset="utf-8">
     
     <!-- Required meta tags-->
@@ -278,21 +302,22 @@ $active = ['active', '', ''];
                             <div class="sparkline10-graph">
                                 <div class="input-knob-dial-wrap">
                                     <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="chosen-select-single mg-b-20" >
                                                 <label>Selecione uma data disponivel para agendar sua prova</label>
-                                                <?php if($data->Salas == "Não há salas disponíveis"){
-                                                 echo '<form action="Incluir_Agendamento.php" method="GET" >
+                                                <?php if($data->Salas == "Não há salas disponíveis"){?>
+                                                 <form action="Incluir_Agendamento.php" method="GET" >
                                                     <select  data-placeholder="Choose a Country..." class="chosen-select" tabindex="-1" name="IdAp">
                                                         <option value="">Não há salas disponíveis</option> 
                                                         
                                                     </select>
                                     
-                                                </form>';   
+                                                </form>
+                                                <?php
                                                 }else{
-                                                    $keys = array_keys($data);
-                                                    echo '<form action="Incluir_Agendamento.php" method="GET" >
-                                                        <select  data-placeholder="Choose a Country..." class="chosen-select" tabindex="-1" name="IdAp">
+                                                    $keys = array_keys($data);?>
+                                                    <form action="Incluir_Agendamento.php?codigo=<?$item->DISCIPLINA ?>" method="GET" >
+                                                        <select  data-placeholder="Choose a Country..." class="chosen-select" tabindex="-1" name="IdAp" required>
                                                             <option value="">Procurar</option>
                                                             <?php if(!empty($data)) {
                                                                     for($i = 0; $i < count($data); $i++) {
@@ -301,39 +326,65 @@ $active = ['active', '', ''];
                                                           <?php  } } ?>
                                                             
                                                         </select>
-                                                        <button style="margin-top: 20px;"type="subimt" class="btn btn-custon-four btn-danger">
+                                                        <br><br>
+                                                        <label>Selecione uma Disciplina</label>
+                                                        <select  data-placeholder="Choose a Country..." class="chosen-select" tabindex="-1" name="COD" required>
+                                                         
+                                                            <option value="">Procurar</option>
+                                                            <?php
+                                                             foreach($conexao->Disciplinas as $item){
+                                                            ?> 
+                                                                <option value="<?php echo $item->COD;?>"  ><?php echo  $item->DISCIPLINA; ?></option>
+                                                             <?php }  ?>
+                                                        </select>
+
+
+                                                        <button style="margin-top: 20px;"    type="subimt"  class="btn btn-custon-four btn-danger">
                                                         <i class="fa fa-check edu-checked-pro" aria-hidden="true"></i> Agendar</button>
-                                                    </form>';
+                                                    </form>
+                                                    <?php
                                                 }
                                                 ?>
+
+                                           
                                                 </div>
-                                            <br>
                                         </div>
                                     </div>
                                 </div>
+                          
                             </div>
+                            <div class="sparkline10-hd">
+                                <div class="main-sparkline10-hd">
+                                    <h1>Não encontrou sua disciplina?</h1>
+                                    <a href="#" aria-expanded="false" data-toggle="modal" data-target="#ModalAddDisciplina"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Adicionar sua disciplina</span></a>
+                                </div>
+                            </div>
+                       
                         </div>
                     </div>
+
                 </div>
         </div>
         <!-- Static Table Start -->
         <div class="static-table-area">
-            <div class="container-fluid">
+            <div class="container-fluir">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                   
                         <div class="sparkline8-list">
                             <div class="sparkline8-hd">
                                 <div class="main-sparkline8-hd">
                                     <h1>Agendamento</h1>
-                                </div>
-                            </div>
+                               
                             <div class="sparkline8-graph">
                                 <div class="static-table-list">
+                                    
                                     <table class="table">
                                         <thead>
                                             <tr class="bg-primary">
                                                 <th>Data</th>
                                                 <th>Horário</th>
+                                                <th>Disciplina</th>
                                                 <th>Local</th>
                                                 <th>Ação</th>
                                             </tr>
@@ -348,12 +399,11 @@ $active = ['active', '', ''];
                                             ?>   
                                                 
                                             <tr class="bg-info">
-                                                <td class="col-md-1"><?php echo "".$item->Dia."";?></td>
-                                                <td class="col-md-1"><?php echo "".$item->Inicio." às ".$item->Fim."";?></td>
-                                                <td class="col-md-1"><?php echo "".$item->Sala."";?></td>
-                                                <td class="col-md-1">
-                                                <a class="btn btn-danger" onClick="apagar()" style="color: white;" role="button">X</a>           
-                                                </td>
+                                                <td scope="text-md-left" style="width: 8rem;" ><?php echo $item->Dia;?></td>
+                                                <td scope="text-md-left" ><?php echo "".$item->Inicio." às ".$item->Fim."";?></td>
+                                                <td scope="text-md-left" ><?php echo $item->Disciplina;?></td>
+                                                <td scope="text-md-left" ><?php echo $item->Sala;?></td>
+                                                <td scope="text-md-left" ><a class="btn btn-danger" onClick="apagar()" style="color: white;" role="button">X</a></td>
                                             </tr>
                                             <?php
                                             }
@@ -370,18 +420,23 @@ $active = ['active', '', ''];
                                     </table>
                                 </div>
                             </div>
+                      
                         </div>
+                                    
                     </div>
                 </div>
             </div>
+        
         </div>
+                           
         <!-- Static Table End -->
-    </div>
+    
         <!-- Advanced Form End-->
         <script>
         function apagar() {
         if (window.confirm('Deseja apagar esse Agendamento')) {
-          window.location.href = 'Excluir_Agendamento.php?codigo=<?=$item->idAP ?>'
+          window.location.href = 'Excluir_Agendamento.php?codigo=<?$item->idAP ?>'
+          
         }
         else { window.alert('Ok, nenhuma ação foi feita!') }
         }
@@ -389,6 +444,71 @@ $active = ['active', '', ''];
 
         <div class="footer-copyright-area">
             <?php include'footer-copyright-area.php';?>
+        </div>
+    </div>
+
+    <div id="ModalAddDisciplina" class="modal modal-edu-general default-popup-PrimaryModal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-close-area modal-close-df">
+                    <a class="close" data-dismiss="modal" href="#"><i class="fa fa-close"></i></a>
+                </div>
+                <div class="modal-body">
+                    <i class="educate-icon educate-checked modal-check-pro"></i>
+                    <h2>Adicionar sua disciplina</h2>
+                    <p>Olá <?php echo $_SESSION['Nome'];?> , primeiro selecione uma data e em seguida digite o nome da sua disciplina..</p>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="chosen-select-single mg-b-20" >
+                        <label>Selecione uma data disponivel para agendar sua prova</label>
+                        <?php if($data->Salas == "Não há salas disponíveis"){?>
+                         <form action="#" method="GET" >
+                            <select  data-placeholder="Choose a Country..." class="chosen-select" tabindex="-1" name="IdAp">
+                                <option value="">Não há salas disponíveis</option> 
+                                
+                            </select>
+            
+                        </form>
+                        <?php
+                        }else{
+                            $keys = array_keys($data);?>
+                            <form action="Incluir_Agendamento.php?codigo=<?$item->DISCIPLINA ?>" method="GET" >
+                                <select  data-placeholder="Choose a Country..." class="chosen-select" tabindex="-1" name="IdAp" required>
+                                    <option value="">Procurar</option>
+                                    <?php if(!empty($data)) {
+                                            for($i = 0; $i < count($data); $i++) {
+                                    ?> 
+                                        <option value="<?php echo $data[$i]->IdAP; ?>"><?php echo  $data[$i]->Complemento; ?></option>
+                                  <?php  } } ?>
+                                    
+                                </select>
+                                <br><br>
+                                <label>Selecione uma Disciplina</label>
+                                <select  data-placeholder="Choose a Country..." class="chosen-select" tabindex="-1" name="COD" required>
+                                 
+                                    <option value="">Procurar</option>
+                                    <?php
+                                     foreach($disciplinasAll->Disciplinas as $item){
+                                    ?> 
+                                        <option value="<?php echo $item->Codigo;?>"  ><?php echo  $item->Disciplina; ?></option>
+                                     <?php }  ?>
+                                </select>
+
+
+                                <button style="margin-top: 20px;"    type="subimt"  class="btn btn-custon-four btn-danger">
+                                <i class="fa fa-check edu-checked-pro" aria-hidden="true"></i> Adicionar e agendar</button>
+                            </form>
+                            <?php
+                        }
+                        ?>
+
+                   
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <a data-dismiss="modal" href="#">Cancela</a>
+                </div>
+            </div>
         </div>
     </div>
 

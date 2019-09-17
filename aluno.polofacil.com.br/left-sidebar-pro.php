@@ -104,6 +104,10 @@
                     
                 </li>
 
+                <li>
+                <a  aria-expanded="false" href="tutor.php"><span class="educate-icon educate-form icon-wrap"></span> <span class="mini-click-non"> Tutor</span></a>
+                    
+                </li>
                 <!--<li>
                     <a class="has-arrow" href="mailbox.html" aria-expanded="false"><span class="educate-icon educate-form icon-wrap"></span> <span class="mini-click-non">Forms Elements</span></a>
                     <ul class="submenu-angle form-mini-nb-dp" aria-expanded="false">

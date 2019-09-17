@@ -45,7 +45,8 @@
 		 		$_SESSION['RA'] = $data->RA;
 		 		$_SESSION['CPF'] = $data->CPF;
 		 		$_SESSION['Nome'] = $data->Nome;
-		 		$_SESSION['Curso'] = $data->Curso;
+                $_SESSION['Curso'] = $data->Curso;
+                $_SESSION['IdCurso'] = $data->IdCurso;
 		 		$_SESSION['Situacao'] = $data->Situacao;
 		 		$_SESSION['Polo'] = $data->Polo;
 		 		$_SESSION['CEP'] = $data->CEP;
@@ -191,7 +192,7 @@
 				Todos os direitos reservados<br/><br/>
 
 				Dúvidas?<br/>
-				ouvidoria@vsetecnologia.com.br
+				suporte@vsetecnologia.com.br
 			</div>
 		</div>   
     </div>

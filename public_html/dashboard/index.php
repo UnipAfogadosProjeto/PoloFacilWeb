@@ -157,6 +157,9 @@
                         <li>
                             <a title="Landing Page" href="matriculas.php" aria-expanded="false"><span class="educate-icon educate-student icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Matriculas</span></a>
                         </li>
+                        <li>
+                            <a title="Landing Page" href="financeiro.php" aria-expanded="false"><span class="educate-icon educate-student icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Financeiro</span></a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -184,8 +187,8 @@
                                     <div class="col-lg-1 col-md-0 col-sm-1 col-xs-12">
                                         <div class="menu-switcher-pro">
                                             <button type="button" id="sidebarCollapse" class="btn bar-button-pro header-drl-controller-btn btn-info navbar-btn">
-													<i class="educate-icon educate-nav"></i>
-												</button>
+                                                    <i class="educate-icon educate-nav"></i>
+                                                </button>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
@@ -214,10 +217,10 @@
                                             <ul class="nav navbar-nav mai-top-nav header-right-menu">
                                                 <li class="nav-item">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
-															
-															<span class="admin-name"><?php echo $_SESSION["nome"]; ?></span>
-															<i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
-														</a>
+                                                            
+                                                            <span class="admin-name"><?php echo $_SESSION["nome"]; ?></span>
+                                                            <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
+                                                        </a>
                                                     <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
                                                         <li><a href="#"><span class="edu-icon edu-home-admin author-log-ic"></span>Minha Conta</a>
                                                         <li><a href="logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
@@ -241,7 +244,15 @@
                             <div class="mobile-menu">
                                 <nav id="dropdown">
                                     <ul class="mobile-menu-nav">
-                                        <li><a href="index.php">Dashboard</a></li>
+                                        <li>
+                                            <a href="index.php">Dashborad <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="matriculas.php">Matrículas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="financeiro.php">Financeiro <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>
@@ -333,7 +344,7 @@
                         <div class="analytics-sparkle-line reso-mg-b-30">
                             <div class="analytics-content">
                                 <h5>Margem de Contribuição</h5>
-                                <h2><span><?php echo $_SESSION['ReceitaTotal'];?></span> <span class="tuition-fees"></span></h2>
+                                <h2><span><?php echo $_SESSION['IndiceMC'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -345,7 +356,7 @@
                         <div class="analytics-sparkle-line reso-mg-b-30">
                             <div class="analytics-content">
                                <h5>Ponto de Equilibro</h5>
-                                <h2><span><?php echo $_SESSION['ReceitaTotal'];?></span> <span class="tuition-fees"></span></h2>
+                                <h2><span><?php echo $_SESSION['PontoEquilibrio'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -389,8 +400,8 @@
                             <div class="alert-title">
                                 <h2>Custo / Despesa</h2>
                             </div>
-                            <div id="bar1-chart">
-                                <canvas id="barchart1"></canvas>
+                            <div id="pie-chart">
+                                <canvas id="piechart"></canvas>
                             </div>
                         </div>
                     </div>
@@ -400,7 +411,7 @@
                                 <h2>Fixo / Variável</h2>
                             </div>
                             <div id="bar1-chart">
-                                <canvas id="barchart2"></canvas>
+                                <canvas id="piechart2"></canvas>
                             </div>
                         </div>
                     </div>
@@ -410,7 +421,7 @@
                                 <h2>Mensal / Eventual</h2>
                             </div>
                             <div id="bar1-chart">
-                                <canvas id="barchart3"></canvas>
+                                <canvas id="piechart3"></canvas>
                             </div>
                         </div>
                     </div>
@@ -507,11 +518,6 @@
     <script>
         (function ($) {
        "use strict";
-         /*----------------------------------------*/
-        /*  1.  Bar Chart
-        /*----------------------------------------*/
-
-        var ctx = document.getElementById("barchart1");
 
         var custo = "<?php echo $_SESSION["Custo"];?>";
         var despesa = "<?php echo $_SESSION["Despesa"];?>";
@@ -521,6 +527,79 @@
 
         var mensal = "<?php echo $_SESSION["Mensal"];?>";
         var eventual = "<?php echo $_SESSION["Eventual"];?>";
+
+
+        /*----------------------------------------*/
+        /*  1.  pie Chart
+        /*----------------------------------------*/
+        var ctx = document.getElementById("piechart");
+        var piechart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ["Custo", "Despesa"],
+                datasets: [{
+                    label: 'pie Chart',
+                    backgroundColor: [
+                        '#303030',
+                        '#933EC5'
+                    ],
+                    data: [custo, despesa]
+                }]
+            },
+            options: {
+                responsive: true
+            }
+        });
+
+        /*----------------------------------------*/
+        /*  1.  pie Chart
+        /*----------------------------------------*/
+        var ctx = document.getElementById("piechart2");
+        var piechart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ["Fixo", "Variável"],
+                datasets: [{
+                    label: 'pie Chart',
+                    backgroundColor: [
+                        '#303030',
+                        '#933EC5'
+                    ],
+                    data: [fixo, variavel]
+                }]
+            },
+            options: {
+                responsive: true
+            }
+        });
+
+        /*----------------------------------------*/
+        /*  1.  pie Chart
+        /*----------------------------------------*/
+        var ctx = document.getElementById("piechart3");
+        var piechart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ["Mensal", "Eventual"],
+                datasets: [{
+                    label: 'pie Chart',
+                    backgroundColor: [
+                        '#303030',
+                        '#933EC5'
+                    ],
+                    data: [mensal, eventual]
+                }]
+            },
+            options: {
+                responsive: true
+            }
+        });
+
+         /*----------------------------------------*/
+        /*  1.  Bar Chart
+        /*----------------------------------------*/
+
+        var ctx = document.getElementById("barchart1");
 
         var barchart1 = new Chart(ctx, {
             type: 'bar',

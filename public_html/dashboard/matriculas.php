@@ -223,6 +223,9 @@
                         <li>
                             <a title="Landing Page" href="matriculas.php" aria-expanded="false"><span class="educate-icon educate-student icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Matriculas</span></a>
                         </li>
+                        <li>
+                            <a title="Landing Page" href="financeiro.php" aria-expanded="false"><span class="educate-icon educate-student icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Financeiro</span></a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -250,8 +253,8 @@
                                     <div class="col-lg-1 col-md-0 col-sm-1 col-xs-12">
                                         <div class="menu-switcher-pro">
                                             <button type="button" id="sidebarCollapse" class="btn bar-button-pro header-drl-controller-btn btn-info navbar-btn">
-													<i class="educate-icon educate-nav"></i>
-												</button>
+                                                    <i class="educate-icon educate-nav"></i>
+                                                </button>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
@@ -280,10 +283,10 @@
                                             <ul class="nav navbar-nav mai-top-nav header-right-menu">
                                                 <li class="nav-item">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
-															
-															<span class="admin-name"><?php echo $_SESSION["nome"]; ?></span>
-															<i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
-														</a>
+                                                            
+                                                            <span class="admin-name"><?php echo $_SESSION["nome"]; ?></span>
+                                                            <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
+                                                        </a>
                                                     <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
                                                         <li><a href="#"><span class="edu-icon edu-home-admin author-log-ic"></span>Minha Conta</a>
                                                         <li><a href="logout.php"><span class="edu-icon edu-locked author-log-ic"></span>Sair</a>
@@ -307,10 +310,15 @@
                             <div class="mobile-menu">
                                 <nav id="dropdown">
                                     <ul class="mobile-menu-nav">
-                                        <li><a href="index.php">Dashboard</a></li>
-                                    </ul>
-                                    <ul class="mobile-menu-nav">
-                                        <li><a href="matriculas.php">Matriculas</a></li>
+                                        <li>
+                                            <a href="index.php">Dashborad <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="matriculas.php">Matrículas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="financeiro.php">Financeiro <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>
