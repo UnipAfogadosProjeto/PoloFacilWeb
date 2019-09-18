@@ -173,7 +173,7 @@
                             <a title="Landing Page" href="matriculas.php" aria-expanded="false"><span class="educate-icon educate-student icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Matriculas</span></a>
                         </li>
                         <li>
-                            <a title="Landing Page" href="matriculas.php" aria-expanded="false"><span class="educate-icon educate-student icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Financeiro</span></a>
+                            <a title="Landing Page" href="matriculas.php" aria-expanded="false"><span class="educate-icon educate-charts icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Financeiro</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -305,6 +305,80 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
                             <div class="analytics-content">
+                                <h5>Contas a Pagar</h5>
+                                <h2><span><?php echo $_SESSION['ContasPagar'];?></span> <span class="tuition-fees"></span></h2>
+                                <!--<span class="text-success">20%</span>
+                                <div class="progress m-b-0">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
+                            <div class="analytics-content">
+                                <h5>Contas Pagas</h5>
+                                <h2><span><?php echo $_SESSION['Pago'];?></span> <span class="tuition-fees"></span></h2>
+                                <!--<span class="text-success">20%</span>
+                                <div class="progress m-b-0">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
+                            <div class="analytics-content">
+                                <h5>Contas a Receber</h5>
+                                <h2><span><?php echo $_SESSION['ContasReceber'];?></span> <span class="tuition-fees"></span></h2>
+                                <!--<span class="text-success">20%</span>
+                                <div class="progress m-b-0">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
+                            <div class="analytics-content">
+                                <h5>Contas Recebidas</h5>
+                                <h2><span><?php echo $_SESSION['Recebido'];?></span> <span class="tuition-fees"></span></h2>
+                                <!--<span class="text-success">20%</span>
+                                <div class="progress m-b-0">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="analytics-sparkle-area mg-tb-30">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="charts-single-pro responsive-mg-b-30">
+                            <div class="alert-title">
+                                <h5>Contas a Pagar / Pagas</h5>
+                            </div>
+                            <div id="pie-chart">
+                                <canvas id="contas_a_pagar"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="charts-single-pro responsive-mg-b-30">
+                            <div class="alert-title">
+                                <h5>Contas a Receber / Recebida</h5>
+                            </div>
+                            <div id="bar1-chart">
+                                <canvas id="contas_a_receber"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
+                            <div class="analytics-content">
                                 <h5>Saldo das Contas</h5>
                                 <h2><span><?php echo $_SESSION['SaldoContas'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
@@ -326,31 +400,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div class="charts-single-pro responsive-mg-b-30">
-                        <div class="alert-title">
-                            <h5>Contas a Pagar / Pagas</h5>
-                        </div>
-                        <div id="pie-chart">
-                            <canvas id="contas_a_pagar"></canvas>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div class="charts-single-pro responsive-mg-b-30">
-                        <div class="alert-title">
-                            <h5>Contas a Receber / Recebida</h5>
-                        </div>
-                        <div id="bar1-chart">
-                            <canvas id="contas_a_receber"></canvas>
-                        </div>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
-        <!-- Charts End-->
-    </div>
+
 
 
     <!-- jquery
