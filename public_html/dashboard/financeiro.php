@@ -167,13 +167,13 @@
                 <nav class="sidebar-nav left-sidebar-menu-pro">
                     <ul class="metismenu" id="menu1">
                         <li>
-                            <a title="Landing Page" href="index.php" aria-expanded="false"><span class="educate-icon educate-home icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Dashboard</span></a>
-                        </li>
-                        <li>
                             <a title="Landing Page" href="matriculas.php" aria-expanded="false"><span class="educate-icon educate-student icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Matriculas</span></a>
                         </li>
                         <li>
-                            <a title="Landing Page" href="matriculas.php" aria-expanded="false"><span class="educate-icon educate-charts icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Financeiro</span></a>
+                            <a title="Landing Page" href="financeiro.php" aria-expanded="false"><span class="educate-icon educate-charts icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Financeiro</span></a>
+                        </li>
+                        <li>
+                            <a title="Landing Page" href="index.php" aria-expanded="false"><span class="educate-icon educate-home icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Dashboard</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -187,7 +187,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="logo-pro">
-                        <a href="index.php"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
+                        <a href="index.php"><img class="main-logo" src="img/logo/pf_logo.png" alt="" /></a>
                     </div>
                 </div>
             </div>
@@ -211,18 +211,18 @@
                                             <ul class="nav navbar-nav mai-top-nav">
                                                 <li class="nav-item"><a href="index.php" class="nav-link">Início</a>
                                                 </li>
-                                                <li class="nav-item"><a href="https://www.vsetecnologia.com.br/quem-somos" class="nav-link">Sobre</a>
+                                                <li class="nav-item"><a href="https://www.vsetecnologia.com.br/quem-somos" target="_blank" class="nav-link">Sobre</a>
                                                 </li>
-                                                <li class="nav-item"><a href="https://www.vsetecnologia.com.br/produtos" class="nav-link">Serviços</a>
+                                                <li class="nav-item"><a href="https://www.vsetecnologia.com.br/produtos" target="_blank" class="nav-link">Serviços</a>
                                                 </li>
                                                 <li class="nav-item dropdown res-dis-nn">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">Portais <span class="angle-down-topmenu"><i class="fa fa-angle-down"></i></span></a>
                                                     <div role="menu" class="dropdown-menu animated zoomIn">
-                                                        <a href="http://aluno.polofacil.com.br/login.php" class="dropdown-item">Aluno</a>
-                                                        <a href="http://tutoria.polofacil.com.br/login.html" class="dropdown-item">Tutoria</a>
+                                                        <a href="http://aluno.polofacil.com.br/login.php" target="_blank" class="dropdown-item">Aluno</a>
+                                                        <a href="http://tutoria.polofacil.com.br/login.html" target="_blank" class="dropdown-item">Tutoria</a>
                                                     </div>
                                                 </li>
-                                                <li class="nav-item"><a href="https://www.vsetecnologia.com.br/fale-conosco" class="nav-link">Suporte</a>
+                                                <li class="nav-item"><a href="https://www.vsetecnologia.com.br/fale-conosco" target="_blank" class="nav-link">Suporte</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -260,13 +260,13 @@
                                 <nav id="dropdown">
                                     <ul class="mobile-menu-nav">
                                         <li>
-                                            <a href="index.php">Dashborad <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                        </li>
-                                        <li>
                                             <a href="matriculas.php">Matrículas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                         </li>
                                         <li>
                                             <a href="financeiro.php">Financeiro <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="index.php">Dashborad <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -282,12 +282,9 @@
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="breadcome-list">
                                 <div class="row">
-                                    
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <ul class="breadcome-menu">
-                                            <li><a href="index.php">Início </a> <span class="bread-slash">/</span>
-                                            </li>
-                                            <li><span class="bread-blod"> Financeiro</span>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <ul class="breadcome-heading">
+                                            <li><a href="index.php">Início </a> <span class="bread-slash">/ Financeiro</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -303,7 +300,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #30BCED;">
                             <div class="analytics-content">
                                 <h5>Contas a Pagar</h5>
                                 <h2><span><?php echo $_SESSION['ContasPagar'];?></span> <span class="tuition-fees"></span></h2>
@@ -315,7 +312,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #30BCED;">
                             <div class="analytics-content">
                                 <h5>Contas Pagas</h5>
                                 <h2><span><?php echo $_SESSION['Pago'];?></span> <span class="tuition-fees"></span></h2>
@@ -327,7 +324,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #30BCED;">
                             <div class="analytics-content">
                                 <h5>Contas a Receber</h5>
                                 <h2><span><?php echo $_SESSION['ContasReceber'];?></span> <span class="tuition-fees"></span></h2>
@@ -339,7 +336,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #30BCED;">
                             <div class="analytics-content">
                                 <h5>Contas Recebidas</h5>
                                 <h2><span><?php echo $_SESSION['Recebido'];?></span> <span class="tuition-fees"></span></h2>
@@ -377,7 +374,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #30BCED;">
                             <div class="analytics-content">
                                 <h5>Saldo das Contas</h5>
                                 <h2><span><?php echo $_SESSION['SaldoContas'];?></span> <span class="tuition-fees"></span></h2>
@@ -389,9 +386,9 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #30BCED;">
                             <div class="analytics-content">
-                                <h5>Previsao</h5>
+                                <h5>Previsão</h5>
                                 <h2><span><?php echo $_SESSION['Previsao'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
@@ -490,8 +487,8 @@
                 datasets: [{
                     label: 'pie Chart',
                     backgroundColor: [
-                        '#3367d6',
-                        '#e6e00e'
+                        '#30BCED',
+                        '#FF6B35'
                     ],
                     data: [contas_a_pagar, contas_pagas]
                 }]
@@ -512,8 +509,8 @@
                 datasets: [{
                     label: 'pie Chart',
                     backgroundColor: [
-                        '#3367d6',
-                        '#e6e00e'
+                        '#30BCED',
+                        '#FF6B35'
                     ],
                     data: [contas_a_receber, contas_recebidas]
                 }]

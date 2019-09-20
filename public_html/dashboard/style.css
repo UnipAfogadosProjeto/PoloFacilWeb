@@ -993,11 +993,11 @@ ul.breadcome-menu li a:hover{
 }
 .analytics-sparkle-line .analytics-content h5, .analytics-rounded .analytics-rounded-content h5, .analysis-progrebar .analysis-progrebar-content h5{
 	font-size:16px;
-	color:#303030;
+	color:#FFFAFF;
 }
 .analytics-sparkle-line .analytics-content h2, .analytics-rounded .analytics-rounded-content h2, .analysis-progrebar .analysis-progrebar-content h2, .analytics-edu .skill .progress .lead-content h3{
 	font-size:20px;
-	color:#303030;
+	color:#FFFAFF;
 }
 .analytics-edu .skill .progress .lead-content{
 	top:-55px;

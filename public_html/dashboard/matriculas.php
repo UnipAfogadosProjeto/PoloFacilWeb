@@ -45,6 +45,11 @@
                     $_SESSION['Veteranos'] = $data->Veteranos;
                     $_SESSION['Evasao'] = $data->Evasao;
                     $_SESSION['Prouni'] = $data->Prouni;
+                    $_SESSION['ProuniC'] = $data->ProuniC;
+                    $_SESSION['ProuniV'] = $data->ProuniV;
+                    $_SESSION['Concluintes'] = $data->Concluintes;
+                    $_SESSION['SemAcesso'] = $data->SemAcesso;
+                    $_SESSION['Inadimplentes'] = $data->Inadimplentes;
                     //$_SESSION['Turma'] = (double)str_replace(",", ".", $data->ReceitaTotal);
             }
 
@@ -87,6 +92,11 @@
                 $_SESSION['Veteranos'] = $data->Veteranos;
                 $_SESSION['Evasao'] = $data->Evasao;
                 $_SESSION['Prouni'] = $data->Prouni;
+                $_SESSION['ProuniC'] = $data->ProuniC;
+                $_SESSION['ProuniV'] = $data->ProuniV;
+                $_SESSION['Concluintes'] = $data->Concluintes;
+                $_SESSION['SemAcesso'] = $data->SemAcesso;
+                $_SESSION['Inadimplentes'] = $data->Inadimplentes;
                 //$_SESSION['Turma'] = (double)str_replace(",", ".", $data->ReceitaTotal);
             }
         }
@@ -217,14 +227,14 @@
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
                     <ul class="metismenu" id="menu1">
-                        <li>
-                            <a title="Landing Page" href="index.php" aria-expanded="false"><span class="educate-icon educate-home icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Dashboard</span></a>
-                        </li>
-                        <li>
+                    <li>
                             <a title="Landing Page" href="matriculas.php" aria-expanded="false"><span class="educate-icon educate-student icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Matriculas</span></a>
                         </li>
                         <li>
                             <a title="Landing Page" href="financeiro.php" aria-expanded="false"><span class="educate-icon educate-charts icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Financeiro</span></a>
+                        </li>
+                        <li>
+                            <a title="Landing Page" href="index.php" aria-expanded="false"><span class="educate-icon educate-home icon-wrap" aria-hidden="true"></span> <span class="mini-click-non">Dashboard</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -238,7 +248,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="logo-pro">
-                        <a href="index.php"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
+                        <a href="index.php"><img class="main-logo" src="img/logo/pf_logo.png" alt="" /></a>
                     </div>
                 </div>
             </div>
@@ -262,18 +272,18 @@
                                             <ul class="nav navbar-nav mai-top-nav">
                                                 <li class="nav-item"><a href="index.php" class="nav-link">Início</a>
                                                 </li>
-                                                <li class="nav-item"><a href="https://www.vsetecnologia.com.br/quem-somos" class="nav-link">Sobre</a>
+                                                <li class="nav-item"><a href="https://www.vsetecnologia.com.br/quem-somos" target="_blank" class="nav-link">Sobre</a>
                                                 </li>
-                                                <li class="nav-item"><a href="https://www.vsetecnologia.com.br/produtos" class="nav-link">Serviços</a>
+                                                <li class="nav-item"><a href="https://www.vsetecnologia.com.br/produtos" target="_blank" class="nav-link">Serviços</a>
                                                 </li>
                                                 <li class="nav-item dropdown res-dis-nn">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">Portais <span class="angle-down-topmenu"><i class="fa fa-angle-down"></i></span></a>
                                                     <div role="menu" class="dropdown-menu animated zoomIn">
-                                                        <a href="http://aluno.polofacil.com.br/login.php" class="dropdown-item">Aluno</a>
-                                                        <a href="http://tutoria.polofacil.com.br/login.html" class="dropdown-item">Tutoria</a>
+                                                        <a href="http://aluno.polofacil.com.br/login.php" target="_blank" class="dropdown-item">Aluno</a>
+                                                        <a href="http://tutoria.polofacil.com.br/login.html" target="_blank" class="dropdown-item">Tutoria</a>
                                                     </div>
                                                 </li>
-                                                <li class="nav-item"><a href="https://www.vsetecnologia.com.br/fale-conosco" class="nav-link">Suporte</a>
+                                                <li class="nav-item"><a href="https://www.vsetecnologia.com.br/fale-conosco" target="_blank" class="nav-link">Suporte</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -311,13 +321,13 @@
                                 <nav id="dropdown">
                                     <ul class="mobile-menu-nav">
                                         <li>
-                                            <a href="index.php">Dashborad <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                        </li>
-                                        <li>
                                             <a href="matriculas.php">Matrículas <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                         </li>
                                         <li>
                                             <a href="financeiro.php">Financeiro <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="index.php">Dashborad <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -333,12 +343,9 @@
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="breadcome-list">
                                 <div class="row">
-                                    
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <ul class="breadcome-menu">
-                                            <li><a href="index.php">Início </a> <span class="bread-slash">/</span>
-                                            </li>
-                                            <li><span class="bread-blod"> Matriculas</span>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <ul class="breadcome-heading">
+                                            <li><a href="index.php">Início </a> <span class="bread-slash">/ Matrículas</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -366,7 +373,7 @@
                                             <div class="chosen-select-single mg-b-20">
                                                 <form action="matriculas.php" method="post" >
                                                     <select data-placeholder="Pesquisar..." class="chosen-select"  name="id_ano">
-                                                            <option value="">Pesquisar...</option>
+                                                            <option value=""><?php echo $lastTurma?></option>
 
                                                             <?php 
                                                                 foreach ($turmasDispo->Turmas as $item) { ?>
@@ -375,7 +382,7 @@
 
                                                         <?php } ?>
                                                     </select>
-                                                    <button style="margin-top: 20px;"type="subimt" class="btn btn-custon-four btn-danger">
+                                                    <button style="margin-top: 20px; background-color: #30BCED; color:#fff;"type="subimt" class="btn btn-custon-four">
                                                             <i class="fa fa-check edu-checked-pro" aria-hidden="true"></i> Carrega</button>
                                                 </form>
                                             </div>
@@ -387,8 +394,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #30BCED;">
                             <div class="analytics-content">
                                 <h5>Alunos Ativos</h5>
                                 <h2><span><?php echo $_SESSION['Matriculados'];?></span> <span class="tuition-fees"></span></h2>
@@ -399,8 +406,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #30BCED;">
                             <div class="analytics-content">
                                <h5>Veteranos</h5>
                                 <h2><span><?php echo $_SESSION['Veteranos'];?></span> <span class="tuition-fees"></span></h2>
@@ -411,8 +418,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #30BCED;">
                             <div class="analytics-content">
                                 <h5>Calouros</h5>
                                 <h2><span><?php echo $_SESSION['Calouros'];?></span> <span class="tuition-fees"></span></h2>
@@ -423,23 +430,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
-                            <div class="analytics-content">
-                                <h5>Prouni</h5>
-                                <h2><span><?php echo $_SESSION['Prouni'];?></span> <span class="tuition-fees"></span></h2>
-                                <!--<span class="text-success">20%</span>
-                                <div class="progress m-b-0">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #dde5ff;">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #30BCED;">
                             <div class="analytics-content">
                                 <h5>Concluintes</h5>
-                                <h2><span>123</span> <span class="tuition-fees"></span></h2>
+                                <h2><span><?php echo $_SESSION['Concluintes'];?></span><span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -454,8 +449,8 @@
         <div class="analytics-sparkle-area mg-tb-30">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #ffe8e8;">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #FF6B35;">
                             <div class="analytics-content">
                                 <h5>Trancados</h5>
                                 <h2><span><?php echo $_SESSION['Trancados'];?></span> <span class="tuition-fees"></span></h2>
@@ -466,8 +461,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #ffe8e8;">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #FF6B35;">
                             <div class="analytics-content" >
                                <h5>Cancelados</h5>
                                 <h2><span><?php echo $_SESSION['Cancelados'];?></span> <span class="tuition-fees"></span></h2>
@@ -478,10 +473,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #ffe8e8;">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #FF6B35;">
                             <div class="analytics-content">
-                                <h5>% Evasão </h5>
+                                <h5 style="color:#fff;">% Evasão </h5>
                                 <h2><span><?php echo $_SESSION['Evasao'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
@@ -490,11 +485,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #ffe8e8;">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #FF6B35;">
                             <div class="analytics-content">
-                                <h5>Inadiplentes</h5>
-                                <h2><span>15</span> <span class="tuition-fees"></span></h2>
+                                <h5>Inadimplentes</h5>
+                                <h2><span></span><?php echo $_SESSION['Inadimplentes'];?><span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -502,11 +497,27 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #ffe8e8;">
+                </div>
+            </div>
+        </div>
+        <div class="analytics-sparkle-area mg-tb-30">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="charts-single-pro responsive-mg-b-30">
+                            <div class="alert-title">
+                                <h5>Prouni</h5>
+                            </div>
+                            <div id="bar1-chart">
+                                <canvas id="contas_a_receber"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #FF6B35;">
                             <div class="analytics-content">
                                 <h5>Sem Acesso</h5>
-                                <h2><span>2</span> <span class="tuition-fees"></span></h2>
+                                <h2><span><?php echo $_SESSION['SemAcesso'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -514,7 +525,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -587,60 +597,29 @@
     <script>
         (function ($) {
        "use strict";
-         /*----------------------------------------*/
-        /*  1.  Bar Chart
+
+        var custo = "<?php echo $_SESSION["ProuniV"];?>";
+        var despesa = "<?php echo $_SESSION["ProuniC"];?>";
+
         /*----------------------------------------*/
-
-        var ctx = document.getElementById("barchart1");
-
-        var custo = "<?php echo $_SESSION["Custo"];?>";
-        var despesa = "<?php echo $_SESSION["Despesa"];?>";
-
-        var fixo = "<?php echo $_SESSION["Fixo"];?>";
-        var variavel = "<?php echo $_SESSION["Variavel"];?>";
-
-        var mensal = "<?php echo $_SESSION["Mensal"];?>";
-        var eventual = "<?php echo $_SESSION["Eventual"];?>";
-
-        var barchart1 = new Chart(ctx, {
-            type: 'bar',
+        /*  1.  pie Chart
+        /*----------------------------------------*/
+        var ctx = document.getElementById("contas_a_receber");
+        var piechart = new Chart(ctx, {
+            type: 'pie',
             data: {
-                labels: ["Custo", "Despesa"],
+                labels: ["Calouro", "Veterano"],
                 datasets: [{
-                    label: 'Custo / Despesa',
-                    data: [custo, despesa],
+                    label: 'pie Chart',
                     backgroundColor: [
-                        'rgba(255, 99, 132, 0.2)',
-                        'rgba(54, 162, 235, 0.2)'
+                        '#30BCED',
+                        '#FF6B35'
                     ],
-                    borderColor: [
-                        'rgba(255,99,132,1)',
-                        'rgba(54, 162, 235, 1)'
-                    ],
-                    borderWidth: 1
+                    data: [custo, despesa]
                 }]
             },
             options: {
-                scales: {
-                    xAxes: [{
-                        ticks: {
-                            autoSkip: false,
-                            maxRotation: 0
-                        },
-                        ticks: {
-                          fontColor: "#fff", // this here
-                        }
-                    }],
-                    yAxes: [{
-                        ticks: {
-                            autoSkip: false,
-                            maxRotation: 0
-                        },
-                        ticks: {
-                          fontColor: "#fff", // this here
-                        }
-                    }]
-                }
+                responsive: true
             }
         });
 
