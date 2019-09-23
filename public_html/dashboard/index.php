@@ -30,21 +30,28 @@
 
             
             
-            $_SESSION['ReceitaTotal'] = (double)str_replace(",", ".", $data->ReceitaTotal);
-            $_SESSION['DespesaTotal'] = (double)str_replace(",", ".", $data->DespesaTotal);
+            $_SESSION['ReceitaTotal'] = number_format((double)str_replace(",", ".", $data->ReceitaTotal), 2, ",", ".");
+            $_SESSION['DespesaTotal'] = number_format((double)str_replace(",", ".", $data->DespesaTotal), 2, ",", ".");
             $_SESSION['Alunos'] = (double)str_replace(",", ".", $data->Alunos);
-            $_SESSION['RMA'] = (double)str_replace(",", ".", $data->RMA);
-            $_SESSION['CMA'] = (double)str_replace(",", ".", $data->CMA);
-            $_SESSION['IndiceMC'] = (double)str_replace(",", ".", $data->IndiceMC);
-            $_SESSION['PontoEquilibrio'] = (double)str_replace(",", ".", $data->PontoEquilibrio);
-            $_SESSION['ValorPago'] = (double)str_replace(",", ".", $data->ValorPago);
-            $_SESSION['ValorAPagar'] = (double)str_replace(",", ".", $data->ValorAPagar);
-            $_SESSION['Despesa'] = (double)str_replace(",", ".", $data->Despesa);
-            $_SESSION['Custo'] = (double)str_replace(",", ".", $data->Custo);
-            $_SESSION['Mensal'] = (double)str_replace(",", ".", $data->Mensal);
-            $_SESSION['Eventual'] =  (double)str_replace(",", ".", $data->Eventual);
-            $_SESSION['Fixo'] = (double)str_replace(",", ".", $data->Fixo);
-            $_SESSION['Variavel'] = (double)str_replace(",", ".", $data->Variavel);
+            $_SESSION['RMA'] = number_format((double)str_replace(",", ".", $data->RMA), 2, ",", ".");
+            $_SESSION['CMA'] = number_format((double)str_replace(",", ".", $data->CMA), 2, ",", ".");
+            $_SESSION['IndiceMC'] = number_format((double)str_replace(",", ".", $data->IndiceMC), 2, ",", ".");
+            $_SESSION['PontoEquilibrio'] = number_format((double)str_replace(",", ".", $data->PontoEquilibrio), 2, ",", ".");
+            $_SESSION['ValorPago'] = number_format((double)str_replace(",", ".", $data->ValorPago), 2, ",", ".");
+            $_SESSION['ValorAPagar'] = number_format((double)str_replace(",", ".", $data->ValorAPagar), 2, ",", ".");
+            $_SESSION['Despesa'] = number_format((double)str_replace(",", ".", $data->Despesa), 2, ",", ".");
+            $_SESSION['Custo'] = number_format((double)str_replace(",", ".", $data->Custo), 2, ",", ".");
+            $_SESSION['Mensal'] = number_format((double)str_replace(",", ".", $data->Mensal), 2, ",", ".");
+            $_SESSION['Eventual'] = number_format((double)str_replace(",", ".", $data->Eventual), 2, ",", ".");
+            $_SESSION['Fixo'] = number_format((double)str_replace(",", ".", $data->Fixo), 2, ",", ".");
+            $_SESSION['Variavel'] = number_format((double)str_replace(",", ".", $data->Variavel), 2, ",", ".");
+
+            $_SESSION['_Despesa'] = (double)str_replace(",", ".", $data->Despesa);
+            $_SESSION['_Custo'] = (double)str_replace(",", ".", $data->Custo);
+            $_SESSION['_Mensal'] = (double)str_replace(",", ".", $data->Mensal);
+            $_SESSION['_Eventual'] = (double)str_replace(",", ".", $data->Eventual);
+            $_SESSION['_Fixo'] = (double)str_replace(",", ".", $data->Fixo);
+            $_SESSION['_Variavel'] = (double)str_replace(",", ".", $data->Variavel);
         }
 
     }else{
@@ -365,7 +372,7 @@
                         <div class="analytics-sparkle-line reso-mg-b-30" style="background-color: #30BCED;">
                             <div class="analytics-content">
                                 <h5>Custo/Despesa do Mês</h5>
-                                <h2>R$ <span><?php echo $_SESSION['Despesa'];?></span> <span class="tuition-fees"></span></h2>
+                                <h2>R$ <span><?php echo $_SESSION['DespesaTotal'];?></span> <span class="tuition-fees"></span></h2>
                                 <!--<span class="text-success">20%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
@@ -516,14 +523,14 @@
         (function ($) {
        "use strict";
 
-        var custo = "<?php echo $_SESSION["Custo"];?>";
-        var despesa = "<?php echo $_SESSION["Despesa"];?>";
+        var custo = "<?php echo $_SESSION["_Custo"];?>";
+        var despesa = "<?php echo $_SESSION["_Despesa"];?>";
 
-        var fixo = "<?php echo $_SESSION["Fixo"];?>";
-        var variavel = "<?php echo $_SESSION["Variavel"];?>";
+        var fixo = "<?php echo $_SESSION["_Fixo"];?>";
+        var variavel = "<?php echo $_SESSION["_Variavel"];?>";
 
-        var mensal = "<?php echo $_SESSION["Mensal"];?>";
-        var eventual = "<?php echo $_SESSION["Eventual"];?>";
+        var mensal = "<?php echo $_SESSION["_Mensal"];?>";
+        var eventual = "<?php echo $_SESSION["_Eventual"];?>";
 
 
         /*----------------------------------------*/

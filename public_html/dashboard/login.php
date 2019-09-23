@@ -45,7 +45,7 @@
                     $_SESSION['nome'] = $data->nome;
 
                     // Muda o cabeçalho no navegador e redireciona para index.php
-                    header('Location: index.php');
+                    header('Location: matriculas.php');
                     exit();
                 }
         }

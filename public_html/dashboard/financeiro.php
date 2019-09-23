@@ -32,12 +32,17 @@
                 echo '<script type="text/javascript"> alert("RA ou Senha incoreta, tente novamente!")</script>';
         }else{
 
-                $_SESSION['SaldoContas'] = (double)str_replace(",", ".", $data->SaldoContas);
-                $_SESSION['ContasPagar'] = (double)str_replace(",", ".", $data->ContasPagar);
-                $_SESSION['Pago'] = (double)str_replace(",", ".", $data->Pago);
-                $_SESSION['ContasReceber'] = (double)str_replace(",", ".", $data->ContasReceber);
-                $_SESSION['Recebido'] = (double)str_replace(",", ".", $data->Recebido);
-                $_SESSION['Previsao'] = (double)str_replace(",", ".", $data->Previsao);
+                $_SESSION['SaldoContas'] = number_format((double)str_replace(",", ".", $data->SaldoContas), 2, ",", ".");
+                $_SESSION['ContasPagar'] = number_format((double)str_replace(",", ".", $data->ContasPagar), 2, ",", ".");
+                $_SESSION['Pago'] = number_format((double)str_replace(",", ".", $data->Pago), 2, ",", ".");
+                $_SESSION['ContasReceber'] = number_format((double)str_replace(",", ".", $data->ContasReceber), 2, ",", ".");
+                $_SESSION['Recebido'] = number_format((double)str_replace(",", ".", $data->Recebido), 2, ",", ".");
+                $_SESSION['Previsao'] = number_format((double)str_replace(",", ".", $data->Previsao), 2, ",", ".");
+
+                $_SESSION['_ContasPagar'] = (double)str_replace(",", ".", $data->ContasPagar);
+                $_SESSION['_Pago'] = (double)str_replace(",", ".", $data->Pago);
+                $_SESSION['_ContasReceber'] = (double)str_replace(",", ".", $data->ContasReceber);
+                $_SESSION['_Recebido'] = (double)str_replace(",", ".", $data->Recebido);
         }
 
     }else{
@@ -469,11 +474,11 @@
         (function ($) {
        "use strict";
 
-        var contas_a_pagar = "<?php echo $_SESSION["ContasPagar"];?>";
-        var contas_pagas = "<?php echo $_SESSION["Pago"];?>";
+        var contas_a_pagar = "<?php echo $_SESSION["_ContasPagar"];?>";
+        var contas_pagas = "<?php echo $_SESSION["_Pago"];?>";
 
-        var contas_a_receber = "<?php echo $_SESSION["ContasReceber"];?>";
-        var contas_recebidas = "<?php echo $_SESSION["Recebido"];?>";
+        var contas_a_receber = "<?php echo $_SESSION["_ContasReceber"];?>";
+        var contas_recebidas = "<?php echo $_SESSION["_Recebido"];?>";
 
 
         /*----------------------------------------*/
